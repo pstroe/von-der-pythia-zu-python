@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0528" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for a proconsul</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0528</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <objectType>block</objectType> (<dimensions>
+                                 <width unit="metre">1.29</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>) of fine-grained <material>grey limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face; apparently uniform with <ref type="inscription" n="IRT0527">527</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals: from top of block: line 1, <height unit="metre" atLeast="0.03" atMost="0.115">0.03-0.115</height>; line 2, <height unit="metre" atLeast="0.15" atMost="0.23">0.15-0.23</height>; line 3, <height unit="metre" atLeast="0.265" atMost="0.325">0.265-0.325</height>; line 4, <height unit="metre" atLeast="0.35" atMost="0.40">0.35-0.40</height>; line 5, <height unit="metre" atLeast="0.42" atMost="0.465">0.42-0.465</height>; to bottom, <height unit="metre">0.51</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0081" notAfter="0094" cert="low" evidence="titulature-prosopography">After CE 81, before CE 94</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  
+                  <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, near the Baptistry. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0672.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XIV.21)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>528</citedRange></bibl>, whence
+               <bibl><ptr target="thomasson1996"/> <citedRange>53d</citedRange></bibl>; 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT528.html">528</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030739">030739</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="2"/><supplied reason="lost"><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w></supplied> 
+               <placeName ref="#africaprocons" nymRef="#Prouincia Africa"><w lemma="prouincia"><supplied reason="lost">prouin</supplied>ciae</w> Africae</placeName>
+                <lb n="3"/><gap reason="lost" quantity="25" unit="character" precision="low"/>
+               <supplied reason="lost"><num value="7">VII</num></supplied><w lemma="uir"><expan><abbr>uir</abbr><ex>o</ex></expan></w> 
+               <w lemma="epulo"><expan><abbr>epul</abbr><ex>onum</ex></expan></w> <w lemma="fetialis">fetiali</w> <w lemma="praefectus"><expan><abbr>praefec</abbr><ex>to</ex></expan></w>
+               <lb n="4"/><supplied reason="lost"><w lemma="auxilium">auxiliorum</w> <w lemma="omnis">omnium</w> <w lemma="aduersus">aduersus</w></supplied> <placeName type="ethnic" ref="#germania" nymRef="#Germanus"><supplied reason="lost">Germa</supplied>nos</placeName> 
+               <w lemma="qui">qui</w> <w lemma="cum">cum</w> <w lemma="sum">esset</w> <w lemma="candidatus"><expan><abbr>candidat</abbr><ex>us</ex></expan></w>
+               <lb n="5"/><supplied reason="lost"><persName type="emperor" ref="#vespasianus"><addName nymRef="Caesar"><expan><abbr>Caesar</abbr><ex>is</ex></expan></addName></persName> 
+                  <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetor</ex></expan></w> <w lemma="designo"><expan><abbr>des</abbr><ex>ignatus</ex></expan></w> 
+                  <w lemma="mitto">missus</w> <w lemma="sum">est</w> <w lemma="ab">ab</w></supplied> <supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w></supplied> 
+               <persName type="emperor" ref="#vespasianus"><name type="cognomen" nymRef="Vespasianus"><supplied reason="lost">Uespasian</supplied>o</name> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName>     
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> <w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+               <w lemma="exercitus"><expan><abbr>exercit</abbr><ex>us</ex></expan></w> <w lemma="qui">qui</w> <w lemma="sum">est</w>
+               <lb n="6"/><supplied reason="lost"><w lemma="in">in</w> <placeName ref="#africa" nymRef="#Africa">Africa</placeName></supplied>
+               <gap reason="lost" quantity="10" unit="character" precision="low"/>
+               <supplied reason="lost"><w lemma="dono">donato</w> <w lemma="ab">ab</w></supplied> 
+               <w lemma="imperator"><expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>eratore</ex></expan></w> <persName type="emperor" ref="#vespasianus"><name type="cognomen" nymRef="Vespasianus">Uespasiano</name> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> <w lemma="et">et</w> 
+               <persName type="emperor" ref="#titus"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w></persName>
+               <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <note>An upper course is missing. </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">proconsul</supplied> of the province of Africa, <gap reason="lost" extent="unknown" unit="character"/> member of the committee of <supplied reason="lost">seven</supplied> in charge of feasts and of the committee of priests concerned with treaties, prefect <supplied reason="lost">of all the auxiliary troops assembled against</supplied> the Germans, who, when he was Caesar's candidate and designated praetor, was sent by Emperor Vespasian Augustus to be legate with praetorian powers of the army which is <supplied reason="lost">in Africa</supplied> <gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">, awarded by</supplied> Emperor Vespasian Augustus and Titus son of Augustus <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>Probably Cn. Domitius Tullus: <title>PIR</title> D 167, <ref target="https://pir.bbaw.de/id/5453">https://pir.bbaw.de/id/5453</ref>, procos. Africae 35-36 
+               (<ref target="http://www.isvroma.it/public/Publications/laterculi.pdf">Thomasson, Laterculi</ref> 39:058).</p>
+         <!--   <p>Discussed: G. Alföldy, in: EpStud 6 (Düsseldorf 1968) 166, Nr. 6b.  check </p>-->
+         </div>
+      </body>
+   </text>
+</TEI>

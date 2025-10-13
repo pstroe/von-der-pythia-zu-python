@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0592" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours<certainty match=".." locus="value"/>
+               </rs> for Cornelius Amicus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0592</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Now standing on the North wall of the Portico behind the theatre.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Right-hand part of a <objectType>block</objectType> (<dimensions>
+                                 <width unit="metre">1.05</width>
+                                 <height unit="metre">0.54</height>
+                                 <depth unit="metre">0.40</depth>
+                              </dimensions>) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel (die,<dimensions>
+                              <width unit="metre">0.76</width>
+                              <height unit="metre">0.29</height>
+                           </dimensions>, height incomplete). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: line 1, <height unit="metre">0.07</height>; line 2-3, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101" notAfter="0233" precision="low" evidence="lettering">Second to early third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>; found near the rear Portico, built into the North wall. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> Now standing on the North wall of the <placeName ref="https://www.slsgazetteer.org/1701">Portico</placeName> behind the theatre.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0777.jpg">
+                  <desc>Face: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXI.11)</desc></graphic>
+      <graphic url="tantillo0364.jpg">
+         <desc>Face: Tantillo (n.d.)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>592</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT592.html">592</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059451">059451</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name type="gentilicium" nymRef="Cornelius">Cornelio</name> <name type="cognomen" nymRef="Amicus">Amico</name></persName> 
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w lemma="flamen"><expan><abbr>flam</abbr><ex>ini</ex></expan></w> 
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <persName type="attested"><name type="gentilicium" nymRef="Cornelius"><supplied reason="lost">Corn</supplied>elius</name> <name type="cognomen" nymRef="Geta">Geta</name></persName> <w lemma="frater">fratri</w>
+               <w lemma="pono"><expan><abbr>pos</abbr><ex>uit</ex></expan></w> 
+               <w lemma="permitto"><expan><abbr>p</abbr><ex>ermissu</ex></expan></w> 
+               <w lemma="splendidus"><expan><abbr>s</abbr><ex>plendidissimi</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To <gap reason="lost" extent="unknown" unit="character"/> Cornelius Amicus <gap reason="lost" extent="unknown" unit="character"/> flamen <note>priest</note>, pontifex <note>priest</note>; Cornelius Geta set this up to his brother, with the permission of the most splendid city council.</p></div>
+         <div type="commentary">
+            <p>Line 1. Cornelius Amicus. Perhaps also in <ref type="inscription" n="IRT0594">594</ref>, line 3. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

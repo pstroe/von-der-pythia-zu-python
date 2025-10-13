@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="IRT1614">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostrakon: Fragmentary private <rs type="textType">letter</rs></title>
+            <editor xml:id="GB" role="translation (English); encoding; scripting">Gabriel Bodard</editor>
+            <editor xml:id="cmr" role="translation (English)">Charlotte Roueché</editor>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1614</idno>
+            <idno type="hgv">73264</idno>
+            <idno type="TM">73264</idno>
+            <idno type="ddb-perseus-style">0016;;114</idno>
+            <idno type="ddb-filename">o.bu.njem.114</idno>
+            <idno type="ddb-hybrid">o.bu.njem;;114</idno>
+         <availability>
+              <p>Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). All reuse or distribution of this work must link back to the URL <ref>http://irt.kcl.ac.uk/</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli National Museum</repository><idno>76-2</idno></msIdentifier>
+               <physDesc>
+                  <objectDesc><supportDesc><support><p><material>Ceramic</material> <objectType>ostrakon</objectType> (<dimensions unit="metre"><height>0.085</height><width>0.115</width><depth>0.011</depth></dimensions>).</p></support></supportDesc>
+            <layoutDesc><layout>Letters <rs type="execution" ref="pictura">painted</rs> on one side.</layout></layoutDesc></objectDesc>
+            <handDesc><handNote>No measurements</handNote></handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0253" notAfter="0259" evidence="context">253 - 259</origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>; 
+                     found in <date type="found">1976</date>.</p></provenance>
+                  <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/1098">Tripoli National Museum</placeName>.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Marked-up according to the EpiDoc Guidelines version 9.</p></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (privat)</term>
+               <term>N.N. an Aurelius Ste[...]</term>
+               <term>Militär</term>
+            </keywords>
+         </textClass>
+         <textClass><keywords scheme="IRCyr"><term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term><term><geogName type="modernCountry" key="LY">Libya</geogName></term><term><placeName type="modernFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName></term><term><ref type="pleiades" target="https://pleiades.stoa.org/places/344377">Gholaia</ref></term><term><ref type="geonames" target="https://www.geonames.org/2220431">Qaryat Bū Nujaym</ref></term><term><placeName xml:lang="ar">بو نجيم</placeName></term></keywords></textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-11-05" who="#GB">Merged HGV data, Duke Databank text, PE translation from Papyri.info EpiDoc; aligned structure to IRT</change>
+         <change who="HGV" when="1999-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div xml:lang="la" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/><persName type="attested"><name nymRef="Aurelius">Aurelio</name> <name nymRef="Ste-"><seg part="I">Ste</seg></name></persName> <gap reason="illegible" quantity="15" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+
+    <lb n="2"/><supplied reason="lost"><w lemma="salus">salutem</w> </supplied><gap reason="lost" extent="unknown" unit="character"/> 
+
+
+    <lb n="3"/><w lemma="saluto">salut<unclear>a</unclear></w> <w lemma="frater">frater</w> <w lemma="meus"><unclear>me</unclear><supplied reason="lost" cert="low">us</supplied></w><gap reason="illegible" quantity="10" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="4"/><persName type="attested"><name nymRef="-cianus"><seg part="F">ciano</seg></name> <name nymRef="Satu-"><seg part="I">Satu</seg></name></persName> <gap reason="illegible" quantity="11" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="5"/><w part="F">is</w> <g ref="symbols.xml#middot"/> <w lemma="filius">f<unclear>il</unclear>iu<unclear>m</unclear></w> <w lemma="tuus"><unclear>tuum</unclear></w> <gap reason="illegible" quantity="8" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="6"/><w lemma="accipio">acc<unclear>i</unclear>pe</w> <gap reason="illegible" quantity="4" unit="character"/> <persName type="attested"><name nymRef="Ste-"><seg part="I">Ste</seg></name></persName> <gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="10" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="7" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="9"/><space extent="unknown" unit="character"/> 
+
+    <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="epistula"><supplied reason="lost">ep</supplied>is<unclear>t</unclear>ol<unclear>a</unclear></w><gap reason="lost" extent="unknown" unit="character"/> </ab></div>
+            
+         <div type="commentary" subtype="general">
+           
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>To Aurelius Ste[- . . Greetings] My? brother greet [ . . . -]cianus Satu[rninus?  . . . ] your son [ . . .] receive [ . . ..]. ? A letter.</p>
+         </div>
+         <div type="bibliography">
+            <p><bibl><ptr target="OBuNjem"/> <citedRange unit="numbers">114</citedRange></bibl>, whence <bibl><ptr target="hgv"/> <citedRange>73264</citedRange></bibl>, <bibl><ptr target="ddbdp"/> <citedRange>o.bu.njem.114</citedRange></bibl>.
+    </p></div>
+         
+        
+            
+      </body>
+   </text>
+</TEI>

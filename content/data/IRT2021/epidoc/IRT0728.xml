@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0728" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0728</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Seven fragments, of which a) and d) - g) certainly, and b) and c) probably, belong to the some white <material>marble</material> 
+                              <objectType>panel</objectType>
+               (<height unit="metre">0.025</height> thick), inscribed within a moulded border. </p>
+                           <p>a) <dimensions>
+                                 <width unit="metre">0.21</width>
+                                 <height unit="metre">0.15</height>
+                              </dimensions>, no edges surviving.</p>
+                           <p>b) <dimensions>
+                                 <width unit="metre">0.17</width>
+                                 <height unit="metre">0.135</height>
+                              </dimensions>, no edges surviving.</p>
+                           <p>c) <dimensions>
+                                 <width unit="metre">0.14</width>
+                                 <height unit="metre">0.11</height>
+                              </dimensions>, no edges surviving.</p>
+                           <p>d) <dimensions>
+                                 <width unit="metre">0.21</width>
+                                 <height unit="metre">0.125</height>
+                              </dimensions>, no edges surviving.</p>
+                           <p>e) <dimensions>
+                                 <width unit="metre">0.95</width>
+                                 <height unit="metre">0.95</height>
+                              </dimensions>, no edges surviving.</p>
+                           <p>f) <dimensions>
+                                 <width unit="metre">0.16</width>
+                                 <height unit="metre">0.13</height>
+                              </dimensions>, lower border.</p>
+                           <p>g) <dimensions>
+                                 <width unit="metre">0.27</width>
+                                 <height unit="metre">0.15</height>
+                              </dimensions>, lower border.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded border.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> a-d), Second century lapidary capitals, <height unit="metre">0.10</height>;
+               e) - g), Second century capitals, <height unit="metre">0.065</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="lettering">Second century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>
+                           </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0588.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXII.13)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="degrassi1954"/> <citedRange/></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>728</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT728.html">728</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059577">059577</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="M"><unclear>rib</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">alis</w> <persName type="attested"><name nymRef="Ru"><seg part="I"/>Ru</name><gap reason="lost" extent="unknown" unit="character"/></persName>   
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="line"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="po-" part="I">po</w><gap reason="lost" extent="unknown" unit="character"/>   
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="attested"><name type="gentilicium" nymRef="Marcius"><supplied reason="lost">M</supplied>arciu</name><gap reason="lost" extent="unknown" unit="character"/></persName>   
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> 
+                  <name type="tribe" nymRef="Quirina"><w lemma="Quirina"><expan><abbr>Quir</abbr><ex>ina tribu</ex></expan></w></name> <name type="cognomen" nymRef="V-"><seg part="I">U</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName>   
+               </ab></div><div subtype="fragment" n="e" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="M">olea</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="f" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="item">item</w> <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="g" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w lemma="ab" part="F">a</w> <w lemma="marmor">marmori<supplied reason="lost">bus</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>   
+               </ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a</note><gap reason="lost" extent="unknown" unit="character"/><note>line 2</note> ? Rufus<gap reason="lost" extent="unknown" unit="character"/> </p><p><note>b</note> <gap reason="lost" extent="unknown" unit="character"/> ?power <gap reason="lost" extent="unknown" unit="character"/> </p><p><note>c-d</note><gap reason="lost" extent="unknown" unit="character"/> Marcius <gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> of the Roman voting tribe Quirina <gap reason="lost" extent="unknown" unit="character"/></p><p><note>f</note> <gap reason="lost" extent="unknown" unit="character"/> likewise <gap reason="lost" extent="unknown" unit="character"/> </p><p><note>g</note> <gap reason="lost" extent="unknown" unit="character"/> with marbles <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

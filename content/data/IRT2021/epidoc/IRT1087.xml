@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1087" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary 
+               <rs type="textType">honours</rs> for Blaesilla</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1087</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Three joining fragments of a marbled <material>limestone</material> <objectType>panel</objectType> (<dimensions>
+                                 <width unit="metre">0.52</width>
+                                 <height unit="metre">0.16</height>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Standard forms</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="0150" notBefore="0125" evidence="context, prosopography">Second quarter of the second century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  
+                              <placeName ref="https://www.slsgazetteer.org/1705">Decumanus maximus</placeName>, 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/1702">Schola</placeName>; from the aula à exèdres.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>
+                           </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications (Roueché)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-16" who="CMR">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="chaisemartin2017"/>, <citedRange>38</citedRange>, no. 2 and fig.31</bibl>, whence  
+               <bibl><ptr target="ae"/>, <citedRange>2017.1684</citedRange></bibl>, 
+               <bibl><ptr target="edcs"/> <citedRange>78300370</citedRange></bibl>
+               </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab><lb n="1"/><persName type="attested" key="bbaw:1809"><name nymRef="Aquilia">Aquiliae</name>  <g ref="symbols.xml#stop"/> <persName type="attested"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aii</ex></expan></name></persName>  <g ref="symbols.xml#stop"/>
+               <w lemma="filia"><expan><abbr>f</abbr><ex>iliae</ex></expan></w>  <g ref="symbols.xml#stop"/> <name nymRef="Blaesilla">Blaesill<unclear>a</unclear><supplied reason="lost">e</supplied></name></persName>
+      <lb n="2"/><gap reason="lost" quantity="12" unit="character"/> <w lemma="optimus"><unclear>optima</unclear><supplied reason="lost">e</supplied></w> <g ref="symbols.xml#stop"/> <gap reason="lost" extent="unknown" unit="character"/>
+       <lb n="2a"/>     <gap reason="lost" extent="unknown" unit="line"/></ab>
+           
+         </div>
+         
+         
+         <div type="translation" source="#chaisemartin2017" xml:lang="fr">
+            <p>À Aquilia Blaesilla, fille de Caius . . . excellente . . . </p></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>For Aquilia Blaesilla, daighter of Caius, the best [ . . .  </p></div>
+         <div type="commentary">
+            <p>Aquilia Blaesilla:  <ref target="https://pir.bbaw.de/id/1809">https://pir.bbaw.de/id/1809</ref>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

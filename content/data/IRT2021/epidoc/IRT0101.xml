@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0101" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Laenatius Romulus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0101</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db660">Sabratha Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Two joining fragments of a moulded <material>marble</material> 
+                              <objectType>base</objectType>, the mouldings of which have been trimmed flush; a: Left hand side, <dimensions>
+                                 <width>0.21</width>
+                                 <height unit="metre">1.05</height>
+                                 <depth unit="metre">0.53</depth>
+                              </dimensions>; b: Lower right corner, <dimensions>
+                                 <width unit="metre">0.30</width>
+                                 <height unit="metre">0.53</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        Fourth century CE. capitals: <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0323" notAfter="0326" precision="low" evidence="lprosopography">323-326 CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>:  
+                  a: found re-used as an architrave in the <placeName type="monuList" ref="https://www.slsgazetteer.org/851">Mosque of Sidi Iàhia ben Dbàbesc</placeName>; 
+                              b: found in the <placeName ref="https://www.slsgazetteer.org/843">Forum</placeName>, in the 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/852">North Portico</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> 
+                              a: <placeName ref="https://www.slsgazetteer.org/660">Sabratha Museum</placeName>; 
+                           b: Findspot.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0130.jpg">
+                  <desc>a: Ward-Perkins Archive, BSR (Sopr. DS 862 Leica)</desc></graphic>
+      <graphic url="wp0131.jpg">
+         <desc>b: Ward-Perkins Archive, BSR (Sopr. DS 905 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>a: <bibl><ptr target="aurigemma1939"/>, <citedRange>115</citedRange> ff., fig. 3 </bibl>, whence <bibl><ptr target="ae"/> <citedRange>1948.39</citedRange></bibl>;
+                 <bibl><ptr target="irt1952"/>, <citedRange>101</citedRange> (a), <citedRange>102</citedRange></bibl> (b), whence 
+               <bibl><ptr target="chastagnol1966"/> <citedRange/></bibl>, 
+               <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT101.html">101</ref></citedRange>, 
+                        <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT102.html">102</ref></citedRange></bibl>; 
+               <bibl><ptr target="tantillo2010"/>, <citedRange>95</citedRange></bibl>, whence
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2226">2226</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) 
+                        <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021546">021546</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>. 
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="militia">Militi<supplied reason="lost">ae</supplied></w>
+               <gap reason="lost" quantity="9" unit="character" cert="low"/><lb n="2" break="no"/><w part="F">tiae</w> <w lemma="o-" part="I">o</w><gap reason="lost" quantity="9" unit="character" cert="low"/>
+               <lb n="3" break="no"/><w part="F">nto</w> <w lemma="et">e<supplied reason="lost">t</supplied></w> <supplied reason="lost" cert="low"><w lemma="a">a</w> <w lemma="primus">primis</w></supplied>
+               <lb n="4"/><w lemma="annus">annis</w> <supplied reason="lost" cert="low"><w lemma="mirus">mirae</w></supplied>
+               <w lemma="iustitia"><supplied reason="lost">ius</supplied><lb n="5" break="no"/>titiae</w> <w lemma="ac">a<supplied reason="lost">c</supplied></w> <supplied reason="lost" cert="low"><w lemma="totus">totius</w></supplied>
+               <lb n="6"/><w lemma="integritas">integr<supplied reason="lost">itatis</supplied></w>
+               <supplied reason="lost"><w lemma="uir">uiro</w></supplied>
+               <lb n="7"/><persName type="attested" key="plre:1-romulus4"><name type="gentilicium" nymRef="Laenatius">Laenat<supplied reason="lost">io</supplied></name> 
+               <name type="cognomen" nymRef="Romulus"><supplied reason="lost">Romulo</supplied></name></persName>
+               <lb n="8"/>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w>
+                  <w lemma="praeses">praesidi</w> 
+               <lb n="9"/><w lemma="ordo">ordo</w> <w lemma="et">et</w> <w lemma="plebs">plebs</w> 
+               <lb n="10"/> 
+                  <placeName type="ethnic" nymRef="#Sabrathensis" ref="#sabratha"><expan><abbr>Sabrath</abbr><ex>ensium</ex></expan></placeName> 
+               <w lemma="patronus"><expan><abbr>pat</abbr><ex>rono</ex></expan></w>
+               <lb n="11"/><w lemma="dignus">dignissimo</w> <w lemma="statua">statuam</w>
+               <lb n="12"/><w lemma="curo">curante</w> <persName type="attested"><name type="gentilicium" nymRef="Pompeius">Pompeio</name>
+               <lb n="13"/><name type="cognomen" nymRef="Leontius">Leontio</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w>  <w lemma="curator"><expan><abbr>cu<supplied reason="lost">r</supplied></abbr><supplied reason="lost"><ex>atore</ex></supplied></expan></w>
+                <supplied reason="lost"><w lemma="res">rei</w> </supplied>
+               <lb n="14"/><space quantity="5" unit="character"/> <w lemma="publicus"><expan><abbr>publ</abbr><ex>icae</ex></expan></w>
+            </ab></div>
+         <div type="apparatus"><listApp>
+            <app loc="3-6"><note>The supplements are all from Tantillo-Bigi.</note></app>
+            <app loc="8"><rdg resp="#irt1952">101: u(iro) p(erfectissimo) pra[es(idi) prou(inciae) Trip(olitanae)]; 
+               102: [--- pr]aesidi </rdg></app>
+            <app loc="9"><rdg resp="#irt1952">101: ordo [populusque]; 
+               102: [prou(inciae) Trip(olitanae) ordo] et plebs </rdg></app>
+            <app loc="11"><rdg resp="#irt1952">101: dignis[simo ---]; 
+               102: [praestantis]simo staṭụ[am] </rdg></app>
+            <app loc="12"><rdg resp="#irt1952">101: curan[te ---]; 
+               102: [c. 5 - 6 cura]ṇte Pompe[io] </rdg></app>
+            <app loc="14"><rdg resp="#irt1952">102: [rei] publ(icae)</rdg></app>
+         </listApp></div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="lost" cert="low">In honour of a man</supplied> of ?military service 
+               <gap reason="lost" extent="unknown" unit="character"/> in the years <gap reason="lost" extent="unknown" unit="character"/>, 
+               of justice <gap reason="lost" extent="unknown" unit="character"/>, integrity <gap reason="lost" extent="unknown" unit="character"/>, Laenatius <supplied reason="lost">Romulus</supplied>, excellent man <supplied reason="explanation">of equestrian status</supplied>, governor <supplied reason="lost">of the province of Tripolitania;</supplied> the city council <supplied reason="lost">and the people</supplied> of the Sabrathans <supplied reason="lost">to a patron</supplied><supplied reason="subaudible">who is</supplied> most worthy. Leontius <gap reason="lost" extent="unknown" unit="character"/> took charge <supplied reason="lost">of its erection</supplied></p></div>
+         <div type="translation" source="#tantillo2010" xml:lang="it"><p> . . . milizia . . . fin dai primi anni (?), uomo di ammirevole (?) giustizia 
+         e completa (?) integrità, a Laenatius Romulus, uomo perfettissimo, governatore, l'ordine e plebs di Sabratha al patrono degnissimo posero (?), 
+         a cura di Pompeius Leontius, uomo perfettissimo, curatore della repubblica.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>To...of military...from his earliest (?) years...man of wonderful (?) justice and total (?) honesty, 
+               Laenatius Romulus, of perfectissimus rank, governor (<foreign xml:lang="la">praeses</foreign>); the council (<foreign xml:lang="la">ordo</foreign>) and people (<foreign xml:lang="la">plebs</foreign>) of Sabratha [set up] this statue to their most worthy patron, 
+               with Pompeius Leontius, of perfectissimus rank, curator rei publicae, overseeing the work.</p>
+         </div>
+         
+         <div type="commentary">
+            <p>Laenatius Romulus: <title>PLRE</title> I, Romulus 4.</p>
+            <p> Pompeius Leontius: <title>PLRE</title> I, p.999,  Pompeius . . . ius.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

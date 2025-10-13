@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0886e" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Funerary</rs> inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0886e</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <objectType>stele</objectType> of <material>brown limestone</material> (<dimensions>
+                                 <width unit="metre">0.35</width>
+                                 <height unit="metre">1.20</height>
+                              <depth>0.35</depth>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the face. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Inscribed in Latin characters (<height unit="metre">0.04</height>).</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="0425" notBefore="0301" evidence="content">Fourth-early fifth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/655">Middle Lower Sofeggin Basin</placeName>: 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/774">Bir ed-Dreder</placeName>: Surveyed in situ, in the Libyan cemetery, by Goodchild in <date type="found">1949</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName></p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2217718/bi-r-duraydir.html">Bi'r Duraydir</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription (Goodchild).</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-01" who="CMR">divided, updated</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>.<bibl><ptr target="irt1952"/>, <citedRange>886</citedRange>.e</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT886.html">886e</ref></citedRange></bibl>; 
+               partial text <bibl><ptr target="goodchild1950a"/> <citedRange>139</citedRange> ff. and pl. XVI b.</bibl>, lines, whence
+               <bibl><ptr target="ae"/> <citedRange>1951.11b</citedRange></bibl>;
+               <bibl><ptr target="goodchild1954"/> <citedRange>5</citedRange></bibl>,
+               <bibl><ptr target="elmayer1984"/> <citedRange>97-98</citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020947">020947</ref></citedRange></bibl>,  
+               <bibl><ptr target="elmayer1997"/>, <citedRange>36</citedRange></bibl>;
+               this edition <bibl><ptr target="kerr2010"/>, <citedRange unit="page">175-6</citedRange> (where see bibliography)</bibl>
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="xpu-Latn" xml:space="preserve">
+            <ab><lb n="1"/><persName type="attested"><name nymRef="Iulius">Iulius</name> <gap reason="lost" quantity="2" unit="character"/>
+            <lb n="2"/><name nymRef="Ibitua-"><seg part="I">Ibitua</seg></name></persName> <gap reason="lost" quantity="2" unit="character"/>
+      <lb break="no" n="3"/><orig>thlemisi</orig><gap reason="lost" quantity="2" unit="character"/>
+      <lb break="no" n="4"/><orig>otimnam</orig>
+      <lb break="no" n="5"/><gap reason="lost" quantity="2" unit="character"/><w><supplied reason="lost">b</supplied>yn</w>  <persName type="attested"><name nymRef="Chyrdid">Chy
+      <lb break="no" n="6"/><supplied reason="lost">rdid</supplied></name></persName> <w lemma="ryb">ryb</w>
+      <lb break="no" n="7"/><w lemma="mꞩir"><supplied reason="lost">mꞩir</supplied></w> <orig>yr</orig>
+      <lb n="8"/><gap reason="lost" quantity="4" unit="character"/><orig>ba</orig>
+               <lb n="9"/><gap reason="lost" quantity="4" unit="character"/><orig>are</orig>
+     <lb n="10"/><gap reason="lost" quantity="4" unit="character"/><orig>dy</orig>
+      <lb n="11"/><w lemma="thlemisa"><supplied reason="lost">th</supplied>lemisa</w>
+     <lb n="12"/><gap reason="lost" quantity="3" unit="character"/><orig>ruch</orig>
+      <lb n="13"/><gap reason="lost" quantity="3" unit="character"/><orig>dnim</orig>
+      <lb n="14"/><gap reason="lost" quantity="4" unit="character"/><orig>eyr</orig>
+      <lb n="15"/><gap reason="lost" quantity="4" unit="character"/><orig>sor</orig>
+      <lb n="16"/><gap reason="lost" quantity="4" unit="character"/> <orig>ysy</orig>
+      <lb n="17"/><gap reason="lost" quantity="3" unit="character"/><persName type="attested"><name nymRef="Barrecilim">Ba
+      <lb break="no" n="18"/><supplied reason="lost">rr</supplied>ecilim</name></persName>
+      <lb n="19"/><w lemma="nṣb">uꞩeb</w> <w lemma="sy">sy</w> <w lemma="ly-">lo</w>
+      <lb n="20"/><persName type="attested"><name nymRef="Machrus">Machruς</name>
+      <lb n="21"/><w lemma="byn">byn</w> <persName type="attested"><name nymRef="Rogatus">Rogate</name></persName></persName> 
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Julius <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="translation" source="#elmayer1997" xml:lang="en">
+            <p>Julius Ibituathif Misirkar son of Amrr, son of Chyrdidry son of a chieftain (or prince), stele, (who has) all the merits of great man, from the
+               family (or: tribe) of Misairuchan, chief of military administration and justice . . . a man who ... god bless him, the stele (which) Machrus son of 
+               Rogatus completed (and) erected for him.</p></div>
+         <div type="translation" source="#kerr2010" xml:lang="en">
+            <p>Iulius . . . Ibitua . . . . . .son of Chyrdid, commander of the guard [ . . . ] Barrecilim erected this <supplied reason="subaudible">stone</supplied> for him Machruz son of Rogate</p></div>
+         <div type="commentary">
+           
+         </div>
+      </body>
+   </text>
+</TEI>

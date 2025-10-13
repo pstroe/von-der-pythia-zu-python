@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1037" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD049862</idno>
+                <idno type="TM">201577</idno>
+                <idno type="filename">IRT1037</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/60">Limestone</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/102">column</objectType>
+                                    
+                                    <dimensions>
+                                        <height unit="metre">2.35</height>
+                                        <dim unit="metre">0.39</dim></dimensions>
+                                <!--      --> 
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> No description</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0101" notAfter="0300" evidence="prosopography">Second to third centuries CE</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                                <placeName ref="https://www.slsgazetteer.org/699">West Necropolis</placeName>, reused as a doorpost in a building at Ez-Zeita.</p></provenance>
+                        <provenance type="observed"><p><placeName ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2219905">Al Khums</placeName></term>
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-06-04" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="elnemsi1997"/> no. 8 <citedRange>212</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1997.1586</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD049862">049862</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="divine" ref="#manes"><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <name nymRef="Manes"><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName> 
+                <lb n="2"/><persName type="attested"><name nymRef="Lucia"><expan><abbr>L</abbr><ex>uciae</ex></expan></name> <name nymRef="Silia">Siliae</name> <persName type="attested"><name nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> 
+                <w lemma="filia"><expan><abbr>fil</abbr><ex>iae</ex></expan></w> <name nymRef="Pia"><expan><abbr>Pia</abbr><ex>e</ex></expan></name></persName> 
+                <lb n="3"/><persName type="attested"><name nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Silius">Silius</name> <name nymRef="Plautius">Plautius</name> 
+                <lb n="4"/><name nymRef="Haterianus">Haterianus</name></persName> 
+                <lb n="5"/><w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimus</ex></expan></w> 
+                <lb n="6"/><w lemma="patruus">patruus</w> 
+                <lb n="7"/><w lemma="heres"><expan><abbr>h</abbr><ex>eres</ex></expan></w> <w lemma="facio"><expan><abbr>f</abbr><ex>ecit</ex></expan></w>
+            </ab></div>
+            <div type="translation" source="#elnemsi1997" xml:lang="en">
+                <p>To the spirits of the dead. Lucia Silia Pia, daughter of Lucius <supplied reason="subaudible">Silius</supplied>, Lucius 
+                Silius Plautius Haterianus, member of the senatorial order, her paternal uncle and heir, made this <supplied reason="subaudible">monument</supplied>.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

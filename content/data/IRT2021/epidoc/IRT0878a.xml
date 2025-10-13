@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0878a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">Christian</rs> text</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0878a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot (1949)</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Lintel</objectType> (width incomplete <dimensions>
+                                 <width unit="metre">1.70</width>
+                                 <height unit="metre">0.43</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) of <material>grey limestone</material>, re-used as the upright of an olive-press; 
+               two slots have been cut in the inscribed face and the right-hand end is missing.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  in two lines, each line within a recessed panel (<dimensions>
+                              <width unit="metre">1.20</width>
+                              <height unit="metre">0.10</height>
+                           </dimensions>), 
+               with simple, incised, linear ornament between the two panels. The lower panel ended in ansae, the right-hand one of which is missing; in the left-hand ansa 
+                           <foreign xml:lang="grc">Α <g ref="symbols.xml#chi-rho"/> Ω</foreign>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: <height unit="metre">0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400">First-fourth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/686">Umm el-Msareb</placeName>;
+                  Seen by Romanelli in <date type="found">1915</date>, and rediscovered and copied by Oates in 1949,  in the ruins of olive-presses, south-west of 
+                              <ref target="https://www.geonames.org/2214258">Ghlil</ref> (map ref. M 178278).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (1949)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2214258/qabilat-al-qalilinehtml">Qabīlat al Qalīl</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Oates)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1097.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1098.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1099.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1100.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. A. 594-6(?))</desc></graphic>
+                  <graphic url="wp1101.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl>Described <ptr target="romanelli1919"/>, <citedRange>29</citedRange> (text not given)</bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>878a</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT878a.html">878a</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059725">059725</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" quantity="8" unit="character" precision="low"/><persName type="attested"><name nymRef="Nicomachus"><supplied reason="lost">N</supplied>icomachi</name></persName> 
+               <orig>sn</orig><gap reason="lost" atLeast="2" atMost="3" unit="character"/><orig>stris</orig>
+               <lb n="2"/>
+               <orig>iebasclume</orig> <w lemma="instituo" part="I">instituente<unclear>r</unclear></w><gap reason="lost" atLeast="5" atMost="6" unit="character"/>
+                  </ab></div>
+         <div type="apparatus">
+            <listApp>
+               
+               <app loc="2">
+                  <note>The last legible letter is possibly a B.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>Not usefully translatable, but perhaps line 1 contained the name Nicomachus.</note></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

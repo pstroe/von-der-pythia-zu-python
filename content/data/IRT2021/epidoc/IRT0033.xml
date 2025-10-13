@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0033" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">dedication</rs> to Septimius Severus by Caecilius </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0033</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Three <objectType>block</objectType>s (each <dimensions>
+                                 <width unit="metre">0.51</width>
+                                 <height unit="metre">1.08</height>
+                                 <depth unit="metre">0.36</depth>
+                              </dimensions>) of hard <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the face, a on the upper row of blocks, b on the row below</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: a) line 1, <height unit="metre">0.15</height>; line 2, <height unit="metre">0.135</height>; line 3, <height unit="metre">0.105</height>;</handNote>
+                     <handNote>b) line 1, <height unit="metre">0.10</height>; line 2, <height unit="metre">0.12</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>A large base, possibly for a quadriga (<dimensions>
+                        <width unit="metre">8.84</width>
+                        <height unit="metre">7.34</height>
+                     </dimensions>), 
+                        the remains of which have been identified at a cross-roads to the west of the Theatre.</origPlace>
+                     <origDate cert="low" when="0202" evidence="titulature">?CE 202: <ref target="https://godot.date/id/qT7qULXycVNzBaAEbsDqeN">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, 
+                  in the <placeName type="monuList" ref="https://www.slsgazetteer.org/848">Justinian church</placeName>, between the Forum and the sea. 
+                              Found re-used in the construction of the church, along with many plain and moulded blocks from the same monument.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0048.jpg">
+                  <desc>Reconstruction drawing: Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp0049.jpg">
+                     <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.III.4)</desc></graphic>
+                  <graphic url="wp0050.jpg">
+                     <desc>Ward-Perkins Archive, 1946 (Ward-Perkins Archive, BSR 46.VI.30)</desc></graphic>
+                  <graphic url="wp0051.jpg">
+                     <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.VII.35)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>33</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/> <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT033.html">33</ref></citedRange></bibl>; 
+               <bibl><ptr target="kenrick1986"/>, <citedRange>213-217</citedRange>, fig. 93-95</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1986.710</citedRange></bibl>; from these
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059028">059028</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p><!-- check -->
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w></supplied> 
+                  <persName type="emperor" ref="#septimiusseuerus"><supplied reason="lost"><addName nymRef="Caesar">Caesari</addName> 
+                     <name type="praenomen" nymRef="Lucius">Lucio</name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Seuerus">Seuero</name></supplied>
+                     <addName nymRef="Pius"><supplied reason="lost">Pi</supplied>o</addName> 
+                     <addName nymRef="Pertinax">Pert<supplied reason="lost">ina</supplied>ci</addName> 
+                     <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> 
+                     <addName nymRef="Arabicus">Ar<supplied reason="lost">abico</supplied></addName>
+                     <lb n="2"/><supplied reason="lost"><addName nymRef="Adiabenicus">Adiabenico</addName> <addName nymRef="Parthicus">Parthico</addName> 
+                        <w lemma="maximus">maximo</w></supplied></persName> 
+                  <supplied reason="lost"><w lemma="pontifex">pontifici</w></supplied>
+                     <w lemma="maximus"><supplied reason="lost">maxi</supplied>mo</w>
+                     <w lemma="tribunicius">tribun<supplied reason="lost">ici</supplied>ae</w> 
+                     <w lemma="potestas">potes<supplied reason="lost">tatis</supplied></w>
+                     <supplied reason="lost" cert="low"><num value="10">X</num></supplied>
+                     <lb n="3"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w></supplied> <supplied cert="low" reason="lost"><num value="11">XI</num></supplied>
+                       <supplied reason="lost"> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w></supplied>
+                        <supplied cert="low" reason="lost"><num value="3">III</num></supplied> 
+                     <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+                     <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+                  </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/><w lemma="ex">ex</w> <w lemma="testamentum">testam<supplied reason="lost">ento</supplied></w><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"><w lemma="facio">faciendum</w> <w lemma="curo">curauit</w></supplied>
+                  <lb n="2"/><persName type="attested"><name nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Caecilius">Caeci<supplied reason="lost">lius</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="apparatus">
+            <listApp>
+                <app loc="a 2">
+                  <rdg resp="#kenrick1986">[X], suggested by the length of the line</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a. <supplied reason="lost">To Emperor Caesar Lucius Septimus Severus</supplied> Pius Pertinax Augustus, Victor in Arabia, 
+               <supplied reason="lost">Uictor in Adiabene, greatest Victor in Parthia</supplied>,
+               chief <supplied reason="lost">priest</supplied>, holding tribunician power 
+               <supplied reason="lost">for the  ?  time, acclaimed Victor ? times, consul for the ? time</supplied> father of the country</p>
+            <p> b.  <note>Set up</note> in accordance with the will <supplied reason="lost">of</supplied><gap reason="lost" extent="unknown" unit="character"/> 
+               Quintus Caecilius <note> case unknown</note> <gap reason="lost" extent="unknown" unit="character"/> </p></div>
+         <div type="commentary">
+            <p>Line a.2: Parthicus maximus from 198. The restoration of these titles is required by the length of the line.</p>
+            <p>Line b.2:Perhaps, from the relative size of the lettering, not the testator but the dedicating proconsul: so Kenrick, loc.cit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

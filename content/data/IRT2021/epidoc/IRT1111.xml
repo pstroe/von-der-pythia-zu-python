@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1111" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD015190</idno>
+                <idno type="TM">199323</idno>
+                <idno type="filename">IRT1111</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Sandstone</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">cippus</objectType>: no measurements
+                                 </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.06-0.08</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0201" notAfter="0300" evidence="context">Third century CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/899">Wadi Zemzem</placeName>:
+                        <placeName ref="https://www.slsgazetteer.org/782">Gheriat el-Garbia</placeName>, re-used in the wall of a mosque.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2219748">Qaryah al Gharbiyah</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="1997-07-31" who="Niquet">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="divita1966"/> <citedRange>4</citedRange>, p. 97, plate 39</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1967.542</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015190">015190</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="divine" ref="#manes"><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w></persName> <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w> 
+                <lb n="2"/><persName type="attested"><name nymRef="Claudius">Claudius</name> <name nymRef="Maxime">M
+                <lb break="no" n="3"/>axime</name></persName> <w lemma="miles">mil<supplied reason="omitted">e</supplied>s</w> 
+                <lb n="4"/><orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="3">III</num> <addName nymRef="Augustus"><expan><abbr>A<supplied reason="omitted">u</supplied>gu</abbr><ex>stae</ex></expan></addName></orgName> 
+                <lb n="5"/><w lemma="stipendium"><expan><abbr>stupe</abbr><ex>ndiorum</ex></expan></w> <note>sic</note> <w lemma="uiginti"><expan><abbr>uig</abbr><ex>inti</ex></expan></w> <w lemma="duo">dua</w> <w lemma="uiuo"><expan><abbr>u</abbr><ex>ixit</ex></expan></w> 
+                <lb n="6"/><date type="life-span" dur="P40Y"><w lemma="annus">ano<supplied reason="omitted">s</supplied></w> <num value="40">XXXX</num></date> <w lemma="pater"><expan><abbr>pate</abbr><ex>r</ex></expan></w> <persName type="attested"><name nymRef="Ana">Ana</name></persName> <w lemma="facio"><expan><abbr><unclear>f</unclear></abbr><ex>ecit</ex></expan></w>
+            </ab></div>
+            
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Sacred to the gods below: Claudius Maximus soldier of the Third Legion Augusta, having served twenty two years lived 40 years. His father, ?Ana made <supplied reason="subaudible">the tomb</supplied>.</p>
+            </div>
+            <div type="commentary">
+                <p>De toute façon, le texte doit etre daté, non de la fin du III s., comme le croit l'auteur mais du debut [note de J. Marcillet-Jaubert].</p>
+                <p>Line 4: AE suggests pater na<unclear>t</unclear>(uralis)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0463" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Severus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0463</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <objectType>base</objectType> (<dimensions>
+                              <width unit="metre">0.602</width>
+                              <height unit="metre">1.44</height>
+                              <depth unit="metre">0.62</depth>
+                           </dimensions>) of <material>brown limestone</material>; the right-hand face of <ref type="inscription" n="IRT0454">454</ref>, with moulding above and below.</p>
+                        
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Very lightly <rs type="execution" ref="scalpro">inscribed</rs> on a rough surface; (die, <dimensions>
+                              <width unit="metre">0.48</width>
+                              <height unit="metre">0.83</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre" atLeast="0.045" atMost="0.06">0.045-0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0305" evidence="titulature">1 May 305 - August 306 CE </origDate>
+                  </origin> 
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/742">Regio IV</placeName>, 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, South Portico.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0595.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1533 Leica)</desc></graphic>
+                  <graphic url="wp0596.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 585)</desc></graphic>
+      <graphic url="bigi006.jpg">
+         <desc>Face, drawing: Bigi (2009)</desc></graphic>
+                  <graphic url="wp0597.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 745)</desc></graphic>
+      <graphic url="tantillo0106.jpg">
+         <desc>Face: Tantillo (2005)</desc></graphic>
+      <graphic url="tantillo0105.jpg">
+         <desc>Top: Tantillo, 2008 (P1050726)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="ciotti1948"/> <citedRange>120</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>463</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT463.html">463</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>4</citedRange></bibl>, 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2150">2150</ref></citedRange> (Tantillo and Bigi)</bibl>,
+               <bibl><ptr target="EDH"/> (Gräf, 2016) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059357">059357</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#severussecundus">
+               <supplied reason="lost"><w lemma="dominus"><expan><abbr>D</abbr><ex>omino</ex></expan></w></supplied> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w> <w lemma="inuictus">inuicto</w> <w lemma="atque">ac</w> 
+               <w lemma="nobilis">no<lb n="2" break="no"/>bilissimo</w> <addName nymRef="Caesar">Caesari</addName>
+               <lb n="3"/><name type="gentilicium" nymRef="Flauius">F<unclear>l</unclear><supplied reason="lost">aui</supplied>o</name> <name type="gentilicium" nymRef="Ualerius">Ualerio</name> <name type="cognomen" nymRef="Seuerus">S<unclear>e</unclear>uero</name></persName>
+               <lb n="4"/><placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lepcitani</placeName> <w lemma="deuoueo">deuoti</w>
+               <lb n="5"/><w lemma="numen">numini</w> <w lemma="maiestas"><expan><abbr>maiestatiq</abbr><ex>ue</ex></expan></w>
+               <lb n="6"/><w lemma="is">eius</w> <w lemma="publice">publice</w></ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3"><rdg resp="#irt1952">F<supplied reason="lost">laui</supplied></rdg></app>
+                  
+               <app loc="7"><rdg resp="#ciotti1948">d(ecurionum) d(ecreto)</rdg>
+                  <note>but this does not figure on the stone. </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To our <supplied reason="lost">Lord</supplied> the unconquered and most noble Caesar, Flavius Valerius Severus; the Lepcitanians, 
+               devoted to his divine power and majesty, <supplied reason="subaudible">set this up</supplied> publicly.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Al nostro signore, Cesare invitto e nobilissimo, Flavio Valerio Severo, i Leptitani, devoti al suo nume e alla sua maestà, a
+               spese pubbliche</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>To our lord, the unconquered and most noble Caesar, Flavius Valerius Severus; 
+            the people of Lepcis (Lepcitani), devoted to his divine spirit and majesty, [set this up] with public funds.</p></div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

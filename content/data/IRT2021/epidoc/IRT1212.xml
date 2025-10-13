@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1211" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> text  (En-Ngila cemetery)</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1212</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Tomb</objectType> of rubble, with a <material>plaster</material> surface.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the south face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Large clear uncial letters</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="1025" notBefore="0975" evidence="context" cert="low"> Late 10th-early eleventh century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                              Christian cemetery among the sand-dunes at <placeName ref="https://www.slsgazetteer.org/821">en-Ngila</placeName>; 
+                              excavated in <date type="found">1973</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219597/tripoli.html">an Najīlah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-07" who="CMR">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="rizzardi1974"/>, <citedRange unit="page">520</citedRange></bibl></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            
+               <ab>
+                  <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="in">In</w> <w lemma="hic">ok</w> <supplied reason="lost"><w lemma="tumulus">tumulo</w></supplied> <w lemma="iaceo">iaket</w> <w lemma="corpus">corpus</w> 
+              <w lemma="bonus">bone</w> <w lemma="memoria">memorie</w> <w lemma="abbas">Aba</w> <persName type="attested"><name nymRef="Laurentius">Laurentius</name></persName> <w lemma="monacus">monakus</w>
+                  <lb n="2"/> <w lemma="dulcis">dulkissimus</w>. <w lemma="uiuo">Bixit</w> <w lemma="in">in</w> <w lemma="pax">pake</w> <date type="life-span" dur="P63Y"> <w lemma="annus">annos</w> <w type="plus" lemma="plus">plus</w> <w type="minus" lemma="minus">minus</w> <num value="63">LXIII</num></date>. <w lemma="recedo">Rekessit</w> <supplied reason="lost"><w lemma="de">de</w> <w lemma="hic">ok</w> <w lemma="saeculum">sekulo</w></supplied>
+              <lb n="3"/><w lemma="sub">sub</w> <w lemma="dies"><expan><abbr>d</abbr><ex>ie</ex></expan></w> <w lemma="tertius">tertiu</w> <w lemma="kalendae">kalendas</w> <w lemma="December">Dekember</w> <w lemma="indictio"><expan><abbr>ind</abbr><ex>ictio</ex></expan></w> <num value="13">XIII</num>. 
+               </ab>
+            
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p> In this tomb lies the body Abbot Laurentius, of good memory, a most gentle monk. He lived in peace more or less 63 years. 
+               He departed [from this world] on the third day of the kalends of December <supplied reason="explanation">29 November</supplied>
+               indiction 13.</p>
+            
+         </div>
+         <div type="commentary">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0892" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Uncertain inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0892</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot (1948)</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Block</objectType> of <material>pinkish brown limestone</material> (<dimensions>
+                                 <width unit="metre">0.92</width>
+                                 <height unit="metre">0.45</height>
+                              </dimensions>, depth unknown).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a <rs type="decoration">tabella ansata; in the left ansa a branch.</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> av. <height unit="metre" precision="low">0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400">First-fourth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/655">Middle Lower Sofeggin Basin</placeName>: 
+                  Seen and photographed by Goodchild in <date type="found">1948</date> in situ over the South doorway of <placeName type="monuList" ref="https://www.slsgazetteer.org/780">Gasr el-Ureia</placeName>, the best preserved of a group of 3 gsur, close to the head of the Wadi el-Ureia, an upper tributary of the Wadi el-Màader,
+                  2.5 km. East of the Tarhuna - Beni Ulid road at Uestata (map ref. Q 9483). </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>  Findspot (1948)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2214808/shu%60bat-mu%60aydir.html">Shu`bat Mu`aydir</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications, transcription (Goodchild, Elmayer)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1118.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1119.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1120.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1121.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1122.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+      <graphic url="jmr892.jpg">
+                  <desc>Sketch after a photograph by Goodchild (from IRT p. 219)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>892</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT892.html">892</ref></citedRange></bibl>; 
+               <bibl><ptr target="goodchild1950a"/> <citedRange>139</citedRange> ff. and pi. XVII b</bibl>, whence
+               <bibl><ptr target="elmayer1984"/> <citedRange>100-101</citedRange></bibl>, 
+               whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020950">020950</ref></citedRange></bibl>
+               <bibl><ptr target="elmayer1997"/>, <citedRange>58</citedRange></bibl>;
+               this edition <bibl><ptr target="kerr2010"/>, <citedRange unit="page">198</citedRange> (where see bibliography)</bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="xpu-Latn" xml:space="preserve">
+            <ab>
+<lb n="1"/><orig>an</orig> <persName type="attested"><name nymRef="Stidin">Ꞩidin</name></persName> <orig>uiua</orig> <orig>buuib</orig>
+<lb break="no" n="2"/><orig>an</orig> <orig>cauheni</orig> 
+<lb n="3"/><orig>mos</orig> <orig>bycus</orig> <orig>cae</orig>
+<lb n="4"/><orig>n</orig> <orig>bod</orig> <orig>dubren</orig> <orig>a</orig> <orig>|</orig> <orig>se<supplied reason="lost">r</supplied></orig>
+<lb n="5"/><orig>llonim</orig> <orig>imuleh</orig> <orig>isvdria</orig> <orig>yvseb</orig>
+</ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Not usefully translatable.</p></div>
+         <div type="translation" source="#elmayer1997" xml:lang="en">
+            <p>Ansiden Viva son of lban, the priest, consecrated (this) small statue (or: stele) to the worship of the gods, Imuleh Isdriny erected it.</p></div>
+         <div type="translation" source="#kerr2010" xml:lang="en">
+            <p>Not usefully translatable.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

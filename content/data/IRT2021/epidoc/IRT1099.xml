@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1099" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Sol</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD016963</idno>
+                <idno type="TM">199473</idno>
+                <idno type="filename">IRT1099</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Block</objectType> of
+                                    brown <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>, broekn at the right side and partly covered by mortar
+                                    <dimensions>
+                                        <height unit="metre">0.56</height>
+                                        <width unit="metre">0.94</width>
+                                        <depth unit="metre">0.17</depth>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on one face within a moulded
+                                    panel (<dimensions><height>0.47</height> <width>0.88</width></dimensions>)
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.04</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notAfter="0211" notBefore="0193" evidence="reign">198-211 CE</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p>
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2241">Jabal Nafusah</placeName>: 
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/881">Ain el-Auenia</placeName>; found south of the Jefren-Zintan road, 
+                                "midway up the hillside above the wells" in 1958 </p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>
+                                <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Transcription (Brogan)</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+            <change when="2021-05-19" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="broganreynolds1960"/> <citedRange>1</citedRange>, and plate XVII</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1962.304</citedRange></bibl>, 
+                    <bibl><ptr target="mattingly1985"/> <citedRange>71-2</citedRange></bibl>,
+                    <bibl><ptr target="lebohec1989"/> <citedRange>89</citedRange></bibl>, whence <bibl> <ptr target="ae"/> <citedRange>1992.1761</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016963">016963</ref></citedRange></bibl>; 
+                    .
+                   
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/>
+                <persName type="divine" ref="#sol"><name nymRef="Sol">Soli</name> <addName nymRef="Hierobolus">Hierobolo</addName></persName> <w lemma="pro">pro</w> <w lemma="salus">sa<supplied reason="lost">lute</supplied></w> 
+                <lb n="2"/><persName type="emperor" ref="#seueri"><w lemma="dominus">dominorum</w> <w lemma="noster"><expan><abbr>nn<del rend="erasure">n</del></abbr><ex>ostrorum</ex></expan></w>  <addName nymRef="Augustus"><expan><abbr>Augg<supplied reason="lost"><del cert="low">g</del></supplied></abbr><ex>ustorum</ex></expan></addName> <persName type="emperor" ref="#septimiusseuerus"><name nymRef="Seuerus"><supplied reason="lost">Se</supplied>
+                <lb break="no" n="3"/>ueri</name></persName> <w lemma="et">et</w> <persName type="emperor" ref="#caracalla"><name nymRef="Antoninus">Antonini</name></persName> <del rend="erasure"><w lemma="et">et</w> <persName type="emperor" ref="#geta"><name nymRef="Geta">Getae</name></persName></del> 
+                <lb n="4"/><w lemma="et">e<supplied reason="lost">t</supplied></w> <persName type="emperor" ref="#juliadomna"><name nymRef="Iulia">Iuliae</name></persName> <w lemma="totus"><expan><abbr>totiusq</abbr><ex>ue</ex></expan></w> <w lemma="domus">do<supplied reason="lost">mus</supplied></w> 
+                <lb n="5"/><w lemma="diuinus">diuinae</w></persName> <w lemma="per">per</w> <w lemma="uexillatio">uexilla<supplied reason="lost">tio</supplied>
+                <lb break="no" n="6"/>nem</w> <orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <g ref="symbols.xml#leaf"/> <num value="3">III</num> 
+                <addName nymRef="Augustus"><expan><abbr><unclear>A</unclear><supplied reason="lost">u</supplied>g</abbr><ex>ustae</ex></expan></addName></orgName> <g ref="symbols.xml#leaf"/> <w lemma="et">et</w> <w lemma="miles">mil<supplied reason="lost">ites</supplied></w> 
+                <lb n="7"/><orgName type="military" ref="#cohorsIsyr"><w lemma="cohors">coh<supplied reason="lost">o</supplied><unclear>r</unclear>t<supplied reason="lost">i</supplied>s</w> <supplied reason="lost"><num value="1">I</num></supplied> <placeName type="ethnic" ref="#syria" nymRef="#Syrus"><supplied reason="lost">S</supplied>yro<supplied reason="lost">r</supplied>um</placeName> <w lemma="sagittarius">sagit
+                <lb break="no" n="8"/><supplied reason="lost">ta</supplied>riorum</w></orgName> <w lemma="ab">a</w> <w lemma="solum">solo</w> <gap reason="lost" quantity="8" unit="character"/> 
+                <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>To Sol Hierobolos, for the safety of our lords the Augusti Severus and Antoninus [and Geta] <note>erased</note> and Julia, and the whole divine household: by the work of a company of the Third Legion Augusta, 
+                and soldiers of the First Cohort of Syrian archers from the ground [ . . . </p>
+            </div>
+            <div type="commentary">
+                <p>
+                    </p>
+            </div>
+        </body>
+    </text>
+</TEI>

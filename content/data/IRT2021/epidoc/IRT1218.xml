@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1218" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Uncertain text</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1218</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Findspot</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Slab</objectType> of 
+                                      red-brown <material>limestone</material>, with a very rough back; 
+                                    <dimensions>
+                                        <height unit="metre">0.39</height>
+                                        <width unit="metre">0.49</width>
+                                    <depth>0.28</depth></dimensions>.
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face within a narrow frame
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03-0.035</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0001" notAfter="0400" cert="low">First-fourth centuries CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2280">Wadi Tareglet</placeName>, 
+                            Wadi Beni Musa, near one of the Gsur Beni Musa</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>From Kerr</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-08-15" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p> <bibl><ptr target="broganreynolds1964"/> <citedRange>4</citedRange></bibl>, whence 
+                    <bibl><ptr target="elmayer1997"/>, <citedRange>69</citedRange></bibl>, 
+                    <bibl><ptr target="kerr2010"/>, <citedRange unit="page">217</citedRange> (where see bibliography)</bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="xpu-Latn" xml:space="preserve"><ab>
+                <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><orig>vysasarliiur</orig>
+                <lb n="2"/><orig>achirursath</orig>
+                <lb n="3"/><persName type="attested"><name nymRef="Migin">Migin</name></persName> <g ref="symbols.xml#stop"/> <orig>e<unclear>r</unclear>mes</orig>
+                <lb n="4"/><orig>si<unclear>s</unclear>cho<unclear>iu</unclear>bunim<unclear>c</unclear>h</orig>
+                 <lb n="5"/><orig>iursorimyasar</orig>
+                <lb n="6"/><orig>r <gap reason="lost" quantity="1" unit="character"/> bo<unclear>ie</unclear>n<unclear>yy</unclear>myi<unclear>t</unclear>h</orig>
+                    <lb n="7"/><gap reason="lost" quantity="1" unit="character"/><orig><unclear>muc</unclear>ub<unclear>a</unclear>i<gap reason="lost" quantity="2" unit="character"/>am<unclear>s</unclear>ch</orig>
+                    <lb n="8"/><gap reason="lost" quantity="1" unit="character"/><orig><unclear>r</unclear>ymy<unclear>gabyi</unclear>y<unclear>g</unclear>a</orig>
+                    <lb n="9"/><orig>u<gap reason="lost" quantity="1" unit="character"/>fach<unclear>u</unclear><gap reason="lost" quantity="2" unit="character"/>h
+                <gap reason="lost" quantity="1" unit="character"/><unclear>f</unclear>el<unclear>t</unclear>h<unclear>u</unclear></orig>
+                    <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>
+                </ab></div>
+           
+            <div type="translation" source="#kerr2010" xml:lang="en">
+                <p><note>Not usefully translatable</note></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

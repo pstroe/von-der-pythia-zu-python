@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1007" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Milestone</rs>. Mile I, Caracalla</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD009599</idno>
+                <idno type="TM">199050</idno>
+                <idno type="filename">IRT1007</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="institution.xml#db654">Lepcis Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Column</objectType>ar milestone of 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>
+                                    <dimensions>
+                                        <height unit="metre">2.196</height>
+                                        <dim unit="metre">0.375-0.455</dim>
+                                        <depth unit="metre"/>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01 - 0.04</height>, line 15, <height>0.07</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate when="0216" evidence="internal-date">CE 216: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref> </origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/726">Homs</placeName>: found during demolition of a Turkish building adjoining the main mosque, in 
+                            <date type="found">1966</date></p></provenance>
+                        <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2219905">Al Khums</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-27" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>Mentioned <bibl><ptr target="bakir1967"/> <citedRange>249</citedRange></bibl>, and 
+                    <bibl><ptr target="vitaevrard1979"/> <citedRange>71</citedRange>, note 10</bibl>;
+                    published <bibl><ptr target="gasperini1988"/> <citedRange>159-164</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1988.1101</citedRange></bibl>, <!-- check linebreaks -->
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD009599">009599</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <ab>
+                <lb n="1"/><persName type="emperor" ref="#caracalla">
+               <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName>, 
+               <lb n="2"/><persName type="emperor" ref="#septimiusseuerus"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Septimius">Sep<unclear>timi</unclear></name> <name type="cognomen" nymRef="Seuerus"><unclear>Seueri</unclear></name> 
+                   <addName nymRef="Pius">Pii</addName> <addName nymRef="Arabicus">Arabici</addName> <addName nymRef="Adiabenicus">Adiabenici</addName> <addName nymRef="Parthicus">Par
+               <lb n="3" break="no"/><supplied reason="lost">thi</supplied>ci</addName> <w lemma="maximus">maximi</w> <addName nymRef="Britannicus">Brittanici</addName> 
+                <lb n="4"/><w lemma="maximus"><unclear>m</unclear><supplied reason="lost">a</supplied><unclear>x</unclear>imi</w></persName> <w lemma="filius">filio</w> <persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antoni<unclear>ni</unclear></name> 
+                <lb n="5"/><addName nymRef="Pius">Pii</addName> <addName nymRef="Germanicus">Germanici</addName> <addName nymRef="Sarmaticus">Sarmatici</addName></persName> <w lemma="nepos">ne
+                <lb n="6" break="no"/>poti</w> <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name> <addName nymRef="Pius">Pii</addName></persName>
+               <w lemma="pronepos">prone
+               <lb n="7" break="no"/>poti</w> <w lemma="diuus">diui</w> <persName type="emperor" ref="#hadrianus"><name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> <w lemma="abnepos">abnepoti</w>
+               <lb n="8" break="no"/> <w lemma="diuus">diui</w> <persName type="emperor" ref="#traianus"><name type="cognomen" nymRef="Traianus">Traiani</name> <addName nymRef="Parthicus">Parthici</addName></persName>
+               <w lemma="et"><unclear>et</unclear></w> <persName type="emperor" ref="#nerua"><w lemma="diuus"><unclear>di</unclear>ui</w> 
+               <lb n="9"/> <name type="cognomen" nymRef="Nerua">Neruae</name></persName> <w lemma="adnepos">adnepot<supplied reason="lost">i</supplied></w>
+               <lb n="10"/>
+               <name type="praenomen" nymRef="Marcus">Marco</name> <name type="gentilicium" nymRef="Aurellius">Au<supplied reason="lost">relli</supplied><unclear>o</unclear></name> <name type="gentilicium" nymRef="Antoninus">Antoni<supplied reason="lost">n</supplied>o</name>
+               <addName nymRef="Pius">Pio</addName> <addName nymRef="Felix">Fe<unclear>lici</unclear></addName> 
+               <lb n="11"/><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <addName nymRef="Parthicus"><unclear>Parth</unclear>ico</addName> <w lemma="maximus">max<unclear>im</unclear>o</w> <addName nymRef="Britannicus"><unclear>Br</unclear>ittanico</addName> 
+               <lb n="12"/><w lemma="maximus">maximo</w> <addName nymRef="Germanicus">Germani<unclear>c</unclear>o</addName> <w lemma="maximus"><unclear>m</unclear>aximo</w></persName> <w lemma="pontifex">pon
+                <lb n="13" break="no"/>tifici</w> <w lemma="maximus">maximo</w> <w lemma="tribunicius">tri<unclear>b</unclear>uniciae</w> <w lemma="potestas">po
+                     <lb n="14" break="no"/><unclear>test</unclear>a<unclear>tis</unclear></w> <num value="19"><unclear>X</unclear>VIIII</num>, <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="3">III</num>
+               
+               <lb n="15"/><space extent="unknown" unit="character"/> <num value="1">I</num> <space extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>To emperor Caesar, son of deified Septimius Severus, Pius, victor in Arabia, victor in Adiabene, 
+                    greatest victor in Parthia, greatest victor in Britannia, grandson of deified Antoninus Pius, victor in Germany, victor in Sarmatia, 
+                    great grandson of deified Antoninus Pius, great great grandson of deified Hadrian, great great great grandson of deified Trajan, victor in Parthia and of deified Nerva, 
+                    Marcus Aurellius Antoninus Pius Felix Augustus, greatest victor in Parthia, greatest victor in Britannia, greatest victor in Germany, chief priest, holding tribunician power 
+                    for the nineteenth time, acclaimed victor three times, consul four times. <supplied reason="explanation">Milestone</supplied> One.</p></div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

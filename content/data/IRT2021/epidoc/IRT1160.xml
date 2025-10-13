@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1160" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> text (Ain Zara cemetery)</title>
+            <editor xml:id="saur">Salvatore Aurigemma</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1160</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Tomb</objectType> of rubble, with a <material>plaster</material> surface; 
+                              <dimensions><width>1.50</width> <depth>0.50</depth> <height>0.33</height></dimensions>, supported on a plinth
+                              <dimensions><width>0.13</width></dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> with almost no traces of rubrication, i, with  a double line between the lines, on the south face an and ii  arranged 
+                           around the lower part of a cross on the west face; there are traces of a cross and birds on the north face and of a cross on the east face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No measurements</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0500" notAfter="0650" evidence="context, lettering">Fifth-sixth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>: <placeName ref="https://www.slsgazetteer.org/803">Ain Zara</placeName>, 
+                        cemetery, Tomb 20.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (<date type="observed">1911-1914</date>)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219021">Ayn Zara</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Previous publications (Roueché)</creation></profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         
+         <change when="2021-07-27" who="CMR">Transcribed</change>
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="az0020a.jpg"><desc>i: Drawing (Luigi Turba)</desc></graphic>
+      <graphic url="az0020d.jpg"><desc>ii: Drawing, from a cast (Stefani)</desc></graphic>
+      <graphic url="az0020b.jpg"><desc>North face: Drawing, from a cast (Stefani)</desc></graphic>
+      <graphic url="az0020c.jpg"><desc>East face: Drawing, from a cast (Stefani)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="aurigemma1932"/>, <citedRange>20</citedRange> and figs.51, 52, 53 and 54</bibl>;
+               mentioned and indexed <bibl><ptr target="irt1952"/>, <citedRange>261</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT261.html">261</ref></citedRange></bibl></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+          <div type="textpart" n="i"><ab><lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+             <lb n="0a"/><gap reason="lost" quantity="1" unit="line"/>
+             <lb n="1"/><date type="life-span" dur="P27Y"><w lemma="plus"><unclear>p</unclear>lus</w> <w lemma="minus"><unclear>m</unclear>i<unclear>nus</unclear></w> <w lemma="annus"><unclear>annos</unclear></w> <gap reason="lost" quantity="6" unit="character"/> 
+              <num value="27">XXVII</num></date>. <w lemma="recedo"><unclear>Rekes</unclear>sit</w> <w lemma="de">de</w> <w lemma="hic">ok</w>  
+             <lb n="2"/><w lemma="saeculum">s<supplied reason="omitted">e</supplied>kulo</w> <w lemma="sub"><unclear>s</unclear>ub</w> <w lemma="dies">die</w> 
+             <w lemma="mensis">mensis</w> <num value="22">XXII</num> <w lemma="Aprilis">Aprille</w>  <w lemma="indictio">indiktionis</w> 
+             <num value="4">IIII</num></ab></div>
+         <div type="textpart" n="ii"><ab>
+            <lb n="1"/><g ref="symbols.xml#crux"/>
+             <lb n="2"/><persName type="divine" ref="#kyrios"><w lemma="dominus"><expan><abbr><unclear>D</unclear></abbr><ex>omi</ex><abbr><unclear>n</unclear></abbr><ex>u</ex><abbr><unclear>s</unclear></abbr></expan></w> 
+             <w lemma="deus"><expan><abbr>D</abbr><ex>eu</ex><abbr>s</abbr></expan></w> </persName>
+         </ab></div></div>
+         
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p><note>i</note>: . . . ] ,ore or less 27 years; he left this world on day 22 of the month of April, indiction 4.</p>
+            <p><note>ii</note>: Lord God</p>
+         </div>
+         <div type="commentary">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

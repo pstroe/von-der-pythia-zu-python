@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0418" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Caracalla</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0418</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> of <material>marble</material> 
+               (<dimensions>
+                                 <width unit="metre">0.66</width>
+                                 <height unit="metre">1.42</height>
+                                 <depth unit="metre">0.64</depth>
+                              </dimensions>). The fastening for a bronze statue survives.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel 
+               (die, <dimensions>
+                              <width unit="metre">0.35</width>
+                              <height unit="metre">0.65</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre">0.055</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0197" evidence="titulature">CE 197 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  
+                              <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, in the <placeName type="monuList" ref="https://www.slsgazetteer.org/1696">Temple of Liber Pater</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0539.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XVI.10)</desc></graphic>
+      <graphic url="tantillo0090.jpg">
+         <desc>Top, showing fastening: Tantillo (2004)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>418</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT418.html">418</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059327">059327</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#caracalla"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurellius">Aurellio</name> 
+                  <name type="gentilicium" nymRef="Antoninus">Antoni<lb n="2" break="no"/>no</name> 
+                  <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w>
+                  <lb n="3"/><w lemma="destino">destinato</w></persName> <persName type="emperor" ref="#septimiusseuerus"><w lemma="imperator">Imperato<lb n="4" break="no"/>ris</w> 
+                  <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimi</name>
+               <lb n="5"/><name type="cognomen" nymRef="Seuerus">Seueri</name><addName nymRef="Pius"> Pii</addName> <addName nymRef="Pertinax">Perti<lb n="6" break="no"/>nacis</addName> 
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName>
+               <lb n="7"/><addName nymRef="Arabicus">Arabici</addName> <addName nymRef="Adiabenicus">Adiabenici</addName></persName>
+               <lb n="8"/><w lemma="filius">filio</w> <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus"><expan><abbr>Lep</abbr><ex>citani</ex></expan></placeName> 
+                  <w lemma="publice"><expan><abbr>publ</abbr><ex>ice</ex></expan></w>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Marcus Aurellius Antoninus Caesar, nominated to be emperor, son of Lucius Septimius Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiabene, the Lepcitanians publicly.</p></div>
+         <div type="commentary">
+         <p>Line 3: Imperator destinatus in 197.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

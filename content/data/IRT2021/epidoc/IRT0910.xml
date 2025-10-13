@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0910" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Funerary</rs> inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0910</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Panel</objectType>, probably of <material>limestone</material>.
+               No dimensions recorded.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="content">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/827">Ghadames</placeName>:
+                              Copied in the ruins of the <placeName type="monuList" ref="https://www.slsgazetteer.org/906">Asnam</placeName> by an Arab, before <date type="found">1847</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (before <date type="observed">1847</date>)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2217440/ghadamis.html">Ghadāmis</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="letronne.jpg"><desc>Drawing provided to Letronne</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Published from a copy from M. de Bourville, <bibl><ptr target="letronne1847"/> <citedRange/></bibl>, whence 
+               <bibl>
+                  <ptr target="cil"/>,  <citedRange>2</citedRange>, <citedRange>10989</citedRange></bibl>; 
+            <bibl><ptr target="irt1952"/>, <citedRange>910</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT910.html">910</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059750">059750</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="divine" ref="#manes"><w lemma="deus">Dis</w> <w lemma="manes">manibus</w></persName> <w lemma="memoria">m<lb n="2" break="no"/>emoria</w> <foreign xml:lang="xpu-Latn"><orig>morna</orig>
+               <lb n="3"/>
+               <orig>mocimentu</orig> 
+               <lb n="4"/>
+               <orig>culiiai<unclear>b</unclear>ictem</orig>
+               <lb n="5"/>
+               <orig>eiciimioiubom</orig>
+               <lb n="6"/>
+               <orig>eeci</orig></foreign> </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3">
+                  <note> 
+     Probably <foreign xml:lang="la">monumentu</foreign>, as <ref type="inscription" n="IRT0911">911</ref>. 
+  </note>
+               </app>
+            
+               <app loc="6">
+                  <note>Perhaps <foreign xml:lang="la">bona feci</foreign>, as <ref type="inscription" n="IRT0911">911</ref>. </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To the gods below, in memory <gap reason="lost" extent="unknown" unit="character"/> ?I had <supplied reason="subaudible">this</supplied> ?monument made.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

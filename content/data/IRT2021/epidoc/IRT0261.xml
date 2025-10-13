@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0261" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> texts</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0261</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>IRT0261</msName></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-24" who="CMR">Merged</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div type="commentary">
+               <p>Tombs from the Christian cemetery at Ain Zara, 14 km. SSE of Tripoli on the edge of the Tripoli oasis. The tombs are associated with a structure, perhaps a cemetery chapel, 
+                  which is still buried, and with the remains of a precinct wall. They are built of rubble, with a stucco surface, and all approximate to the free-standing, saddle-backed form, 
+                  rising from a projecting plinth, which is still used in many of the cemeteries of Tripolitania. They were discovered and recorded by Aurigemma in 1911-14. Of the 121 tombs 
+                  located and examined, 59 yielded some part of the inscriptions with which each was originally covered. The whole complex was ascribed by Aurigemma to the period of Vandal 
+                  domination preceding the Byzantine reconquest of 531.
+                  The cemetery lies on the edge of mobile sanddunes and when revisited in 1948 many of the tombs had been reburied, and others had disintegrated. 
+                  Fragments of 2 only of the texts recorded by Aurigemma could be located, and the texts were not included in <title>IRT</title> 1952. See now 
+                  <ref type="inscription" n="IRT1141">1141</ref> to <ref type="inscription" n="IRT1200">1200</ref>.</p>
+            </div>
+      </body>
+   </text>
+</TEI>

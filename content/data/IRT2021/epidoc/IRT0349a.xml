@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0349a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Domitian (?)</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0349a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db904">British Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>balustrade</objectType> block
+               (<dimensions>
+                                 <width unit="metre">0.67</width>
+                                 <height unit="metre">0.53</height>
+                              </dimensions>
+               surviving depth <height unit="metre">0.51</height>) of <material>grey limestone</material>, with <rs type="decoration">moulding</rs> top and bottom and socket for 16 cm beam at the back. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>One line of Neo-Punic follows the Latin text. Lapidary capitals: line 1, <height unit="metre">0.14</height>; line 2 <height unit="metre">0.10</height>.  The surviving text of this line reads: [. . . provided] for the work the meqim elim [ . . . ]</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notAfter="0096" notBefore="0081" cert="low" precision="low" evidence="reign">81-96 CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/734">Harbour</placeName> among the ruins of the
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/752">Temple of Jupiter Dolichenus</placeName>; seen by Delaporte in <date type="found">1806</date> 
+                           </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Later presented to King George IV, and, since 1862, 
+                   in the British Museum. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-07-17" who="CB">Added Punic text and translation</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0450.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Photo copyright British Museum)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="delaporte1836"/> <citedRange>13</citedRange></bibl>, whence 
+               <bibl><ptr target="cil"/>, <citedRange>7</citedRange></bibl>;
+               <bibl><ptr target="reynolds1951"/> <citedRange>118-119</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>349</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1954.183a</citedRange></bibl>
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT349.html">349</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067664">067664</ref></citedRange></bibl>;
+               <bibl><ptr target="dellavida1927"/> <citedRange unit="page">92-93</citedRange></bibl>;
+               <bibl><ptr target="dellavida1967"/> <citedRange unit="page">395-409</citedRange></bibl>;
+               <bibl><ptr target="dellavida1987"/> <citedRange>9</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2008"/> <citedRange>Labdah N1</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" xml:lang="la" n="i"><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <persName type="emperor" ref="#domitianus"><persName type="emperor" ref="#vespasianus"><name type="cognomen" nymRef="Vespasianus"><supplied reason="lost">Uespasian</supplied><unclear>i</unclear></name></persName> 
+               <w lemma="filius"><del rend="erasure"><expan><abbr>f</abbr><ex>ili</ex></expan></del></w> 
+                  <del rend="erasure"><name nymRef="Domitianus"><seg part="I">D<unclear>o</unclear>m<supplied reason="lost">itian</supplied></seg></name></del></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w lemma="aug-" part="I"><expan><abbr>aug</abbr><ex cert="low"/></expan></w> <w lemma="sufes" part="I">sufe</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="textpart" xml:lang="xpu" n="ii">
+            <ab>
+              <lb n="1"/><w lemma="ᵓt">ᵓt</w> <w lemma="l">l</w><w lemma="mlkt">mlkt</w> <w lemma="h-">h</w><w lemma="mqm">mqm</w> 
+               <w lemma="ᶜl">ᶜl</w> <w part="I">m</w><gap extent="unknown" reason="lost" unit="character"/>
+            </ab>
+         </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <note>
+                . . . Flamen] Aug(usti) or . . . ] aug(ur)
+                        </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i.
+            <gap reason="lost" extent="unknown" unit="character"/> Domitian <note>case unknown</note> son of <supplied reason="lost">Uespasian</supplied>
+            <gap reason="lost" extent="unknown" unit="character"/> ? priest of Aug<supplied reason="lost">ustus</supplied> <note> or augur, i.e. priest</note>, sufete  <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>ii. . . . for the work of the place on . . . </p>
+         </div>
+         
+         <div type="commentary">
+           <p>Discussion of the Neo-Punic text: 
+               <ref target="https://zenon.dainst.org/Record/000299186">Levi della Vida (1971)</ref>, 457-469;
+               Vattioni, F. 1971. 'Tripolitania 1 et Tobie, iii, 6' in <ref target="https://zenon.dainst.org/Record/000597531">78</ref>, 242-246;
+               <ref target="https://zenon.dainst.org/Record/001473459">Teixidor (1986)</ref>, 215;
+               Garbini, G. 1974. 'Dieci anni di epigrafia punica nel Magreb (1965-1974) in
+               <ref target="https://zenon.dainst.org/Record/000599543">6</ref>, 6;
+               <ref target="https://zenon.dainst.org/Record/000255650">Garbini (1987)</ref>, 12;
+               <ref target="https://zenon.dainst.org/Record/000261239">Giardina (1988)</ref>, 67-87;
+               <ref target="https://zenon.dainst.org/Record/000233120">Elmayer (1997)</ref>, <!-- n.1 -->
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N1.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

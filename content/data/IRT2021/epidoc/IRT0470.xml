@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0470" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building<certainty match=".." locus="value"/>
+               </rs> inscription under  Constantius II and Constans</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0470</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two sections of a fragmentary <objectType>panel</objectType> (<dimensions>
+                                 <width unit="metre">0.95</width>
+                                 <height unit="metre">0.61</height>
+                                 <depth unit="metre">0.025</depth>
+                              </dimensions>,
+               top and bottom edges, and <dimensions>
+                                 <width unit="metre">0.11</width>
+                                 <height unit="metre">0.085</height>
+                                 <depth unit="metre">0.025</depth>
+                              </dimensions>, top edge only).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre">0.065</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0340" notAfter="0350" evidence="reign">CE 340-350 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>,
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="bigi028.jpg">
+         <desc>Fragments assembled, drawing: Bigi (2009)</desc></graphic>
+                  <graphic url="wp0607.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIII.31)</desc></graphic>
+      <graphic url="tantillo0137.jpg">
+         <desc>Central fragments: Tantillo (2006)</desc></graphic>
+      <graphic url="tantillo0138.jpg">
+         <desc>Central fragments: Tantillo (2006)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>470</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT470.html">470</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>74</citedRange></bibl>; 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059368">059368</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <supplied reason="lost"><w lemma="floreo">Florentissimis</w></supplied> <w lemma="saeculum">saeculis</w> 
+               <persName type="emperor"><w lemma="dominus"><expan><abbr>dd</abbr><ex>ominorum</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>nn</abbr><ex>ostrorum</ex></expan></w> 
+               <persName type="emperor" ref="#constantiussecundus"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>aui</ex></expan></name> <name nymRef="Iulius">Iu<unclear>li</unclear></name> 
+                  <name type="cognomen" nymRef="Constantius"><supplied reason="lost">Consta</supplied>nti</name> <supplied reason="lost"><w lemma="maximus">maximi</w></supplied></persName> 
+               <supplied reason="lost"><w lemma="et">et</w></supplied>
+               <lb n="2"/>
+               <persName type="emperor" ref="#constans"><supplied reason="lost"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>aui</ex></expan></name> <name type="gentilicium" nymRef="Iulius">Iuli</name> <name type="cognomen" nymRef="Constans">Constantis</name></supplied> <w lemma="maximus"><supplied reason="lost">m</supplied>aximi</w></persName> 
+               <w lemma="triumphator">trium<unclear>f</unclear><supplied reason="lost">ato</supplied><unclear>r</unclear>um</w> <w lemma="semper">semper</w> 
+               <addName nymRef="Augustus"><expan><abbr>A<supplied reason="lost">ugg</supplied></abbr><supplied reason="lost"><ex>ustorum</ex></supplied></expan></addName></persName>
+               
+               <lb n="3"/>
+               <gap reason="lost" quantity="20" unit="character" cert="low"/><w lemma="uetustas"><supplied reason="lost">uet</supplied>ustatis</w> 
+               <w lemma="absumo" part="I">absum<supplied reason="lost">pt</supplied></w> <gap reason="lost" quantity="25" unit="character" cert="low"/>
+               
+               <lb n="4"/>
+               <gap reason="lost" quantity="20" unit="character" cert="low"/><w part="F">de</w> <w lemma="turris">turre<supplied reason="lost">s</supplied></w><gap reason="lost" quantity="30" unit="character" cert="low"/>
+               <lb n="5"/>
+               <gap reason="lost" quantity="8" unit="character" cert="low"/>
+               <w lemma="defensio"><supplied reason="lost">de</supplied><unclear>f</unclear>ensione</w> <w lemma="apparatus">adparatu</w><gap reason="lost" quantity="30" unit="character" cert="low"/>
+               <lb n="6"/>
+               <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><w lemma="uir">uir</w> <w lemma="perfectissimus" part="I">perfectissim</w> <w lemma="praeses" part="I">praes</w> </supplied>
+               <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia"><unclear>p</unclear>rouin<supplied reason="lost">cia</supplied>e</w> 
+                  <addName nymRef="Tripolitanus">Tripolita<supplied reason="lost">nae</supplied></addName></placeName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+         <listApp>
+            <app loc="1"><rdg resp="#irt1952">Fl(aui) Iul[i Consta]nti[·· ? ·· et] </rdg></app>
+            <app loc="2"><rdg resp="#irt1952"> trium[phato]rum semper A[ugustorum ·· ? ··] </rdg></app>
+            <app loc="4"><rdg resp="#irt1952"> [·· ? ··]ditur re[·· ? ··] </rdg></app>
+            <app loc="6"><rdg resp="#irt1952">[·· ? ··] prouin[ci]a Tripolita[na ·· ? ··] </rdg></app>
+         </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>In <supplied reason="lost">the most flourishing</supplied> period of our lords Flavius Julius Constantius <gap reason="lost" extent="unknown" unit="character"/> 
+               <supplied reason="lost">and Flavius Julius Constans</supplied> greatest, triumphant, always Augusti, <gap reason="lost" extent="unknown" unit="character"/> damaged as the result of age <gap reason="lost" extent="unknown" unit="character"/> in defence ? by provision <gap reason="lost" extent="unknown" unit="character"/> the province of Tripolitania<gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <!-- <p>Line 1-2. Constantius II and  Constans: Augusti together 340-350. </p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

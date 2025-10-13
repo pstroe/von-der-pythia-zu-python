@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="IRT1579">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostrakon: <rs type="textType">Letter</rs></title>
+            <editor xml:id="GB" role="translation (English); encoding; scripting">Gabriel Bodard</editor>
+            <editor xml:id="cb" role="translation (English)">Caroline Barron</editor>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1579</idno>
+            <idno type="hgv">73229</idno>
+            <idno type="TM">73229</idno>
+            <idno type="ddb-perseus-style">0016;;79</idno>
+            <idno type="ddb-filename">o.bu.njem.79</idno>
+            <idno type="ddb-hybrid">o.bu.njem;;79</idno>
+         <availability>
+              <p>Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). All reuse or distribution of this work must link back to the URL <ref>http://irt.kcl.ac.uk/</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli National Museum</repository><idno>71-48</idno></msIdentifier>
+               <physDesc>
+                  <objectDesc><supportDesc><support><p><material>Ceramic</material> <objectType>ostrakon</objectType> (<dimensions unit="metre"><height>0.075</height><width>0.08</width><depth>0.011</depth></dimensions>).</p></support></supportDesc>
+            <layoutDesc><layout>Letters <rs type="execution" ref="pictura">painted</rs> on one side.</layout></layoutDesc></objectDesc>
+            <handDesc><handNote>No measurements</handNote></handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate when="0259-01-21" evidence="internal-date">21. Jan. 259: <ref target="https://godot.date/id/LSeek9wPRCPiFt4MeRVJ8B">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the <placeName ref="https://www.slsgazetteer.org/2268" type="monuList">Principia</placeName>.</p></provenance>
+            <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/1098">Tripoli National Museum</placeName>.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Marked-up according to the EpiDoc Guidelines version 9.</p></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (amtlich)</term>
+               <term>Aemilius Aemilianus an den Decurio Octavius Festus</term>
+               <term>Militär</term>
+               <term>Transport</term>
+            </keywords>
+         </textClass>
+         <textClass><keywords scheme="IRCyr"><term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term><term><geogName type="modernCountry" key="LY">Libya</geogName></term><term><placeName type="modernFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName></term><term><ref type="pleiades" target="https://pleiades.stoa.org/places/344377">Gholaia</ref></term><term><ref type="geonames" target="https://www.geonames.org/2220431">Qaryat Bū Nujaym</ref></term><term><placeName xml:lang="ar">بو نجيم</placeName></term></keywords></textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-11-05" who="#GB">Merged HGV data, Duke Databank text, PE translation from Papyri.info EpiDoc; aligned structure to IRT</change>
+         <change who="HGV" when="1999-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="marichal447.jpg">
+         <desc>From Marichal 1979</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+            <div xml:lang="la" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/><persName type="attested"><name nymRef="Octauius">Octauio</name> <name nymRef="Festus">Fest<surplus>h</surplus>o</name></persName> <w lemma="decurio"><expan><abbr>dec</abbr><ex>urioni</ex></expan></w> <g ref="symbols.xml#middot"/> <w lemma="praepositus"><expan><abbr>p</abbr><ex>rae</ex><abbr>p</abbr><ex>osito</ex></expan></w> <w lemma="meus"><supplied reason="lost">meo</supplied></w> 
+
+    <lb n="2"/><persName type="attested"><name nymRef="Aemilius">Aemilius</name> <name nymRef="Aemilianus">Aemilianus</name></persName> <w lemma="miles"><expan><abbr>m<supplied reason="lost">il</supplied></abbr><ex>es</ex></expan></w> <supplied reason="lost"><w lemma="salus">salutem</w></supplied> 
+
+    <lb n="3"/><w lemma="transmitto">transmisi</w> <w lemma="ad">at</w> <w lemma="tu">te</w> <w lemma="dominus">domi<supplied reason="lost">ne</supplied></w> <w lemma="per"><supplied reason="lost">per</supplied></w> 
+
+    <lb n="4"/><persName type="attested"><name nymRef="Macargus">Macargum</name></persName> <w lemma="siddipia">siddipia</w> <w lemma="tridicum">trid<supplied reason="lost">ici</supplied></w> <supplied reason="lost"><g ref="symbols.xml#middot"/> <num value="2">II</num> <g ref="symbols.xml#middot"/></supplied> 
+
+    <lb n="5"/><w lemma="duo">dua</w>  <g ref="symbols.xml#middot"/> <w lemma="qui"><expan><abbr>q</abbr><ex>uae</ex></expan></w> <w lemma="fio"><expan><abbr>f</abbr><ex>iunt</ex></expan></w> <g ref="symbols.xml#middot"/> <w lemma="uiginti">uiginti</w> <w lemma="quatuor">qua<supplied reason="lost">ttuor</supplied></w>  
+
+    <lb n="6"/><w lemma="consul"><expan><abbr>Co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w> <w lemma="futurus">futuris</w> <w lemma="post">post</w> <persName type="attested" key="pir-n-0237"><name nymRef="Thuscus">Thus<unclear>c</unclear><supplied reason="lost">o</supplied></name></persName> <w lemma="et"><supplied reason="lost">et</supplied></w> 
+
+    <lb n="7"/><persName type="attested" key="pir-m-0702"><name nymRef="Bassus">Basso</name></persName> <w lemma="consul"><expan><abbr>Co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w> 
+
+    <lb n="8"/><handShift new="m2"/><w lemma="accipio"><expan><abbr><unclear>acc</unclear></abbr><ex>epta</ex></expan></w> <num value="12">XII</num> <w lemma="kalendae"><expan><abbr>Kal</abbr><ex>endas</ex></expan></w> <g ref="symbols.xml#middot"/> <w lemma="Februarius"><expan><abbr>Febr</abbr><ex>uarias</ex></expan></w> 
+
+    <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="littera"><expan><abbr><supplied reason="lost">l</supplied>it</abbr><ex>tera</ex></expan></w> <num value="1">I</num><gap reason="illegible" quantity="1" unit="character"/> </ab></div>
+         
+         <div type="translation" source="#adams1994" xml:lang="en">
+            <p>To Octavius Festus, decurion, my commanding officer, Aemilius Aemilianus, soldier, (sends)
+               greetings. I have sent you, lord, by Macargus 2, two, siddipia of wheat, which is equivalent to 24
+               (modii). The consuls in office after the consulship of Tuscus and Bassus.
+               Received 21 January . . . </p>
+         </div>
+         
+         <div type="translation" source="#kramer2007" xml:lang="de">
+            <p>Dem Decurio Octavius Festhus, meinem Vorgesetzten, (entbiete ich) der Soldat Aemilius Aemilianus, den Gruss. 
+               Ich habe Dir, Herr, durch Macargus 2 - zwei - Siddipia Weizen geschickt, was 24 macht. Unter den Konsuln, 
+               die nach Thuscus und Bassus ihr Amt antreten werden. Empfangen am 21 Januar. Erster Brief.</p>
+         </div>
+         <div type="translation" source="#biville2014" xml:lang="fr">
+            <p> À Octavius Festhus, décurion, mon supérieur. Le soldat Aemilius Aemilianus 
+               te salue. Maître, je t’ai fait livrer par Macargus
+               deux siddipia de blé, soit vingt-
+               quatre modii. Sous les consuls à venir après le consulat de Thuscus et de Bassus.
+              [Lettre] reçue le 12 avant les calendes de février [—].</p>
+         </div>
+         
+         <div type="commentary" subtype="general">
+            <p>M. Nemmius Tuscus: PIR N 0237, <ref target="https://pir.bbaw.de/id/9750">https://pir.bbaw.de/id/9750</ref>, consul 258
+            </p>
+            <p>Mummius Bassus: PIR M 0702, <ref target="https://pir.bbaw.de/id/9402">https://pir.bbaw.de/id/9402</ref>, consul 258</p>
+         </div>
+         <div type="bibliography">
+            <p><bibl><ptr target="marichal1979"/> <citedRange>447</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1979.644</citedRange></bibl>,  
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008533">008533</ref></citedRange></bibl>;
+               <bibl><ptr target="kramer2007"/> <citedRange>4c</citedRange>, with commentary</bibl>;
+               <bibl><ptr target="biville2014"/> <citedRange>96-97</citedRange></bibl>
+               <bibl><ptr target="OBuNjem"/> <citedRange unit="numbers">79</citedRange></bibl>, 
+               whence 
+               <bibl><ptr target="adams1994"/> <citedRange>93</citedRange></bibl>, 
+               <bibl><ptr target="CEL1992"/> <citedRange>1.214</citedRange></bibl>; from these
+               <bibl><ptr target="hgv"/> <citedRange>73229</citedRange></bibl>, 
+               <bibl><ptr target="ddbdp"/> <citedRange>o.bu.njem.79</citedRange> (merged with <citedRange>c.ep.lat.214</citedRange>)</bibl>.
+               
+            </p></div>
+         
+         
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0723" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0723</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Left-hand portion of a <material>marble</material> 
+                              <objectType>panel</objectType>
+               (surviving, <dimensions>
+                                 <width unit="metre">0.30</width>
+                                 <height unit="metre">0.305</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre">0.04</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0500" precision="low" evidence="terminology">First to fifth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>
+                           </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0376.jpg">
+                     <desc>From left: <ref type="inscription" n="IRT0723">IRT 723</ref>, 
+                        <ref type="inscription" n="IRT0311">IRT 311</ref>; Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXII.7)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>723</citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189524">189524</ref></citedRange></bibl>, 
+               <bibl><ptr target="robertBE"/> <citedRange>1953.257</citedRange>, 202</bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189525">189525</ref></citedRange></bibl>; <!-- check -->
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT723.html">723</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059572">059572</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab> 
+               <lb n="1"/><w lemma="ὁ">τὰ</w> <w lemma="τέκνον">τέκνα</w> <persName type="attested"><name nymRef="Τ-"><seg part="I">Τ</seg></name><gap precision="low" reason="lost" quantity="2" unit="character"/>
+               <lb n="2"/><persName type="attested"><name type="cognomen" nymRef="Μαειδάδης">Μαειδάδου</name></persName></persName>
+               <lb n="3"/><w lemma="ὁ">τῶν</w> 
+               <w lemma="εἰδ-" part="I">εἰ<unclear>δ</unclear></w><gap reason="lost" quantity="4" unit="character" precision="low"/>
+               <lb n="4"/><orig>τιλι</orig><gap reason="lost" quantity="8" unit="character" precision="low"/>
+               <lb n="5"/><w lemma="ἀνίστημι">ἀν<supplied reason="lost">έστησεν</supplied></w>
+            </ab></div>
+         
+         <div type="apparatus"><listApp>
+            <app loc="1"><rdg resp="#irt1952">τ[οῦ</rdg></app>
+         </listApp></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>The children of Maeidadus (?), of the <note>plural</note> <gap reason="lost" extent="unknown" unit="character"/> set up.</p></div>
+         <div type="commentary">
+            <p>Line 3-4: Robert (loc.cit.)  suggests a possible reference to the Ides of July.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

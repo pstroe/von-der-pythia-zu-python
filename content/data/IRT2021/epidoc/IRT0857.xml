@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0857" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0857</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Subsequently removed to Jefren, and now lost. </repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Two inscribed fragments, both probably from the same inscription.
+               a) <dimensions>
+                                 <width unit="metre">0.56</width>
+                                 <height unit="metre">0.60</height>
+                              </dimensions>, lower edge, with mouldings below
+               b) <dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.40</height>
+                              </dimensions>, no edges surviving</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: <height unit="metre">0.12</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="lettering">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2241">Jabal Nafusah</placeName>: 
+                  Seen in <date type="found">1915</date> by Romanelli and later by Bartoccini
+                  at <placeName type="monuList" ref="https://www.slsgazetteer.org/881">Ain el-Auenia</placeName> near Jefren (map ref. U 785720).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Later removed to Jefren, and subsequently lost. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208791/yafran.html">Yafran</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1051.jpg">
+                  <desc>From lrft: Unidentified; <ref type="inscripion" n="IRT0857">857 a and b</ref>: Ward-Perkins Archive, BSR (Sopr. A. 862)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="romanelli1922a"/>, <citedRange>111</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>857</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT857.html">857</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059707">059707</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>i</unclear>qu</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>unio</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>sdem</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <orig>im</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>port</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><num>I<unclear>X</unclear></num> 
+                  <orig>e<unclear>i</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>   
+               </ab></div></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3">
+                  <rdg>
+                     <gap reason="lost" extent="unknown" unit="character"/>IV</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a, line 2</note> <gap reason="lost" extent="unknown" unit="character"/> ?to Junius <gap reason="lost" extent="unknown" unit="character"/></p><p><note>b. ll 2-3</note> <gap reason="lost" extent="unknown" unit="character"/> ?portico <gap reason="lost" extent="unknown" unit="character"/> ?nine<note> or four</note> <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

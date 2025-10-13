@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0559" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Aurelius Sempronius Serenus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0559</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>The upper part of a rectangular <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.46</width>
+                                 <height unit="metre">0.40</height>
+                                 <depth unit="metre">0.43</depth>
+                              </dimensions>, height incomplete) of white <material>marble</material> once inscribed on all four sides. <ref type="inscription" n="IRT0558">558</ref> is inscribed on the opposite face. Two sides subsequently erased. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>On the front <rs type="execution" ref="scalpro">Inscribed</rs> within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.32</width>
+                           </dimensions>), the first line is cut above the die. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals <height unit="metre">0.035</height>. line 1 is decapitated. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0275" notAfter="0325" precision="low" evidence="prosopography">Late third to early fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:                                 , 
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, 
+                              in the second taberna north of the entrance to the Basilica. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0723.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 936)</desc></graphic>
+                  <graphic url="wp0724.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1548 Leica)</desc></graphic>
+                  <graphic url="wp0725.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1550 Leica)</desc></graphic>
+      <graphic url="tantillo0195.jpg">
+         <desc>View: Tantillo, 2008 (P1050677)</desc></graphic>
+      <graphic url="tantillo0198.jpg">
+         <desc>Face: Tantillo, n.d.</desc></graphic>
+      <graphic url="tantillo0196.jpg">
+         <desc>Face and right side: Tantillo, 2008</desc></graphic>
+      <graphic url="tantillo0197.jpg">
+         <desc>Left side: Tantillo, 2008</desc></graphic>
+      
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>559</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT559.html">559</ref></citedRange></bibl>; 
+               <bibl><ptr target="pugliese2003"/> <citedRange>13.b</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>2003.197</citedRange></bibl>; 
+               <bibl><ptr target="tantillo2006"/> <citedRange>407-410</citedRange></bibl>, 
+               <bibl><ptr target="tantillo2010"/>, <citedRange>52</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2198">2198</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045503">045503</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><space extent="unknown" unit="character"/> <persName type="attested"><name type="signum" nymRef="Dulcitius">Dul<unclear>citi</unclear></name> <space extent="unknown" unit="character"/>
+                  <lb n="1a"/><space quantity="1" unit="line"/>
+               </persName><lb n="2"/><persName type="attested" key="plre:1-serenus3"><name type="gentilicium" nymRef="Aurelius"><expan><abbr>Aur</abbr><ex>elio</ex></expan></name> <g ref="symbols.xml#stop"/> 
+                  <name type="gentilicium" nymRef="Sempronius">Sempronio</name> <name type="cognomen" nymRef="Serenus">Sereno</name></persName> <g ref="symbols.xml#stop"/>
+                <lb n="3"/><w lemma="eques"><expan><abbr>eq</abbr><ex>uiti</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <placeName type="ethnic" ref="#roma" nymRef="#Romanus"><expan><abbr>R</abbr><ex>omano</ex></expan></placeName> <g ref="symbols.xml#stop"/> <w lemma="principalis">principali</w> 
+               <placeName ref="#alexandria" nymRef="#Alexandria"><expan><abbr>Alexandr</abbr><ex>iae</ex></expan></placeName>
+               <lb n="4"/><w lemma="ob">ob</w> <w lemma="insigne">insigne</w> <w lemma="et">et</w> <w lemma="admirabilis">admirabile</w>
+               <lb n="5"/><w lemma="studium">studiorum</w> <w lemma="ingenium">ingenium</w>
+               <lb n="6"/><w lemma="praeter">praeter</w> 
+               <w lemma="decurionatus"><expan><abbr>decc</abbr><ex>urionatuum</ex></expan></w> <w lemma="honor">honorem</w>
+               <lb n="7"/><w lemma="et"><supplied reason="lost">e</supplied>t</w> <w lemma="statua">statuam</w> <w lemma="apud">apud</w> <w lemma="se">se</w> 
+               <w lemma="conloco"><expan><abbr>conloc</abbr><ex>atam</ex></expan></w><lb n="8"/><w lemma="etiam"><supplied reason="lost">e</supplied><unclear>tiam</unclear></w> <w lemma="apud">apud</w> 
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis"><w lemma="Lepcimagnensis">Lepcimag<lb n="9" break="no"/><supplied reason="lost">nenses</supplied></w></placeName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         
+         <div type="apparatus">
+            <listApp><app loc="1"><rdg resp="#irt1952">Ḍuṛp̣ii</rdg><rdg resp="#pugliese2003">Dulc̣ịṭị</rdg></app>
+               <app loc="6"><rdg resp="#irt1952">dec(urionatus)</rdg></app>
+               <app loc="7/8"><rdg resp="#irt1952"> conloc/[atam] apud</rdg></app></listApp>
+         </div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Durpius. To Aurelius Sempronius Severus, Roman Knight, leading citizen of Alexandria, 
+               on account of the distinguished and admirable quality of his activities, in addition to tenures of the decurionate and a statue set up in his own city, 
+               among the people of Lepcis Magna <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Dulcitius! Ad Aurelius Sempronius Serenus, cavaliere romano, principalis di Alessandria, per il suo insigne e mirabile
+               ingegno negli studi, oltre all’onore dei decurionati e alla statua collocata presso di sé, (anche) presso gli abitanti di Leptis
+               Magna . . . </p></div>
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>(Statue of) Dulcitius. To Aurelius Sempronius Serenus, Roman knight, principalis of Alexandria, on account of the distinguished and admirable genius in studies, 
+               in addition to the honour of the decurionates and the statue that was set up among themselves, also at Lepcis Magna . . . </p>
+         </div>
+         <div type="commentary">
+            <p>Aurelius Sempronius Serenus, signo Dulcitius: <title>PLRE</title> I, Serenus 3</p>
+         </div>
+      </body>
+   </text>
+</TEI>

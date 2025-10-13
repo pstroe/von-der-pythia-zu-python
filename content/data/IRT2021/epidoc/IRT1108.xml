@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1108" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1108</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Findspot</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Limestone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">block</objectType>: no measurements</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on one face; within <rs type="decoration">tabella ansata</rs>, flanked by reliefs of birds (eagles?): the bird on the left is holding an animal, the one on the right is holding a bird. i cut between guideleines; ii a little rougher, without guidelines.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Local fourth-fifth century capitals; <height>0.02</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notAfter="0499" notBefore="0301" cert="low" evidence="lettering">Fourth-fifth century CE</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p>
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/1566">Gasr Isawi</placeName>, in Wadi Migdal, in situ above the door. </p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (1959).</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Transcription (Brogan)</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-05-20" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="broganreynolds1960"/> <citedRange>5</citedRange> and plate XIX</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1962, page 73</citedRange></bibl>,  
+                    <bibl><ptr target="elmayer1997"/>, <citedRange>55</citedRange></bibl>. 
+                </p>
+            </div>
+            <div type="edition" xml:space="preserve"><div type="textpart" xml:lang="la" n="i"><ab>
+                <lb n="1"/><persName type="attested"><name nymRef="Marcius">Marcius</name> <name nymRef="Metasan">Metasan</name>
+                <lb n="2"/><persName type="attested"><name nymRef="Fidelis">Fidelis</name></persName> <w lemma="filius">filius</w></persName> <w lemma="et">et</w> <persName type="attested"><name nymRef="Flabius"><expan><abbr><unclear>Fl</unclear></abbr><ex>abi</ex></expan></name> <name nymRef="Hanochulam">H
+                <lb n="3" break="no"/>anochulam</name></persName> <w lemma="et">et</w> <persName type="attested"><name nymRef="Seic-"><seg part="I"><unclear>S</unclear>e<unclear>i</unclear>
+                <lb n="4" break="no"/>c</seg></name></persName><gap reason="lost" quantity="3" unit="character"/> <w lemma="et">et</w> <persName type="attested"><name nymRef="Fidelis">Fid<unclear>el</unclear><supplied reason="lost">is</supplied></name></persName> <w lemma="nepos">nepo
+                <lb n="5" break="no"/>t<supplied reason="lost">es</supplied></w> <gap reason="lost" quantity="1" unit="character"/><orig>ss<unclear>i</unclear>psa</orig> <persName type="attested"><name nymRef="Flabia"><unclear>Fla</unclear>bia<unclear>e</unclear></name></persName>
+                     <lb n="6"/><w lemma="et">et</w> <orig><unclear>pvii</unclear></orig> <w lemma="hic">hanc</w> <w lemma="tabula"><unclear>t</unclear><supplied reason="lost" cert="low">ab</supplied>ulam</w>
+                     <lb n="7"/><w lemma="instituo">instituerunt</w> <gap reason="lost" quantity="2" unit="character"/><orig>u</orig> <gap reason="lost" quantity="1" unit="character"/> <w lemma="et">et</w>
+                         <lb n="8"/><orig>sdp</orig><gap reason="lost" quantity="1" unit="character"/><orig>uis</orig> <w lemma="bibo">bibant</w></ab></div>
+                      <div type="textpart" xml:lang="xpu-Latn" n="ii"><ab>
+                          <lb n="1"/><orig>nymasagenpvvbunom</orig>
+                     <lb n="2"/><orig>mraysynau</orig><gap reason="lost" quantity="1" unit="character"/><orig>ysfelu<unclear>m</unclear>bul</orig>
+                     <lb n="3"/><orig><unclear>a</unclear>ybydbannom</orig></ab></div>
+                
+            </div>
+            
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Marcius Metasan son of Fidelis and the Flavii Hanochulam and Seic[- . . . ] grandsons of Fidelis and ? Flaviae [ . . .] established this ?plaque [ . . .] ?may they live [ . . .</p>
+            </div>
+            <div type="commentary">
+                
+            </div>
+        </body>
+    </text>
+</TEI>

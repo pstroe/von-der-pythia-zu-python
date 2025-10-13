@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0575" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Magnius Asper Flavianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0575</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.65</width>
+                                 <height unit="metre">1.50</height>
+                                 <depth unit="metre">0.65</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face, lines 2-14 within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.36</width>
+                              <height unit="metre">0.59</height>
+                           </dimensions>); libe 1 is cut on the upper moulding, between an <rs type="decoration">incised wreath</rs> and a <rs type="decoration">formal spray</rs>. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: line 1, <height unit="metre">0.05</height>; remainder, <height unit="metre">0.03</height>; dot for stop.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/2276">East Portico</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0756.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 334 Leica)</desc></graphic>
+                  <graphic url="wp0757.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 83)</desc></graphic>
+      <graphic url="tantillo0243.jpg">
+         <desc>Front view: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0244.jpg">
+         <desc>Front upper moulding: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0245.jpg">
+         <desc>Front and right face: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0246.jpg">
+         <desc>Rear and left face: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0247.jpg">
+         <desc>Top: Tantillo, n.d. (P1050638)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>575</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT575.html">575</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>38</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2184">2184</ref></citedRange> (Tantillo and Bigi)</bibl>,
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059437">059437</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/> <g ref="symbols.xml#wreath"/> <persName type="attested" key="plre:1-flavianus5"><name type="signum" nymRef="Flauianius">Flauianii</name></persName> <g ref="symbols.xml#palm"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><w lemma="omnis">Omnium</w> <w lemma="uirtus">uirtutum</w> 
+               <w lemma="experior">expe<lb n="3" break="no"/>rientissimo</w> <w lemma="uir">uiro</w> <g ref="symbols.xml#stop"/>
+               <w lemma="ingenitus">ingeni<lb n="4" break="no"/>tae</w> <w lemma="mansuetudo">mansuetudinis</w> <w lemma="et">et</w> 
+               <w lemma="benignitas">be<lb n="5" break="no"/>nignitati</w> <w lemma="patientia">patientiae</w> <w lemma="polleo">pollenti</w> <g ref="symbols.xml#stop"/>
+               <lb n="6"/><w lemma="iudicium">iudiciorum</w> <w lemma="aequus">aequissimo</w> 
+               <w lemma="moderator">mode<lb n="7" break="no"/>ratori</w> <g ref="symbols.xml#stop"/> <w lemma="antistes">antistiti</w> <w lemma="innocentia">innocentiae</w>
+               <lb n="8"/><persName type="attested" ref="plre:1-flavianus5"><name type="gentilicium" nymRef="Magnius">Magnio</name> <name type="cognomen" nymRef="Asper">Aspero</name> <name type="cognomen" nymRef="Flauianus">Flauiano</name></persName> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> 
+               <w lemma="praeses">praesi<lb n="9" break="no"/>di</w> <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia">prouinciae</w> <w lemma="Tripolitanus">Tripolitanae</w></placeName> <g ref="symbols.xml#stop"/>
+              <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis"> Lepci<lb n="10" break="no"/>magnenses</placeName> <g ref="symbols.xml#stop"/> <w lemma="ob">ob</w> <w lemma="is">eius</w> <w lemma="amor">amorem</w> <w lemma="in">in</w> <w lemma="se">se</w>
+               <lb n="11"/><w lemma="confero">conlatum</w> <g ref="symbols.xml#stop"/> <w lemma="et">et</w> <w lemma="integritas">integritatem</w> 
+               <w lemma="perpenso">perpen<lb n="12" break="no"/>sae</w> <w lemma="se">sibi</w> <w lemma="cognosco">cognitam</w> <g ref="symbols.xml#stop"/> <w lemma="patronus">patrono</w> 
+               <w lemma="dignus">dig<lb n="13" break="no"/>nissimo</w> <g ref="symbols.xml#stop"/> <w lemma="fama">famae</w> <w lemma="et">et</w> <w lemma="gloria">gloriae</w> 
+               <w lemma="perpetuus">per<lb n="14" break="no"/>petuum</w> <w lemma="testimonium">testimonium</w> <w lemma="pono">posuerunt</w></ab></div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Flavianius. To a man thoroughly experienced in all virtues, of natural clemency, and outstanding in kindness and patience, a most just conductor of trials, of outstanding innocence, Magnius Asper Flavianus, excellent man <note>of equestrian status</note>, governor of the province of Tripolitania; the Lepcimagnensians on account of the affection he has shown to them and the integrity of assessment well known to them, set this up to a most worthy patron, as a perpetual testimony to his fame and glory.</p></div>
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Flavianus! Uomo espertissimo di ogni virtù, di innata mitezza, valente per la sua longanima benignità, quanto mai
+               equo e moderato nel rendere i giudizi, sacro ministro di rettitudine, a Magnius Asper Flavianus, uomo perfettissimo,
+               governatore della Prouincia di Tripolitania, gli abitanti di Leptis Magna, per l’amore che egli mostrò nei loro confronti,
+               e per la ponderata integrità nella conduzione delle cause (?), al patrono quanto mai degno, come eterna testimonianza di fama e gloria, posero.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>(Statue of) Flavianus. To a man most experienced in all virtues, of innate mildness and powerful by the benignity of patience, 
+            fairest moderator of judgements, priest of innocence, Magnus Asperus Flavianus, of perfectissimus rank, governor (<foreign xml:lang="la">praeses</foreign>) of the province of Tripolitania. 
+            The people of Lepcis Magna (<foreign xml:lang="la">Lepcimagnenses</foreign>), on account of his love bestowed on them, and the careful integrity proven toward them, 
+            set this up to their most worthy patron, as an eternal testimony of (his) fame and glory.'</p></div>
+         <div type="commentary">
+            <p>Magnius Asper Flavianus: <title>PLRE</title> I, Flavianus 5.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

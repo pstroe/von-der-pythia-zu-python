@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0700" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">dedication<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0700</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <objectType>base</objectType>
+               (<dimensions>
+                                 <width unit="metre">0.52</width>
+                                 <height unit="metre">0.96</height>
+                                 <depth unit="metre">0.52</depth>
+                              </dimensions>) 
+               of rather coarse <material>grey limestone</material>.
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded <objectType>panel</objectType> 
+               (die, <dimensions>
+                              <width unit="metre">0.28</width>
+                              <height unit="metre">0.70</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals with Rustic forms (probably third century CE):
+               av. <height unit="metre" atLeast="0.03" atMost="0.035">0.03-0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Probably third century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, insula  6, opposite the South East entrance to the Market.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0890.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 317)</desc></graphic>
+                  <graphic url="wp0891.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XI.5)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>700</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT700.html">700</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059549">059549</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="illegible" quantity="7" unit="line"><desc>First seven lines illegible</desc></gap>
+               <lb n="8"/><w lemma="et">et</w> <persName type="attested"><name type="gentilicium" nymRef="Flauius">Flau<supplied reason="lost">iu</supplied>s</name> 
+               <name type="cognomen" nymRef="Capito"><supplied reason="lost">Ca</supplied><lb n="9" break="no"/>pito</name></persName> <w lemma="statua">statuas</w>
+               <lb n="10"/><w lemma="quattuor">quatuor</w> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+               
+               <lb n="11"/><w lemma="denarius"><expan><abbr><am><g ref="symbols.xml#denarius"/></am></abbr><ex>denarios</ex></expan></w> 
+               <num value="8000"><hi rend="supraline">UIII</hi></num>
+               <w lemma="adicio">ad<supplied reason="lost">iec</supplied>tis</w>
+               <lb n="12"/><w lemma="amplus">amplius</w> <w lemma="de">d<supplied reason="lost">e</supplied></w>
+               <lb n="13"/><w lemma="suus"><supplied reason="lost">s</supplied>uo</w> 
+               
+   <w lemma="denarius"><expan><abbr><am><g ref="symbols.xml#denarius"/></am></abbr><ex>denariis</ex></expan></w>
+               <num value="5000">ↀ V</num>
+               <w lemma="heres">he<lb n="14" break="no"/>r<supplied reason="lost">e</supplied>des</w> <w lemma="pono">posu<lb n="15" break="no"/>erunt</w> </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="11">
+                  <note>i.e. <foreign xml:lang="la">denarios octo milia</foreign>.</note>
+               </app>
+            
+               <app loc="13">
+                  <note>i.e. <foreign xml:lang="la">denariis mille quinque</foreign>.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> and Flavius Capito, his heirs, set up four statues at a cost of eight thousand denarii, adding one thousand five hundred denarii of their own.</p></div>
+         <div type="commentary">
+            <p>Line 8-9. Flauius Capito. Perhaps also in <ref type="inscription" n="IRT0701">701</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

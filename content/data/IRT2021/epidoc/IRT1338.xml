@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1338" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Seat inscription</rs>s </title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1338</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Ten <material>limestone</material>
+                                      <objectType>seat</objectType>s, damaged: <dimensions><height>0.68</height> <width>4.23</width> </dimensions>,&gt;</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> in two lines on the upper face of one row
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Line 1 <height>0.19-0.22</height>, line 2 <height>0.13-0.14</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notAfter="0199" notBefore="0125" evidence="context">Mid to late second century CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/701">Road from the Circus to the Port</placeName>,  
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/702">Amphitheatre</placeName>: west section of podium, first row of seats.</p></provenance>
+                        <provenance type="observed"><p>Findspot </p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Transcribed from AE</creation></profileDesc>
+        <revisionDesc>
+         <change when="2021-12-10" who="CMR">Transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="kenrick009.jpg"><desc>Above, <ref type="inscription" n="IRT1337">1337 (part)</ref>; below, <ref type="inscription" n="IRT1337">1338 (part)</ref> (Kenrick, 2008)</desc></graphic>
+        <graphic url="kenrick012.jpg"><desc>Above, <ref type="inscription" n="IRT1337">1337 (part)</ref>; below, 
+            <ref type="inscription" n="IRT1337">1338 (part)</ref> (Kenrick, 2007)</desc></graphic>
+        <graphic url="kenrick010.jpg"><desc>Above,<ref type="inscription" n="IRT1336">1336 (part)</ref>; below <ref type="inscription" n="IRT1337">1337 (part)</ref>; below, 
+            <ref type="inscription" n="IRT1337">1338 (part)</ref> (Kenrick, 2008)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="pellegrino2018"/>, <citedRange>214-216</citedRange>, 1-10</bibl>, whence  
+                    <bibl><ptr target="edcs"/> <citedRange>81300091</citedRange></bibl>,  
+                    <bibl><ptr target="ae"/>, <citedRange>2018.1869</citedRange></bibl>, with the readings of G. Di Vita-Évrard and K Marmouri, whence this text.
+                   
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                
+               <lb n="1"/><persName type="attested"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="symbols.xml#leaf"/> <milestone unit="block"/> 
+                   <name nymRef="Vibius">Ui<milestone unit="block"/>bi<milestone unit="block"/>us</name> <milestone unit="block"/> <name nymRef="Animosus">A<milestone unit="block"/>ni<milestone unit="block"/>mo<milestone unit="block"/><unclear>sus</unclear></name></persName>, 
+                <persName type="attested"><name nymRef="M-"><seg part="I">M</seg></name></persName>  <gap reason="lost" extent="unknown" unit="character"/> 
+               <lb n="2"/> <persName type="attested"><name nymRef="Marcius">M<milestone unit="block"/>a<milestone unit="block"/>r<milestone unit="block"/>c<milestone unit="block"/>i<milestone unit="block"/>i</name> <milestone unit="block"/> <name nymRef="Rusonianus"><expan><abbr>R<supplied reason="lost">us</supplied>o</abbr><ex>niani</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/> <!-- check -->
+            </ab></div>
+            
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p><note>Upper line</note>: Caius Vibius Animosus, M[- . . . ; <note>Lower line</note>: 
+                  <supplied reason="subaudible">Place</supplied> of Marcius Rusonianus [ . . . </p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1014" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Building </rs><rs type="textType">dedication</rs> for the Circus</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD015593</idno>
+                <idno type="TM">199340</idno>
+                <idno type="filename">IRT1014</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Fragmentary 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">paving</objectType>-stones of Pentelic 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">marble</material>: 
+                                    average <dimensions>
+                                        <height unit="metre">50.5 - 54</height> <depth>0.12-0.13</depth></dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.22</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notAfter="0162" notBefore="0161" evidence="internal-date">10 December 161-9 December 162 CE: <ref target="https://godot.date/id/eySAhWoazEgvLEZLeExPo3">GODOT</ref></origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/701">Road from the Circus to the Port</placeName>, 
+                            some in the <placeName type="monuList" ref="https://www.slsgazetteer.org/1715">Circus</placeName>
+                           some reused in the fortification of the <placeName type="monuList" ref="https://www.slsgazetteer.org/702">Amphitheatre</placeName>.
+                        </p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-20" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard1965"/> <citedRange>29-32</citedRange></bibl>, whence 
+                        <bibl><ptr target="ae"/> <citedRange>1968.550</citedRange></bibl>,
+                        <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015593">015593</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="emperor" ref="#marcusaurelius"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <addName nymRef="Caesar">Caesare</addName> <name nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Aurelius">Aur<supplied reason="lost">e</supplied><milestone unit="block"/>lio</name> <name nymRef="Antoninus">Anton<unclear>i</unclear>no</name> 
+                 <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <w lemma="pontifex"><expan><abbr>p<milestone unit="block"/>ont</abbr><ex>ifice</ex></expan></w> <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> <w lemma="potestas"><expan><abbr>po<milestone unit="block"/>t</abbr><ex>estate</ex></expan></w> <num value="16">XVI</num> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> 
+                <num value="3">III</num></persName><milestone unit="block"/> <w lemma="et">et</w> <persName type="emperor" ref="#luciusverus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <addName nymRef="Caesar">Caesa<supplied reason="lost">re</supplied></addName> <supplied reason="lost"><name nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> 
+                    <name nymRef="Aurelius">Aurelio</name></supplied> <name nymRef="Uerus"><supplied reason="lost">U</supplied>ero</name> <addName nymRef="Augustus"><expan><abbr>A<milestone unit="block"/><supplied reason="lost">u</supplied>g</abbr><ex>usto</ex></expan></addName> <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifice</ex></expan></w> 
+                <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> <milestone unit="block"/> <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="2">II</num> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><supplied reason="lost"><abbr>s</abbr></supplied><ex>ule</ex></expan></w> 
+                <supplied reason="lost"><num value="2">II</num></supplied></persName> <persName type="emperor" ref="#antoninuspius"><w lemma="diuus"><supplied reason="lost">di</supplied>ui</w> <name nymRef="Antoninus">An<supplied reason="lost">t</supplied>oni<unclear>n</unclear>i</name> <supplied reason="lost"><addName nymRef="Pius">Pii</addName></supplied></persName> 
+                <w lemma="filius"><supplied reason="lost">fi</supplied><unclear>l</unclear><milestone unit="block"/>iis</w> <persName type="emperor" ref="#hadrianus"><w lemma="diuus">diui</w> <name nymRef="Hadrianus">Ha<milestone unit="block"/>driani</name></persName> <w lemma="nepos">nepotibus</w> <persName type="emperor" ref="#traianus"><w lemma="diuus">diui</w> <name nymRef="Traianus">Tra<unclear>ia</unclear><supplied reason="lost">n</supplied><unclear>i</unclear></name> <addName nymRef="Parthicus"><unclear>Part</unclear><supplied reason="lost">hici</supplied></addName></persName> <supplied reason="lost"><w lemma="pronepos">pronepotibus</w></supplied> 
+                <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>In the time of Emperor Caesar Marcus Aurelius Antoninus Augustus, chief priest, holding tribunician power for the sixteenth time, consul for the third time, 
+                    and Emperor Caesar Lucius Aurelius Verus Augustus, priest, holding tribunician power for the second time, consul for the second time, sons of deified Antoninus Pius, grandsons of deified Hadrian, 
+                [great grandsons] of deified Trajan, victor in Parthia [ . . .</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0963" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile XXV. Caracalla</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0963</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot (before 1934)</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Column</objectType>ar milestone of <material>limestone</material>, broken away above: at least 
+                              <height unit="metre">1.00</height>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the shaft.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/665">Upper Sofeggin Road</placeName></origPlace>
+                     <origDate cert="low" when="0216" evidence="context, style">Probably Caracalla, CE 216: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: area of Zintan to Mizda: 1 km.
+                  east of the wells at <placeName type="monuList" ref="https://www.slsgazetteer.org/876">Oglet el-Geflrat</placeName>, about 40 km. from Zintan by the direct route; 
+                              recorded by Corò, before 1934.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (before 1934)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="...">Milestones</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="coro"/>, <citedRange>70</citedRange> (no transcription)</bibl>, whence 
+               <bibl><ptr target="goodchild1948"/>, <citedRange>31</citedRange>, page 22</bibl>, whence 
+               <bibl><ptr target="irt1952"/>, <citedRange>963</citedRange></bibl>, 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT963.html">963</ref></citedRange></bibl>, 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059801">059801</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"> <!-- check -->
+            <note>19 lines: no text transcribed</note></div>
+         <div type="commentary">
+            <p>Corò, loc. cit., records 18 lines of imperial titles, probably of Caracalla, and a number. For the mile, Corò gives XXV orXXX;
+               the geographical relation of the findspot to other known mile-stations on this road shows that XXV is correct.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

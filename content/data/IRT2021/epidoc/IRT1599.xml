@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="IRT1599">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostrakon: <rs type="textType">Letter</rs></title>
+            <editor xml:id="GB" role="translation (English); encoding; scripting">Gabriel Bodard</editor>
+            <editor xml:id="cmr" role="translation (English)">Charlotte Roueché</editor>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1599</idno>
+            <idno type="hgv">73249</idno>
+            <idno type="TM">73249</idno>
+            <idno type="ddb-perseus-style">0016;;99</idno>
+            <idno type="ddb-filename">o.bu.njem.99</idno>
+            <idno type="ddb-hybrid">o.bu.njem;;99</idno>
+         <availability>
+              <p>Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). All reuse or distribution of this work must link back to the URL <ref>http://irt.kcl.ac.uk/</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli National Museum</repository><idno>71-81</idno></msIdentifier>
+               <physDesc>
+                  <objectDesc><supportDesc><support><p><material>Ceramic</material> <objectType>ostrakon</objectType> (<dimensions unit="metre"><height>0.095</height><width>0.06</width><depth>0.01</depth></dimensions>).</p></support></supportDesc>
+            <layoutDesc><layout>Letters <rs type="execution" ref="pictura">painted</rs> on one side.</layout></layoutDesc></objectDesc>
+            <handDesc><handNote>No measurements</handNote></handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0253" notAfter="0259" evidence="context">253 - 259</origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, 
+                     in the <placeName ref="https://www.slsgazetteer.org/2268" type="monuList">Principia</placeName>; found in <date type="found">1971</date>.</p></provenance>
+            <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/1098">Tripoli National Museum</placeName>.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Marked-up according to the EpiDoc Guidelines version 9.</p></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (amtlich)</term>
+               <term>Militär</term>
+               <term>Transport (?)</term>
+            </keywords>
+         </textClass>
+         <textClass><keywords scheme="IRCyr"><term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term><term><geogName type="modernCountry" key="LY">Libya</geogName></term><term><placeName type="modernFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName></term><term><ref type="pleiades" target="https://pleiades.stoa.org/places/344377">Gholaia</ref></term><term><ref type="geonames" target="https://www.geonames.org/2220431">Qaryat Bū Nujaym</ref></term><term><placeName xml:lang="ar">بو نجيم</placeName></term></keywords></textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-11-05" who="#GB">Merged HGV data, Duke Databank text, PE translation from Papyri.info EpiDoc; aligned structure to IRT</change>
+         <change who="HGV" when="1999-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div xml:lang="la" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/><gap reason="illegible" quantity="11" unit="character"/>
+
+    <lb n="2"/><w lemma="salus"><unclear>s</unclear>a<unclear>l</unclear><supplied reason="lost">ute</supplied>m</w> <w lemma="ab">a</w> <persName type="attested"><name nymRef="Geminius">Gem
+
+    <lb n="3" break="no"/>ini<unclear>o</unclear></name> <name nymRef="Crescens">Crescente</name></persName> 
+
+    <lb n="4"/><w lemma="unus"><expan><abbr>un</abbr><ex>um</ex></expan></w> <w lemma="asinus">asinu</w> <w lemma="quis">cuis</w> <w lemma="nos">n
+
+    <lb n="5" break="no"/>obis</w> <w lemma="affero">atulisti</w> <persName type="attested"><name nymRef="Barlas">Bar
+
+    <lb n="6" break="no"/><unclear>l</unclear>as</name></persName> <w lemma="decimus">decimu</w> <w lemma="kalendae"><expan><abbr>cal</abbr><ex>endas</ex></expan></w> 
+
+    <lb n="7"/><w lemma="emo">emit</w> <w lemma="asinus">asinu</w>
+<w lemma="ualeo">Ua<lb n="8" break="no"/>lias</w> <w lemma="opto">op<supplied reason="lost">to</supplied></w> <w lemma="tu">te </w>
+
+    <lb n="9"/><w lemma="bene"><supplied reason="lost">be</supplied>ne</w> <w lemma="ualeo">ua<unclear>le</unclear>
+
+    <lb n="10" break="no"/><unclear>re</unclear></w> </ab></div>
+            
+         <div type="translation" source="#marichal1979" xml:lang="fr">
+            <p> . . . ] bonjour de Geminius Crescens, un âne qui tu nous a apporté, Barlas a acheté l'âne le dix des Kalendes, au revoir, je souhaite que tu te portes bien.</p>
+         </div>
+         <div type="translation" source="#adams1994" xml:lang="en">
+            <p><note>Lines 4-7</note>:  one donkey which you brought to us, Barlas bought the donkey.</p>
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p> . . . ] greetings from Geminius Crescens. One donkey which you have brought to us, Barlas bought the donkey on the tenth 
+               <supplied reason="subaudible"> day before the</supplied> kalends. Farewell. I wish that you may fare well.</p>
+         </div>
+         <div type="commentary" subtype="general">
+            
+         </div>
+         <div type="bibliography">
+            <p><bibl><ptr target="marichal1979"/> <citedRange>437</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1979.642</citedRange></bibl>, 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008527">008527</ref></citedRange></bibl>;
+               <bibl><ptr target="OBuNjem"/> <citedRange unit="numbers">99</citedRange></bibl>, whence 
+               <bibl><ptr target="adams1994"/> <citedRange>97</citedRange></bibl>, 
+               <bibl><ptr target="CEL1992"/> <citedRange>1.216</citedRange></bibl>; from these <bibl><ptr target="hgv"/> <citedRange>73249</citedRange></bibl>, 
+               <bibl><ptr target="ddbdp"/> <citedRange>o.bu.njem.99</citedRange> and <citedRange>c.ep.lat.216</citedRange></bibl></p>
+         </div>
+         
+        
+      </body>
+   </text>
+</TEI>

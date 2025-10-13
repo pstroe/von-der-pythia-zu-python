@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0877" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Building</rs> text</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0877</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Block</objectType> (<dimensions>
+                                 <width unit="metre">0.77</width>
+                                 <height unit="metre">0.32</height>
+                                 <depth unit="metre">0.26</depth>
+                              </dimensions>)
+               of friable <material>grey limestone</material>; broken at the left end.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  in a square central panel (die, <dimensions>
+                              <width unit="metre">0.26</width>
+                              <height unit="metre">0.28</height>
+                           </dimensions>),
+               which is flanked in crude counter-relief, on the right by a <rs type="decoration">lion</rs>, on the left by an <rs type="decoration">eagle</rs>.  line 8 is cut below the die.  </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Local fourth to fifth century CE capitals: line 1-7, <height unit="metre">0.03</height>;
+               line8, <height unit="metre">0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="lettering">Fourth to fifth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>:
+                              Found fallen from the doorway of the gasr adjoining the <placeName type="monuList" ref="https://www.slsgazetteer.org/1537">church buildings</placeName> excavated by Caputo at 
+                              <placeName ref="https://www.slsgazetteer.org/688">Al Khadra</placeName>, near Sidi Ali ben Zaid, 
+                              South of the Tarhuna-Cussabat road near the East bank of the Wadi el-Fergian (map ref. M 095176).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219918/al-kha%E1%B8%91ra.html">Al Khaḑrā'</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1095.jpg">
+                  <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.XVIII.32)</desc></graphic>
+                  <graphic url="jmr877.jpg">
+                  <desc>Sketch from a squeeze (from IRT p. 213)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="goodchild1949"/>, <citedRange>33</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>1950.209</citedRange></bibl>; 
+               described <bibl><ptr target="guey1950b"/> <citedRange unit="page">9</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1951, page 25</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>877</citedRange> (without transcription)</bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT877.html">877</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022063">022063</ref></citedRange></bibl>;
+               described <bibl><ptr target="goodchild1951"/> <citedRange>b.7</citedRange></bibl>, whence mentioned 
+               <bibl><ptr target="ae"/> <citedRange>1954.181</citedRange></bibl>;
+               Published <bibl><ptr target="elmayer1983"/> <citedRange>87-88</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1983.948</citedRange></bibl>, 
+               <bibl><ptr target="elmayer1997"/>, <citedRange>27</citedRange></bibl>, 
+               this edition <bibl><ptr target="kerr2010"/>, <citedRange unit="page">189-190</citedRange> (where see bibliography)</bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p><!-- ADD della Vida, Vattioni-->
+         </div>
+         <div type="edition" xml:lang="xpu-Latn" xml:space="preserve">
+           <ab><lb n="1"/><w lemma="centenarium">Centenare</w>
+           <lb n="2"/><w lemma="mu">mu</w> <w lemma="fel">fel</w> <persName type="attested"><name nymRef="Thiana">Thia
+           <lb n="3" break="no"/>na</name> <name nymRef="Marcus">Marci</name> <name nymRef="Caecilius">Ce
+              <lb n="4" break="no"/>cili</name></persName> <orig>bymu</orig>
+                  <lb n="5" break="no"/><orig>pal fesem a</orig>
+           <lb n="6"/><orig>pero y nban</orig>
+           <lb n="7"/><orig>em bucu buo</orig>
+           <lb n="8"/><orig>ms ayo nema</orig></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>Lines 1-5</note> The tower-house is the property of Marcus Caecilius Bumapal <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="translation" source="#elmayer1983" xml:lang="en">
+            <p>A centenarium which Thiana Marcius Cecilius has made with a marble plaque and a small altar was built. He lived in grace</p></div>
+         <div type="translation" source="#elmayer1997" xml:lang="en">
+            <p>A centenarium which Thiana Marcius Cecilius has made with the manufacture of a marble plaque and a small altar was built. He lived in grace</p></div>
+         <div type="translation" source="#kerr2010" xml:lang="en">
+            <p><note>Lines 1-4</note> Centenarium which Thiana Marcius Caecili(us) . . . made? . . .</p></div>
+         <div type="commentary">
+            <p>Bumupal: <title>PLRE</title> I, Bumupal</p>
+         </div>
+      </body>
+   </text>
+</TEI>

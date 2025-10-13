@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0091" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Anicia Pudentilla </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0091</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db660">Sabratha Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Right side of a <material>marble</material> 
+               moulded <objectType>base</objectType> 
+               (surviving width 
+               <dimensions>
+                                 <width>0.50</width>
+                                 <height>1.30</height>
+                                 <depth unit="metre">0.50</depth>
+                              </dimensions>) 
+               with rudimentary acroteria above. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face 
+               (die, surviving width 
+               <dimensions>
+                              <width>0.29</width>
+                              <height unit="metre">0.75</height>
+                           </dimensions>)</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Second to third century capitals: line 1, <height unit="metre">0.065</height>; remainder, <height unit="metre">0.055</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0166" notAfter="0168" evidence="prosopography">c. 166-168 CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>:  
+                  Findspot unrecorded</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> 
+                              <placeName ref="https://www.slsgazetteer.org/660">Sabratha Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-05-22" who="CMR">corrected from EDH</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-01-20" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0119.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DS 825 Leica)</desc></graphic>
+      <graphic url="jfl1976.jpg">
+      <desc>Drawing, showing possible restoration, F. Jacques</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>304</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT304.html">304</ref></citedRange></bibl>; 
+            Revised <bibl><ptr target="jacques1976"/> <citedRange/></bibl>, whence 
+            <bibl><ptr target="ae"/> <citedRange>1976.695</citedRange></bibl>, 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004704">004704</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Anicia">Aniciae</name> 
+                  <name type="cognomen" nymRef="Pudentilla">Pudentil<lb n="2" break="no"/><space quantity="6" unit="character"/><supplied reason="lost">la</supplied>e</name></persName> <space quantity="6" unit="character"/>
+               <lb n="3"/><persName type="attested"><name type="gentilicium" nymRef="Manlia"><supplied reason="lost">Manlia</supplied></name> 
+                  <name type="cognomen" nymRef="Macrina"><supplied reason="lost">M</supplied>acrina</name></persName>
+               <lb n="4"/><w lemma="mater"><supplied reason="lost">mater</supplied></w> 
+               <w lemma="et">et</w> 
+               <w lemma="heres"><expan><abbr>her</abbr><ex>es</ex></expan></w> 
+               <lb n="5"/><supplied reason="lost"> <space quantity="3" unit="character"/> <w lemma="facio"><expan><abbr>fec</abbr><ex>it</ex></expan></w> <w lemma="ex">ex</w></supplied> <w lemma="iubeo"><supplied reason="lost">i</supplied>ussu</w>  <space quantity="3" unit="character"/>
+               <lb n="6"/><persName type="attested" key="pir-b-0165"><supplied reason="lost"><name nymRef="Bruttius">Bruttii</name></supplied> <name nymRef="Praesens"><supplied reason="lost">Prae</supplied>sentis</name></persName>
+               <lb n="7"/><supplied reason="lost"><space quantity="4" unit="character"/> <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w></supplied> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimi</ex></expan></w>  <space quantity="4" unit="character"/>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w> 
+               <lb n="8"/><w lemma="ob"><supplied reason="lost">ob</supplied></w> 
+               <w lemma="meritum"><supplied reason="lost">merita</supplied></w> 
+               <w lemma="erga"><supplied reason="lost">e</supplied>rga</w> 
+               <w lemma="res"><expan><abbr>r</abbr><ex>em</ex></expan></w> 
+               <w lemma="publicus"><expan><abbr>p</abbr><ex>ublicam</ex></expan></w> 
+            </ab></div>
+         
+         <div type="apparatus">
+            <listApp><app loc="5-7"><note>The restorations are by Jacqes, art. cit.</note></app></listApp>
+         </div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>In honour of Anicia Pudentilla; <supplied reason="lost">Manlia</supplied> Macrina, <supplied reason="lost">her mother</supplied> and heiress <gap reason="lost" extent="unknown" unit="character"/>, 
+               on the instructions of <gap reason="lost" extent="unknown" unit="character"/>sens <gap reason="lost" extent="unknown" unit="character"/>, most excellent man <note>Roman Senator</note>, 
+               <supplied reason="lost">on account of her merits</supplied> in city affairs. </p></div><!-- check: add trans -->
+         <div type="commentary">
+            <p> Anicia Pudentilla and <supplied reason="lost">Manlia</supplied> Macrina also  in  <ref type="inscription" n="IRT0022">22</ref>, lines 6, 7. </p>
+            <p>Bruttius Praesens: <title>PIR</title>, B 0165 <ref target="https://pir.bbaw.de/id/6390">https://pir.bbaw.de/id/6390</ref> (so Jacques, art cit.)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

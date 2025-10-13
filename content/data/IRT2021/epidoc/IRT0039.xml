@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0039" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication<certainty match=".." locus="value"/>
+               </rs> to a Severan</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0039</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Part of a <material>marble</material> 
+                              <objectType>panel</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.36</width>
+                                 <height unit="metre">0.35</height>
+                              </dimensions>, no edge surviving).  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face. Traces of red paint in the letters.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre">0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0198" notAfter="0211" cert="low" evidence="reign">CE 198-211 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/832">Capitolium</placeName>, found in the vaults; see note on <ref type="inscription" n="IRT0001">1</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0057.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DS 760 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>39</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT039.html">39</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059034">059034</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+               <lb n="2"/><persName type="emperor" ref="#septimiusseuerus"><supplied reason="lost"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name></supplied>
+               <addName nymRef="Pius"><supplied reason="lost">Pi</supplied>i</addName> 
+               <addName nymRef="Pertinax"><expan><abbr>Pert</abbr><supplied reason="lost"><ex>inacis</ex></supplied></expan></addName> 
+                  <supplied reason="lost"><addName nymRef="Arabicus"><expan><abbr>Arab</abbr><ex>ici</ex></expan></addName> 
+                  <addName nymRef="Adiabenicus"><expan><abbr>Adiab</abbr><ex>enici</ex></expan></addName> 
+                  <addName nymRef="Parthicus"><expan><abbr>Parth</abbr><ex>ici</ex></expan></addName> 
+                  <w lemma="maximus"><expan><abbr>max</abbr><ex>imi</ex></expan></w></supplied> 
+               <supplied reason="lost"><w lemma="filius"><expan><abbr>f</abbr><ex>ilii</ex></expan></w></supplied></persName>
+               <lb n="3"/><supplied reason="lost"><persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> <name type="praenomen" nymRef="Marcus">Marci</name></persName> 
+                  <w lemma="nepos">nepotis</w></supplied> 
+               <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> <addName nymRef="Pius">Pii</addName></persName>
+               <w lemma="pronepos"><expan><abbr>pron<supplied reason="lost">ep</supplied></abbr><supplied reason="lost"><ex>otis</ex></supplied></expan></w>
+               <supplied reason="lost"><persName type="emperor" ref="#hadrianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> 
+                  <w lemma="abnepos"><expan><abbr>abnep</abbr><ex>otis</ex></expan></w></supplied>
+               <lb n="4"/><persName type="emperor" ref="#traianus"><supplied reason="lost"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name></supplied>
+               <addName nymRef="Parthicus"><expan><abbr><supplied reason="lost">Pa</supplied>rth</abbr><ex>ici</ex></expan></addName></persName> 
+               <w lemma="abnepos"><expan><abbr>abn</abbr><ex>epotis</ex></expan></w> 
+               <persName type="emperor" ref="#nerua"><w lemma="diuus">di<supplied reason="lost">ui</supplied></w> 
+                  <name type="cognomen" nymRef="Nerua"><supplied reason="lost">Neruae</supplied></name></persName>
+               <supplied reason="lost"><w lemma="proadnepos"><expan><abbr>proadnep</abbr><ex>otis</ex></expan></w></supplied> 
+              <note>sic</note>
+               <lb n="5"/><gap reason="lost" quantity="10" unit="character" precision="low"/>
+               <w lemma="coniunx"><supplied reason="lost">coni</supplied>ugi</w> <orig><unclear>c</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p> <supplied reason="lost">To</supplied><gap reason="lost" extent="unknown" unit="character"/> wife of<gap reason="lost" extent="unknown" unit="character"/> 
+               <supplied reason="lost">the son of Lucius Septimius Severus</supplied>
+               Pius, Pertinax, <supplied reason="lost">Augustus, Victor in Arabia, Victor in Adiabene, greatest Victor in Parthia, grandson of deified Marcus</supplied>,
+               great grandson of deified Pius, 
+               <supplied reason="lost">great great grandson of deified Hadrian, great great great grandson of deified Trajan</supplied>, Victor in Parthia, 
+               <supplied reason="lost">great great great great grandson of</supplied> deified <supplied reason="lost">Nerva</supplied> <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

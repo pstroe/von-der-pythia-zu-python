@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0624" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs> 
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0624</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <objectType>block</objectType>s of <material>grey limestone</material>; the first one 
+               (<dimensions>
+                                 <width unit="metre">0.84</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre" precision="low">0.50</depth>
+                              </dimensions>) 
+               is badly weathered. The second one (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>), discovered since 1951, 
+               adjoins the previously found stone of this text at the left-hand end. There is a shallow cut-away on 
+               the right side at the back.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Each block is inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>First block: Lapidary capitals: from top of block, 
+               <height unit="metre">0.02</height>; line 1, 
+               <height unit="metre" atLeast="0.02" atMost="0.105">0.02-0.105</height>; line 2, 
+               <height unit="metre" atLeast="0.14" atMost="0.23">0.14-0.23</height>; line 3, 
+               <height unit="metre" atLeast="0.255" atMost="0.34">0.255-0.34</height>; line 4, 
+               <height unit="metre" atLeast="0.37" atMost="0.455">0.37-0.455</height>; to bottom, 
+               <height unit="metre">0.50</height>.
+            Second block: Lapidary capitals: from top of block, line 1, 
+               <height unit="metre" atLeast="0.02" atMost="0.11">0.02-0.11</height>; line 2, 
+               <height unit="metre" atLeast="0.135" atMost="0.225">0.135-0.225</height>; line 3, 
+               <height unit="metre" atLeast="0.25" atMost="0.34">0.25-0.34</height>; line 4, 
+               <height unit="metre" atLeast="0.365" atMost="0.455">0.365-0.455</height>; to bottom, 
+               <height unit="metre">0.51</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notAfter="0200" notBefore="0001" evidence="lettering">First to second century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, 
+                 <placeName type="monuList" ref="https://www.slsgazetteer.org/754">Temple of Rome and Augustus</placeName>. The first block was found behind the Forum Vetus,
+                              west of the Byzantine Wall, near the sea-shore; the second block was found half-buried in sand between the same temple and the Byzantine sea-wall, 
+                              in which it had probably been re-used.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0815.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XV.28)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Part reported by <bibl><ptr target="robinson1913"/>, <citedRange unit="page">188</citedRange> <!-- check numbers -->
+               </bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1913.149</citedRange></bibl>;
+               also copied by Halbherr, whence <bibl><ptr target="paci1989"/> <citedRange>3</citedRange></bibl>;
+               <bibl><ptr target="cagnatmerlin1923"/>, <citedRange>1 h</citedRange></bibl>;
+                  <bibl><ptr target="irt1952"/>, <citedRange>624</citedRange></bibl>, 
+               with <bibl><ptr target="reynolds1955"/>, <citedRange>132</citedRange></bibl> whence 
+               <bibl><ptr target="ae"/> <citedRange>1957.238</citedRange></bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT624.html">624</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017450">017450</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F">o</w> <persName type="attested"><name type="cognomen" nymRef="Fronto">Fron<unclear>t</unclear><supplied reason="lost">o</supplied>ni</name></persName>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="pontifex"><supplied reason="lost">p</supplied>ontifici</w> <w lemma="colonia"><unclear>c</unclear><supplied reason="lost">ol</supplied>oniae</w>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F"/></ab><ab><w part="F">nus</w> <w lemma="fero">lato</w> <w lemma="clauus"><unclear>c</unclear><supplied reason="lost">la</supplied>uo</w> <w lemma="dono">donauit</w>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="diuus">diui</w> <persName type="emperor" ref="#traianus"><name type="cognomen" nymRef="Traianus">Traia<supplied reason="lost">n</supplied>i</name> <addName nymRef="Parthicus">Parthici</addName></persName></ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note>The reconstruction proposed by Robinson (loc. cit.) is impossible; there are considerable 
+                     differences in the size of the lettering in the various fragments used.  </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> to <gap reason="lost" extent="unknown" unit="character"/> Fronto <gap reason="lost" extent="unknown" unit="character"/> pontifex <note>priest</note> of the colony <gap reason="lost" extent="unknown" unit="character"/> he <note>probably Trajan</note> gave the broad purple band <gap reason="lost" extent="unknown" unit="character"/> of deified Trajan, victor in Parthia </p></div>
+         <div type="commentary">
+            <p>Presumably Lepcis. Fronto has not been identified; but he  appears to be the earliest known Senator of 
+               Lepcitanian origin.</p>
+           <!--  <p>Perhaps <foreign xml:lang="la">hunc diuus Traianus lato clauo donauit</foreign>. If the donor had been 
+               Domitian, it is unlikely that his name would have been given; if Vespasian, we should have to suppose a 
+               very considerable gap in Fronto's ealier career, since the space vacant before 
+               <foreign xml:lang="la">diui Traiani Parthici</foreign> in line 4 cannot be long enough to hold the record of 
+               much activity.</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1008" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <rs type="textType">Honours</rs> for C. Fulvius Plautianus</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD011639</idno>
+                <idno type="TM">199089</idno>
+                <idno type="filename">IRT1008</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/60">Limestone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType>
+                                    
+                                    <dimensions>
+                                        <height unit="metre">0.93</height>
+                                        <width unit="metre">0.50</width>
+                                        <depth unit="metre">0.50</depth>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face, within a moulded panel, 
+                                    <dimensions><height>0.65</height> <width>0.29</width></dimensions>; 
+                                    lines end with 
+                                    <rs type="hederae">hederae</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Lines 1-2, <height>0.045</height>; lines 3 ff, <height>0.03</height>; RUM in ligature in line 7.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0202" notAfter="0205" evidence="prosopography">CE 202-5 </origDate>
+                        </origin>
+                        <provenance type="found"><p>Found in 1964. <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                            reused in later fortifications beside the coast road, near the <placeName ref="https://www.slsgazetteer.org/760">Wadi Lebdah</placeName></p></provenance>
+                        <provenance type="observed"><p><placeName ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2219905">Al Khums</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2016-03-17" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>Described <bibl><ptr target="divita1965"/> <citedRange/></bibl>, and 
+                    published <bibl><ptr target="divita1966"/> <citedRange>83-84</citedRange></bibl>, whence 
+                    <bibl> <ptr target="ae"/> <citedRange>1967.537</citedRange></bibl>; 
+                    <bibl><ptr target="divita1967"/> <citedRange/></bibl>;
+                    revised <bibl><ptr target="corbier1974"/> <citedRange/></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1973.572</citedRange></bibl>, 
+                    <bibl> <ptr target="ae"/> <citedRange>1976.696</citedRange></bibl>;
+                    <bibl><ptr target="gasperini1988"/> <citedRange/></bibl>, whence 
+                    <bibl> <ptr target="ae"/> <citedRange>1988.1099</citedRange></bibl>, 
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011639">011639</ref></citedRange></bibl>
+                   
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/>
+                <del rend="erasure"><persName type="attested" key="pir-f-0554"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Fulvius">Fulvio</name> <g ref="symbols.xml#leaf"/>
+                <lb n="2"/><name nymRef="Plautianus">Plautiano</name></persName> <g ref="symbols.xml#leaf"/>
+                <lb n="3"/><w lemma="praefectus"><unclear>pr</unclear><supplied reason="lost">a</supplied><expan><abbr>e<unclear>f</unclear></abbr><ex>ecto</ex></expan></w> <w lemma="praetorius"><expan><abbr><unclear>praet</unclear></abbr><ex>orio</ex></expan></w> <g ref="symbols.xml#leaf"/>
+                <lb n="4"/><w lemma="clarissimus"><expan><abbr><unclear>c</unclear></abbr><ex>larissimo</ex></expan></w> <w lemma="uir"><expan><abbr><unclear>u</unclear></abbr><ex>iro</ex></expan></w> <w lemma="comes"><unclear>co</unclear><supplied reason="lost">miti</supplied></w> <w lemma="et"><unclear>et</unclear></w> <g ref="symbols.xml#leaf"/>
+                <lb n="5"/><w lemma="necessarius"><unclear>necessario</unclear></w></del> <g ref="symbols.xml#stop"/> <w lemma="dominus">domi
+                <lb break="no" n="6"/>norum</w> <w lemma="noster">nostro
+                <lb break="no" n="7"/><hi rend="ligature">rum</hi></w> <g ref="symbols.xml#stop"/> <persName type="emperor" ref="#seueri"><w lemma="imperator">Imp<space quantity="1" unit="character"/>erato
+                <lb break="no" n="8"/>rum</w> <g ref="symbols.xml#stop"/>  <addName nymRef="Augustus"><expan><abbr>Auggg</abbr><ex>ustorum</ex></expan></addName></persName> <g ref="symbols.xml#stop"/>
+                <lb n="9"/><persName type="attested"><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#stop"/> <name nymRef="Calpurnius">Calpurnius</name> <g ref="symbols.xml#stop"/> <name nymRef="Geta">Geta</name> <g ref="symbols.xml#leaf"/>
+                <lb n="10"/><space extent="unknown" unit="character"/> <name nymRef="Attianus">Attianus</name></persName> <w lemma="et">et</w> <g ref="symbols.xml#leaf"/> <space extent="unknown" unit="character"/>
+                <lb n="11"/><persName type="attested"><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#stop"/> <name nymRef="Calpurnius">Calpurnius</name> <name nymRef="Attianus">Attia
+                <lb break="no" n="12"/>nus</name> <g ref="symbols.xml#stop"/> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></persName> <g ref="symbols.xml#stop"/> <w lemma="numen">numini</w> <w lemma="deuotus">deuo
+                <lb break="no" n="13"/>tissimi</w> <g ref="symbols.xml#stop"/> <w lemma="pono"><expan><abbr>posuer</abbr><ex>unt</ex></expan></w>
+            </ab></div>
+            <div type="apparatus">
+                <listApp>
+                    <app loc="4"><rdg resp="#divita1966">c<unclear>o</unclear>[nsocero]</rdg>
+                        <rdg resp="#corbier1974">c<unclear>o</unclear>[miti]</rdg>
+                    <rdg resp="#gasperini1988"> <note>the leaves at the ends of the lines explain the spacing.</note></rdg></app>
+                </listApp>
+            </div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>For Caius Fulvius Plautianus, praetorian prefect, of clarissimus rank, companion (comes) and confidant of our lords the emperors, Augusti: Marcus Calpurnius Geta Attianus aand his son, 
+                    Marcus Calpurnius Attianus, devoted to his divine spirit, set this up.</p>
+            </div>
+            <div type="commentary">
+                <p>C. Fulvius Plautianus: <title>PIR</title> F 0554, <ref target="https://pir.bbaw.de/id/6413">https://pir.bbaw.de/id/6413</ref></p>
+            </div>
+        </body>
+    </text>
+</TEI>

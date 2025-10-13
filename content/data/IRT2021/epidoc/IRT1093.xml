@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1093" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Milestone</rs>. Mile 43; Caracalla.</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD008539</idno>
+                <idno type="TM">199032</idno>
+                <idno type="filename">IRT1093</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Column</objectType>ar milestone of white
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>
+                                    <dimensions>
+                                        <height unit="metre">1.60</height>
+                                        <dim unit="metre">0.39</dim></dimensions>
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face, 
+                                    field <dimensions>
+                                    <height unit="metre">1.20</height>
+                                    <width>0.68</width></dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Rough and irregular: line 1, <height>0.07-0.08</height>; lines 2-14, <height>0.045-0.05</height>; 
+                                line 15, <height>0.04</height>; line 16, <height>0.105-0.12</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0215" notAfter="0216" evidence="titulature"> 215-216 CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/22588">Jabal Tarhunah</placeName>: 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/2259">Bu el-Acbasc</placeName> in <date type="found">1968</date>.</p></provenance> <!-- check -->
+                        <provenance type="observed"><p><placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="1997-06-30" who="Scheithauer">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="kenrick013.jpg"><desc>Face (Kenrick, 2008)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard1979"/> <citedRange>1</citedRange>, pp. 69-72</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1979.646</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008539">008539</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="emperor" ref="#caracalla"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <addName nymRef="Caesar">Ca<supplied reason="lost">esari</supplied></addName> <persName type="emperor" ref="#septimiusseuerus"><w lemma="diuus"><supplied reason="lost">d</supplied>i<unclear>u</unclear><supplied reason="lost">i</supplied></w> <name nymRef="Septimius"><supplied reason="lost">Sep</supplied>
+                <lb break="no" n="2"/>timi</name> <name nymRef="Seuerus">Seue<unclear>r</unclear><supplied reason="lost">i</supplied></name> <supplied reason="lost"><addName nymRef="Pius">Pii</addName></supplied> <addName nymRef="Arabicus"><supplied reason="lost">Arabi</supplied>ci</addName> <addName nymRef="Adiabenicus">Adia<unclear>b</unclear>eni<unclear>c</unclear>i</addName> 
+                <lb n="3"/><addName nymRef="Parthicus">Parthici</addName> <w lemma="maximus">maxi<unclear>mi</unclear></w> <addName nymRef="Britannicus">Britanici</addName> <w lemma="maximus">ma
+                <lb break="no" n="4"/>ximi</w></persName> <w lemma="filius">filio</w> <w lemma="diuus">diui</w> <persName type="emperor" ref="#marcusaurelius"><name nymRef="Marcus"><expan><abbr><unclear>M</unclear></abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#stop"/> <name nymRef="Antoninus"><supplied reason="lost">A</supplied>n<unclear>to</unclear>nini</name> <addName nymRef="Pius">Pii</addName> 
+                <lb n="5"/><addName nymRef="Germanicus">Germanici</addName> <g ref="symbols.xml#stop"/> <addName nymRef="Sarmaticus">Sarmatic<unclear>i</unclear></addName></persName> <g ref="symbols.xml#stop"/> <w lemma="nepos">nepoti</w>, <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> 
+                <lb n="6"/><name nymRef="Antoninus">Antonini</name> <g ref="symbols.xml#stop"/> <addName nymRef="Pius">Pii</addName></persName> <g ref="symbols.xml#stop"/> <w lemma="pronepos">pronepoti</w> <g ref="symbols.xml#stop"/> <persName type="emperor" ref="#hadrianus"><w lemma="diuus">diui</w> <name nymRef="Hadrianus">Had
+                <lb break="no" n="7"/>riani</name></persName> <w lemma="abnepotus">abnepoti</w>, <g ref="symbols.xml#stop"/> <persName type="emperor" ref="#traianus"><w lemma="diuus">diui</w> <g ref="symbols.xml#stop"/> <name nymRef="Traianus">Traiani</name> <addName nymRef="Parthicus">Pa
+                <lb break="no" n="8"/>rthici</addName></persName> <w lemma="et">et</w> <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> <name nymRef="Nerua">Neru<supplied reason="omitted">a</supplied>e</name></persName> <w lemma="adnepos"><supplied reason="lost">a</supplied>dnepoti</w> <g ref="symbols.xml#stop"/> 
+                <lb n="9"/><name nymRef="Marcus"><unclear>Marco</unclear></name> <g ref="symbols.xml#stop"/> <name nymRef="Aurelius"><unclear>A</unclear>urel<supplied reason="lost">io</supplied></name> <name nymRef="Antoninus"><supplied reason="lost">Anto</supplied>nino </name> <g ref="symbols.xml#stop"/>
+                <lb n="10"/><addName nymRef="Pius"><unclear>Pio</unclear></addName> <addName nymRef="Felix">Felici</addName>  <addName nymRef="Augustus"><expan><abbr>Aug<unclear>us</unclear></abbr><ex>to</ex></expan></addName> <g ref="symbols.xml#stop"/> <addName nymRef="Parthicus"><unclear>P</unclear>arthi<unclear>c</unclear>o</addName> <w lemma="maximus">ma
+                <lb break="no" n="11"/><unclear>xi</unclear>mo</w> <addName nymRef="Britannicus">Britan<supplied reason="omitted">n</supplied>ico</addName> <w lemma="maximus">maximo</w> 
+                <lb n="12"/><addName nymRef="Germanicus">Germanico</addName> <w lemma="maximus">maximo</w> <w lemma="pontifex">ponti
+                <lb break="no" n="13"/>fici</w> <w lemma="maximus">m<supplied reason="omitted">a</supplied>ximo</w> <w lemma="tribunicius">tribunici<supplied reason="omitted">a</supplied><unclear>e</unclear></w> <surplus>po</surplus> 
+                <lb n="14"/><w lemma="potestas">p<unclear>ote</unclear>statis</w> <g ref="symbols.xml#stop"/> <num value="19">XVIII<unclear>I</unclear></num><supplied reason="lost"> <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <num value="3">III</num></supplied> 
+                <lb n="15"/>    <w lemma="consul">consul<unclear>i</unclear></w> <num value="4">IIII</num> <g ref="symbols.xml#stop"/>
+                <w lemma="pater"><expan><abbr><unclear>p</unclear></abbr><ex>atri</ex></expan></w> <w lemma="patria"><expan><abbr><unclear>p</unclear></abbr><ex>atriae</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="proconsul"><expan><abbr><unclear>p</unclear></abbr><ex>roconsuli</ex></expan></w></persName> <g ref="symbols.xml#stop"/>
+                <lb n="16"/><space extent="unknown" unit="character"/> <num value="43">XL<g ref="symbols.xml#stop"/>III</num> <space extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>To emperor Caesar, son of deified Septimius Severus, Pius, victor in Arabia, victor in Adiabene, 
+                    greatest victor in Parthia, greatest victor in Britannia, grandson of deified Antoninus Pius, victor in Germany, victor in Sarmatia, 
+                    great grandson of deified Antoninus Pius, great great grandson of deified Hadrian, great great great grandson of deified Trajan, victor in Parthia and of deified Nerva, 
+                    Marcus Aurellius Antoninus Pius Felix Augustus, greatest victor in Parthia, greatest victor in Britannia, greatest victor in Germany, chief priest, holding tribunician power 
+                    for the nineteenth time, acclaimed victor three times, consul four times, father of the country, proconsul. <supplied reason="subaudible">Milestone</supplied> forty-three.</p></div>
+            
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

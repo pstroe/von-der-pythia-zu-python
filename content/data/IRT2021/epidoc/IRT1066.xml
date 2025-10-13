@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1066" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Genius Gholaiae </title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD012678</idno>
+                <idno type="TM">199233</idno>
+                <idno type="filename">IRT1066</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Stone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">altar</objectType> with moulded panels, in 
+                                      three fragments: 
+                                    <dimensions>
+                                        <height unit="metre">0.78</height>
+                                        <width unit="metre">0.32</width>
+                                        <depth unit="metre">0.78</depth>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face 
+                                    (<dimensions><height>0.55</height><width>0.215</width></dimensions>)
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03-0.036</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0201" notAfter="0211" evidence="context, reign">201-211 CE</origDate>
+                        </origin><provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>
+                            <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/2269">Chapel</placeName>; inventory number 72.26.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2010-06-02" who="Feraudi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rebuffat1973a"/> <citedRange>123</citedRange>, <citedRange>133</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1976.700</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012678">012678</ref></citedRange></bibl>; 
+                    <bibl><ptr target="rebuffat1977"/> <citedRange>56-57</citedRange>, <citedRange>133</citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="divine" ref="#geniusghol"><name nymRef="Genius">Genio</name> <placeName ref="#golaia" nymRef="#Gholaia">Gholaiae</placeName></persName> 
+                <lb n="2"/><w lemma="pro">pro</w> <w lemma="salus">salute</w> <persName type="emperor" ref="#anonymi"><addName nymRef="Augustus"><expan><abbr>Auggg</abbr><ex>ustorum</ex></expan></addName></persName> 
+                <lb n="3"/><persName type="attested"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius">Iuulius</name> <note>sic</note> <name nymRef="Dignus">Dignus</name></persName> 
+                <lb n="4"/><supplied reason="lost"><w lemma="centurio"><g ref="symbols.xml#centurio"/></w></supplied> <orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="3">III</num> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName> <addName nymRef="Pius"><expan><abbr>P</abbr><ex>iae</ex></expan></addName> 
+                <addName nymRef="Uindex"><expan><abbr>U</abbr><ex>indicis</ex></expan></addName> </orgName>
+                <lb n="5"/><w lemma="qui">qui</w> <w lemma="primus"><supplied reason="lost">pr</supplied>imo</w> <w lemma="dies">die</w> 
+                <lb n="6"/><w lemma="quo">quo</w> <w lemma="ad">ad</w> <w lemma="locus">locum</w> 
+                <lb n="7"/><w lemma="uenio">uentum</w> <w lemma="sum">est</w> 
+                <lb n="8"/><w lemma="ubi">ubi</w> <w lemma="dominus">domini</w> <w lemma="noster"><expan><abbr>nnn</abbr><ex>ostri</ex></expan></w> 
+                <lb n="9"/><w lemma="castra">castra</w> <w lemma="fio">fieri</w> 
+                <lb n="10"/><w lemma="iubeo">iusserunt</w> <w lemma="locus">lo
+                <lb break="no" n="11"/>cum</w> <w lemma="consecro">consecrauit</w> 
+                <lb n="12"/><w lemma="et">et</w> <w lemma="ex">ex</w> <w lemma="p-" part="I">p</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>To the Genius of Gholaia, for the safety of the Augusti: Caius Julius Dignus, centurion of the Third Legion SAugusta, Pia, Vindex, who, on the first day that we came to the place 
+                where our lords ordered a camp to be established, consecrated the place and [ . . .</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

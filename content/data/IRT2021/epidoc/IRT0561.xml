@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0561" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for L. Domitius Iustus Aemilianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0561</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> of <material>marble</material> 
+               (<dimensions>
+                                 <width unit="metre">0.65</width>
+                                 <height unit="metre">1.25</height>
+                                 <depth unit="metre">0.65</depth>
+               </dimensions>). On the right-hand face is a second text, <ref type="inscription" n="IRT0588">588</ref>; 
+                              on the left-hand face a <rs type="decoration">rosette</rs> in relief. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face: line 1 on the upper moulding, 
+                           between <rs type="decoration">formal sprays</rs>; lines 2 ff. within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.30</width>
+                              <height unit="metre">0.52</height>
+                           </dimensions>) 
+               from which a previous text has been erased. 
+               </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Late form of Rustic capitals: line 1, <height unit="metre">0.05</height>; remainder, 
+                        <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>; dot for stop.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Finspot</origPlace>
+                     <origDate notBefore="0250" notAfter="0350" evidence="lettering">Third to fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:                                ,  
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/2276">East Portico</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="tantillo0199.jpg">
+      <desc>View: Tantillo, 2006</desc></graphic>
+      <graphic url="wp0730.jpg">
+                     <desc>Front view: Ward-Perkins, 1951 (Ward-Perkins Archive, BSR 51.XV.20)</desc></graphic>
+      <graphic url="tantillo0201.jpg">
+         <desc>Front view: Tantillo, 2008</desc></graphic>
+                  <graphic url="wp0727.jpg">
+                  <desc>Front face: Ward-Perkins Archive, BSR (Sopr. CLM 17)</desc></graphic>
+                  <graphic url="wp0728.jpg">
+                     <desc>Front face: Ward-Perkins Archive, BSR (Sopr. DLM 335 Leica)</desc></graphic>
+      <graphic url="tantillo0202.jpg">
+         <desc>Front face: Tantillo, 2008</desc></graphic>
+                  <graphic url="wp0729.jpg">
+                  <desc>Left face: Ward-Perkins, 1951 (Ward-Perkins Archive, BSR 51.XV.19 )</desc></graphic>
+      <graphic url="tantillo0203.jpg">
+         <desc>Left face: Tantillo, 2008</desc></graphic>
+      <graphic url="tantillo0204.jpg">
+         <desc>Top: Tantillo, 2008</desc></graphic>
+                  
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>561</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT561.html">561</ref></citedRange></bibl>; 
+               <bibl><ptr target="tantillo2010"/>, <citedRange>45</citedRange></bibl>, whence
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2191">2191</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059433">059433</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="symbols.xml#palm"/> <persName type="attested"><name type="signum" nymRef="Consentius">Consentii</name></persName> <g ref="symbols.xml#palm"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><persName type="attested" key="plre:1-aemilianus5"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#stop"/> <name type="gentilicium" nymRef="Domitius">Domitio</name> <name type="cognomen" nymRef="Iustus">Iusto</name>
+               <lb n="3"/><name type="cognomen" nymRef="Aemilianus">Aemiliano</name></persName> <g ref="symbols.xml#stop"/>
+               <w lemma="eques"><expan><abbr>eq</abbr><ex>uiti</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <placeName type="ethnic" ref="#roma" nymRef="#Romanus"><expan><abbr>R</abbr><ex>omano</ex></expan></placeName>
+               <lb n="4"/><w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="curator">curatori</w>
+               <lb n="5"/><w lemma="res">rei</w> <w lemma="publicus">publicae</w> <w lemma="ob">ob</w>
+               <lb n="6"/><w lemma="eximius">eximium</w> <w lemma="amor">amorem</w>
+               <lb n="7"/><w lemma="in">in</w> <w lemma="patria">patriam</w> <g ref="symbols.xml#stop"/> <w lemma="et">et</w> <g ref="symbols.xml#stop"/>
+               <lb n="8"/><w lemma="ciuis">ciues</w> <w lemma="ex">ex</w> <w lemma="decerno">decreto</w>
+               <lb n="9"/><w lemma="ordo">ordinis</w> <w lemma="et">et</w>
+               <w lemma="suffragium">suffra<lb n="10" break="no"/>giis</w> <w lemma="populus">populi</w> <w lemma="ciuis">ciui</w> 
+               <w lemma="carus">ka<lb n="11" break="no"/>rissimo</w> <g ref="symbols.xml#stop"/> 
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus"><expan><abbr>Lep</abbr><ex>citani</ex></expan></placeName> <g ref="symbols.xml#stop"/> <w lemma="publice">publice</w> <surplus><orig>s</orig></surplus>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="11">
+                  <note> The S is cut on the moulding, between lines 10 and 11, presumably from the earlier, erased text.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Consentius. To Lucius Domitius Justus Aemilianus, Roman Knight, excellent man <note>of equestrian status</note>, curator of the republic, on account of his outstanding love for his country and fellow-citizens, in accordance with a decree of the city council and the votes of the people, the Lepcitanians set <supplied reason="subaudible">this</supplied> up publicly to a very dear citizen.</p></div>
+        
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Consentius! A Lucius Domitius Iustus Aemilianus, cavaliere
+               romano, uomo perfettissimo, curatore della repubblica, per
+               lo straordinario amore nei confronti della patria e dei concittadini,
+               per decreto dell’ordine e per suffragio del popolo,
+               al concittadino carissimo, i Leptitani, a spese pubbliche.</p></div> 
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>(Statue of) Consentius. To Lucius Domitius Iustus Aemilianus, Roman knight, of perfectissimus rank, curator rei publicae, 
+               on account of his outstanding love for the fatherland and its citizens. By decree of the council (<foreign xml:lang="la">ordo</foreign>) and vote of the people, 
+               to a dearest citizen, the Lepcitani [set this up] with public funds.</p>
+         </div>
+         <div type="commentary">
+            <p>L. Domitius Iustus Aemilianus: <title>PLRE</title> I, Aemilianus 5</p>
+         </div>
+      </body>
+   </text>
+</TEI>

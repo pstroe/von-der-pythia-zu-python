@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1004" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Christian</rs> <rs type="textType">title</rs> for a wall-painting</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD002098</idno>
+                <idno type="TM">198805</idno>
+                <idno type="filename">IRT1004</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Tomb</objectType> cut in the 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">rock</material>
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="pictura">Painted</rs> beneath an image, in a space <dimensions>
+                                    <height unit="metre">0.28</height> <width unit="metre">-1.60</width></dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Rustic capitals, <height unit="metre">0.02</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0301" notAfter="0450">Fourth - mid fifth century CE
+                            </origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                            <placeName ref="https://www.slsgazetteer.org/1944">Gargaresh</placeName>; in the Hypogaeum of Adam and Eve; found in <date type="found">1965</date></p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2210247">Tri[oli</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2011-08-04" who="Gräf">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="divita1978"/> <citedRange>245-246</citedRange>, (B), plates 23, 26.</bibl>, whence
+                    <bibl><ptr target="ae"/> <citedRange>1982.926</citedRange></bibl>, 
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002098">002098</ref></citedRange></bibl>
+                     
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> 
+                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="tuus">tuis</w> <w lemma="pono">ponete</w> <gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>oc</orig><gap reason="lost" extent="unknown" unit="character"/><orig>re</orig><gap reason="lost" extent="unknown" unit="character"/><orig>s</orig><gap reason="lost" extent="unknown" unit="character"/><orig>og</orig><gap reason="lost" extent="unknown" unit="character"/><orig>t</orig> <w lemma="ner-" part="I">ner</w><gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="3"/><gap reason="lost" quantity="1" unit="character"/><orig>rdu</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="4"/><gap reason="lost" quantity="1" unit="character"/><orig>umu</orig><gap reason="lost" extent="unknown" unit="character"/><orig>d</orig><gap reason="lost" extent="unknown" unit="character"/><orig>umqu</orig><gap reason="lost" extent="unknown" unit="character"/><w part="F">um</w> <w lemma="quoque">quoque</w> <w lemma="ue-" part="I">ue</w> 
+                <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ere</w> <w lemma="posco">poscit</w> <gap reason="lost" quantity="2" unit="character"/> <w lemma="batigo">batigat</w> <w lemma="et">et</w> <w lemma="duo">duo</w> 
+                <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="mitis">mitis</w> <w lemma="tum">tum</w> <w lemma="rogo">rogat</w> <w lemma="dominus">domini</w> <w lemma="praeses">prese<supplied reason="lost" cert="low">s</supplied></w>
+                <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>se</orig> <w lemma="piscina">pi<supplied reason="omitted">s</supplied>cina</w> <w lemma="calcar">cal<supplied reason="lost">c</supplied>aria</w> <w lemma="for">fatur</w> <w lemma="seruus">serbus</w> 
+                <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="deligo">delegit</w> <w lemma="abion">abi<supplied reason="lost">o</supplied>nes</w> <w lemma="at">at</w> <w lemma="carus">ka<supplied reason="lost" cert="low">r</supplied>us</w> <w lemma="u-" part="I">u</w> <gap reason="lost" quantity="2" unit="character"/><orig>o</orig> 
+                <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig>t</orig><gap reason="lost" extent="unknown" unit="character"/><orig>orc</orig><gap reason="lost" quantity="1" unit="character"/><orig>atp</orig><gap reason="lost" extent="unknown" unit="character"/><orig>bus</orig><gap reason="lost" quantity="1" unit="character"/><orig>la</orig> 
+                <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><orig>le</orig><gap reason="lost" extent="unknown" unit="character"/><orig>nisa</orig><gap reason="lost" quantity="2" unit="character"/><w part="F">ratur</w> 
+                <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><orig>nio</orig><gap reason="lost" quantity="7" unit="character"/><orig>asat</orig><gap reason="lost" quantity="4" unit="character"/><orig>ter</orig><gap reason="lost" quantity="5" unit="character"/> <orig>con</orig>
+                <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><orig>p</orig><gap reason="lost" quantity="1" unit="character"/> <orig>e</orig><gap reason="lost" quantity="1" unit="character"/><orig>titu</orig><gap reason="lost" quantity="2" unit="character"/><orig>st</orig><gap reason="lost" quantity="2" unit="character"/><orig>er</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><orig>r</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="13a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Very uncertain:  Apparently references to the Lord, to a pool? </p>
+            </div>
+            <div type="commentary">
+            <!-- <p> Aufgemalte Inschrift (Dipinto), darunter 3 Personen (dominus, domina, serva). Maße beziehen sich auf die Inschrift. (B): AE 1982: Z. 4 Ende: quoque VE.</p> -->    
+            </div>
+        </body>
+    </text>
+</TEI>

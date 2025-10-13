@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0933" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile ?VII. Maximinus.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0933</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> <objectType>Column</objectType>ar milestone of <material>limestone</material> (<dimensions>
+                              <dim unit="metre" type="diameter">0.40</dim>
+                              <height unit="metre">1.00</height>
+                           </dimensions>).</p> 
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face, 11 lines, of which only the final lines are recorded</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height>0.05</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace><placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName></origPlace>
+                     <origDate cert="low" when="0237" evidence="context">CE 237</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName>:  
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/690">Gasr Dellasc</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Known only from a plaster cast in <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="...">Milestones</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>933</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT933.html">933</ref></citedRange></bibl>;
+               <bibl>
+                  <ptr target="goodchild1948"/>, <citedRange>9</citedRange>, p.13</bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059769">059769</ref></citedRange></bibl>
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <note>Notes of the final lines:</note>
+            <ab><lb n="0"/><gap reason="lost" quantity="7" unit="line"/>
+            <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="suus"><supplied reason="lost">su</supplied>a</w> <w lemma="infatigabilis">infati<supplied reason="lost">cabili</supplied></w>
+            <lb n="9"/>   <w lemma="prouidentia"><supplied reason="lost">prouidentia</supplied></w> <w lemma="peruium">peruium</w> <w lemma="commeo"><supplied reason="lost">com</supplied>
+            <lb n="10" break="no"/><supplied reason="lost">meantibus</supplied></w>  <w lemma="reddo">redd<supplied reason="lost">iderunt</supplied></w>
+                <lb n="10a"/><space quantity="1" unit="line"/> 
+               <num value="7"><supplied reason="lost" cert="low">V</supplied>II</num>
+            </ab></div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

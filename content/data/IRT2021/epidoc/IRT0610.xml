@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0610" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs> for a governor
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0610</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <objectType>base</objectType> (
+               <dimensions>
+                                 <width unit="metre">0.82</width>
+                                 <height unit="metre">1.10</height>
+                                 <depth unit="metre">0.82</depth>
+                              </dimensions>; height incomplete), the upper part of which
+               is fragmentary. Fragments found since 1951: a) from the left-hand corner, on the second face of the new fragments of 
+                              <ref type="inscription" n="IRT0522">522</ref>; b) from the right-hand edge (<dimensions>
+                                 <width unit="metre">0.165</width>
+                                 <height unit="metre">0.325</height>
+                                 <depth unit="metre">0.135</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  (die, <dimensions>
+                              <width unit="metre">0.57</width>
+                              <height unit="metre">0.67</height>
+                           </dimensions> approx.) on the face opposite to the original
+               inscription, which was set within a moulded panel and was subsequently erased to make
+               way for <ref type="inscription" n="IRT0477">477</ref>. The first line is cut above the die, on the upper border; the fragment
+               containing the right-hand end of lines 6-8 is known only from a photograph. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late third to fourth centuries CE capitals: 
+               <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height>; dot for stop. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0320" notAfter="0360" precision="low" evidence="lettering, titulature">Fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/2276">East Portico</placeName>. 
+                              </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot; the  additional fragments found after 1951 have not been seen again.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-02-25" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0802.jpg">
+                  <desc>Upper moulding fragment: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XI.25)</desc></graphic>
+                  <graphic url="wp0803.jpg">
+                  <desc>Main block: Ward-Perkins Archive, BSR (Sopr. CLM 587)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>610</citedRange></bibl>, 
+               with <bibl><ptr target="reynolds1955"/> <citedRange>131</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1957.237</citedRange></bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT610.html">610</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>36</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2182">2182</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059411">059411</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>por</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="1a"/> <gap reason="lost" quantity="1" unit="line"/>
+               <lb n="2"/><persName type="attested"><name nymRef="Ae-"><seg part="I">Ae</seg></name><gap reason="lost" quantity="14" unit="character" precision="low"/></persName>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w>
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w>
+               <lb n="3"/>
+               <w lemma="praeses">pr<unclear>ae</unclear><supplied reason="lost">sidi</supplied></w> <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><supplied reason="lost"><w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iae</ex></expan></w></supplied> 
+               <w lemma="Tripolitanus"><expan><supplied reason="lost"><abbr>Tr</abbr></supplied><abbr>ip</abbr><ex>olitanae</ex></expan></w></placeName>
+               <lb n="4"/>
+               <w lemma="omnis">omnium</w> <w lemma="uirtus">uirtut<supplied reason="lost">um</supplied></w> <w lemma="uir"><supplied reason="lost">ui</supplied>ro</w>
+               <lb n="5"/>
+               <w lemma="innocens">innocentis</w> <g ref="symbols.xml#stop"/> <w lemma="integritas">inte<supplied reason="lost">g</supplied>rita<lb n="6" break="no"/>tis</w> <w lemma="uigoratus">uigoratae</w>
+                  <w lemma="laenitas">laenitatis</w>
+               <lb n="7"/><w lemma="sublimis">sublimis</w> <w lemma="moderatio">moderat<supplied reason="lost">i</supplied>onis</w> 
+               <lb n="8"/><w lemma="iustitia">iustitiae</w> <w lemma="laudabilis">laudab<supplied reason="lost">i</supplied>lis</w> <w lemma="totus">to
+                  <lb n="9" break="no"/>tius</w> <g ref="symbols.xml#stop"/> <w lemma="aequitas">aequitatis</w> <g ref="symbols.xml#stop"/> <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis">L<supplied reason="lost">e</supplied>pci
+                     <lb n="10" break="no"/>magnenses</placeName> <g ref="symbols.xml#stop"/> <w lemma="ex">ex</w> <w lemma="decerno">decreto</w> 
+               <lb n="11"/>
+               <w lemma="splendidus"><expan><abbr>spl</abbr><ex>endidissimi</ex></expan></w> <w lemma="ordo">ordinis</w> <g ref="symbols.xml#stop"/> <w lemma="patronus">patrono</w> <w lemma="benignus"><expan><abbr>benign</abbr><ex>o</ex></expan></w>
+            </ab></div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> to Ae<gap reason="lost" quantity="14" unit="character" precision="low"/> excellent man <note>of equestrian status</note>, governor of the province of Tripolitania, a man of all the virtues, of integrity that does no harm, of real gentleness. of outstanding moderation, of praiseworthy justice, of absolute equity; the Lepcimagnensians, in accordance with a decree of the most splendid city council <supplied reason="subaudible">set this up</supplied> to a kindly patron.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p> . . . ? Ae- . . . uomo perfettissimo, governatore della Prouincia di Tripolitania, uomo dotato di ogni virtù, di intemerata integrità,
+               di vigorosa mitezza, di sublime moderazione, di lodevole giustizia e di ogni equità, gli abitanti di Leptis Magna, per decreto
+               dello splendidissimo ordine, al patrono benigno. </p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>Statue of …por… . To Ae … , of perfectissimus rank, governor (praeses) of the province of Tripolitania, a man of all virtues, 
+            of blameless integrity, vigorous mildness, sublime moderation, laudable justice, of total fairness. 
+            The people of Lepcis Magna (<foreign xml:lang="la">Lepcimagnenses</foreign>), by decree of the most splendid council (<foreign xml:lang="la">ordo</foreign>) [set this up] to their benign patron.</p></div>
+         <div type="commentary">
+           <!--   <p>Discussed, Di Vita-Evrard (1985) check</p>
+            <p>The text is closely related to that of <ref type="inscription" n="IRT0522">522</ref>, cut on the left-hand face of the same
+               base; and from the markedly superior quality of the lettering, it would naturally
+               seem to be the earlier of the two. But the script is that of the early fourth rather
+               than of the late third century. </p>
+            <p>The new fragments show that the text relates to a <foreign xml:lang="la">praeses Prouinciae Tripolitanae</foreign> (unidentified) and is therefore of the fourth century.</p>
+       -->  </div>
+      </body>
+   </text>
+</TEI>

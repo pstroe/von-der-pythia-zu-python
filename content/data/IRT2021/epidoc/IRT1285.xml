@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1285" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <rs type="textType">Christian</rs> 
+                    <rs type="textType">funerary</rs> text (Sabratha catacomb)</title>
+                <editor xml:id="an">A. Nestori</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1285</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                    <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Marble</material>
+                                        <objectType>panel</objectType>
+                                        <dimensions>
+                                            <height unit="metre">0.425</height>
+                                            <width unit="metre">1.10</width>
+                                            <depth>0.025</depth>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face, filling almost all the space available: in the left margin are two 
+                                    painted christograms, in the right margin are two more, at the top and bottom, and betwwen them an inscribed palm.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.035-0.05</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0301" notAfter="0600" evidence="context">Fourth-fifth centuries CE</origDate>
+                           
+                        </origin><provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/833">Catacomb</placeName>, arcosolium  B4</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName></term>
+                </keywords>
+            </textClass>
+            <creation>Taken from Nestori</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+            <change when="2021-08-26" who="cmr">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="nestori1973"/> <citedRange>20</citedRange></bibl>, whence 
+                    <bibl><ptr target="edcs"/> <citedRange>53500002</citedRange></bibl>,  <ref target="http://www.mqdq.it/textsce/CE|appe|710">Musisque Deoque 710</ref>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <div type="textpart" n="text"><ab>
+                 <lb n="1"/><w lemma="castus">Casta</w> <w lemma="fides">fides</w> <w lemma="mens">mentis</w> <w lemma="semper">semper</w> <w lemma="seruo">seruata</w> <w lemma="maritus">marito</w>
+                    <lb n="2"/><w lemma="ad">ad</w> <w lemma="caelum">caelum</w> <w lemma="perueho">peruexit</w> <w lemma="ouo">obans</w> <w lemma="tuus">tua</w> <w lemma="gaudium">gaudia</w> <w lemma="uita">uitae</w>;
+                    <lb n="3"/><w lemma="exemplaris">exemplare</w> <w lemma="maneo">manent</w> <w lemma="terra">terris</w> <w lemma="imito">imitanda</w> <w lemma="pudicus">pudicis</w>.
+                    <lb n="4"/><w lemma="laus">laus</w> <w lemma="habeo">habet</w> <w lemma="hic">hoc</w> <w lemma="meritum">meritum</w>: <w lemma="seruo">seruat</w> <w lemma="tuus">tua</w> <w lemma="fama">fama</w> <w lemma="pudor">pudorem</w>
+                    <lb n="5"/><w lemma="exsupero">exuperans</w> <w lemma="mors">mortis</w> <w lemma="lex">legem</w> <w lemma="cum">cum</w> <w lemma="duro">durat</w> <w lemma="in">in</w> <w lemma="aeuum">aebum</w>.
+                        <lb n="6"/><w lemma="sic">sic</w> <w lemma="uiuo">uiuunt</w> <w lemma="mos">mores</w> <w lemma="sic">sic</w> <w lemma="numquam">numquam</w> <w lemma="deficio">deficit</w> <w lemma="aetas">aetas</w>.
+                    <lb n="7"/><w lemma="tu">te</w> <w lemma="doleo">doluit</w> <w lemma="genus">genus</w> <w lemma="omnis">omne</w> <w lemma="tuus">tu<supplied reason="omitted">u</supplied>m</w> <w lemma="tu">te</w> <w lemma="cunctus">cunctae</w> <w lemma="pudicus">pudicae</w>,
+                    <lb n="8"/><w lemma="innocuus">innocuam</w> <w lemma="quisquis">quisquis</w> <w lemma="miro">miratus</w> <w lemma="tempus">tempore</w> <w lemma="uita">uitam</w>.
+                    <lb n="9"/><w lemma="non">non</w> <w lemma="morior">moritur</w> <w lemma="fatum">fatum</w> <w lemma="soluo">soluuntur</w> <w lemma="corpus">corpora</w> <w lemma="letum">l<surplus>a</surplus>eto</w>
+                    <lb n="10"/><w lemma="angustus">angustos</w> <w lemma="uita">uitae</w> <w lemma="uinco">uicisti</w> <w lemma="tempus">temporis</w> <w lemma="annus">annos</w></ab></div>
+                    
+                   <div type="textpart" n="Acrostic"><ab>
+                    <lb n="1"/><persName type="attested"><name nymRef="Caelestina">Caelestina</name></persName> 
+                </ab></div>
+            </div>
+            
+            
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>A pure faithfulness of mind always retained towards your husband has born you to heaven prasing the joys of your life, which remain on earth as an example to be imitated by the modest.
+                    Praise has this benefit, that your reputation conserves modesty, when, overcoming the law of death, it remains for eternity. Thus conduct lives, thus time does not diminish it. 
+                    All your family mourned you, as do all modest women, as does anyone who has admired your innocent life in time. Fate does not die; it is bodies that are dissolved by death; 
+                    you have vanquished the brevity of your life.
+               </p>
+              <!--   <p>To check: CLEAfr-01 	= 	P. Cugusi - M.T. Sblendorio Cugusi, I Carmina Latina Epigraphica non-Bücheleriani delle province africane, Bologna 2012
+                    CLEAfr-02 	= 	CLEAfr-02 = P. Cugusi, Carmina Latina Epigraphica Africarum provinciarum post Buechelerianam collectionem editam reperta cognita, Faenza 2014
+                    CLEAfrique 	= 	C. Hamdoune (Hg.), Vie, mort et poésie dans l'Afrique romaine d'après un choix de Carmina Latina Epigraphica, Brüssel 2011</p> -->
+            </div>
+        </body>
+    </text>
+</TEI>

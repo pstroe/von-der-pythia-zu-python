@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1070" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Verse</rs> <rs type="textType">honours</rs> for Dulcitius</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1070</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Statue 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">base</objectType> of white 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">marble</material>, with a simple moulding above and below:
+                                    <dimensions>
+                                        <height unit="metre">1.17</height>
+                                        <width unit="metre">0.815</width>
+                                        <depth unit="metre">0.815</depth>
+                                    </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height unit="metre">0.053-0.059</height>; lunate sigma and epsilon</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0275" notAfter="0325" evidence="lettering, prosopography">Late third to early fourth century
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                                <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, in the 
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/1698">Serapeion</placeName>.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2219905">Al Khums</placeName></term>
+                </keywords>
+            </textClass>
+        <creation>Transcription (Pugliese-Carratelli, Tantillo)</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-05-02" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="tantillo0356.jpg">
+        <desc>Face: Tantillo (2003)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="pugliese2003"/> <citedRange>13</citedRange>, 275</bibl>, whence 
+                    <bibl><ptr target="cdlBE"/> <citedRange>2004.459</citedRange></bibl>,
+                    <bibl><ptr target="ae"/> <citedRange>2003.1916</citedRange></bibl>, 
+                    <bibl><ptr target="seg"/> <citedRange>53.1165</citedRange></bibl>, whence 
+                    <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/323910">323910</ref></citedRange></bibl>; <!-- check -->
+                    <bibl><ptr target="tantillo2006"/> <citedRange>410-412</citedRange></bibl>, whence 
+                    <bibl><ptr target="seg"/> <citedRange>57.1004</citedRange></bibl>;
+                    <bibl><ptr target="tantillo2010"/>, <citedRange>53</citedRange></bibl>, whence 
+                    <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2199">2199</ref></citedRange> (Tantillo and Bigi)</bibl>,  
+                    <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067617">067617</ref></citedRange></bibl>
+                   
+                   
+                </p>
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab><lb n="1"/> <persName type="attested" key="plre:1-serenus3"><name nymRef="Δουλκίτιος">Δουλκῖτι</name></persName>
+               <lb n="2"/> <w lemma="εἰκών">εἰκόνα</w> <w lemma="χαλκεότευκτος">χαλκεότευκτον</w> 
+                    <lb n="3"/> <w lemma="τίθημι">ἐθήκατο</w> <w lemma="ὅδε">τήνδε</w> <persName type="attested"><name nymRef="Σερῆνος">Ϲερήνῳ</name></persName>
+               <lb n="3a"/> <space quantity="1" unit="line"/> 
+                 <lb n="4"/> <placeName ref="#lepcis" nymRef="#Λέπτις">Λέπτιϲ</placeName> <w lemma="ἀμείβω">ἀμειβομένη</w> 
+                    <lb n="5"/> <persName type="divine" ref="#musa"><name nymRef="Μοῦσα">Μοῦϲαν</name></persName> <w lemma="ἀοιδοπόλος">ἀοιδοπόλον</w>
+                </ab></div>
+            <div type="translation" source="#tantillo2010" xml:lang="it">
+                <p>Dulcitius! Leptis dedicò a Sereno questa immagine fatta di bronzo, per ricambiare la (sua) Musa versificatrice</p>
+            </div>
+            <div type="translation" source="#lsa" xml:lang="en">
+                <p>Dulcitius. This bronze statue Lepcis set up to Serenus, rewarding his verse-making Muse.</p>
+            </div>
+            <div type="commentary">
+                <p>Aur. Sempronius Serenus signo Dulcitius: <title>PLRE</title> I, Serenus 3</p>
+            </div>
+        </body>
+    </text>
+</TEI>

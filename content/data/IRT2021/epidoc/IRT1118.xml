@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1118" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1118</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1105">Ghadames Museum</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Right side fragment of <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">panel</objectType>, chipped at the upper edge: <dimensions>
+                                        <height unit="metre">0.18</height>
+                                        <width unit="metre">0.18</width></dimensions>.
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> within a panel defined by an incised line
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.04</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0001" notAfter="0300" evidence="content">First-third centuries CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/827">Ghadames</placeName>: 
+                        findspot unknown. Found by C.J. Barron in <date type="found">1955</date></p></provenance>
+                        <provenance type="observed"><p><placeName key="https://www.slsgazetteer.org/1105">Ghadames Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2217440">Ghadamès</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>IRT2021</creation></profileDesc>
+        <revisionDesc>
+         <change when="2021-05-01" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="jmr1958_2.jpg"><desc>Face (Brogan, 1955)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="reynolds1958"/> <citedRange>2</citedRange>, pp.135-6.</bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/> <persName type="divine" ref="#manes"><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <supplied reason="lost"><w lemma="manes"><expan><abbr>M</abbr><ex>anibus</ex></expan></w></supplied></persName>
+                <lb n="2"/><persName type="attested"><name nymRef="Atinia">Atin<supplied reason="lost">ia</supplied></name> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="filia"><supplied reason="lost" cert="low">fi</supplied>
+                <lb n="3" break="no"/>lia</w> <persName type="attested"><name nymRef="Atinius">Ati<supplied reason="lost">ni</supplied></name></persName></persName> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="uiuo"><supplied reason="lost">ui</supplied>
+               <lb n="4" break="no"/>xit</w> <w lemma="annus">an<supplied reason="lost">nos</supplied></w><gap reason="lost" extent="unknown" unit="character"/>  
+                
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>To the gods below: Atin[ia  ?daughter] of Ati[nius? lived ? years [ . . .</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

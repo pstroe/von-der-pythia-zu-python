@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1017" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Christian </rs> <rs type="textType">funerary </rs> inscription</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD017200</idno>
+                <idno type="TM">199497</idno>
+                <idno type="filename">IRT1017</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Tomb</objectType> covered in 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">plaster</material>: no measurements
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="pictura">Painted</rs> text
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>No measurements</handNote><!-- check QAL 4-->
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notAfter="0650" notBefore="0450" evidence="context, lettering">Fifth-seventh century CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                            <placeName ref="https://www.slsgazetteer.org/742">Regio IV</placeName>,                                , 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/712">Colonnaded Street</placeName>, built against the 
+                        south wall of the Forum.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-20" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="bartoccini1961"/> <citedRange>117</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1963.144c</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017200">017200</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <w lemma="bonus"><expan><abbr>B</abbr><ex>onae</ex></expan></w> <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> <persName type="attested"><name nymRef="Segundianus">Se
+                <lb break="no" n="2"/>gundianu
+                <lb break="no" n="3"/>s</name></persName> <note>sic</note> <w lemma="uiuo">binxit</w> <note>sic</note> 
+                <lb n="4"/><w lemma="in">in</w> <w lemma="pax">pake</w> <date type="life-span" dur="P65Y"><w lemma="annus">an
+                <lb break="no" n="5"/><supplied reason="omitted">n</supplied>os</w> <w lemma="plus">plus</w> <w lemma="minus">m
+                <lb break="no" n="6"/>inus</w> <num value="65">LXV</num></date> 
+                <lb n="7"/><w lemma="requiesco"><supplied reason="lost">r</supplied>e<supplied reason="lost">quiebit</supplied></w> <supplied reason="lost"><w lemma="in">in</w></supplied> 
+                <lb n="8"/><w lemma="pax">pakke</w> 
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>For his good memory: Segundianus lived in peace for more or less 65 years; may he rest in peace.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

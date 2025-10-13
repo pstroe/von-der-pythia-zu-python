@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="IRT1564">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostrakon: Fragmentary <rs type="textType">list</rs></title>
+            <editor xml:id="GB" role="translation (English); encoding; scripting">Gabriel Bodard</editor>
+            <editor xml:id="cb" role="translation (English)">Caroline Barron</editor>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1564</idno>
+            <idno type="hgv">73214</idno>
+            <idno type="TM">73214</idno>
+            <idno type="ddb-perseus-style">0016;;64</idno>
+            <idno type="ddb-filename">o.bu.njem.64</idno>
+            <idno type="ddb-hybrid">o.bu.njem;;64</idno>
+         <availability>
+              <p>Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). All reuse or distribution of this work must link back to the URL <ref>http://irt.kcl.ac.uk/</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli National Museum</repository><idno>70-48</idno></msIdentifier>
+               <physDesc>
+                  <objectDesc><supportDesc><support><p><material>Ceramic</material> <objectType>ostrakon</objectType> (<dimensions unit="metre"><height>0.05</height><width>0.045</width><depth>0.01</depth></dimensions>).</p></support></supportDesc>
+            <layoutDesc><layout>Letters <rs type="execution" ref="pictura">painted</rs> on one side.</layout></layoutDesc></objectDesc>
+            <handDesc><handNote>No measurements</handNote></handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0253" notAfter="0259" evidence="context">253 - 259</origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, 
+                     in the <placeName ref="https://www.slsgazetteer.org/825" type="monuList">Baths</placeName>.</p></provenance>
+            <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/1098">Tripoli National Museum</placeName>.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Marked-up according to the EpiDoc Guidelines version 9.</p></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Liste</term>
+            </keywords>
+         </textClass>
+         <textClass><keywords scheme="IRCyr"><term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term><term><geogName type="modernCountry" key="LY">Libya</geogName></term><term><placeName type="modernFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName></term><term><ref type="pleiades" target="https://pleiades.stoa.org/places/344377">Gholaia</ref></term><term><ref type="geonames" target="https://www.geonames.org/2220431">Qaryat Bū Nujaym</ref></term><term><placeName xml:lang="ar">بو نجيم</placeName></term></keywords></textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-11-05" who="#GB">Merged HGV data, Duke Databank text, PE translation from Papyri.info EpiDoc; aligned structure to IRT</change>
+         <change who="HGV" when="1999-05-10">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div xml:lang="la" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/><gap reason="illegible" quantity="8" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="2"/><persName type="attested"><name nymRef="Ble--ius">Ble<gap reason="illegible" quantity="2" unit="character"/>iu</name></persName><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="3"/><persName type="attested"><name nymRef="Bubeius">Bubeius</name></persName><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="4"/><persName type="attested"><name nymRef="Ipalacen">Ipalace<unclear>n</unclear></name></persName><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div>
+            
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p> [ . . . ] Ble[-...] Bubeius [ . . . ] Ipalacen  [ . . . 
+            </p>
+            
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Bubeius: perhaps from Bubeium, <ref target="https://pleiades.stoa.org/places/355615">https://pleiades.stoa.org/places/355615</ref></p> 
+         </div>
+         <div type="bibliography">
+            <p><bibl><ptr target="OBuNjem"/> <citedRange unit="numbers">64</citedRange></bibl>, whence <bibl><ptr target="hgv"/> <citedRange>73214</citedRange></bibl>, <bibl><ptr target="ddbdp"/> <citedRange>o.bu.njem.64</citedRange></bibl>.
+    </p></div>
+         
+      </body>
+   </text>
+</TEI>

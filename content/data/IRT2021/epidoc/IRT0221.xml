@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0221" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> 
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription of Theodorus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0221</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Wedge-shaped <objectType>tomb-slab</objectType> 
+               (<dimensions>
+                                 <width unit="metre" atLeast="0.25" atMost="0.32">0.32 and 0.25</width>
+                                 <height unit="metre">0.75</height>
+                              </dimensions>) of local <material>sandstone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> line 1 (capitals, uncial E), <height unit="metre">0.035</height>;
+               line 2-6 (minuscule), <height unit="metre" atLeast="0.015" atMost="0.35">0.015-0.35</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="0650" notBefore="0401" evidence="context form">Fifth-seventh century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/857">Regio III</placeName>:
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/834">Cemetery SE of Church III</placeName>: Tomb T.8: in situ near <ref type="inscription" n="IRT0206">206</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0268.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.S.112)</desc></graphic>
+                  <graphic url="wp0269.jpg">
+                  <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.VII.20)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>221</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT221.html">221</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059197">059197</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="symbols.xml#crux"/> 
+               <w lemma="bonus"><expan><abbr>Bon</abbr><ex>ae</ex></expan></w> 
+               <w lemma="memoria"><expan><abbr>m</abbr><ex>em</ex><abbr>or</abbr><ex>ia</ex><abbr>e</abbr></expan></w>
+               <persName type="attested"><name type="cognomen" nymRef="Theodorus">Hte<lb n="2" break="no"/>odorus</name></persName> 
+               <w lemma="uiuo">uixit</w> 
+               <w lemma="in">in</w> 
+               <lb n="3"/><w lemma="pax">pace</w> 
+               <w lemma="annus"><expan><abbr>ann</abbr><ex>os</ex></expan></w> 
+               <w lemma="plus"><expan><abbr>p</abbr><ex>lus</ex></expan></w> 
+               <w lemma="minus"><expan><abbr>m</abbr><ex>inus</ex></expan></w> 
+               <date type="life-span" dur="P20Y"><num value="20">XX</num></date>
+               <lb n="4"/><w lemma="et">et</w> 
+               <w lemma="requiesco"><expan><abbr>requi</abbr><ex>e</ex><abbr>uit</abbr></expan></w> 
+               <w lemma="cum">cum</w>
+               <lb n="5"/><w lemma="pater">patr<supplied reason="lost">e</supplied></w> 
+               <orig><hi rend="supraline"><unclear>BS</unclear></hi></orig> 
+               <w lemma="mensis"><expan><abbr>m</abbr><ex>ense</ex></expan></w> 
+               <rs type="month" key="Iulius"><w lemma="Iulius">Iulio</w></rs>
+               <lb n="6"/>
+               <gap reason="lost" quantity="3" unit="character"/> 
+               <w lemma="indictio"><expan><abbr>ind</abbr><ex>ictione</ex></expan></w> 
+               <w lemma="quintus"><expan><abbr>qu</abbr><ex>i</ex><abbr>nta</abbr></expan></w> 
+               <foreign xml:lang="grc"><w lemma="ὠμέγα"><expan><abbr>Ὠ</abbr><ex>μέγα</ex></expan></w></foreign> <g ref="symbols.xml#chi-rho"/> <foreign xml:lang="grc"><w lemma="ἄλφα"><expan><abbr>Ἄ</abbr><ex>λφα</ex></expan></w> </foreign></ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <lem>Hteodorus</lem>
+                  <note>sic</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>cross</note> Of good memory, Theodorus lived in peace for approximately 20 years and went to rest with ? the blessed Father, in the month of July <gap reason="lost" extent="unknown" unit="character"/> fifth indiction. <note>Omega and alpha on either side of a monogram cross.</note></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

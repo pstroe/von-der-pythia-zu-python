@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0936" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile XXX. Maximinus.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0936</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Column</objectType>ar 
+                              milestone of <material>brown limestone</material> (<dimensions>
+                                 <dim unit="metre" type="diameter">0.45</dim>
+                                 <height unit="metre">1.54</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the shaft.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre">0.06</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace><placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName></origPlace>
+                     <origDate when="0237" evidence="titulature">CE 237 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/694">Wadi Dauun</placeName>, 
+                              below the modern Marconi-Tarhuna road, 2 km. West of <placeName type="monuList" ref="https://www.slsgazetteer.org/1552">Gasr Dauun</placeName>; 
+                              found by Oates in <date type="found">1949</date>
+                           </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>
+                           </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2213770/qasr-ad-dawun.html">Qaşr ad Dāwūn</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1152.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 2016 Leica)</desc></graphic>
+                  <graphic url="wp1153.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 2018 Leica)</desc></graphic>
+                  <graphic url="wp1154.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 2019 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>936</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT936.html">936</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059772">059772</ref></citedRange></bibl>;
+               <bibl><ptr target="oates1953"/> <citedRange>114</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"> <!-- check from photo ADD -->
+            
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#maximinusthrax"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w> <name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium" nymRef="Iulius">Iulius</name> 
+                 <lb n="2"/>  <name type="cognomen" nymRef="Uerus">Berus</name> <name type="cognomen" nymRef="Maximinus">Maximinus</name> 
+              <lb n="3"/>     <addName nymRef="Pius">Pius</addName> <addName nymRef="Felix">Felix</addName> 
+               <supplied reason="lost"><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></addName></supplied> <addName nymRef="Germanicus">Germ<supplied reason="lost">ani</supplied>
+             <lb n="4" break="no"/>cus</addName> <w lemma="maximus">maximus</w> <addName nymRef="Sarmaticus">Sarmati
+                <lb n="5" break="no"/>cus</addName> <w lemma="maximus">maxim<supplied reason="lost">u</supplied>s</w> <addName nymRef="Dacicus">Dacicus</addName> 
+              <lb n="6"/> <w lemma="maximus">maximus</w></persName> <w lemma="tribunicius">tribuniciae</w> <w lemma="potestas">potestatis</w> <supplied reason="lost"><w lemma="tertius"><expan><abbr>ter</abbr><ex>tium</ex></expan></w></supplied>
+               <lb n="7"/>
+               <persName type="emperor" ref="#maximusiunior"><w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> 
+               <w lemma="et">et</w> <name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium" nymRef="Iulius">Iul<supplied reason="lost">iu</supplied>s</name> <name type="cognomen" nymRef="Uerus">Uerus</name> <name type="cognomen" nymRef="Maximus">Maxi
+                  <lb n="8" break="no"/>mus</name> <w lemma="nobilis">n<supplied reason="lost">o</supplied>bil<supplied reason="lost">is</supplied>s<supplied reason="lost">imus</supplied></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ar</ex></expan></addName> <w lemma="princeps">prince<supplied reason="lost">ps</supplied></w>
+               <lb n="9"/> <w lemma="iuuentus">iuuen<supplied reason="lost">t</supplied>uti<supplied reason="lost">s</supplied></w> <addName nymRef="Germanicus">Germanicus</addName> <w lemma="maximus">max<supplied reason="lost">i</supplied>
+                  <lb n="10" break="no"/><unclear>m</unclear>us</w> <supplied reason="lost"><addName nymRef="Sarmaticus">Sarmaticus</addName></supplied>
+    <w lemma="maximus"><unclear>m</unclear>ax<supplied reason="lost">imus</supplied></w> 
+                <lb n="11"/>  <addName nymRef="Dacicus">Dac<unclear>i</unclear>cu<unclear>s</unclear></addName></persName> <w lemma="maximus">max<supplied reason="lost">imus</supplied></w> <w lemma="pons">pontes</w> <w lemma="uetustas">uetu<supplied reason="omitted">s</supplied>ta
+                   <lb n="12" break="no"/>te</w> <w lemma="delabor">dil<unclear>apsos</unclear></w> <w lemma="iter"><unclear>iter</unclear></w> <w lemma="longus"><unclear>lo</unclear><supplied reason="omitted">n</supplied>ga</w> <w lemma="iniuria">iniuria</w> 
+               <lb n="13" break="no"/><w lemma="corrumpo">corr<unclear>uptum</unclear></w> <w lemma="restituo"><unclear>restit</unclear>uerunt</w>  <w lemma="et"><unclear>et</unclear> <orig><unclear>pro</unclear></orig></w>
+               <lb n="14"/><w lemma="suus">sua</w> <supplied reason="lost"><w lemma="infatigabilis">infaticabili</w></supplied> <w lemma="prouidentia">prouidentia</w> 
+               <lb n="15"/><orig>du</orig> <gap reason="lost" quantity="6" unit="character"/> <w lemma="peruiam"><unclear>per</unclear>uium</w>
+               <lb n="16"/><w lemma="commeo">commeantibus</w> <w lemma="reddo">rediderunt</w>
+               <lb n="17"/><w lemma="millepassuum"><expan><ex>milia passuum</ex></expan></w> <num value="30"> XXX </num></ab></div>
+        
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>Emperor Caesar Caius Julius Verus Maximinus, Pius, Felix, Augustus, greatest victor in Germany, 
+               greatest victor in Sarmatia, greatest victor in Dacia, holding tribunician power for the third time and Caius Julius Verus Maximus, most noble Caesar, 
+               chief of the Youth, greatest victor in Germany, greatest victor in Sarmatia, 
+               greatest victor in Dacia, restored the bridges, which had collapsed because of their age, and the road which was disrupted by long-standing damage, and 
+               rebuilt a way along it for travellers, by their untiring providence. Milestone 30.</p></div>
+         <div type="commentary">
+           <!-- <p>Compare <ref type="inscription" n="IRT0924">924</ref>.</p> --> 
+         </div>
+      </body>
+   </text>
+</TEI>

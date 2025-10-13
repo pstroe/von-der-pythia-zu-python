@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0469" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to  Constantius II and Constantius Gallus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0469</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Long rectangular <objectType>base</objectType>, for an equestrian statue. The left-hand face of 
+                              <ref type="inscription" n="IRT0457">457</ref>, which is inscribed on the short end.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded panel (die. <dimensions>
+                              <width unit="metre">1.51</width>
+                              <height unit="metre">0.46</height>
+                           </dimensions>). which is divided into two halves by a vertical line. a to the left, b to the right, 
+                           c centered below.<!--  Uniform with <ref type="inscription" n="IRT0462">462</ref>.--></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre">0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0352" notAfter="0354" evidence="reign">CE 352-354 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, east end. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0605.jpg">
+                  <desc>Complete: Ward-Perkins Archive, BSR (Sopr. DLM 1555 Leica)</desc></graphic>
+                  <graphic url="wp0606.jpg">
+                  <desc>Left end: Ward-Perkins Archive, BSR (Sopr. DLM 227 Lastre)</desc></graphic>
+      <graphic url="tantillo0133.jpg">
+         <desc>View: Tantillo (2006)</desc></graphic>
+      <graphic url="bigi004.jpg">
+         <desc>Face, drawing: Bigi (2009)</desc></graphic>
+      <graphic url="tantillo0134.jpg">
+         <desc>Face, left end: Tantillo (2005)</desc></graphic>
+      <graphic url="tantillo0135.jpg">
+         <desc>Face, right end: Tantillo (2006)</desc></graphic>
+      <graphic url="tantillo0136.jpg">
+         <desc>Left face: Tantillo (n.d.)</desc></graphic>
+                  
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>469</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT469.html">469</ref></citedRange></bibl>; 
+               <bibl><ptr target="tantillo2010"/>, <citedRange>7</citedRange></bibl>, 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2153">2153</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022057">022057</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div n="i" type="textpart"><ab>
+                  <lb n="1"/>
+                  <del rend="erasure"><persName type="emperor" ref="#constantiusgallus"><w lemma="dominus">Domino</w> <w lemma="noster">nostro</w>
+                  <lb n="2"/>
+                  <name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="gentilicium" nymRef="Claudius">Claudio</name> <name type="cognomen" nymRef="Constantius">Constanti<surplus>n</surplus>o</name>
+                  <lb n="3"/>
+                  <w lemma="nobilis">nobilissimo</w> <w lemma="atque">ac</w> 
+                     <w lemma="floreo">floren<lb n="4" break="no"/>tissimo</w> <addName nymRef="Caesar">Caesari</addName></persName></del> 
+               </ab></div><div n="ii" type="textpart"><ab>
+                  <lb n="1"/><persName type="emperor" ref="#constantiussecundus"><w lemma="dominus">Domino</w> <w lemma="noster">nostro</w>
+                  <lb n="2"/>
+                  <name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Iulius"><expan><abbr>Iul</abbr><ex>io</ex></expan></name> <name type="cognomen" nymRef="Constantius">Constantio</name>
+                  <lb n="3"/><addName nymRef="Pius">Pio</addName> <addName nymRef="Felix">F<supplied reason="lost">elici</supplied></addName>
+                  <w lemma="semper"><unclear>sem</unclear><lb n="3" break="no"/>per</w> <addName nymRef="Augustus">Augusto</addName></persName>
+               </ab></div>
+         <div n="iii" type="textpart"><ab>
+            <supplied reason="lost" cert="low"><placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lepcitani</placeName> <w lemma="publice">publice</w></supplied></ab></div></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="i.2"><rdg resp="#irt1952">Constantino</rdg></app>
+               <app loc="ii.3"><rdg resp="#irt1952"><supplied reason="lost">sem</supplied></rdg></app>
+               <app loc="iii"><note>Tentatively suggested by Tantillo</note></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>i</note>: To our lord Flavius Claudius Constantine, most noble and excellent Caesar <note>all erased</note>.</p>
+            <p><note>ii</note>: To our Lord Flavius Julius Constantius Pius, Felix, always Augustus. </p></div>
+        
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Al nostro signore Flavio Claudio Costanzo (?) nobilissimo e fiorentissimo Cesare. Al nostro signore Flavio Giulio Costanzo,
+               Pio Felice per sempre Augusto . . . ?</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>To our lord Flavius Claudius Constantius, most noble and most prosperous Caesar.</p>
+            <p>To our lord Flavius Iulius Constantius, pious, fortunate, eternal Augustus.</p></div>
+         
+         <div type="commentary">
+            <p>A dedication to Constantius Gallus (later erased) and Constantius II.</p>
+           <!--   <p>
+               <note>a</note> Constantinus II: Erased after damnatio in 340. The omission of the title Augustus is singular, see below. </p>
+            <p>
+               <note>b</note> Constantius II: Augustus with his brothers, Constantinus and Constans, from Sept. 337</p>-->
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1132" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1132</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Findspot</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>A pointed 
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Limestone</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">stele</objectType>, in twp pieces, 
+                                    <dimensions>
+                                        <height unit="metre">1.80</height>
+                                        <width unit="metre">0.50</width>
+                                        <depth unit="metre">0.27</depth>
+                                    </dimensions>
+                                    .
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> 
+                                    within a <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">tabella ansata</rs>
+                                    (<dimensions><height unit="metre">0.45</height> <width>0.40</width></dimensions> which is slightly damaged to the right.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.07-0.10</height>; ligatured AU (line 2) and HO (line 3)</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0001" notAfter="0400">First-fourth centuries CE</origDate>
+                        </origin>
+                        <provenance type="found"><p>
+                            <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1553">Eastern Jabal</placeName>: 
+                            in a marabout beside the watercourse of <placeName ref="https://www.slsgazetteer.org/1553">Wadi Uaeni</placeName> about 1 km. north of its confluence with Wadi Gsea (map ref. M 246 214)</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="https://www.geonames.org/2213793">Wādī al Wu‘aynī</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Previous Publications (Roueché)</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-30" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="oates1132.jpg"><desc>Face (D.Oates)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p> <bibl><ptr target="oates1954"/> <citedRange>5</citedRange>, p.115</bibl>, whence 
+                     <bibl><ptr target="ae"/> <citedRange>1955, page 60</citedRange> (mentioned)</bibl>, 
+                    <bibl><ptr target="elmayer1997"/>, <citedRange>24</citedRange></bibl>,
+                    <bibl><ptr target="kerr2010"/>, <citedRange unit="page">220</citedRange> (where see bibliography)</bibl>
+                    </p>
+            </div>
+            <div type="edition" xml:lang="xpu-Latn" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name nymRef="Iulius"><expan><abbr>Iu</abbr><ex>liu</ex></expan></name> <name nymRef="Flauius"><expan><abbr>Flav</abbr><ex>ius</ex></expan></name></persName>
+                <lb n="2"/><date type="life-span" dur="P66Y"><w lemma="sanuth">sanu</w> <w lemma="au">au</w> <num value="66">LXVI</num></date>
+                <lb n="3"/><w lemma="hic">hoc</w> <w>fillyth</w>
+                
+                    <lb n="4"/><persName type="attested"><name nymRef="Mia">Mia</name></persName> <date type="life-span" dur="P33Y"><w lemma="sanuth">sanu</w> <w lemma="au">au</w>
+                <lb n="5"/><num value="33">XXXIII</num></date>
+                </ab>
+               </div>
+            <div type="translation" source="#elmayer1997" xml:lang="en">
+                <p>Iul(ius) F(l)av(ius) (who) lived 66 years made this (tomb) for Thmia who lived 33 years.
+                </p>
+            </div>
+            <div type="translation" source="#kerr2010" xml:lang="en">
+                <p>Iu(lius) Flav(ius) lived 66 years; this <supplied reason="subaudible">was</supplied> the work of Mia <supplied reason="subaudible">who</supplied> lived years 33.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1210" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> text (En-Ngila cemetery)</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1210</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Tomb</objectType> of rubble, with a <material>plaster</material> surface, <dimensions><width>2.24</width> <depth>0.65</depth> <height>0.73</height></dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>, i on the south face, with a cross to the right; ii is on the north face, iii on 
+                           the east, on either side of a cross and iv on the west, above a flower.  </layout>
+                        </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Large clear uncial letters</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate corresp="0945" evidence="internal-date">945 CE (6454 a.m.)</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                  Christian cemetery among the sand-dunes at <placeName ref="https://www.slsgazetteer.org/821">en-Ngila</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219597/tripoli.html">an Najīlah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-05" who="CMR">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="paribeni1927"/>, <citedRange>X</citedRange></bibl>; 
+               recopied, although not recognised, <bibl><ptr target="todesco1935"/>, <citedRange>p.6</citedRange></bibl>, whence mentioned <bibl><ptr target="ae"/> <citedRange>1937.220</citedRange></bibl>;
+               mentioned and indexed <bibl><ptr target="irt1952"/>, <citedRange>262</citedRange></bibl>, whence mentioned 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT262.html">262</ref></citedRange></bibl>;
+               <bibl><ptr target="bartoccini1977"/> <citedRange>I</citedRange></bibl></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            
+               <div type="textpart" n="i"><ab>
+                  <lb n="1"/><w lemma="in">In</w> <w lemma="hic">oc</w> <w lemma="tumulus">tumulo</w> <w lemma="iaceo">iaceiit</w> <w lemma="corpus">corpus</w> <!-- check spelling -->
+               <w lemma="bonus">bone</w> <w lemma="memoria">memorie</w> 
+                  <lb n="2"/><persName type="attested"><name nymRef="Andreas">Andreas</name></persName>. <w lemma="uiuo">Binxit</w> <date type="life-span" dur="P45Y"> <w lemma="annus">annos</w> <w lemma="plus">plus</w> <w lemma="minus">minus</w> <num value="45">XXXXV</num></date>. 
+             <lb n="3"/><supplied reason="lost"><w lemma="exeo">exit</w> <w lemma="de">de</w> <w lemma="hic">hoc</w> <w lemma="saeculum">saeculo</w></supplied> <w lemma="annus">anno</w> <w lemma="sextus">sestio</w> <sic/> <w lemma="millesimus">milleisimo</w> <w lemma="quarientesimus">quarientesimo</w> <num>LIIII</num>  <w lemma="indictio">indictio</w>
+              <lb n="4"/>  <w lemma="quartus">qarta</w> <w lemma="in">in</w> <w lemma="mensis">mense</w> <w lemma="December">Deceber</w> <w lemma="dies">dies</w> <num value="12">XII</num> <w lemma="ante">ante</w> <w lemma="natiuitas">natiuitas</w> 
+                  <persName type="divine" ref="#kyrios"><w lemma="dominus"><expan><abbr>D</abbr><ex>omi</ex><abbr>ni</abbr></expan></w></persName> <w lemma="noster"><expan><abbr>no</abbr><ex>str</ex><abbr>i</abbr></expan></w> <persName type="divine" ref="#iesus"><name nymRef="Iesus"><expan><abbr>Ie</abbr><ex>s</ex><abbr>u</abbr></expan></name> 
+                     <name nymRef="Christus"><expan><abbr><g ref="symbols.xml#chi-rho"/></abbr><ex>Christ</ex><abbr>i</abbr></expan></name></persName></ab></div>
+            <div type="textpart" n="ii">
+               <ab><lb n="1"/> <w lemma="o">o</w> <w lemma="uos">bos</w> <w lemma="omnis">omnes</w> <w lemma="qui">qui</w> <w lemma="transeo">transitis</w> <w lemma="per">per</w> <w lemma="uia">uiam</w> <w lemma="uideo">bidete</w> 
+                  <w lemma="et"><supplied reason="lost">e</supplied>t</w> <supplied reason="lost" cert="low"><w lemma="aspicio">aspicite</w></supplied>
+               <lb n="2"/><w lemma="si">si</w> <w lemma="sum">est</w> <w lemma="dolor">dolor</w> <w lemma="uester">bester</w> <w lemma="sic">sic</w> <w lemma="sum">est</w> <w lemma="dolor">dolor</w> <w lemma="meus">meus</w>.  <w lemma="oro">Orate</w> <supplied reason="lost"><w lemma="pro">pro</w></supplied>
+                  <lb n="3"/><w lemma="ego">me</w> <w lemma="ut">ut</w> <w lemma="sic">sic</w> <w lemma="abeo">abeatis</w> <w lemma="deus"><expan><abbr>D</abbr><ex>eu</ex><abbr>m</abbr></expan></w> <w lemma="adiutor">adiutorem</w> <w lemma="sicut">sicut</w> <w lemma="dico">dix
+                  <lb n="4" break="no"/>it</w> <persName type="divine" ref="#jacobus"><name nymRef="Jacobus">Jacobus</name> <w lemma="apostolus"><expan><abbr>apo</abbr><ex>s</ex><abbr>t</abbr><ex>olu</ex><abbr>s</abbr></expan></w></persName>. <w lemma="oro">Orate</w> <persName type="divine" ref="#iesus"><name nymRef="Christus"><expan><abbr><g ref="symbols.xml#chi-rho"/></abbr><ex>Christum</ex></expan></name></persName> 
+                  <w lemma="inuicem">inbicem</w> <w lemma="ut">ut</w> <w lemma="salueo">salbemini</w> <w lemma="amen"><expan><abbr>Am</abbr><ex>en</ex></expan></w></ab></div>
+                  <div type="textpart" n="iii">
+                     <lb n="1"/><ab><w lemma="sanctus"><expan><abbr>S</abbr><ex>an</ex><abbr>c</abbr><ex>tu</ex><abbr>s</abbr></expan></w> 
+                     <w lemma="immortalis"><expan><abbr>immort</abbr><ex>alis</ex></expan></w>
+                     
+                  </ab></div>
+                  <div type="textpart" n="iv"><ab><lb n="1"/><w lemma="sanctus"><expan><abbr>S</abbr><ex>an</ex><abbr>c</abbr><ex>tu</ex><abbr>s</abbr></expan></w></ab></div>
+            
+         </div>
+         <div type="apparatus"><listApp>
+            <app loc="i.2"><rdg resp="#paribeni1927">anno testio</rdg></app>
+            <app loc="i.2"><rdg resp="#paribeni1927">indic[tione]</rdg></app>
+            <app loc="i.4"><rdg resp="#paribeni1927">salbeamini</rdg></app>
+            <app loc="ii and iv"><note>Not recorded by Paribeni</note></app>
+         </listApp></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p><note>i</note>: In this tomb lies the body Andreas, of good memory. He lived more or less 45 years. [He left this world] in the six thousandth four hundredth 54 year, 
+               fourth indiction, the month December, day 12 before the nativity of our Lord Jesus Christ.</p>
+            <p><note>ii</note>: Oh all you who pass on the road, behold and [?see] if your grief is such as my grief. Pray for me that thus I may have God as my helper in the day of judgement, 
+               as the Apostle James said: pray to Christ for one another so that you may be saved. Amen</p>
+            <p><note>iii</note>: Holy, Immortal.</p>
+            <p><note>iv</note>: Holy.</p>
+            
+         </div>
+         <div type="commentary">
+            <p>ii.1-2: See Lamentations 1.12, available at <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0527.tlg051.perseus-lat1:1.12">Perseus</ref>.</p>
+            <p>ii.2-4: See Epistle of James, available at <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0031.tlg020.perseus-lat1:5.16">Perseus</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

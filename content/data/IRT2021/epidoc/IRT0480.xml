@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0480" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Ortygius</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0480</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <objectType>base</objectType> with moulding on three faces (<dimensions>
+                                 <width unit="metre">0.56</width>
+                                 <height unit="metre">1.20</height>
+                                 <depth unit="metre">0.56</depth>
+                              </dimensions>) of coarse <material>brown limestone</material>, with <rs type="decoration">volutes</rs> at the upper angles.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the right face, line 1 on the upper moulding; there are formal <rs type="decoration">sprays</rs> at the beginning of line 2 and 7 and the end of line 2 and 3, and
+               <rs type="decoration">ivy leaves</rs> at the end of lines 4 and 7.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre" atLeast="0.03" atMost="0.05">0.03-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0408" notAfter="0423" precision="low" evidence="reign">CE 408-423 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, south-east angle.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0622.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 750)</desc></graphic>
+                  <graphic url="wp0623.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XVIII.42)</desc></graphic>
+      <graphic url="bigi015.jpg">
+         <desc>Face, drawing: Bigi (2009)</desc></graphic>
+      <graphic url="tantillo0166.jpg">
+         <desc>Inscribed (right) face: Tantillo (2005)</desc></graphic>
+      <graphic url="tantillo0168.jpg">
+         <desc>Upper moulding: Tantillo (2005)</desc></graphic>
+      <graphic url="tantillo0167.jpg">
+         <desc>Centre and inscribed (right) faces: Tantillo (2003)</desc></graphic>
+      <graphic url="tantillo0170.jpg">
+         <desc>Inscribed (right) face and back: Tantillo, 2008 (P1050877)</desc></graphic>
+      <graphic url="tantillo0169.jpg">
+         <desc>Top: Tantillo, 2008 (P1050872)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+            <bibl><ptr target="irt1952"/>, <citedRange>480</citedRange></bibl>,  
+               <bibl><ptr target="degrassi1954"/> <citedRange unit="page">115</citedRange></bibl>, whence 
+               <bibl><ptr target="reynolds1955"/>, <citedRange unit="page">143</citedRange></bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT480.html">480</ref></citedRange></bibl>; 
+               <bibl><ptr target="reynolds1977"/>, <citedRange unit="page">13</citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>31</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2177">2177</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059374">059374</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><space extent="unknown" unit="character"/> <persName type="attested" key="plre:2-ortygius"><name type="signum" nymRef="Ortygius">Ortygii</name></persName> <space extent="unknown" unit="character"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/> <g ref="symbols.xml#palm"/> <w lemma="floreo">florentissimis</w> <w lemma="saeculum">saeculis</w> <g ref="symbols.xml#palm"/>
+               <lb n="3"/>
+               <persName type="emperor"><w lemma="dominus"><expan><abbr>dd</abbr><ex>ominorum</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>nn</abbr><ex>ostrorum</ex></expan></w> <persName type="emperor" ref="#honorius"><name type="cognomen" nymRef="Honorius">Honori</name></persName> <w lemma="et">et</w> <persName type="emperor" ref="#theodosius2"><name type="cognomen" nymRef="Theodosius">Theodosii</name></persName> <g ref="symbols.xml#palm"/>
+               <lb n="4"/><g ref="symbols.xml#leaf"/> 
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atrum</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <w lemma="semper">semper</w> <addName nymRef="Augustus">Augustorum</addName></persName> <g ref="symbols.xml#leaf"/>
+               <lb n="5"/><g ref="symbols.xml#leaf"/> 
+               <persName type="attested" key="plre:2-ortygius"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="cognomen" nymRef="Ortygius">Ortygio</name></persName>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> 
+               <w lemma="spactabilis"><expan><abbr>sp</abbr><ex>ectabili</ex></expan></w> <w lemma="primus"><expan><abbr>p</abbr><ex>rimi</ex></expan></w> <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> 
+               <w lemma="comes"><expan><abbr>com</abbr><ex>iti</ex></expan></w> <w lemma="et">et</w> <w lemma="duco">duci</w> <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia"><expan><abbr>p</abbr><ex>rouinciae</ex></expan></w> 
+              <w lemma="Tripolitanus"> <expan><abbr>T</abbr><ex>ripolitanae</ex></expan></w></placeName>
+               <lb n="6"/><g ref="symbols.xml#leaf"/> <w lemma="ob">ob</w> <w lemma="insignis">insignia</w> <w lemma="meritum">meritorum</w> <w lemma="et">et</w> <w lemma="labor"><expan><abbr>labore</abbr><ex>m</ex></expan></w>
+               <lb n="7"/><g ref="symbols.xml#palm"/> <g ref="symbols.xml#palm"/> <w lemma="fides">fidemque</w> <w lemma="exhibeo">exhibitam</w> <g ref="symbols.xml#leaf"/>
+               <lb n="8"/><placeName type="ethnic" ref="#austuriani" nymRef="#Austurianus">Austurianorum</placeName> <w lemma="rabia">rabia</w> <w lemma="reprimo">ripraessa</w> 
+               <lb n="9"/><w lemma="ordo">ordo</w> <w lemma="splendidus">splendidissimus</w> <w lemma="et">et</w> <w lemma="populus">populus</w>
+               <lb n="10"/>
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis"><expan><abbr>Lepcimag</abbr><ex>nensis</ex></expan></placeName> 
+               <w lemma="ciuitas">ciuita<supplied reason="lost">t</supplied><unclear>is</unclear></w> <w lemma="conloco">conlocau<unclear>it</unclear></w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="5">
+                  <rdg resp="#irt2009">SPPO</rdg> <rdg resp="#reynolds1977"><note>corrected</note></rdg>
+               </app>
+               <app loc="8">
+                  <rdg resp="#reynolds1955"> rabie repressa</rdg> <rdg resp="#reynolds1977">furore repraessa</rdg>
+               </app> 
+               
+               <app loc="10">
+                  <rdg resp="#irt1952"> c̣ịụịṭạ[tis] p̣ụḅḷịc̣ẹ</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>In honour</note> of Ortygius.  </p><p>In the flourishing times of our lords Honorius and Theodosius, father of the country, always Augusti, to Flavius Ortygius, splendid man <note>of senatorial status</note>, SPPO <note>not understood</note>, count and governor of the province of Tripolitania, on account of the outstanding character of his deserts and effort and good faith shown in the suppressing of the rage of the Austuriani; the most splendid city council and the people of the city of Lepcis Magna <supplied reason="subaudible">set this up</supplied> publicly.</p></div>
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Ortygius! Nell’epoca quanto mai felice dei nostri signori Onorio e Teodosio, perpetui per sempre Augusti, a Flavius Ortygius, uomo chiarissimo e spettabile, 
+               conte di primo rango e duca della Prouincia di Tripolitania, per i suoi insigni meriti, le sue fatiche e la lealt  da lui mostrata,
+               arrestata la furia degli Austuriani, l’ordine splendidissimo e il popolo della città di Leptis Magna collocò. </p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>(Statue of) Ortygius. In the flourishing era of our lords Honorius and Theodosius, perpetual eternal Augusti. 
+            To Flavius Ortygius, of clarissimus rank, of spectabilis rank, count (<foreign xml:lang="la">comes</foreign>) of the first order and military commander (<foreign xml:lang="la">dux</foreign>) of the province of Tripolitania, 
+            on account of the tokens of his merits and his toil and loyalty diplayed; when the rage of the Austurians was repressed, the most splendid council (<foreign xml:lang="la">ordo</foreign>) 
+            and people of the city of Lepcis Magna set this up.</p></div>
+         <div type="commentary">
+            <p>Line 2. Honorius and Theodosius: Augusti 408-423.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

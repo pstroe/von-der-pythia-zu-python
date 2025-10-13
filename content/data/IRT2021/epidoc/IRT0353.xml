@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0353" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> 
+               <rs type="textType">dedication</rs> of arch to Trajan </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0353</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <objectType>block</objectType>s (<dimensions>
+                                 <width unit="metre">1.23</width>
+                                 <height unit="metre">0.45</height>
+                                 <depth unit="metre">0.45</depth>
+                              </dimensions> and
+               <dimensions>
+                                 <width unit="metre">0.8</width>
+                                 <height unit="metre">0.45</height>
+                                 <depth unit="metre">0.45</depth>
+                              </dimensions>) of <material>grey limestone</material>, 
+               all that survive of six which comprised the dedicatory inscription on the South West face of the Arch of Trajan. 
+               See also <ref type="inscription" n="IRT0523">523</ref>, <ref type="inscription" n="IRT0537">537</ref>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: line 1, <height unit="metre">0.11</height>; remainder, <height unit="metre">0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0110" evidence="internal-date">CE 110: <ref target="https://godot.date/id/M7NGqABLhRisoPjHEhMVjk">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/728">Cardo Maximus</placeName>, 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/703">Arch of Trajan</placeName> across the main street at the angle of <placeName ref="https://www.slsgazetteer.org/742/">Regio IV</placeName>,                                , 
+                              insula  2 and 3, and <placeName ref="https://www.slsgazetteer.org/744/">Regio V</placeName>, insula  1 and 3. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0452.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 928)</desc></graphic>
+                  <graphic url="wp0453.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 929)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="delaporte1836"/> <citedRange>7</citedRange></bibl>, whence
+               <bibl>
+                  <ptr target="cil"/> <citedRange>10</citedRange> (one block only) with p. 2289</bibl>;
+               <bibl><ptr target="romanelli1940"/>, <citedRange>98</citedRange>ff., figs. 8, 9</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1948.2</citedRange></bibl>; 
+               <bibl><ptr target="cil1916"/> <citedRange>22670</citedRange> line 4- 5</bibl> is probably derived from a block now lost.
+            <bibl><ptr target="irt1952"/>, <citedRange>353</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT353.html">353</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019662">019662</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#traianus"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w></supplied> 
+               <addName nymRef="Caesar"><supplied reason="lost">Cae</supplied>sari</addName> 
+                  <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Neru<supplied reason="lost">ae</supplied></name></persName> 
+               <supplied reason="lost"><w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> 
+                  <name type="cognomen" nymRef="Nerua">Neruae</name></supplied> 
+               <name type="cognomen" nymRef="Traianus"><supplied reason="lost">T</supplied>raiano</name> 
+               <addName nymRef="Augustus">Au<supplied reason="lost">gusto</supplied></addName> 
+               <supplied reason="lost"><addName nymRef="Germanicus"><expan><abbr>Germ</abbr><ex>anico</ex></expan></addName></supplied> 
+               <lb n="2"/>
+               <supplied reason="lost"><addName nymRef="Dacicus">Dacico</addName></supplied> </persName>
+               <supplied reason="lost"><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w></supplied> 
+               <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="14">XIIII</num> 
+               <w lemma="imperator"><expan><abbr>im<supplied reason="lost">p</supplied></abbr><ex>eratori</ex></expan></w> 
+               <supplied reason="lost"><num value="6">VI</num> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+               <num value="5">V</num></supplied> 
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+               <w lemma="consensus">con<supplied reason="lost">sensu</supplied></w> 
+               <supplied reason="lost"><w lemma="omnis">omnium</w></supplied> 
+               <lb n="3"/>
+               <supplied reason="lost"><w lemma="ordo">ordo</w> <w lemma="et">et</w> <w lemma="populus">populus</w></supplied> 
+               <placeName ref="#lepcis" nymRef="#Colonia Ulpia Traiana fidelis Lepcis Magna"><w lemma="colonia">coloniae</w> <addName nymRef="Ulpia">Ulpiae</addName> 
+               <addName nymRef="Traiana">Tr<supplied reason="lost">aianae</supplied></addName>
+               <addName nymRef="Fidelis"><supplied reason="lost">fid</supplied>elis</addName> <name nymRef="Lepcis">Lepcis</name>
+               <supplied reason="lost"><addName nymRef="Magna">Magnae</addName></supplied></placeName> <supplied reason="lost"><w lemma="arcus">arcum</w></supplied>
+               <lb n="4"/>
+               <w lemma="cum">cum</w> <w lemma="ornamentum">ornament<supplied reason="lost">is</supplied></w> 
+               <supplied reason="lost"><w lemma="pecunia">pecunia</w></supplied> <w lemma="publicus"><supplied reason="lost">pub</supplied>lica</w>
+               <w lemma="facio">feceru<supplied reason="lost">nt</supplied></w> 
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To <supplied reason="lost"> Emperor Cae</supplied>sar <supplied reason="lost">Nerva</supplied> Trajan Augustus <supplied reason="lost">Germanicus, Dacicus, son</supplied> of deified Ne<supplied reason="lost">rva</supplied>, chief <supplied reason="lost">priest</supplied> holding tribunician power for the fourteenth time, acclaimed victor <supplied reason="lost">six times, consul five times</supplied>, father of the country; <supplied reason="lost">with the agreement of all the city council and the people</supplied> of the colony Ulpia Traiana fidelis Lepcis <supplied reason="lost">Magna</supplied> had the <supplied reason="lost">arch</supplied> built with adornments <supplied reason="lost">at public expense</supplied></p></div>
+         <div type="commentary">
+            <!-- <p>Line 2. trib. pot. XIIII - 10 Dec. 109 - 9 Dec. 110.</p> 
+            <p>Discussed AE 1952, p. 36 s. n. 173</p>-->
+         </div>
+      </body>
+   </text>
+</TEI>

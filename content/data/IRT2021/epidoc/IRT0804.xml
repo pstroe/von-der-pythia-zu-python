@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0804" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greek <rs type="textType">mason's mark</rs>s
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0804</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Marble (cipollino)</material> 
+                              <objectType>column</objectType>; c) <dimensions>
+                                 <height unit="metre">0.28</height>
+                              </dimensions>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+            a) On the under surface of a column
+            b) Upside down on the apophyge of a column
+            c) On the drum of a column
+            d) On the drum, just above the foot
+            e) On the drum, just above the foot
+            f) On a column
+            g) On the under surface of a column
+            h) On the under surface of a column
+            </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> a) <height unit="metre">0.12</height>.</handNote>
+                     <handNote>b) <height unit="metre" atLeast="0.025" atMost="0.04">0.025-0.04</height>.</handNote>
+                     <handNote>c) <height unit="metre">0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101" notAfter="0300" evidence="context">Second to third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              In the <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName> and <placeName ref="https://www.slsgazetteer.org/712">Colonnaded Street</placeName>.
+                              a) <placeName type="monuList" ref="https://www.slsgazetteer.org/719">North Portico</placeName> of the Forum.
+                  b) Main South entrance to the Forum.
+                  c) Colonnaded Street, from the foot.
+                  d) Severan Temple to the North, and on one of the columns of the corresponding hall to the South
+                  e) Gallery which flanks the Basilica to the East
+                  f) adjoning e, similarly placed
+                  g) South of the portico of the Forum
+                  h) North-West chapel of the Basilica Severiana.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0993.jpg">
+                  <desc>a: Ward-Perkins Archive, BSR (BSR 49.I.44)</desc></graphic>
+                  <graphic url="wp0994.jpg">
+                  <desc>c: Ward-Perkins, 1951 (Ward-Perkins Archive, BSR 51.I.4)</desc></graphic>
+                  <graphic url="wp0995.jpg">
+                  <desc>f: Ward-Perkins, 1951 (Ward-Perkins Archive, BSR 51.I.29)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>804</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT804.html">804</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189626">189626</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189627">189627</ref></citedRange>, 
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189628">189628</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189629">189629</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189630">189630</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189631">189631</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189632">189632</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189633">189633</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189634">189634</ref></citedRange>, 
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189635">189635</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189636">189636</ref></citedRange>,, 
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189637">189637</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189638">189638</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189639">189639</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189640">189640</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189641">189641</ref></citedRange>,
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189642">189642</ref></citedRange>,</bibl>,
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059654">059654</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div subtype="part" n="a" type="textpart"><ab><lb n="1"/><orig>Φι</orig></ab></div>
+            <div subtype="part" n="b" type="textpart"><ab><lb n="1"/><orig>Φι</orig></ab></div>
+            <div subtype="part" n="c" type="textpart"><ab><lb n="1"/><orig>μ</orig></ab></div>
+            <div subtype="part" n="d" type="textpart"><ab><lb n="1"/><orig>π</orig></ab></div>
+            <div subtype="part" n="e" type="textpart"><ab><lb n="1"/><orig>πο</orig></ab></div>
+            <div subtype="part" n="f" type="textpart"><ab><lb n="1"/><orig>ζο</orig></ab></div>
+            <div subtype="part" n="g" type="textpart"><ab><lb n="1"/><orig>α</orig></ab></div>
+            <div subtype="part" n="h" type="textpart"><ab><lb n="1"/><orig>κο</orig></ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a</note> Phi( ?)</p><p>  <note>b</note> Phi( ?)</p><p> <note>c</note> M( ?) </p></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p> <note>d</note> P </p>
+            <p> <note>e</note> Po </p>
+            <p> <note>f</note> Zo </p>
+            <p> <note>g</note> A </p>
+            <p> <note>h</note> Ko</p>
+         </div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

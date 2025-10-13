@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0262" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> texts</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0262</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>IRT0262</msName></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-24" who="CMR">Merged</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div type="commentary">
+               <p>Christian cemetery among the sand-dunes at <placeName ref="https://www.slsgazetteer.org/821">en-Ngila</placeName> 
+                  (map ref. L 410550) 18 km. SSW of Tripoli, near Suani Ben Adem; There is no record of any associated structure. The cemetery was described by Romanelli (1915) and the texts 
+                  published by Paribeni in 1927; they were re-examined by Bartoccini, in an article published in 1977, after his death. 
+                  The cemetery was re-examined in 1971 by a team from the University of Bologna. The tombs are similar in structure to those at Ain Zara, 
+                  but the inscriptions, most of which are dated, are of the later tenth or early 11th century. The texts were not included in <hi rend="italic">IRT</hi> 
+                  1952: 
+                  they are published here at <ref type="inscription" n="IRT1201">1201</ref>-<ref type="inscription" n="IRT1215">1215</ref>.</p>
+            </div>
+      </body>
+   </text>
+</TEI>

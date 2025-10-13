@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0523" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building<certainty match=".." locus="value"/>
+               </rs> inscription by a proconsul</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0523</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Three <objectType>block</objectType>s, one complete, one damaged 
+               (together, total length, <height unit="metre">1.97</height>) and one fragmentary block of <material>grey limestone</material>. 
+               It has the same cornice-moulding as <ref type="inscription" n="IRT0537">537</ref>. See also <ref type="inscription" n="IRT0353">353</ref>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: line 1, <height unit="metre">0.065</height>; line 2, <height unit="metre">0.055</height>; line 3, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0100" notAfter="0109" evidence="context prosopography">Early second century (see below).</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/728">Cardo Maximus</placeName>,  
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/703">Arch of Trajan</placeName>. From an inscription which stood on the North East face of the arch, corresponding to <ref type="inscription" n="IRT0537">537</ref> on the South West.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0665.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 931)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="romanelli1940"/>, <citedRange>104</citedRange> ff., fig. 12</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1948.4</citedRange></bibl>;
+               <bibl><ptr target="guey1951"/> <citedRange/></bibl>, whence  
+               <bibl> <ptr target="ae"/> <citedRange>1952, page 36</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>523</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT523.html">523</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019668">019668</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium" nymRef="Cornelius">Cornelius</name> 
+                  <name type="cognomen" nymRef="Rarus">Rarus</name> <name type="gentilicium" nymRef="Sextius">Sextius</name> <name type="cognomen" nymRef="Na-"><seg part="I">Na</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <num value="15">XV</num><w lemma="uir"><supplied reason="lost">uir</supplied></w>
+               <lb n="2"/><w lemma="sacer">sacris</w> <w lemma="facio">faciu<supplied reason="lost">ndis</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <placeName ref="#africaprocons" nymRef="#Prouincia Africa"><w lemma="prouincia"><expan><abbr>prou<supplied reason="lost">inc</supplied></abbr><supplied reason="lost"><ex>iae</ex></supplied></expan></w> 
+               <w lemma="Africus"><supplied reason="lost">Africae</supplied></w></placeName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Caius Cornelius Rarus Sextius Na<gap reason="lost" extent="unknown" unit="character"/>, consul, member of the committee of fifteen for sacred activities, <gap reason="lost" extent="unknown" unit="character"/>, proconsul of the province <supplied reason="lost">of Africa</supplied> <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>Since the inscriptions on the SW face (<ref type="inscription" n="IRT0353">353</ref>, <ref type="inscription" n="IRT0537">537</ref>) appear to refer to the dedication of the arch, Romanelli, op. cit., suggests that this inscription may have mentioned the beginning of its construction. 
+                  If so, <date notBefore="0100" notAfter="0109">the proconsulate of Cornelius Rarus is presumably to be dated shortly before that of Q. Pomponius Rufus (109-110</date>, see <ref type="inscription" n="IRT0353">353</ref> and <ref type="inscription" n="IRT0537">537</ref>).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

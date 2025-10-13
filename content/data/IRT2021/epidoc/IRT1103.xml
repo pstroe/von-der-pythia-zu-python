@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1103" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Milestone</rs>. Mile 57. Claudius Gothicus</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD050462</idno>
+                <idno type="TM">201721</idno>
+                <idno type="filename">IRT1103</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Column</objectType>ar milestone of
+                                        <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>: 
+                                    <dimensions>
+                                        <height unit="metre">0.90</height>
+                                        <dim unit="metre">0.40</dim>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height unit="metre">0.04-0.05</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot<placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName></origPlace>
+                            <origDate notBefore="0268" notAfter="0270" evidence="reign">268 AD – 270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                                <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName>:   
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/693">Tazzoli</placeName>, podere 127</p></provenance>
+                        <provenance type="observed"><p>Findspot (<date type="observed">1971</date>)</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2008-07-21" who="Platz">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rgg-jmr1976"/> <citedRange unit="page">110</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1996.1696</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD050462">050462</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="emperor" ref="#claudiusgothicus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+                <lb n="2"/><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Aurelius">Aurelio</name> 
+                <lb n="3"/><name nymRef="Claudius">Claudio</name> <addName nymRef="Uictor">Uic
+                <lb break="no" n="4"/>tor<unclear>i</unclear></addName>  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> 
+                <lb n="5"/><w lemma="tribunius">tribunio</w>  
+                <lb n="6"/><surplus><w lemma="et">et</w></surplus> <w lemma="potestas">potestate</w> 
+                <lb n="7"/><w lemma="patria">patria</w><w lemma="et">et</w> <note>sic</note> <w lemma="patria"><expan><abbr>p</abbr><ex>at</ex><abbr>r
+                <lb break="no" n="8"/><surplus>r</surplus></abbr><ex>ie</ex></expan></w></persName> <note>sic</note> <w lemma="mille"><expan><abbr>m</abbr><ex>ilia</ex></expan></w> <num value="57">LVII</num>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>For Emperor Caesar Marcus Aurelius Claudius, Victor, Augustus, holding tribunician power, and father of the country. 57 miles.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

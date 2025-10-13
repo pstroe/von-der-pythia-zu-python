@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0263" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">votive</rs> offering of building work  to Asclepius</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0263</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">0.80</height>
+                                 <depth unit="metre">0.50</depth>
+                              </dimensions>) of compact <material>brown limestone</material>, damaged above.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face (die, <dimensions>
+                              <width unit="metre">0.45</width>
+                              <height unit="metre">0.45</height>
+                           </dimensions>). Line 8 is incised on the lower border.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Mannered Rustic capitals, probably third century CE: <height unit="measure" atLeast="0.03" atMost="0.04">0.03-0.04</height>.
+               </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" cert="low" precision="low" evidence="lettering">Probably third century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/740">Regio II</placeName>, 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/725">Hadrianic Baths</placeName> beside the Natatio, to the south.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0309.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. B 1082)</desc></graphic>
+      <graphic url="tantillo0382.jpg">
+         <desc>Face: Tantillo (2005)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="romanelli1925"/>, <citedRange>125</citedRange></bibl>;
+               <bibl><ptr target="bartoccini1929"/>,  <citedRange>80</citedRange>, fig. 82;</bibl>
+               <bibl><ptr target="bartoccini1925"/>, <citedRange>308</citedRange> <!-- check -->
+               </bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1925.105</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>263</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT263.html">263</ref></citedRange></bibl>, whence <bibl><ptr target="benseddik2010"/> <citedRange>59</citedRange></bibl> <!-- check -->
+               <bibl><ptr target="EDH"/> (Bigi, 2014) 
+                  <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025849">025849</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="attested"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name type="gentilicium" nymRef="Cornelius">Cornelius</name> <name type="cognomen" nymRef="Attax">Attax</name>
+               <lb n="2"/><name type="cognomen" nymRef="Marcianus">Marcianus</name></persName>
+               <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name type="gentilicium" nymRef="Appius">Appius</name> <name type="cognomen" nymRef="Amicus">Amicus</name>
+               <lb n="4"/><name type="cognomen" nymRef="Rufinianus">Rufinianus</name></persName>
+               <lb n="5"/><w lemma="curator"><expan><abbr>curr</abbr><ex>atores</ex></expan></w> <w lemma="reficio">refectionis</w>
+               <lb n="6"/><w lemma="thermae">thermarum</w> <w lemma="tertius"><expan><abbr>tert</abbr><ex>ium</ex></expan></w> 
+               <lb n="7"/><persName type="divine" ref="#asklepios"><w lemma="deus">Deo</w> <name nymRef="Aesculapius">Aesculapio</name></persName>
+               <lb n="8"/><space quantity="4" unit="character"/>
+               <w lemma="uotum"><expan><abbr>u</abbr><ex>otum</ex></expan></w> 
+               <w lemma="soluo"><expan><abbr>s</abbr><ex>oluerunt</ex></expan></w> <space quantity="4" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="6">
+                  <rdg resp="#romanelli1925"> tert(iae)</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Publius Cornelius Attax Marcianus <supplied reason="subaudible">and</supplied> Lucius Appius Amicus Rufinianus, in charge for the third time of the restoration of the baths, paid their vow to the god Aesculapius. </p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

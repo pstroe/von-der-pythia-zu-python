@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0243" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0243</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <material>rock</material>-cut <objectType>tomb</objectType></p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="content">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p>
+                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>: 
+                        A rock-cut tomb near Tripoli City; described in <date type="found">1670</date>.</p>
+                  </provenance>
+                  <provenance type="observed">
+                     <p>Findspot (<date type="observed">1670</date>)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="girard39_40.jpg"><desc> Girard, Histoire, f. 39-40 (Source gallica.bnf.fr)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="girard1685"/> <citedRange>f.38v-39r</citedRange></bibl>, whence 
+               <bibl><ptr target="cumont1925"/>, <citedRange>155</citedRange>, <citedRange>164</citedRange></bibl>; 
+                  <bibl><ptr target="irt1952"/>, <citedRange>243</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT243.html">243</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059213">059213</ref></citedRange></bibl>
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="divine" ref="#manes"><w lemma="deus">Dis</w> 
+               <w lemma="manes"><expan><abbr>manib</abbr><ex>us</ex></expan></w> </persName>
+               <lb n="2"/>
+               <persName type="attested">
+                  <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name>
+                  <name type="gentilicium" nymRef="Aurelius">Aurelius</name>
+                  <name type="cognomen" nymRef="Diodorus">Diodorus</name></persName> 
+               <lb n="3"/>
+               <persName type="attested">
+                  <name type="gentilicium" nymRef="Aurelia">Aureliae</name> 
+                  <name type="cognomen" nymRef="Flaccilla">Flaccillae</name></persName> 
+               <lb n="4"/><w lemma="filia">filiae</w> 
+               <w lemma="uiuo"><supplied reason="lost">uixit</supplied></w> 
+               <date type="life-span" dur="P17Y17D"><w lemma="annus"><expan><abbr>ann</abbr><ex>os</ex></expan></w> 
+               <num value="17">XVII</num>  
+               <lb n="5"/>
+               <w lemma="mensis"><supplied reason="lost" cert="low">menses</supplied></w> 
+               <w lemma="dies">dies</w> 
+               <num value="17">XVII</num></date>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To the gods below. Marcus Aurelius Diodorus for Aurelia Flaccilla his daughter; <supplied reason="lost">she lived</supplied><gap reason="lost" extent="unknown" unit="character"/> years, 17 <supplied reason="lost">months</supplied>, 17 days.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

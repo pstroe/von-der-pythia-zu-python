@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1035" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD049860</idno>
+                <idno type="TM">201575</idno>
+                <idno type="filename">IRT1035</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="institution.xml#db654">Lepcis Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>A small 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType> <!-- check material -->
+                                    of <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>
+                                    <dimensions>
+                                        <height unit="metre">0.345</height>
+                                        <width unit="metre">0.38</width>
+                                        <depth unit="metre">0.35</depth>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs>, not very competently, on three faces: i on the left side, 
+                                    ii at the front, iii on the right side.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Irregular: <height>0.02-0.065</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0080" notAfter="0120" evidence="context">Late first - early second century CE
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: used to fill the entry of a hypogaeum in the  
+                                <placeName ref="https://www.slsgazetteer.org/699">West Necropolis</placeName>.</p></provenance>
+                        <provenance type="observed"><p><placeName ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-26" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard1997"/>, <citedRange>1</citedRange>, 135-136</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1997.1584</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD049860">049860</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <div n="i" type="textpart"><ab>
+                <lb n="1"/>
+                <persName type="divine" ref="#manes"><w lemma="deus">Diis</w> <w lemma="manes">Manibus</w></persName> </ab></div>
+                <div n="ii" type="textpart"><ab><lb n="1"/> <persName type="attested"><name nymRef="Aristo">Aristonis</name> 
+                    <lb n="2"/><name nymRef="Adrumucus">Adrumucus</name></persName> 
+                    <lb n="3"/><w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> <w lemma="facio"><expan><abbr>f</abbr><ex>ecit</ex></expan></w> </ab></div>
+                <div n="iii" type="textpart"><ab>
+                    <lb n="1"/> <persName type="attested"><name nymRef="Diodorus">Diodorus</name> 
+                    <lb n="2"/><name nymRef="Adrumucus">Adrumucus</name></persName> 
+                    <lb n="3"/><w lemma="frater">frater</w> 
+                    <w lemma="curo">cura
+                    <lb break="no" n="4"/>uit</w>
+            </ab></div></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p><note>i</note>: To the gods below <note>ii</note>: <supplied reason="subaudible">tomb</supplied> of Aristo: Adrumucus made <supplied reason="subaudible">it</supplied> from his own money; 
+                    <note>iii</note>: Diodorus Adrumucus, <supplied reason="subaudible">his</supplied> brother, oversaw <supplied reason="subaudible">the work</supplied>.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

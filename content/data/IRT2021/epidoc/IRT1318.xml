@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1318" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Fragment</rs> </title>
+                <editor xml:id="reb">René Rebuffat</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1318</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="institution.xml#db654">Lepcis Museum</repository><idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p> <material>Marble</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">plaque</objectType> fragment, broken on all sides: 
+                                      <dimensions><height>0.065</height> <width>0.088</width><depth>0.035</depth></dimensions>
+                                     
+                                    
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Not measurable</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0101" notAfter="0300" precision="low" evidence="context">Second to third centuries CE</origDate>
+                        </origin><provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/2273">Necropolis</placeName>, south, with <ref type="inscription" n="IRT1317">1317</ref></p></provenance> 
+                        
+                       <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2220431">Abū Nujaym</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Transcription (Rebuffat)</creation></profileDesc>
+        <revisionDesc>
+            <change when="2021-10-12" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rebuffat1968"/> <citedRange>68-2</citedRange>, p.34</bibl>, whence 
+                    <bibl><ptr target="edcs"/> <citedRange>59800050</citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/>
+                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ixx</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>x</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p><note>Not usefully translatable.</note></p>
+            </div>
+            
+            <div type="commentary">
+              
+            </div>
+        </body>
+    </text>
+</TEI>

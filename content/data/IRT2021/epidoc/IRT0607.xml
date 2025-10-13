@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0607" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">honours </rs> for Septimia Polla</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0607</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <material>marble</material> 
+                              <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.58</width>
+                                 <height unit="metre">1.42</height>
+                                 <depth unit="metre">0.58</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.27</width>
+                              <height unit="metre">1.11</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: line 1, 
+               <height unit="metre">0.065</height>; line 2-5, 
+               <height unit="metre">0.05</height>; remainder, 
+               <height unit="metre" atLeast="0.035" atMost="0.04">0.035-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0100" notAfter="0192" evidence="prosopography">Before CE 193.</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/712">Colonnaded Street</placeName> - in the monumental exedra at the head of the street.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0796.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 937)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="aurigemma1950"/>, <citedRange unit="page">68</citedRange>
+               </bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1950.158</citedRange></bibl>;
+                  <bibl><ptr target="irt1952"/>, <citedRange>607</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT607.html">607</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021958">021958</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p><p>Discussed <bibl><ptr target="guey1951"/> <citedRange/></bibl>, whence  
+               <bibl><ptr target="ae"/> <citedRange>1952, page 37</citedRange></bibl>; 
+               <bibl><ptr target="guey1949"/> <citedRange/></bibl>, whence  
+               <bibl><ptr target="ae"/> <citedRange>1954, page 17</citedRange></bibl>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" key="pir-s-0502"><name type="gentilicium" nymRef="Septimia">Septimiae</name>
+                  <lb n="2"/><name type="cognomen" nymRef="Polla">Pollae</name></persName>  <persName type="attested" key="pir-s-0488"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name>
+               <lb n="3"/><name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> </persName>
+               <lb n="4"/>
+               <w lemma="duouir"><expan><abbr>IIuir</abbr><ex>i</ex></expan></w> 
+               <w lemma="flamen"><expan><abbr>flam</abbr><ex>inis</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>perp</abbr><ex>etui</ex></expan></w>
+               <lb n="5"/>
+               <w lemma="filia"><expan><abbr>fil</abbr><ex>iae</ex></expan></w> 
+               <persName type="attested" key="pir-s-0455"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimius</name>
+               <lb n="6"/><name type="cognomen" nymRef="Geta">Geta</name></persName> <w lemma="heres"><expan><abbr>her</abbr><ex>es</ex></expan></w> <w lemma="soror">sorori</w>
+               <lb n="7"/><w lemma="sancio">sanctissimae</w>
+               <lb n="8"/><w lemma="ex">ex</w> <w lemma="argentum"><expan><abbr>arg</abbr><ex>ento</ex></expan></w> 
+               <w lemma="pondo"><expan><abbr>p</abbr><ex>ondo</ex></expan></w> <num value="144">CXXXXIIII</num>
+               <lb n="9"/><orig>S = = Σ</orig> <g ref="symbols.xml#stop"/> <w lemma="decerno">decreto</w> <g ref="symbols.xml#stop"/>
+               <lb n="10"/><w lemma="splendidus">splendidissimi</w>
+               <lb n="11"/><w lemma="ordo">ordinis</w> <w lemma="pono">posuit</w>
+               <lb n="12"/><w lemma="ex">ex</w> <w lemma="testamentum">testamento</w>
+               <lb n="13"/><w lemma="is">eius</w> <w lemma="hic">huic</w> <w lemma="dono">dono</w>
+               <lb n="14"/><w lemma="uicesimus">uicesimam</w>  <w lemma="et">et</w>
+               <lb n="15"/>
+               <w lemma="argentum"><expan><abbr>arg</abbr><ex>enti</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="pondo"><expan><abbr>p</abbr><ex>ondo</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <num value="4">IIII</num> <g ref="symbols.xml#stop"/> <orig>S = = Σ</orig> <!-- check -->
+               <lb n="16"/><w lemma="amplus">amplius</w> <w lemma="qui">quam</w> 
+               <w lemma="legatus">le<lb n="17" break="no"/>gatum</w> <w lemma="sum">est</w> <w lemma="adicio">adiecit</w></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            
+            <p>To Septimia Polla, daughter of Lucius Septimius Severus, duumvir, perpetual flamen <note>priest</note>; Publius Septimius Geta, her heir, t
+               o his most innocent sister; made from 144 pounds and 10 1/2 ounces of silver he erected <supplied reason="subaudible">this</supplied> 
+               by decree of the most splendid city council in accordance with her will, and in addition he gave ?the tax of the 20th on heirlooms and 4 lbs 10 1/2 
+               ounces of silver in addition to what was bequeathed.</p></div>
+         <div type="commentary">
+            <p>Septimia Polla: <title>PIR</title> S 0502, <ref target="https://pir.bbaw.de/id/12132">https://pir.bbaw.de/id/12132</ref></p>
+            <p>Lucius Septimius Severus: <title>PIR</title> S 0488, <ref target="https://pir.bbaw.de/id/12209">https://pir.bbaw.de/id/12209</ref></p>
+            <p>Publius Septimius Geta: <title>PIR</title> S 0455 <ref target="https://pir.bbaw.de/id/12174">https://pir.bbaw.de/id/12174</ref></p>
+            
+          
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0104" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for a fourth century official</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0104</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> (<dimensions>
+                                 <width>0.60</width>
+                                 <height>1.30</height>
+                                 <depth>0.75</depth>
+                              </dimensions>) of <material>brown limestone</material>, much damaged.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a recessed panel (die, <dimensions>
+                              <width>0.45</width>
+                              <height>0.75</height>
+                           </dimensions>). The first two lines are cut above the die.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <date type="textDate" notBefore="0301" notAfter="0400" precision="low">Fourth century CE</date> capitals: line 1, <height>0.07</height>; remainder, av. <height>0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/843">Forum</placeName>, at the east end of the South portico.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0137.jpg">
+                     <desc>Upper part: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XI.21)</desc></graphic>
+                  <graphic url="wp0138.jpg">
+                     <desc>Central section: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XI.20)</desc></graphic>
+                  <graphic url="wp0139.jpg">
+                     <desc>Lower part: Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.VII.27)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>104</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT104.html">104</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059091">059091</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w part="F"><unclear>t</unclear>ii</w> <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimi</ex></expan></w> 
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="integritas"><supplied reason="lost">integ</supplied>ritatis</w> <w lemma="religio">religione</w> 
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>n</unclear>ti<unclear>f</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="se" part="M">se</w>
+               <lb n="5"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w part="M">u</w>
+               <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ob">ob</w>
+               <lb n="8"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="9"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="10"/>
+               <supplied reason="lost"><w lemma="ordo">ordo</w> <w lemma="et">et</w></supplied>
+               <w lemma="populus"><supplied reason="lost">popu</supplied>lus</w> <w lemma="colonia">colo<supplied reason="lost">niae</supplied></w>
+               <supplied reason="lost"><placeName ref="#sabratha" nymRef="#Colonia Sabrathensis"><expan><abbr>Sabr</abbr><ex>athensis</ex></expan></placeName></supplied> 
+               <lb n="11"/><gap reason="lost" quantity="4" unit="character" precision="low"/>
+               <w lemma="publice"><supplied reason="lost">publi</supplied>ce</w> <w lemma="pono">posuit</w><gap reason="lost" quantity="7" unit="character" precision="low"/>
+               <lb n="12"/>
+               <gap reason="lost" quantity="1" unit="character"/>
+               <w lemma="curo"><supplied reason="lost">cur</supplied>ante</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> 
+               <name type="gentilicium" nymRef="Aurelius">Aurelio</name> <name type="cognomen" nymRef="Felicianus">Felici<unclear>ano</unclear></name>
+               <lb n="13"/>
+               <name type="cognomen" nymRef="Damasius"><unclear>D</unclear><supplied reason="lost">a</supplied>masio</name></persName> 
+               <w lemma="flamen"><expan><abbr>fl</abbr><ex>amine</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan></w> 
+               <w lemma="sacerdos"><expan><abbr>sac</abbr><ex>erdote</ex></expan></w> <persName type="divine" nymRef="Hercules"><w lemma="deus">dei</w> <name nymRef="Hercules">Herculis</name></persName>
+               <lb n="14"/><w lemma="quinquennalis"><expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennale</ex></expan></w> <w lemma="curator">curatore</w> <w lemma="res">rei</w> <w lemma="publicus">publicae</w>
+               <lb n="15"/><w lemma="feliciter">feliciter</w></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="lost">In honour</supplied> of <gap reason="lost" extent="unknown" unit="character"/>tius, excellent man 
+               <supplied reason="explanation">of
+      equestrian status </supplied>, <gap reason="lost" extent="unknown" unit="character"/> of integrity, with <note>or by</note> conscientiousness, 
+               <gap reason="lost" extent="unknown" unit="character"/>; <note>line 10</note><supplied reason="lost">the city council and 
+                  the</supplied> people of the colony <supplied reason="lost">of Sabratha</supplied><gap reason="lost" extent="unknown" unit="character"/> set this up publicly <gap reason="lost" extent="unknown" unit="character"/>; Caius Aurelius Felicianus Damasius, perpetual flamen <note>priest</note>, priest of the god Hercules, duovir in a fifth year, curator of the public affairs. With good fortune.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

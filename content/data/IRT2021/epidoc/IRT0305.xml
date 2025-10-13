@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0305" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Neptune Augustus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+            <editor xml:id="cb">Caroline Barron</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0305</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Left half of a rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.39</width>
+                                 <height unit="metre">0.74</height>
+                                 <depth unit="metre">0.68</depth>
+                              </dimensions>) 
+               of <material>yellow limestone</material> marked with red; inscribed on one face.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving face: i above ii</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: line 1, <height unit="metre">0.075</height>; line 2, <height unit="metre">0.07</height>, 
+                        lines 4- 5, <height unit="metre">0.045</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0200" evidence="lettering">First-second centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>,
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/729">Punic Market</placeName>, in the South West portico.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-07-18" who="CB">Added Neo Punic texts and translations</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0366.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 200)</desc></graphic>
+                  <graphic url="wp0367.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 644)</desc></graphic>
+      <graphic url="tantillo0066.jpg">
+         <desc>Face: Tantillo (2005)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>305</citedRange></bibl>, whence
+           <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT305.html">305</ref></citedRange></bibl>, whence 
+               discussed <bibl><ptr target="guey1953"/> <citedRange unit="page">353-60</citedRange></bibl>, 
+               whence <bibl><ptr target="ae"/> <citedRange>1954.201l</citedRange></bibl>; 
+               <bibl><ptr target="fevrier1953"/> <citedRange unit="page">358-60</citedRange></bibl>, whence
+              <bibl><ptr target="dellavida1987"/> <citedRange>30</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2008"/> <citedRange>Labdah N21</citedRange></bibl>
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018206">018206</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" n="i"><ab>
+               <lb n="1"/><persName type="divine" ref="#neptunus"><name nymRef="Neptunus">Neptu<supplied reason="lost">no</supplied></name>
+               <lb n="2"/><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> <w lemma="sacer"><expan><abbr>s<supplied reason="lost">ac</supplied></abbr><ex>rum</ex></expan></w>
+               <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium" nymRef="Sossius">Sossius</name> <gap reason="lost" quantity="5" unit="character" precision="low"/>
+                  <lb n="4" break="no"/><name type="cognomen"><seg part="F">nus</seg></name></persName> <w lemma="quattuoruir">IIIIu<supplied reason="lost">ir</supplied></w> <supplied reason="lost"><w lemma="aedilicius"><expan><abbr>aed</abbr><ex>ilicia</ex></expan></w></supplied>
+               <lb n="5"/><w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <w lemma="de">de</w> <w lemma="suus">sua</w> <supplied reason="lost"><w lemma="pecunia">pecunia</w></supplied> <supplied reason="lost"><w lemma="pono">posuit</w></supplied>
+            </ab></div>
+         <div type="textpart" xml:lang="xpu" n="ii">
+            <ab>
+              <lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><w lemma="ᶜydls">ᶜydls</w> <w lemma="qwᶜṭrbr">qwᶜṭrbr</w> 
+               <w lemma="lmb-">l</w><w lemma="m">m</w><w lemma="b"><unclear>b</unclear></w><gap extent="unknown" reason="lost" unit="character"/><w lemma="k">k<unclear>ḥ</unclear></w> 
+               <w lemma="b-">b</w><w lemma="tmm">t<supplied reason="lost">m</supplied></w> 
+          <!-- when xml:lang=xpu then output 'unclear' with &#x30A;  (=combining ring above), 
+              and not the underdot employed in all other languages as above -->
+            </ab>
+         </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="5">
+                  <rdg resp="#irt2009">  . . . ]/pot(estate)</rdg>
+                     <rdg resp="#guey1953"> aed(ilicia) pot(estate)</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i. Sacred to Neptune Augustus, Caius Sossius <gap reason="lost" extent="unknown" unit="character"/>nus, 
+               quattuor-vir with <gap reason="lost" extent="unknown" unit="character"/> powers, 
+               <supplied reason="subaudible">set this up</supplied> at his own expense.</p>
+         <p resp="#cb">[ ]edile, quattuorvir [ ]at his own expense</p>
+         </div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>ii. [ ]edile, quattuorvir [ ]at his own expense</p>     
+         </div>          
+         <div type="commentary">
+         <!--    <p>Line 5: IIIIviri are not otherwise recorded at Lepcis.</p> -->
+            <p>Discussion of the Neo-Punic text:
+               Jongeling, K. 1983, ‘Neo-punische-latijnse inscripties uit Lepcis Magna (Libye)’ in 
+              <ref target="https://zenon.dainst.org/Record/000821926"/>, 413;
+               <ref target="https://zenon.dainst.org/Record/000225656">Adams (2003)</ref>, 221-222;
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N21;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 253.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

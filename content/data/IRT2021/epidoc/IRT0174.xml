@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0174" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Invocation</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0174</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db660">Sabratha Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Mosaic</material> <objectType>floor</objectType>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="tessellis">Mosaic</rs> <objectType>emblema</objectType>, comprising an inscribed <rs type="decoration">tabella ansata</rs> 
+            (die, <dimensions>
+                                 <width unit="metre">0.54</width>
+                                 <height unit="metre">0.45</height>
+                              </dimensions>)
+             within a <rs type="decoration">wreath</rs>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>  <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0368" notAfter="0400" precision="low" evidence="lettering">Late fourth century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/856">Regio II</placeName>, 
+                  late Fourth century floor of a house behind the <placeName type="monuList" ref="https://www.slsgazetteer.org/829">Antonine Temple</placeName> (insula  10, house G).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p><placeName ref="https://www.slsgazetteer.org/660">Sabratha Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0209.jpg">
+                  <desc>In situ: Ward-Perkins Archive, BSR (Sopr. DS Leica 467 or 468)</desc></graphic>
+                  <graphic url="wp0210.jpg">
+                     <desc>In situ: Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.III.11)</desc></graphic>
+      <graphic url="Mosaic_Sabratha_02.jpg">
+         <desc>Sabratha Museum: Sasha Coachman, 2009 (<ref target="https://commons.wikimedia.org/wiki/File:Mosaic_Sabratha_02.JPG">Wikimedia Commons</ref>)</desc></graphic>
+      
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>174</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT174.html">174</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059150">059150</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="concedo">Concesit</w> <w lemma="fortuna">fort<supplied reason="lost">unam</supplied></w>  
+               <lb n="2"/><w lemma="mihi">michi</w> <w lemma="tam">tam</w> <w lemma="gratus">gra<supplied reason="lost">to</supplied></w> 
+               <lb n="3"/><w lemma="gratia">gratia</w> <w lemma="improbus">inprobi</w> 
+               <w lemma="quis">qu<lb n="4" break="no"/>id</w> <w lemma="prosum">prodes</w> <w lemma="qui">quod</w>
+               <lb n="5"/><w lemma="meus">mea</w> <w lemma="fatum">fata</w> <gap reason="lost" atLeast="4" atMost="5" unit="character"/><w lemma="suadeo" cert="low"><supplied reason="lost" cert="low">s</supplied>ua
+               <lb n="6" break="no"/>deo</w> <w lemma="uos" cert="low">bos</w> <gap reason="lost" atLeast="4" atMost="5" unit="character"/><w part="F">atis</w>
+               <lb n="7"/><w lemma="parco" part="I">parc<unclear>i</unclear></w><gap reason="lost" atLeast="7" atMost="8" unit="character"/><w part="F">aceatis</w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="6">
+                  <note> The sixth letter of this line is now destroyed, but appears in a photograph taken when first excavated.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p> ? The gratitude of a criminal yielded fortune to me who am so grateful; what use are you? because my fates <gap reason="lost" extent="unknown" unit="character"/> ? I persuade you <gap reason="lost" extent="unknown" unit="character"/> sparing <note>plural</note><gap reason="lost" extent="unknown" unit="character"/></p><p><note><foreign xml:lang="la">N.B.</foreign> I do not understand this text.</note></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

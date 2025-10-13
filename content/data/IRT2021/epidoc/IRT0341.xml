@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0341" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary  <rs type="textType">building</rs> 
+               <rs type="textType">dedication</rs> of porticoes to Nero</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0341</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>balustrade</objectType> blocks of <material>grey limestone</material> 
+               (each approx. <dimensions>
+                                 <width unit="metre">1.80</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.50</depth>
+                              </dimensions>) from two apparently identical monumental inscriptions. 
+               Eleven blocks were found in 1930, of which three only are still visible; 
+               the others are now buried under alluvial deposit and the text of these latter is known only from a drawing made in 1932 and in part 
+               from a photograph in the Superintendency archives.
+               a) Blocks still visible.
+               b) Blocks no longer visible, but photographed.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: 
+               line l, <height unit="metre">0.165</height>;
+               line 2, <height unit="metre">0.14</height>;
+               line 3, <height unit="metre">0.11</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0061" notAfter="0062" evidence="titulature">CE 61-62: <ref target="https://godot.date/id/FEDENJoUmZzpD77CWTeZcX">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/734">Harbour</placeName> area, near the junction of the Port and the Colonnaded Street, 
+                  on the North West bank of Wadi Lebdah.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0424.jpg">
+                  <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.XXI.36)</desc></graphic>
+                  <graphic url="wp0425.jpg">
+                  <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.XX.37)</desc></graphic>
+                  <graphic url="wp0426.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 303)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="degrassi1945"/> <citedRange>11</citedRange>, n. 2 (1. 3 only)</bibl>; 
+               <bibl><ptr target="degrassi1954"/> <citedRange/></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>341</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT341.html">341</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059275">059275</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.<!-- check -->
+                   </p>
+         </div>
+      <!--    <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="section" n="a" type="textpart"><div subtype="section" n="i" type="textpart"><ab>
+                  <note>Blocks 1 and 2.</note>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <orig>roni claudio diui claudi f germani</orig>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <orig> ser cornelius ser f lem orfitu</orig>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <orig> columnas et super columnia et su</orig>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="section" n="ii" type="textpart"><ab>
+                     <note>Block 3</note>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>nep ti caesaris pro</orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig> quaestor divi claud</orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>  et super ostia in tribus </orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div></div><div subtype="section" n="b" type="textpart"><note>Blocks no longer visible but photographed.</note><div subtype="section" n="i" type="textpart"><note>Block 4.</note><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>onep diui aug ab</orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig><unclear>r</unclear>b cos pontif sod </orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>s f sabinus </orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div><div subtype="section" n="ii" type="textpart"><note>Block 5.</note><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>poti caesari</orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>odalis augustalis </orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>hymba<unclear>l</unclear> arinis f sabinus tap</orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div><div subtype="section" n="iii" type="textpart"><note>Block 6.</note><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig> trib pot <num value="8">VIII</num> </orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig> p silio celere </orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <orig>o<unclear>r</unclear> pecuniae publicae eas port</orig>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div></div><div n="c" type="textpart"><note>Blocks no longer visible, known only from a drawing.</note><div subtype="section" n="i" type="textpart"><note>Block 7.  line 1 only. line 2-3 niline</note><ab>
+                     <lb n="1"/>
+                     <orig>ne</orig>
+                  </ab></div><div subtype="section" n="ii" type="textpart"><note>Block 8.</note><ab>
+                        <lb n="1"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig>ontif max </orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig>edicauit  </orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig> idemque cura<unclear>u</unclear></orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                     </ab></div><div subtype="section" n="iii" type="textpart"><note>Block 9.</note><ab>
+                        <lb n="1"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig> aug germanico </orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig>procos patronus </orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig>apius flamen diui aug sufetu </orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                     </ab></div><div subtype="section" n="iv" type="textpart"><note>Block 10. line 1 only, line 2-3 niline</note><ab>
+                        <lb n="1"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig> cos <num value="4">IIII</num> pp</orig>
+                     </ab></div><div subtype="section" n="v" type="textpart"><note>Block 11.</note><ab>
+                        <lb n="1"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig> max </orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <orig>iendas cura<unclear>u</unclear></orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                     </ab></div></div></div>check -->
+         <div type="edition" subtype="reconstruction" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#nero"><name nymRef="Nero">Neroni</name> <name type="gentilicium" nymRef="Claudius">Claudio</name> 
+                  <persName type="emperor" ref="#claudius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Claudius">Claudi</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> 
+               <persName type="emperor" ref="#germanicus"><name type="cognomen" nymRef="Germanicus">Germa<supplied reason="lost">nici</supplied></name></persName> <w lemma="nepos"><expan><abbr>nep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#tiberius"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> 
+               <addName nymRef="Caesar">Caesaris</addName></persName> <w lemma="pronepos"><expan><abbr>pronep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#augustus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="abnepos">ab<supplied reason="lost">ne</supplied>poti</w>
+                  <addName nymRef="Caesar">Caesari</addName> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <addName nymRef="Germanicus">Germanico</addName>
+               <w lemma="pontifex"><expan><abbr><supplied reason="lost">p</supplied>ontif</abbr><ex>ici</ex></expan></w> 
+               <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+              <w lemma="potestas"> <expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="8">VIII</num> 
+               <w lemma="imperator"><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan></supplied></w> <num><gap reason="lost" extent="unknown" unit="character"/></num> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="4">IIII</num> 
+              <w lemma="pater"> <expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></persName>  
+               <lb n="2"/>
+               <persName type="attested" key="pir-c-1444"><name type="praenomen" nymRef="Seruius"><expan><abbr>Ser</abbr><ex>uius</ex></expan></name> <name type="gentilicium" nymRef="Cornelius">Cornelius</name> 
+               <persName type="attested"><name nymRef="Seruius"><expan><abbr>Ser</abbr><ex>ui</ex></expan></name></persName> 
+               <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> <name type="tribe"><expan><abbr>Lem</abbr><ex>onia tribu</ex></expan></name> 
+               <name type="cognomen" nymRef="Orfitus">Orfitu<supplied reason="lost">s</supplied></name> </persName>
+               <gap reason="lost" quantity="8" unit="character" precision="low"/> <w lemma="quaestor">quaestor</w> 
+               <persName type="emperor" ref="#claudius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Claudius">Claud<supplied reason="lost">i</supplied></name></persName> 
+               <supplied reason="lost"><w lemma="praetor"><expan><abbr>pr</abbr><ex>aetor</ex></expan></w></supplied> 
+               <w lemma="urbanus"><expan><abbr><supplied reason="lost">u</supplied><unclear>r</unclear>b</abbr><ex>anus</ex></expan></w> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <w lemma="pontifex"><expan><abbr>pontif</abbr><ex>ex</ex></expan></w> <w lemma="sodalis">sodalis</w> <w lemma="augustalis">Augustalis</w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <w lemma="patronus">patronus</w> 
+              <w lemma="dedico"> <supplied reason="lost">d</supplied>edicauit</w> 
+               <persName type="attested" key="pir-s-0719"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name type="gentilicium" nymRef="Silius">Silio</name> <name type="cognomen" nymRef="Celer">Celere</name></persName> 
+               <supplied reason="lost"><w lemma="legatus">legato</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="columna">columnas</w> <w lemma="et">et</w> <w lemma="super">super</w> <w lemma="columnia">columnia</w> <w lemma="et">et</w> <w lemma="super">super</w> <w lemma="ostia">ostia</w> <w lemma="in">in</w> <w lemma="tres">tribus</w> <gap reason="lost" quantity="15" unit="character" precision="low"/>
+               <persName type="attested"><name nymRef="Ithymbal"><supplied reason="lost">It</supplied>hymba<unclear>l</unclear></name>
+                  <persName type="attested"><name type="cognomen" nymRef="Aris">Arinis</name> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></persName>
+                  <name nymRef="Sabinus">Sabinus</name> <name type="cognomen" nymRef="Tapapius">Tapapius</name></persName>
+               <w lemma="flamen">flamen</w> <persName type="emperor" ref="#anonymus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> </persName><w lemma="sufes">sufetu</w> 
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="facio"><supplied reason="lost">fa</supplied>ciendas</w> <w lemma="curo">cura<supplied reason="lost">uit</supplied></w> 
+               <w lemma="idem">idemque</w> <w lemma="curator">cura<unclear>t</unclear>or</w> <w lemma="pecunia">pecuniae</w> <w lemma="publicus">publicae</w> <w lemma="is">eas</w> <w lemma="porticus">port<supplied reason="lost">icus</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app/>
+            
+               <app loc="a.3">
+                  <rdg resp="#degrassi1954">supercolumnia et superostia</rdg>
+                  <note>: on the stone there are in fact stops between <foreign xml:lang="la">super et columnia</foreign>, and between <foreign xml:lang="la">super</foreign> and <foreign xml:lang="la">ostia</foreign>.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Nero Claudius Caesar Augustus Germanicus, son of deified Claudius, grandson of Germanicus, great grandson of Tiberius Caesar, great great grandson of  deified Augustus, chief priest, 
+               holding tribunician power for the eighth time, acclaimed victor ? times, consul four times, father of the country; Servius Cornelius Orfitus, son of Servius, of the 
+               Roman voting tribe Lemonia, <gap reason="lost" extent="unknown" unit="character"/> quaestor of the deified Claudius, urban praetor, consul, priest, sodalis 
+               <note>Roman priest</note> of the cult of the Augusti, proconsul, patron, dedicated <supplied reason="subaudible">it</supplied>, Publius Silvius Celer 
+               <gap reason="lost" extent="unknown" unit="character"/> his legate <gap reason="lost" extent="unknown" unit="character"/> Ithymbal Sabinus Tapapius, son of Arin, flamen 
+               <note>local priest</note> of the deified Augustus, sufete <gap reason="lost" extent="unknown" unit="character"/>, saw to the erection of the columns and the apertures above them and above these openings, in three <gap reason="lost" extent="unknown" unit="character"/>, and also as curator of public funds <gap reason="lost" extent="unknown" unit="character"/> those porticoes <gap reason="lost" extent="unknown" unit="character"/> </p></div>
+         <div type="commentary">
+            <p>Ser. Cornelius Scipio Salvidienus Orfitus: <title>PIR</title> C 1444,  <ref target="https://pir.bbaw.de/id/49729">https://pir.bbaw.de/id/49729</ref>.</p>
+            <p> P. Silius Celer: <title>PIR</title> S 719;  <ref target="https://pir.bbaw.de/id/12481">https://pir.bbaw.de/id/12481</ref>.</p>
+            <!-- <p>c.iii: Tapapius:  Also in Neo-Punic 29 and probably Neo-Punic 33. 
+                     For other members of the Tapapius family see  <ref type="inscription" n="IRT0319">319</ref>  n. 8. </p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

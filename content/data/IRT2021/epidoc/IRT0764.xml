@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0764" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">funerary</rs> 
+               <rs type="textType">verse</rs> 
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0764</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <material>limestone</material> <objectType>sarcophagus</objectType>, decorated 
+                              with a relief of a casket supported by putti: broken away above.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> within the face of the casket, which is moulded below.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Clear and elegant: no measurements.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="content">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/699">West Necropolis</placeName>, 
+                        a mausoleum in <placeName type="monuList" ref="https://www.slsgazetteer.org/759">Wadi Rsaf</placeName>. Seen by Delaporte in <date type="found">1806</date>, and foud again in 1996.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (<date type="observed">1996</date>)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="delaporte1836"/> <citedRange>32</citedRange></bibl>, whence 
+               <bibl>
+                  <ptr target="cigiii"/>, <citedRange>5363</citedRange></bibl>
+               a) Reported at <bibl><ptr target="cil"/>, <citedRange>7</citedRange></bibl>, more fully 
+                <bibl><ptr target="cil1891"/> <citedRange>10997</citedRange>, from Delaporte's transcription</bibl>; 
+            <bibl><ptr target="irt1952"/>, <citedRange>764</citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189528">189528</ref></citedRange></bibl>, 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT764.html">764</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059611">059611</ref></citedRange></bibl>;
+            Found and photographed <bibl><ptr target="musso1997"/> <citedRange>266</citedRange> and plate CXLI</bibl></p><!-- check -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="0"/>
+               <gap reason="lost" extent="unknown" unit="line"/>
+               
+     
+      <lb n="1"/><w part="F">ον</w> <w lemma="παίς">παῖδά</w> <w lemma="ἐγώ">μ’</w>
+   <supplied reason="lost"><w lemma="ἀποφθίνω">ἀποφθῖϲθαι</w> <w lemma="μίτος">μίτοϲ</w>
+      <w lemma="ὡς">ὡϲ</w></supplied>
+   <w lemma="ἐπικλώθω"><supplied reason="lost">ἐπέ</supplied><lb n="2" break="no"/>κλωϲεν</w>
+   <w lemma="ὁ">ὁ</w> <persName type="divine" ref="#moira"><name nymRef="Μοῖραι">Μοιρῶν</name></persName>
+   <w lemma="παίς">παῖδά</w> <w lemma="ἐγώ">με</w>
+   <w lemma="τυμβεύω"><supplied reason="lost">τυ</supplied>μβε<supplied reason="lost">ῦ</supplied><lb n="3" break="no"/>ϲαι</w>
+   <w lemma="καί">καὶ</w> <w lemma="ἀφεγγής">ἀφε<supplied reason="lost">γγ</supplied>έα</w>
+   <w lemma="νύξ">νύκτα</w> <w lemma="περάω">περᾶϲαι</w>.
+   
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> for me to die as a child, since the thread of the Fates spun 
+               that I should be buried
+      as a child and come to the darkness without light.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

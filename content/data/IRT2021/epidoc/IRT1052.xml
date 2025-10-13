@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1052" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> ?of an ideal statue for emperors</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD067631</idno>
+                <idno type="TM">367570</idno>
+                <idno type="filename">IRT1052</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Statue 
+                                      <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType>,  probably
+                                      <material ref="http://www.eagle-network.eu/voc/material/lod/60">limestone</material>; no measurements. 
+                                      Apparently from a group of matching bases: <ref type="inscription" n="IRT1050">1050</ref>, <ref type="inscription" n="IRT1051">1051</ref>, 
+                                      <ref type="inscription" n="IRT1016">1016</ref>, <ref type="inscription" n="IRT1050">1052</ref>.
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Apparently 
+                                    <rs type="execution" ref="scalpro">inscribed</rs> on the face; the layout is not recorded.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> No description</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0355" notAfter="0367" evidence="prosopography, reign" cert="low"> 355-360 or 364-367 CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>, to the south-west of the  
+                            <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>.</p></provenance>
+                        <provenance type="observed"><p>Findspot (<date type="observed">1960</date>)</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2219905">Al Khums</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+            <creation>Bartoccini</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-23" who="Bigi">keine Bildvorlage</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p>
+                    <bibl><ptr target="tantillo2010"/>, <citedRange>91</citedRange></bibl>, whence 
+                    <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2222">2222</ref></citedRange> (Tantillo and Bigi)</bibl>,
+                    <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067631">067631</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <w lemma="saluus">Saluis</w> <persName type="emperor" ref="#anonymi"><w lemma="dominus"><expan><abbr>dd</abbr><ex>ominis</ex></expan></w> <w lemma="noster"><expan><abbr>nn</abbr><ex>ostris</ex></expan></w></persName> 
+                <persName type="attested" key="plre:1-rusticus1"><name nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auius</ex></expan></name> <name nymRef="Lucretius">Lucretius</name> <name nymRef="Florentinus">Florentinus</name> <name nymRef="Rusticus">Rusticus</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimus</ex></expan></w> 
+                <w lemma="praeses"><expan><abbr>pr</abbr><ex>aeses</ex></expan></w> <w lemma="colloco">conlocauit</w>
+            </ab></div>
+            <div type="translation" source="#tantillo2010" xml:lang="it">
+                <p>Per la salvezza dei nostri signori! Flavius Lucretius Florentinus Rusticus, uomo perfettissimo, governatore, collocò.</p>
+            </div>
+            <div type="translation" source="#lsa" xml:lang="en">
+                <p>For the safety of our lords. Flavius Lucretius Florentinus Rusticus, of perfectissimus rank, governor (<foreign xml:lang="la">praeses</foreign>), set this here.</p>
+            </div>
+            <div type="commentary">
+                
+                <p>Fl. Lucretius Florentinus Rusticus: <title>PLRE</title> I, Rusticus 1.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

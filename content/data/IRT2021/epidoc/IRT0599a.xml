@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0599a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscriptions  for benches</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0599a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><material>Limestone</material> 
+                              <objectType>bench</objectType>; uniform with <ref type="inscription" n="IRT0599b">IRT 599b</ref> and apparently from a series.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the front border (die, <dimensions>
+                              <width unit="metre">0.80</width>
+                              <height unit="metre">0.07</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals: <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="titulature">First to third centuries CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/740">Regio II</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/725">Hadrianic Baths</placeName>.   Bench b) is now lost.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0786.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 926)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl>
+                  <ptr target="bartoccini1929"/> <citedRange>78</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>599</citedRange>.a</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT599.html">599.a</ref></citedRange></bibl>, whence 
+               a: <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059458">059458</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Iuttaph">Iuttaph</name> <name type="cognomen" nymRef="Domitius">Domitius</name></persName> 
+               <w lemma="sufes"><expan><abbr>suf</abbr><ex>es</ex></expan></w> 
+               <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+               <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w>
+               <lb n="2"/>
+               <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+               <w lemma="facio"><expan><abbr>f</abbr><ex>aciendum</ex></expan></w> 
+               <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan> </w>
+               </ab>
+            </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Iuttaph Domitius, sufete, saw to the making <supplied reason="subaudible">of this</supplied> at his own expense.</p></div>
+         <div type="commentary">
+            <p>
+               <app>
+                  <note>
+                     To this series belongs a group of six benches (whole or fragmentary) inscribed in Neo-Punic (Neo-Punic 12, 
+                     <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N9) translated by Levi Della Vida as follows: 
+                     
+<p>l) These six seats were made in the year of the sufetes 'Abdmelqart Tabahpi` and Aris h.p.r.b. Their manufacture (cost) denarii</p> 
+                     
+                     <p>2) 133 in total: their manufacture (cost) denarii 80 and <foreign xml:lang="xpu">ha-k.n.d.rīm</foreign> 9 corresponding to the fines (or to the contributions) which were set apart </p>
+                     
+                     <p>3) under the <foreign xml:lang="xpu">m.hzīm</foreign> who were in office in that year, and their manufacture (cost) denarii 52 and </p>
+                     
+                     <p>4) [lacuna of one line] they made two seats with the fines (or with the contributions) according to the estimate which (was made)</p> 
+                     
+                     <p>5) under the <foreign xml:lang="xpu">m.hzīm</foreign> Candidus and Donatus, they made 4 seats with the fines (or with the contributions) according to the estimate which (was made) 
+                     under the <foreign xml:lang="xpu">m.hzīm</foreign> Idni </p>
+                    
+                     <p> 6) bal, son of Hannibal s.d.sh.m.r. and Hanno son of Arisham Y.g.m Jk.</p> 
+                     
+                     <p>For the family of Tabahpi see <ref type="inscription" n="IRT0319">319</ref>, n. 8 </p>
+                  </note>
+               </app>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

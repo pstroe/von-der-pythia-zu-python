@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0662" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0662</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot (1895)</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Marble</material> 
+                              <objectType>block</objectType>; the right-hand edge is broken, 
+               and the upper edge may be broken also. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the front and carved on the left face with an <rs type="decoration">amphora</rs>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400" evidence="nomenclature">First to fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/699">West Necropolis</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/722">Gasr ed-Doueirat</placeName>. Seen in <date type="found">1895</date> with <ref type="inscription" n="IRT0755">755</ref>, 
+                  beside the remains of a mausoleum 20 minutes to the South (see <ref type="inscription" n="IRT0729">729</ref>). </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (1895)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="cg341.jpg"><desc>Drawing, Clermont-Ganneau (1895)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="clermont1903"/> <citedRange>341</citedRange> (with sketch)</bibl>, whence 
+               <bibl><ptr target="cil1916"/>, <citedRange>22685</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>662</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT662.html">662</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059514">059514</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="0"/>
+               <gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="1"/><w part="F">uies</w> <g ref="symbols.xml#stop"/> <w lemma="iuu-" part="I">iuu</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><w part="F">bus</w> <g ref="symbols.xml#stop"/> <w lemma="bonus" part="I">bo<unclear>n</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><w lemma="memoria" part="I">memoria</w><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="Uibia"><supplied reason="lost">Ui</supplied>
+                  <lb n="4" break="no"/>biae</name> <g ref="symbols.xml#stop"/> <name type="cognomen" nymRef="Ann-">Ann<gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="5" break="no"/><unclear>at</unclear>ae</name></persName> <g ref="symbols.xml#stop"/> <w lemma="qui">quae</w> <supplied reason="lost"><w lemma="uiuo">uixit</w></supplied>
+               <date type="life-span" dur="P16Y"><w lemma="annus"><supplied reason="lost">an</supplied><lb n="6" break="no"/><unclear>n</unclear>is</w> <g ref="symbols.xml#stop"/>
+               <num value="16">XVI</num> <g ref="symbols.xml#stop"/></date> <w lemma="uirginalis"><unclear>u</unclear><supplied reason="lost">irgin</supplied><lb n="7" break="no"/>ali</w> 
+               <w lemma="pudicitia">pudiciti<supplied reason="lost">a</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> to the good memory of <supplied reason="lost">Ui</supplied>bia Ann<gap reason="lost" extent="unknown" unit="character"/>ata, 
+               who lived for sixteen years with maidenly modesty <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

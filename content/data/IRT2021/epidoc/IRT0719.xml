@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0719" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Loukios</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0719</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <objectType>stele</objectType>
+               (<dimensions>
+                                 <width unit="metre">0.38</width>
+                                 <height unit="metre">0.64</height>
+                                 <depth unit="metre">0.09</depth>
+                              </dimensions>) in the form of a shrine with <rs type="decoration">columns</rs>, <rs type="decoration">pediment</rs> and <rs type="decoration">acroteria</rs>, 
+               forming a border to the inscribed die (<dimensions>
+                                 <width unit="metre">0.27</width>
+                                 <height unit="metre">0.42</height>
+                              </dimensions>).
+               A <rs type="decoration">tongue</rs> projects downwards from the base. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the die. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.025" atMost="0.013">0.025-0.013</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400" precision="low" evidence="terminology">First to fourth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                  Found re-used in late antiquity, in the so-called <placeName type="monuList" ref="https://www.slsgazetteer.org/757">Villa del Nilo</placeName>, beside the sea between the Port and the Amphitheatre</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0913.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXXV.10)</desc></graphic>
+      <graphic url="wp0313.jpg">
+         <desc>From left: Above, <ref type="inscription" n="IRT0719">719</ref>, <ref type="inscription" n="IRT0656">656</ref>, <ref type="inscription" n="IRT0677">677</ref>; 
+            below: <ref type="inscription" n="IRT0828">828</ref>, <ref type="inscription" n="IRT0267">267</ref>, <ref type="inscription" n="IRT0672">672</ref>: Ward-Perkins Archive, BSR</desc></graphic>
+      <graphic url="wp0314.jpg">
+         <desc>From left: Above, <ref type="inscription" n="IRT0719">719</ref>, <ref type="inscription" n="IRT0656">656</ref>, <ref type="inscription" n="IRT0677">677</ref>; 
+            below: <ref type="inscription" n="IRT0828">828</ref>, <ref type="inscription" n="IRT0267">267</ref>, <ref type="inscription" n="IRT0672">672</ref>: Ward-Perkins Archive, BSR</desc></graphic>
+   </facsimile>
+   
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl>
+                  <ptr target="romanelli1925"/>,  fig. 77</bibl>;
+               <bibl><ptr target="aurigemma1928"/>, <citedRange>259</citedRange>ff., fig. 9</bibl>;
+               <bibl><ptr target="seg"/> <citedRange>9.805</citedRange></bibl>; <!-- check PHI -->
+            <bibl><ptr target="irt1952"/>, <citedRange>719</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT719.html">719</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="robertBE"/> <citedRange>1953.257</citedRange>, 201</bibl>,
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189523">189523</ref></citedRange></bibl>
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059568">059568</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab> 
+               <lb n="1"/><w lemma="ὁ">τὸν</w> <w lemma="σεμνός">σεμνῶς</w>
+   <w lemma="ζάω">ζήσαν<lb n="2" break="no"/>τα</w>
+                <w lemma="καί">καὶ</w> <w lemma="ἦθος">ἤθεσι</w>
+   <w lemma="δοκέω"><expan><abbr>δοξασ</abbr><ex>θέν</ex><lb n="3" break="no"/><abbr>τα</abbr></expan></w>
+                 <w lemma="τιμή">τειμαῖς</w> <w lemma="τιμάω">τειμηθέν<lb n="4" break="no"/>τα</w>
+   <w lemma="τέχνη">τέχνῃ</w> <w lemma="δέ">δέ</w> <w lemma="τοί">τοὶ</w>
+   <w lemma="μόνος">μοῦ<lb n="5" break="no"/>νον</w> <w lemma="εἰμί">ἐόντα</w> <w lemma="πάνσοφος">πάνσοφον</w>
+               <lb n="6"/><w lemma="ἐν">ἐν</w> <w lemma="πολύς">πολλοῖς</w> <w lemma="ἔργον">ἔργεσιν</w>
+               <lb n="7"/><persName type="attested"><name type="cognomen" nymRef="Λουκίος">Λούκιον</name></persName> <w lemma="ἔνθα">ἔνθα</w> <w lemma="μέλας">μέλαινα</w>
+               <lb n="8"/><placeName ref="#libya" nymRef="#Λιβύη">Λιβύης</placeName> <w lemma="κατά">κατὰ</w>
+   <w lemma="γαῖα">γαῖα</w> <w lemma="καλύπτω"><expan><abbr>κα<lb n="9" break="no"/>λύπτ</abbr><ex>ε</ex><abbr>ι</abbr></expan></w> <persName type="attested"><name type="cognomen" nymRef="Σώστρατος">Σώστρατος</name></persName>
+               <lb n="10"/><persName type="attested"><name type="cognomen" nymRef="Λούκιος">Λουκίῳ</name></persName> <w lemma="ὁ">τῷ</w> <w lemma="ἴδιος">ἰδίῳ</w> <w lemma="θρεπτός">θρε<lb n="11" break="no"/>πτῷ</w> <w lemma="ζάω">ζήσαντι</w> <w lemma="ἔτος">ἔτη</w>
+               <lb n="12"/><num value="21"><hi rend="supraline">κα</hi></num> <w lemma="μνήμη">μνήμης</w>
+               <lb n="13"/>  <w lemma="χάρις"><unclear>χ</unclear>άριν</w>
+               <lb n="14"/><w lemma="χαίρω"><supplied reason="lost">χ</supplied>αίρετε</w> 
+               <w lemma="παροδίτης">παροδεῖ<lb n="15" break="no"/>ται</w>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>One who lived honourably and respected for his way of life, honoured ?with official honours, being of singulars skill and wholly informed in many tasks, Lucius, here the black earth of Libya conceals you. Sostratos <supplied reason="subaudible">set this up</supplied> for Lucius, his own nursling , who lived for twenty-one years; in memory.</p><p> Hail, passers-by!</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

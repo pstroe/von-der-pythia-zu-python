@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0315" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments from a <rs type="textType">building</rs> 
+               <rs type="textType">dedication<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0315</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Six fragments of a <material>marble</material> 
+                              <objectType>panel</objectType>. <dimensions><depth>0.25</depth></dimensions>; 
+               a) <dimensions>
+                                 <width unit="metre">0.27</width>
+                                 <height unit="metre">0.21</height></dimensions>, no edges surviving; 
+               b) <dimensions>
+                                 <width unit="metre">0.55</width>
+                                 <height unit="metre">0.24</height>
+                              </dimensions>, no edges surviving; 
+               c) <dimensions>
+                                 <width unit="metre">0.17</width>
+                                 <height unit="metre">0.16</height>
+                              </dimensions>, no edges surviving;
+               d) <dimensions>
+                                 <width unit="metre">0.10</width>
+                                 <height unit="metre">0.08</height>
+                              </dimensions>, no edges surviving;
+               e) <dimensions>
+                                 <width unit="metre">0.15</width>
+                                 <height unit="metre">0.17</height>
+                              </dimensions>, last two lines;
+               f) <dimensions>
+                                 <width unit="metre">0.15</width>
+                                 <height unit="metre">0.09</height>
+                              </dimensions>, last line.
+                           g (from upper edge) and h: no measurements.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late form of Rustic capitals: lines 1-5, <height unit="metre">0.05</height>; line 6, <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0305" notAfter="0306" evidence="internal-date">1 May 305-25 July 306</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/740">Regio II</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/725">Hadrianic Baths</placeName> (Bartoccini MS notes)</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Bartoccini MS notes; Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="bigi024.jpg">
+      <desc>Fragments assembled, drawing: Bigi (2009)</desc></graphic>
+                  <graphic url="wp0380.jpg">
+                  <desc>All fragments: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXII.24)</desc></graphic>
+      <graphic url="tantillo0029.jpg">
+         <desc>Assembled: Tantillo (2005: DSCN1644)</desc></graphic>
+      <graphic url="tantillo0025.jpg">
+         <desc>Upper left: Tantillo (2005: DSCN1638)</desc></graphic>
+      <graphic url="tantillo0024.jpg">
+         <desc>Centre (b): Tantillo (2005: DSCN1639)</desc></graphic>
+      <graphic url="tantillo0026.jpg">
+         <desc>Centre right (b): Tantillo (2005: DSCN1640)</desc></graphic>
+      <graphic url="tantillo0027.jpg">
+         <desc>Right end: Tantillo (2005: DSCN1641)</desc></graphic>
+      <graphic url="tantillo0028.jpg">
+         <desc>Lower right: Tantillo (2005: DSCN1642)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>314</citedRange></bibl>, whence
+           <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT315.html">315</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>70</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>2010.1782</citedRange></bibl>
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067598">067598</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+<lb n="1"/><w lemma="felix"><supplied reason="lost">Felic</supplied>issim<supplied reason="lost">is</supplied></w> <supplied reason="lost"><w lemma="tempus">temporibus</w></supplied> <persName type="emperor"><supplied reason="lost"><w lemma="dominus"><expan><abbr>dddd</abbr><ex>ominorum</ex></expan></w> 
+   <w lemma="noster"><expan><abbr>nnnn</abbr><ex>ostrorum</ex></expan></w> 
+   <w lemma="Imperator"><expan><abbr>Impp</abbr><ex>eratorum</ex></expan></w>
+<persName type="emperor" ref="#constantius1"><name nymRef="Constantius">Constanti</name></persName> <w lemma="et">et</w> <persName type="emperor" ref="#maximianus"><name nymRef="Maximianus">Maximiani</name> <addName nymRef="Augustus"><expan><abbr>Augg</abbr><ex>ustorum</ex></expan></addName></persName> <w lemma="et">et</w></supplied>
+<lb n="2"/><persName type="emperor" ref="#severussecundus"><name nymRef="Seuerus"><supplied reason="lost">Seu</supplied>eri</name></persName> <w lemma="et">et</w> <supplied reason="lost"><persName type="emperor" ref="#maximinus"><name nymRef="Maximinus">Maximini</name></persName> 
+   <w lemma="nobilis"><expan><abbr>nobb</abbr><ex>ilissimorum</ex></expan></w></supplied> <addName nymRef="Caesar"><expan><abbr>Caess</abbr><ex>arum</ex></expan></addName></persName>
+<w lemma="therma">thermae</w> <w lemma="Sa-" part="I">Sa</w><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="ob">ob</w></supplied> <w lemma="longus"><supplied reason="lost">lo</supplied>ngam</w> <w lemma="admodum">admo
+<lb break="no" n="3"/><supplied reason="lost">dum</supplied></w> <supplied reason="lost"><w lemma="incuria">incuriam</w> <w lemma="et">et</w></supplied> <w lemma="uetustas"><supplied reason="lost">ue</supplied>tustatem</w> 
+               <w lemma="ad">ad</w> <w lemma="solum">solum</w> <w lemma="deduco">dedu<supplied reason="lost">ctae</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F">m</w> <w lemma="uener-" part="I">uener</w>
+<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="prouisio">prouisione</w> <w lemma="et">et</w> <w lemma="eximius">eximio</w> <w lemma="praeceptum">prae<supplied reason="lost">cepto</supplied> </w><gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><w lemma="ad">ad</w></supplied> <w lemma="pristinus"><supplied reason="lost">pris</supplied>tinum</w> <w lemma="status">sta
+<lb break="no" n="5"/><supplied reason="lost">tum</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><w part="F">a</w> <w lemma="renouo">renou<supplied reason="lost">ata</supplied>e</w> <w lemma="sum">sun<supplied reason="lost">t</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>ordio</orig>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="curo"><supplied reason="lost" cert="low">curante</supplied></w> <persName type="attested"><name nymRef="Antonius">Anton<supplied reason="lost">io</supplied></name></persName>
+<gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div>
+            
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a. <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">temple</supplied> of <note>or for</note> Venus
+      <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">with</supplied> continuous 
+      <supplied reason="lost" cert="low">care</supplied><gap reason="lost" extent="unknown" unit="character"/> </p>
+            <p>b. <gap reason="lost" extent="unknown" unit="character"/> superintendents of the Bath <gap reason="lost" extent="unknown" unit="character"/> fallen to the ground 
+      <supplied reason="lost" cert="low">on account of its age</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+      by exercise of forethought and extreme <gap reason="lost" extent="unknown" unit="character"/> he renewed 
+         <gap reason="lost" extent="unknown" unit="character"/> </p><p><note>c and d are not usefully translatable</note></p><p>e.<gap reason="lost" extent="unknown" unit="character"/> ?Asia <gap reason="lost" extent="unknown" unit="character"/></p><p>f.  ?with Antonius <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">looking after the work</supplied>.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Ai tempi quanto mai felici dei nostri signori imperatori Costanzo e Massimiano Augusti e Severo e Massimino nobilissimi
+               Cesari. Le terme Sa- . . .  per la troppo lunga incuria (?) e per la vecchiaia ormai rase al suolo . . . per provvedimento
+               e per esimia disposizione (?) . . . alla loro precedente condizione . . . furono rinnovate . . . fin dall’inizio (?) . . . (a
+               cura di?) Antonio . . . </p></div>   
+         
+         <div type="commentary">
+            <p>Tantillo and Bigi, loc. cit, reassembled the fragments and established the date.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

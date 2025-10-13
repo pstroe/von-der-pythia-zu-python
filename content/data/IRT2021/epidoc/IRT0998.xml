@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0998" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Milestone</rs>: Mile IV</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD004277</idno>
+                <idno type="TM">198849</idno>
+                <idno type="filename">IRT0998</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db660">Sabratha Museum</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Limestone</material> 
+                                      columnar
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">milestone</objectType>
+                                    
+                                    <dimensions>
+                                        <height unit="metre">1.04</height>
+                                        <dim unit="metre">0.48</dim></dimensions>
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>No description<!-- check LibAnt --></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0008" notAfter="0013" evidence="prosopography">8 – 13 CE
+                            </origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>, six kilometres to the east, on the Coast Road .</p></provenance><!-- check road -->
+                        <provenance type="observed"><p>
+                            <placeName ref="https://www.slsgazetteer.org/660">Sabratha Museum</placeName>.</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName></term>
+                    
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2011-08-04" who="Gräf">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://edh.ub.uni-heidelberg.de/edh/foto/F009805"><desc>Face</desc></graphic>
+        </facsimile>
+    
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard1978"/> <citedRange>9-16</citedRange>, pl. 1c; pl. 2a u. 2b</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1987.992</citedRange></bibl>, whence <!-- check -->
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004277">004277</ref></citedRange> 
+                    </bibl>.
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/><persName type="attested" key="pir-c-0106">
+                <name nymRef="Aulus"><expan><abbr>A</abbr><ex>ulo</ex></expan></name> <g ref="symbols.xml#stop"/> <name nymRef="Caecina">Caecina</name> 
+                <lb n="2"/><space extent="unknown" unit="character"/> <name nymRef="Seuerus">Seue<unclear>ro</unclear></name></persName> <space extent="unknown" unit="character"/>
+                <lb n="3"/><w lemma="proconsul"><expan><abbr>pr<unclear>o</unclear><g ref="symbols.xml#stop"/>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> 
+                <lb n="4"/><orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>l<unclear>e</unclear>g</abbr><ex>io</ex></expan></w> <num value="3"><unclear>I</unclear>II</num> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usta</ex></expan></addName> 
+                <lb n="5"/><space quantity="4" unit="character"/> <num value="4">IIII</num></orgName> <space quantity="4" unit="character"/>
+            </ab></div>
+            <div type="translation" source="#vitaevrard1978" xml:lang="fr">
+                <p>Sous le proconsulat d'A. Caecina Severus, la Troisième Légion Augusta (a aménagé ou jalonné cette route). (Milliaire) no. 4, ou 4 (milles)</p>
+            </div>
+            <div type="commentary">
+                <p>A. Caecina Severus: <title>PIR</title> C 0106, <ref target="https://pir.bbaw.de/id/3191">https://pir.bbaw.de/id/3191</ref></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1302" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <rs type="textType">Dedication</rs>?</title>
+                <editor xml:id="rr">René Rebuffat</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                
+                <idno type="filename">IRT1302</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="institution.xml#db654">Lepcis Museum</repository><idno>71-108</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Two fragments of <material>plaster</material> panel
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="pictura">Painted</rs> within graffito guidelines 
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Line 1, <height>0.055</height>, line 2, 0.047</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0201" notAfter="0259" evidence="context">201-259 CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/2268">Principia</placeName>, right wing; found in <date type="found">1971</date>. 
+                           </p></provenance>
+                        <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2220431">Abū Nujaym</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Transcribed from Rebuffat</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-09-17" who="CMR">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rebuffat1975"/> <citedRange unit="page">220-1</citedRange></bibl>, whence 
+                    <bibl><ptr target="edcs"/> <citedRange>59800054</citedRange>, <citedRange>59800055</citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <div type="textpart" n="a"><ab>
+                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>a</unclear>e</w> <g ref="symbols.xml#stop"/> <w lemma="et">et</w> <g ref="symbols.xml#stop"/> <w lemma="uictoria">uic<supplied reason="lost" cert="low">toriae</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ni</w> <g ref="symbols.xml#stop"/> <w lemma="inuictus" part="I">Inuic<supplied reason="lost">t</supplied></w><gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ua<unclear>o</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></ab></div>
+            <div type="textpart" n="b"><ab>
+                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>alu</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>an</orig> <space extent="unknown" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p><note>Not usefully translatable.</note></p>
+            </div>
+            
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0323" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription under Augustus by Annobal Rufus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+            <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0323</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>now replaced above the street door of the East dressing room</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Lintel</objectType> of <material>grey limestone</material>, 
+               (<dimensions>
+                                 <width unit="metre">4.64</width>
+                                 <height unit="metre">1.03</height>
+                                 <depth unit="metre" atLeast="0.54" atMost="0.29">0.54-0.29</depth>
+                              </dimensions>).
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded <rs type="decoration">tabella ansata</rs> 
+               (die, <dimensions>
+                              <width unit="metre">4.00</width>
+                              <height unit="metre">0.64</height>
+                           </dimensions>). Uniform with <ref type="inscription" n="IRT0321">321</ref> and <ref type="inscription" n="IRT0322">322</ref>; the text is identical with that of <ref type="inscription" n="IRT0322">322</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre" atLeast="0.157" atMost="0.12">0.157-0.12</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0002" evidence="internal-date">2 CE: <ref target="https://godot.date/id/qeVKWRpFE4sPRoZE4V8m4d">GODOT</ref> and <ref target="https://godot.date/id/fuxXS2R7BWFoNFqjn8j4pQ">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>,
+                  found re-used and now replaced above the street door of the East dressing room.
+               </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>now replaced above the street door of the East dressing room</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-18" who="CB">Added Neo Punic texts and translations</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0398.jpg">
+                  <desc>Restored in position: Ward-Perkins Archive, BSR (Sopr. DLM 270 Lastre)</desc></graphic>
+      <graphic url="wp0396.jpg">
+         <desc>At the time of excavation: Ward-Perkins Archive, BSR (Sopr. DLM 798(?)Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="caputo1940"/>, <citedRange>l99</citedRange>.ff, fig. 16</bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>323</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT323.html">323</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059268">059268</ref></citedRange></bibl>; 
+               <bibl><ptr target="dellavida1938"/> <citedRange unit="page">104-109</citedRange></bibl>, whence
+               <bibl><ptr target="dellavida1987"/> <citedRange>24</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..     
+            </p>
+         </div>
+         <div type="edition" xml:space="preserve">
+    <div type="textpart" xml:lang="la" n="i">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#augustus">
+                  <w lemma="imperator">
+                     <expan><abbr>Imp</abbr><ex>eratore</ex></expan>
+                  </w>
+                  <name type="cognomen" nymRef="Caesar">Caesare</name>
+                 <persName type="emperor" ref="#juliuscaesar"> <w lemma="diuus">Diui</w></persName>
+                  <w lemma="filius">
+                     <expan><abbr>f</abbr><ex>ilio</ex></expan>
+                  </w>
+                  <name type="cognomen" nymRef="Augustus">
+                     <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+                  </name>
+                  <w lemma="pontifex">
+                     <expan><abbr>pont</abbr><ex>ifice</ex></expan>
+                  </w>
+                  <w lemma="maximus">
+                     <expan><abbr>max</abbr><ex>imo</ex></expan>
+                  </w>
+                  <w lemma="tribunicius">
+                     <expan><abbr>tr</abbr><ex>ibunicia</ex></expan>
+                  </w>
+                  <w lemma="potestas">
+                     <expan><abbr>pot</abbr><ex>estate</ex></expan>
+                  </w>
+                  <num value="24">XXIV</num>
+                  <lb n="2"/>
+                  <w lemma="consul">
+                     <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+                  </w>
+                  <num value="13">XIII</num>
+                  <w lemma="pater">patre</w>
+                  <w lemma="patria">
+                     <expan><abbr>patr</abbr><ex>iae</ex></expan>
+                  </w>
+               </persName>
+               <lb n="3"/>
+               <persName type="attested">
+                  <name type="cognomen" nymRef="Annobal">Annobal</name>
+                  <w lemma="ornator">ornator</w>
+                  <w lemma="patria">patriae</w>
+                  <w lemma="amator">amator</w>
+                  <w lemma="concordia">concordiae</w>
+                  <w lemma="flamen">flamen</w>
+                  <lb n="4"/>
+                  <w lemma="sufes">sufes</w>
+                  <w lemma="praefectus">
+                     <expan><abbr>praef</abbr><ex>ectus</ex></expan>
+                  </w>
+                  <w lemma="sacer">
+                     <expan><abbr>sacr</abbr><ex>orum</ex></expan>
+                  </w>
+                  <persName type="attested">
+                     <name type="cognomen" nymRef="Himilcho">Himilchonis</name>
+                     <name type="cognomen" nymRef="Tapapius">Tapapi</name>
+                  </persName>
+                  <w lemma="filius">
+                     <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied>
+                  </w>
+                  <name type="cognomen" nymRef="Rufus">Rufu<supplied reason="lost">s</supplied></name></persName>
+               <w lemma="de">
+                  <expan><abbr>d</abbr><ex>e</ex></expan>
+               </w>
+               <w lemma="suus">
+                  <expan><abbr>s</abbr><ex>ua</ex></expan>
+               </w>
+               <w lemma="pecunia">
+                  <expan><abbr>p</abbr><ex>ecunia</ex></expan>
+               </w>
+               <w lemma="facio">
+                  <expan><abbr>fac</abbr><ex>iendum</ex></expan>
+               </w>
+               <w lemma="coepio">
+                  <expan><abbr>coer</abbr><ex>auit</ex></expan>
+               </w>
+               <w lemma="idem">
+                  <expan><abbr>idemq</abbr><ex>ue</ex></expan>
+               </w>
+               <w lemma="dedico">dedicauit</w>
+            </ab></div>
+     
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i. When Emperor Caesar Augustus, son of the deified <supplied reason="subaudible">Caesar</supplied>, chief priest, 
+               <supplied reason="subaudible">was</supplied> holding tribunician power for the twentyfourth time, consul for the thirteenth, 
+               father of the country, Annobal, adorner of his country, lover of concord, flamen <note>local priest</note>, sufete, in charged of sacred things, 
+               son of Himilcho Tapapius Rufus, saw to the construction at his own expense and also dedicated it. </p></div>
+      
+         
+         <div type="commentary">
+           <p>IRT 323 is not bilingual, but rather renders the same Latin text as IRT 321-322.</p> 
+           
+            <p>Annobal Tapapius Rufus. See <ref type="inscription" n="IRT0319">319</ref>.</p>
+        <!--    <p>Discussion: Tantillo (2010), 276, 287;
+               Quinn, J. C. 2010. 'The Reinvention of Lepcis' in <ref target="https://zenon.dainst.org/Record/002042218"> 52-69</ref>;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 257-259;
+               <ref target="https://zenon.dainst.org/Record/001362679">Wilson (2012)</ref>, 278-282.
+            </p> --> 
+         </div>
+      </body>
+   </text>
+</TEI>

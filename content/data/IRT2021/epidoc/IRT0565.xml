@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0565" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Flavius Nepotianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0565</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> of <material>marble</material> 
+               (<dimensions>
+                                 <width unit="metre">0.62</width>
+                                 <height unit="metre">1.53</height>
+                                 <depth unit="metre">1.70</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face: lines i and 2 on the upper moulding, 
+                           lines 3 ff. within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.31</width>
+                              <height unit="metre">0.80</height>
+                           </dimensions>); there are <rs type="decoration">formal sprays</rs> at either end of line 1 and at the end of line 25. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: line 1, <height unit="metre">0.05</height>; remainder, <height unit="metre" atLeast="0.03" atMost="0.035">0.03-0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0350" notAfter="0360" precision="low" evidence="prosopography">350-360 CE .</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>:  
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/704">Severan Basilica</placeName>, West colonnade at the south end. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0735.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 112 Leica)</desc></graphic>
+                  <graphic url="wp0736.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 113 Leica)</desc></graphic>
+                  <graphic url="wp0737.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 114 Leica)</desc></graphic>
+                  <graphic url="wp0738.jpg">
+                     <desc>Ward-Perkins, 1949 (Ward-Perkins Archive, BSR 49.I.42)</desc></graphic>
+                  <graphic url="wp0739.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 222 Lastre)</desc></graphic>
+      <graphic url="tantillo0216.jpg">
+         <desc>View: Tantillo (n.d)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="caputo1951"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1952.173</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>565</citedRange></bibl>, on which
+               <bibl><ptr target="degrassi1954"/> <citedRange/></bibl>,
+               <bibl><ptr target="oliver1955"/> <citedRange>100</citedRange></bibl>, whence 
+               <bibl><ptr target="reynolds1955"/> <citedRange>144</citedRange></bibl>, whence
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT565.html">565</ref></citedRange></bibl>; 
+               <bibl><ptr target="tantillo2010"/>, <citedRange>41</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2187">2187</ref></citedRange> (Tantillo and Bigi)</bibl>,  
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019184">019184</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+            
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="symbols.xml#palm"/> <persName type="attested" key="plre:1-nepotianus1"><name type="signum" nymRef="Nepotianius">Nepotianii</name></persName> <g ref="symbols.xml#palm"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><persName type="attested" ref="plre:1-nepotianus1"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="cognomen" nymRef="Nepotianus">Nepotiano</name></persName> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> 
+               <w lemma="comes"><expan><abbr>com</abbr><ex>iti</ex></expan></w> <w lemma="et">et</w> <w lemma="praeses">praesidi</w> 
+               <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia"><expan><abbr>prouin</abbr><ex>ciae</ex></expan></w> 
+               <w lemma="Tripolitanus"><expan><abbr>Trip</abbr><ex>olitanae</ex></expan></w></placeName>
+               <lb n="2a"/><space quantity="1" unit="line"/>
+               <lb n="3"/><w lemma="iustitia">iustitia</w> <w lemma="et">et</w> <w lemma="integritas">integritati</w> 
+               <w lemma="praecipuus">prae<lb n="4" break="no"/>cipuo</w> <w lemma="moderatio">moderatione</w> <w lemma="atque">ac</w> 
+               <w lemma="benignitas">benigni<lb n="5" break="no"/>tat<unclear>e</unclear></w> <w lemma="praesto">praestantissimo</w> 
+               <w lemma="abstinentia">abstinen<lb n="6" break="no"/>tiae</w> <w lemma="et">et</w> <w lemma="honestas">honestatis</w> 
+               <w lemma="officium"><expan><abbr>officiorumq</abbr><ex>ue</ex></expan></w>
+               <lb n="7"/><w lemma="omnis">omnium</w> <w lemma="cultor">cultori</w> <w lemma="res">rei</w> <w lemma="etiam">etiam</w> 
+               <w lemma="militaris">mili<lb n="8" break="no"/>taris</w> <w lemma="peritus">peritissimo</w> <w lemma="arma">armis</w> 
+               <w lemma="consilium"><expan><abbr>consi<lb n="9" break="no"/>li</abbr><ex>i</ex><abbr>sq</abbr><ex>ue</ex></expan></w>
+               <w lemma="incomparabilis">incomparabili</w> <w lemma="qui">quod</w> <w lemma="idem">idem</w>
+               <lb n="10"/><w lemma="ordo">ordines</w> 
+               <w lemma="uniuersus"><expan><abbr>uniuersosq</abbr><ex>ue</ex></expan></w> 
+               <w lemma="prouincialis">prouin<lb n="11" break="no"/>ciales</w> <w lemma="ius">iuridicendo</w> <w lemma="fides"><unclear>f</unclear>ide</w> 
+               <w lemma="beneuolentia">bene<lb n="12" break="no"/>uolentia</w> 
+               <w lemma="multus">multis</w> <w lemma="beneficium">beneficiis</w>
+               <lb n="13"/><w lemma="cumulo">cum<unclear>ula</unclear>uerit</w> <w lemma="qui">quod</w> 
+               <w lemma="barbarus">barbaro<lb n="14" break="no"/>rum</w> <w lemma="insolentia">insolentiam</w> <w lemma="exercitium">exercitio</w>
+               <lb n="15"/><w lemma="scientia">scientiae</w> <w lemma="militaris">militaris</w> <w lemma="attribuo">adtriberit</w>
+               <lb n="16"/><w lemma="qui">quod</w> <w lemma="limes">limitis</w> <w lemma="defensio">defensionem</w> 
+               <w lemma="tuitio"><expan><abbr>tui<lb n="17" break="no"/>tionemq</abbr><ex>ue</ex></expan></w> <w lemma="perpetuus">perpetuam</w> <w lemma="futurus">futuris</w> 
+               <w lemma="etiam"><expan><abbr>etia</abbr><ex>m</ex></expan></w>
+               <lb n="18"/><w lemma="tempus">temporibus</w> <w lemma="munio">munitam</w> 
+               <w lemma="securus"><expan><abbr>securamq</abbr><ex>ue</ex></expan></w>
+               <lb n="19"/><w lemma="ab">ab</w> <w lemma="omnis">omni</w> <w lemma="hostilis">hostile</w> <w lemma="incursio">incursione</w> 
+               <w lemma="praesto">prae<lb n="20" break="no"/>stiterit</w> <w lemma="qui">quod</w> <w lemma="ciuitas">ciuitatum</w> <w lemma="moenia">moenia</w> 
+               <w lemma="opus">ope<lb n="21" break="no"/>rum</w> <w lemma="instauratio">instauratione</w> <w lemma="uel">uel</w> <w lemma="nouitas">nouitate</w> 
+               <w lemma="decoro">de<lb n="22" break="no"/>corauerit</w> <w lemma="ordo">ordo</w> <w lemma="ciuitas">ciuitatis</w> 
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis"><expan><abbr>Lepcimag</abbr><ex>nensis</ex></expan></placeName>
+               <lb n="23"/><w lemma="cum">cum</w> <w lemma="populus">populo</w> <w lemma="statua">statuam</w> <w lemma="marmoreus">marmoream</w>
+               <lb n="24"/><w lemma="ob">ob</w> <w lemma="hic">haec</w> <w lemma="meritum">merita</w> <w lemma="decerno">decretis</w> <w lemma="et">et</w> <w lemma="suffragium">sufragiis</w>
+               <lb n="25"/><w lemma="concino">concinnentibus</w> <w lemma="conloco">conlocauit</w> <g ref="symbols.xml#palm"/></ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="12">
+                  <rdg resp="#irt1952">uiti(i)s </rdg>
+                  <rdg resp="#degrassi1954">(a)uitis</rdg>
+                  <rdg resp="#oliver1955">multis</rdg>
+                  </app>
+            
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Flavius Nepotianus. To Flavius Nepotianus excellent man <note>of equestrian status</note>, count and governor of the province of Tripolitania, in justice and integrity an outstanding man, in good guidance and benevolence exceptional, concerned for benevolence and honourable feeling and all public duties, very knowledgeable also in military science, experienced in arms and councils of war; because he provided with benevolence many benefits to councils and to all inhabitants of the province by dispensing justice with good faith; because he wore down the arrogance of the barbarians by the exercise of military skill; because he provided permanent defense and protection of the frontier even for the future times and secure against every hostile invader; because he adorned the walls of the cities by renewal of works or new building; the council of the city of Lepcis Magna, with the people, put up a marble statue on account of these merits, with decrees and votes <supplied reason="subaudible">all</supplied> in accord.</p></div>
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Nepotianus! A Flavius Nepotianus, uomo perfettissimo,
+               conte e governatore della Prouincia di Tripolitania. Eminente
+               per giustizia e integrità, eccellentissimo per moderazione e benignità,
+               devoto fautore della probità, dell’onestà e di tutti i
+               pubblici doveri, quanto mai esperto anche delle cose militari,
+               impareggiabile nelle armi e nelle decisioni; per aver accresciuto
+               gli ordini e i provinciali tutti con il rendere giustizia secondo
+               rettitudine e benevolenza, e con molti benefici; per aver
+               schiacciato l’insolenza dei barbari mettendo in pratica la sua
+               scienza militare; per aver reso la difesa della frontiera e la sua
+               ininterrotta protezione munite e sicure anche per i tempi a
+               venire contro ogni incursione nemica; per aver ornato gli edifici
+               delle città con il restauro delle fabbriche o con nuove costruzioni;
+               per questi meriti, l’ordine della città di Leptis
+               Magna insieme al popolo, riecheggiando all’unisono i decreti
+               e i suffragi, collocò una statua marmorea.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>(Statue of) Nepotianus. To Flavius Nepotianus, of perfectissimus rank, military commander and governor (<foreign xml:lang="la">comes et praeses</foreign>) 
+            of the province of Tripolitania. Exceptional in justice and integrity, outstanding in moderation and benignity, a cultivator of abstinence and honesty and of all duties, 
+            very experienced also in military affairs, incomparable in arms and in counseline Because he increased the councils (<foreign xml:lang="la">ordines</foreign>) and all the provincials with many benefits 
+            by administrating with benevolent loyalty; because he crushed the insolence of the barbarians with the use of military science; because he established defence and permanent 
+            protection for the borders, also for future times, fortified and secure from any hostile incursion; because he adorned the buildings of the cities both by restoration and by new building. 
+            The council (<foreign xml:lang="la">ordo</foreign>) of the city of Lepcis Magna with the people (<foreign xml:lang="la">populus</foreign>) set up a marble statue 
+            on account of these merits, with all decrees (= of the <foreign xml:lang="la">ordo</foreign>) and votes (= of the people) in unison.</p></div>
+         
+         <div type="commentary">
+            <p><title>PLRE</title> I Nepotianus 1, see also Nepotianus 4</p><!-- check -->
+         <!--      <p>Discussion: <ref target="https://zenon.dainst.org/Record/000250369">Jouffroy (1986)</ref>, p.291 </p>
+           <p>Line 2. Fl. Nepotianus. Perhaps to be connected with the Nepotianus <title level="m">PW</title> XVI, 2513,5, correspondent of Ausonius. </p>
+         --></div>
+      </body>
+   </text>
+</TEI>

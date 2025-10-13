@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0986" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for L. Clodius Clodianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0986</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Block</objectType> of <material>limestone</material> (<dimensions>
+                                 <width unit="metre">0.93</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.31</depth>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face, which is badly weathered.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals (probably third century): line 1, <height unit="metre">0.055</height>;
+               line 2, <height unit="metre">0.035</height>;
+               lines 3-6, <height unit="metre">0.045</height>;
+               line 7, <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" cert="low" precision="low" evidence="lettering">Probably third century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2241">Jabal Nafusah</placeName>: 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/881">Ain el-Auenia</placeName> (map ref. U 785, 720).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2209068/wadi-al-%60uwayniyah.html">Abyār al `Uwaynīyah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="reynolds1955"/>, <citedRange>S.14</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1957.240</citedRange></bibl>, 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017453">017453</ref></citedRange></bibl>
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT986.html">986</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059824">059824</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="incomparabilis"><supplied reason="lost">In</supplied>comparabilis</w> <w lemma="uirtus">uirtutis</w> <w lemma="et">et</w> 
+               <lb n="2"/><w lemma="innocentia">innoc<unclear>e</unclear><supplied reason="lost">nt</supplied>ia<supplied reason="lost">e</supplied></w> <w lemma="uir">uiro</w> 
+               <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>
+                     <unclear>L</unclear>
+                  </abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Clodius">Clodio</name> <name type="cognomen" nymRef="Clodianus">Clodiano</name></persName> <w lemma="ueteranus"><expan><abbr>uet</abbr><ex>erano</ex></expan></w> <w lemma="ex">ex</w> <w lemma="decurio"><expan><abbr>dec</abbr><ex>urione</ex></expan></w>
+               <lb n="4"/><w lemma="qui">qui</w> <w lemma="uiuo"><expan><abbr>u</abbr><ex>ixit</ex></expan></w>
+               <w lemma="annus"><expan><abbr>a</abbr><ex>nnis</ex></expan></w>
+               <num value="49">XLVIIII</num>
+               <w lemma="mensis"><expan><abbr>mensib</abbr><ex>us</ex></expan></w>
+               <num value="8">VIII</num>
+               <lb n="5"/><persName type="attested"><name type="gentilicium" nymRef="Valeria">Ualeria</name> <name type="cognomen" nymRef="Processa">Processa</name></persName> <w lemma="uxor">uxor</w> <w lemma="et">et</w> <lb n="6"/><persName type="attested"><name type="gentilicium" nymRef="Clodius"><supplied reason="lost" cert="low">Clodius</supplied></name> <name type="cognomen" nymRef="Uictor">Uictor</name> <name type="cognomen" nymRef="Clodianus">Clodianus</name> <name type="cognomen" nymRef="Processus">Processus</name></persName> <lb n="7"/><gap reason="lost" quantity="4" unit="character" precision="low"/><w part="M"><unclear>u</unclear></w><gap reason="lost" quantity="1" unit="character"/> <w lemma="emereo">emeritus</w> <w lemma="pater">patri</w>
+               <w lemma="pius">piissimo</w> </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3">
+                  <note>DI ligatured.</note>
+               </app>
+            
+               <app loc="3">
+                  <note>DE ligatured.</note>
+               </app>
+            
+               <app loc="7">
+                  <note>Perhaps [fili]<unclear>u</unclear>[s].</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To a man of incomparable virtue and innocence, Lucius Clodius Clodianus Processus, veteran soldier, +<supplied reason="subaudible">who</supplied> 
+               ?joined the army after sitting on the city council, who lived for forty-nine years and eight months; Valeria Processa his wife and 
+               <supplied reason="lost" cert="low">Clodius</supplied> Victor Clodianus Processus <supplied reason="lost" cert="low">his son</supplied>, 
+               time-expired soldier, <note>set this up</note> to a most dutiful father.</p></div>
+         <div type="commentary">
+           <!--  <p>This inscription is to be published more fully by Professor E. Vergara in <title level="m">Reports and
+               Monographs</title>, III. </p>
+            <p>If the inscription is, as the letter-forms suggest, of the third century, the
+               presence of this family of soldiers in the interior of Tripolitania might be
+               interpreted as the result of veteran settlements of the type presumed at this time by
+               R.G. Goodchild and J.B. Ward Perkins, 'The Limes Tripolitanus in the Light of Recent
+               Discoveries', <title level="j">JRS</title>, xxxix (1949) 93. </p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

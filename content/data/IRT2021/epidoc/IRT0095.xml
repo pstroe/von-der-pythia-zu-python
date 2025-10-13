@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0095" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Gaius Anicius Fronto </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0095</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db660">Sabratha Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Fragmentary 
+                              <objectType>panel</objectType> of grey <material>marble</material> 
+               (<dimensions>
+                                 <width>0.67</width>
+                                 <height unit="metre">0.54</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a narrow border 
+               (die, 
+               <dimensions>
+                              <width>0.55</width>
+                              <height unit="metre">0.54</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Late second to third centuries lapidary capitals: lines 1-2, <height unit="metre">0.055</height>; remainder, <height unit="metre">0.045</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0168" notAfter="0300" precision="low" evidence="lettering">Late second to third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/832">Capitolium</placeName>, some fragments were found in the vaults (see note on <ref type="inscription" n="IRT0001">1</ref>), and the lower left-hand part 
+                  was found re-used in the late fourth century paving at the W end of the N Forum Portico (see also <ref type="inscription" n="IRT0023">23</ref>, <ref type="inscription" n="IRT0027">27</ref>, <ref type="inscription" n="IRT0041">41</ref>, <ref type="inscription" n="IRT0043">43</ref>)</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Some fragments in vault of  <placeName type="monuList" ref="https://www.slsgazetteer.org/832">Capitolium</placeName>; 
+                  lower left-hand part in <placeName ref="https://www.slsgazetteer.org/660">Sabratha Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-01-20" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0122.jpg">
+                  <desc>Lines 4-8, left side; Ward-Perkins Archive, BSR (Sopr. DS 902 Leica)</desc></graphic>
+      <graphic url="wp0123.jpg">
+         <desc>From left: Above, <ref type="inscription" n="IRT0095">95</ref> (lines 4-8); 
+            Below: <ref type="inscription" n="IRT0135">135</ref>, <ref type="inscription" n="IRT0081">81</ref>; 
+            Ward-Perkins Archive, BSR (Sopr. DS 822 Leica)</desc></graphic>
+                  <graphic url="wp0124.jpg">
+                     <desc>From left: <ref type="inscription" n="IRT0133">133</ref>, <ref type="inscription" n="IRT0095">95</ref>, 
+                        lines 1-4, 4-8 (right side); Ward-Perkins Archive, BSR (Sopr. DS 779 Leica)</desc></graphic>
+                  <graphic url="wp0151.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 218)</desc></graphic>
+                  <graphic url="wp0208.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 218)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="bartoccini1950"/>, <citedRange>54.g</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>l950.155</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>95</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT095.html">95</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021943">021943</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Anicius">An<supplied reason="lost">i</supplied><unclear>c</unclear><supplied reason="lost">io</supplied></name>
+               <name type="tribe" nymRef="Quirina"><expan><abbr><supplied reason="lost">Qu</supplied>ir</abbr><ex>ina</ex></expan> <supplied reason="subaudible">tribu</supplied></name> 
+                  
+               <lb n="2"/><name type="cognomen" nymRef="Fronto">Fronto<supplied reason="lost">ni</supplied></name> 
+               <lb n="3"/><w lemma="equus">equo</w> 
+                  <w lemma="publicus"><expan><abbr>publ</abbr><ex>ico</ex></expan></w> 
+                  <w lemma="orno">o<supplied reason="lost">rnato</supplied></w> 
+               <lb n="4"/><persName type="attested"><name type="gentilicium" nymRef="Anicius">Anici</name> 
+                  <name type="cognomen" nymRef="Bassianus"><unclear>B</unclear>assi<supplied reason="lost">ani</supplied></name></persName> 
+                  <w lemma="filius"><supplied reason="lost">fil</supplied>io</w></persName> 
+               <lb n="5"/><w lemma="quaestor"><expan><abbr>q</abbr><ex>uaestori</ex></expan></w> 
+                  <w lemma="aedilis"><expan><abbr>aedil</abbr><ex>i</ex></expan></w> 
+               <w lemma="duouir"><expan><abbr>IIuir</abbr><ex>o</ex></expan></w> 
+               <w lemma="duouir"><expan><abbr><unclear>IIu</unclear>ir</abbr><ex>o</ex></expan></w> 
+               <w lemma="quinquennalis"><expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan></w> 
+               <lb n="6"/><w lemma="designo"><expan><abbr><supplied reason="lost">d</supplied>esig</abbr><ex>nato</ex></expan></w> 
+                  <w lemma="amator">amatori</w> 
+                  <w lemma="patria">patriae</w> 
+               <lb n="7"/><w lemma="ciuis"><supplied reason="lost">c</supplied>iues</w> 
+               <w lemma="ob">ob</w> 
+               <w lemma="meritum">merita</w>
+               <lb n="8"/><w lemma="curo"><supplied reason="lost">cur</supplied>ante</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Flauius">Flauio</name> 
+                  <name type="cognomen" nymRef="Hiceta">Hiceta</name></persName>
+    </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Caius Anicius Fronto, of the Roman voting tribe Quirina, honoured with a public horse, 
+               son of Anicius Bassianus, quaestor, aedile, duovir, designated quinquennial duovir, lover of his country; the citizens 
+               <supplied reason="subaudible">set this up</supplied> on account of his merits, Quintus Flavius Hicetas was in charge 
+               <supplied reason="subaudible">of the erection</supplied>.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

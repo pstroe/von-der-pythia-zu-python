@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0693" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Domitia Rogata</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0693</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db094">Ure Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Grey <material>limestone</material> <objectType>base</objectType>, 
+                              <dimensions><height>0.86</height> <width>0.62</width><depth>0.62</depth></dimensions>, with panels on all four sides</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within the panel on one face, which is worn; lines 6-7 more lightly cut.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Line 1: <height>0.07-0.08</height>; Line 2: <height>0.06-0.07</height>; Line 3: <height>0.06</height>; 
+                        Line 4: <height>0.055-0.06</height>; Line 5: <height>0.045-0.055</height>; Line 6: <height>0.035</height>; 
+                        Line 7: <height>0.025-0.03</height>.</handNote>
+                     </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0125" notAfter="0175" evidence="lettering, nomenclature">Mid-second century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: unknown</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Removed in 1819 from Africa to the British Museum, and thence to
+                  Virginia Water, Surrey,
+               together with <ref type="inscription" n="IRT0310a">310a</ref> and one block of <ref type="inscription" n="IRT0342">342</ref>; presented 
+                              by H.M. The Queen in 1961 to the Ure Museum, University of Reading, 
+                              <ref target="https://uremuseum.org/cgi-bin/ure/uredb.cgi?rec=2005.8.14">2005.8.14</ref> </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Kruschwitz)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="reading01.jpg"><desc>Face (Ure Museum)</desc></graphic>
+      <graphic url="reading02.jpg"><desc>View (Ure Museum)</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="delaporte1836"/> <citedRange>18</citedRange></bibl>, 
+               <bibl><ptr target="rawlins1866"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="cil"/>, <citedRange>19</citedRange>, and p.<citedRange>2289</citedRange></bibl>;
+               mentioned, <bibl><ptr target="hodder1903"/> <citedRange>50</citedRange></bibl>, 
+               <bibl><ptr target="chambers1955"/> <citedRange>50</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>693</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT693.html">693</ref></citedRange></bibl>; 
+               rediscovered <bibl><ptr target="cormack1960"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1962.97</citedRange></bibl>,
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016597">016597</ref></citedRange></bibl>;
+               republished <bibl><ptr target="kruschwitz2008"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>2008.1616</citedRange></bibl>,
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Domitia">Domitiae</name> <name type="cognomen" nymRef="Rogata">Roga
+                  <lb n="2" break="no"/>tae</name></persName> <space quantity="2" unit="character"/> <w lemma="uiuo">uixit</w>
+               <lb n="3"/><date type="life-span" dur="P23Y"><w lemma="annus">annis</w> <num value="23">XXIII</num></date>
+               <lb n="4"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Iulius">Iulius</name>
+               <lb n="5"/><name type="cognomen" nymRef="Cethegus">Cethegus</name>
+               <lb n="6"/><name nymRef="Phelyssam">Phelyssam</name></persName> <w lemma="uxor">uxori</w>
+               <lb n="7"/><w lemma="carus">carissimae</w> <w lemma="facio">fecit</w></ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="6"><rdg resp="#irt1952">THIYSSAAE</rdg> 
+                  <rdg resp="#cormack1960">Philyssam</rdg>
+                  <rdg resp="#kruschwitz2008">Several other readings have been recorded</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Domitia Rogata; she lived for twenty-three years. Marcus Julius Cethegus had <supplied reason="subaudible">this</supplied> 
+               made for Thiyssae <note>reading uncertain</note>, a very dear wife.</p></div>
+         <div type="translation" source="#kruschwitz2008" xml:lang="en">
+            <p>To Domitia Rogata. She lived twenty-three years. Marcus Iulius Cethegus Phelyssam had this 
+               made for his most beloved wife.</p></div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

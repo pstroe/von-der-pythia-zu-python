@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0965" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Caracalla.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0965</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot (before 1934)</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment from <objectType>Column</objectType>ar milestone of <material>limestone</material>, broken away above: no measurements</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the shaft.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/665">Upper Sofeggin Road</placeName></origPlace>
+                     <origDate cert="low" when="0216" evidence="context">CE 216: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: 
+                  area of Zintan to Mizda:  Seen by Corò before 1934, at <placeName type="monuList" ref="https://www.slsgazetteer.org/878">Scereb Eddiba</placeName>, 
+                        12 km. east of <placeName ref="https://www.slsgazetteer.org/875">Gasr Uames</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (before 1934)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2213495/qasr-wamis.html">Qaşr Wāmis</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="coro"/>, <citedRange>73</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>965</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT965.html">965</ref></citedRange></bibl>;
+               <bibl><ptr target="goodchild1948"/>, <citedRange>33</citedRange>, page 23</bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059803">059803</ref></citedRange></bibl>.
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab><lb n="1"/><persName type="emperor" ref="#caracalla"><w lemma="imperator"><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><ex>eratori</ex></expan></w> <persName type="emperor" ref="#septimiusseuerus"><addName nymRef="Caesar"><expan><abbr><supplied reason="lost">Ca</supplied>es</abbr><ex>ari</ex></expan></addName> 
+               <lb n="2"/><supplied reason="lost"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name></supplied> <addName nymRef="Pius"><supplied reason="lost">P</supplied>ii</addName></persName></persName>
+            <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>To emperor Caesar, [son of deified Septimius Severus], Pius, [ . . .</p>
+         </div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

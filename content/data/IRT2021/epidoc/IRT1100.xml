@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1100" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Military</rs> <rs type="textType">funerary</rs> inscription</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD016966</idno>
+                <idno type="TM">199474</idno>
+                <idno type="filename">IRT1100</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Stele</objectType> of brown 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material> with a sharply ponted peak
+                                    <dimensions>
+                                        <height unit="metre">1.15</height>
+                                        <width unit="metre">0.40</width>
+                                        <depth unit="metre">0.025</depth>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on one face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Third-fourth century; lines 1-6, <height>0.05</height>; lines 7-8, <height>0.025</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0201" notAfter="0399" evidence="lettering">Third-fourth century</origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p>
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2241">Jabal Nafusah</placeName>: 
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/881">Ain el-Auenia</placeName>; found south of the Jefren-Zintan road, 
+                                in 1959 </p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>
+                                <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Transcription (Brogan)</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+            <change when="2021-05-19" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="broganreynolds1960"/> <citedRange>2</citedRange>, and plate XVIII</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1962.305</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016966">016966</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="divine" ref="#manes"><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <name nymRef="manes"><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName> <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w> 
+                <lb n="2"/><persName type="attested"><name nymRef="Migin"><expan><abbr>Migin</abbr><ex cert="low"/></expan></name></persName> <w lemma="pius"><expan><abbr>p</abbr><ex>ius</ex></expan></w> 
+                <lb n="3"/><w lemma="miles"><expan><abbr>mil</abbr><ex>es</ex></expan></w> <orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="3">III</num> 
+                <lb n="4"/><addName nymRef="Augusta"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></orgName> <date type="life-span" dur="P111Y"><w lemma="uiuo">uixit</w> 
+                <lb n="5"/><w lemma="annus"><expan><abbr>an</abbr><ex>nos</ex></expan></w> <num value="111">CXI</num></date> <note>sic</note> <w lemma="milito">mi<lb 
+                    break="no" n="6"/>litauit</w> <w lemma="annus"><expan><abbr>an</abbr><ex>nos</ex></expan></w> 
+                <lb n="7"/><num value="9">VIIII</num> <w lemma="facio"><expan><abbr>fec</abbr><ex>erun</ex><abbr>t</abbr></expan></w> <w lemma="contubernalis">conta
+                <lb break="no" n="8"/>bernales</w> <note>sic</note> <w lemma="is">aeius</w> <note>sic</note>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Sacred to the gods below: Migin, a faithful soldier of the Third Legion Augusta lived 111 years, served 9 years; his tent-fellows made <supplied reason="subaudible">the tomb</supplied>.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

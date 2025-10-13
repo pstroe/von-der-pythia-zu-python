@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0564" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for T. Flavius Frontinus Heraclius</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0564</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> of <material>marble</material> 
+               (<dimensions>
+                                 <width unit="metre">0.73</width>
+                                 <height unit="metre">1.55</height>
+                                 <depth unit="metre">0.70</depth>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.35</width>
+                              <height unit="metre">0.71</height>
+                           </dimensions>); 
+               the first word is cut above the die.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0300" notAfter="0350" precision="low" evidence="prosopography">Earlier fourth century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:                                , 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/2276">East Portico</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+               <term>
+                  <rs type="textType">munera</rs>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0734.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 230 Lastre)</desc></graphic>
+      <graphic url="tantillo0212.jpg">
+         <desc>View: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0213.jpg">
+         <desc>Face: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0214.jpg">
+         <desc>Right side: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0215.jpg">
+         <desc>Left side: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0211.jpg">
+         <desc>Top: Tantillo, 2008 (P1050669)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="bartoccini1928"/>, <citedRange>48</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1929.2</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>564</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT564.html">564</ref></citedRange></bibl>; 
+               <bibl><ptr target="tantillo2010"/>, <citedRange>54</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2200">2200</ref></citedRange> (Tantillo and Bigi)</bibl>,  
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD0024253">024253</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><space extent="unknown" unit="character"/> <persName type="attested"><name type="signum" nymRef="Heraclius">Heraclii</name></persName> <space extent="unknown" unit="character"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><w lemma="benignus">Benignissimo</w> <w lemma="uir">uiro</w> 
+               <w lemma="principalis">princi<lb n="3" break="no"/>pali</w> <w lemma="prudens">prudentissimo</w> <w lemma="et">et</w> 
+               <w lemma="integer"><expan><abbr>integirr</abbr><ex>imo</ex></expan></w>
+               <lb n="4"/><g ref="symbols.xml#stop"/> <persName type="attested" key="plre:1-frontinus5"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <g ref="symbols.xml#stop"/> 
+               <name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="cognomen" nymRef="Frontinus">Frontino</name> <name type="cognomen" nymRef="Heraclius">Heraclio</name></persName> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="augur">au<lb n="5" break="no"/>guri</w> 
+               <w lemma="sacerdos"><expan><abbr>sacerd</abbr><ex>oti</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <orgName type="civil" ref="#laurent" nymRef="#Laurentes Lauinates"><addName nymRef="Laurentes"><expan><abbr>Lauren</abbr><ex>tium</ex></expan></addName> <g ref="symbols.xml#stop"/> 
+               <addName nymRef="Labrinates">Labinat<supplied reason="omitted">i</supplied>um</addName></orgName>
+               <lb n="6"/><w lemma="duouir">IIuiro</w> <g ref="symbols.xml#stop"/> <w lemma="ob">ob</w> <w lemma="diuerto">diuersarum</w> 
+               <w lemma="uoluptas">uolup<lb n="7" break="no"/>tatum</w> <w lemma="exhibitio">exhibitiones</w> <w lemma="atque">adque</w>
+               <lb n="8"/><w lemma="admirabilis">admirabilem</w> <w lemma="ludus">ludorum</w>
+               <lb n="9"/><w lemma="editio">editionem</w> <w lemma="amor">amorem</w><w lemma="que">que</w>
+               <lb n="10"/><w lemma="incomparabilis">incomparabilem</w> <w lemma="in">in</w> 
+               <w lemma="patria">pa<lb n="11" break="no"/>triam</w> <w lemma="et">et</w> <w lemma="ciuis">ciues</w> <w lemma="suus">suos</w> <g ref="symbols.xml#stop"/> 
+               <space quantity="3" unit="character" cert="low"/>
+               <w lemma="suffragium">sufra<lb n="12" break="no"/>gio</w> <w lemma="quiesco">quietissimi</w> <w lemma="populus">populi</w>
+               <lb n="13"/><w lemma="et">et</w> <w lemma="decerno">decreto</w> 
+               <w lemma="splendidus">splendidis<lb n="14" break="no"/>simi</w> <w lemma="ordo">ordinis</w>
+            </ab></div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Heraclius. To a most benign man, a leading citizen most prudent and upright, Titus Flavius Frontinus Heraclius, excellent man <note>of equestrian status</note>, augur, priest of the Laurentes of Lavinas, duumvir, on account of his exhibitions of a variety of pleasurable shows, the admirable public games that he organised and his incomparable love for his fatherland and fellow citizens; <supplied reason="subaudible">erected</supplied> by a vote of the most peaceful people and a decree of the most splendid city council.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Heraclius! Uomo quanto mai benigno, principalis quanto mai assennato e integerrimo, a Titus Flavius Frontinus Heraclius, uomo perfettissimo, augure, 
+               sacerdote Laurentium Lavinatium, duoviro, per aver offerto svariate forme di spettacoli,e per la mirabile rappresentazione di giochi, e per
+               l’incomparabile amore nei confronti della patria e dei suoi concittadini, per suffragio del popolo quietissimo e decreto
+               dell’ordine splendidissimo </p></div>  
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>(Statue of) Heraclius. To the most benign principalis, most prudent and most untainted, Titus Flavius Frontinus Heraclius, of perfectissimus rank, 
+               augur, priest of the Laurentes Lavinates, duovir. On account of the granting of various spectacles and the admirable giving of games, 
+               and of his incomparable love towards his fatherland and his citizens, by vote of the most peaceful people and 
+               by decree of the most splendid council (<foreign xml:lang="la">ordo</foreign>) [this was set up].</p>
+         </div>
+         <div type="commentary">
+            <p>T. Flauius Frontinus, signo Heraclius: <title>PLRE</title> I, Frontinus 5; <title>PIR</title> F 0274a;  <ref target="https://pir.bbaw.de/id/6088">https://pir.bbaw.de/id/6088</ref>;   
+               <!--also in <ref type="inscription" n="IRT0595">595</ref>, line 6-7. 
+               For other members of his family see <ref type="inscription" n="IRT0567">567</ref>, <ref type="inscription" n="IRT0568">568</ref>. --></p>
+          </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1102" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Milestone</rs>. Mile 56. Philip</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD050461</idno>
+                <idno type="TM">201720</idno>
+                <idno type="filename">IRT1102</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Column</objectType>ar milestone of
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>: 
+                                    <dimensions>
+                                        <height unit="metre">1.67</height>
+                                        <dim unit="metre">0.36</dim>
+                                    </dimensions>; the supporting socket survives.</p> <!-- check display -->
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face, 
+                                    within a recessed die (<height>0.94</height> <height>0.45</height>)
+                                </layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Third century capitals, well cut; Line 1, <height unit="metre">0.065-0.0</height>; lines 2-5, 8-10, <height>0.06</height>; 
+                            Lines 6-7, <height>0.04</height>; line 11, <height>0.06</height>; line 12, <height>0.05</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName></origPlace>
+                            <origDate notBefore="0244" notAfter="0247" evidence="reign">244 - 247 CE
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                                <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName>:   
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/2240/">El Garib</placeName></p></provenance>
+                        <provenance type="observed"><p>Findspot (<date type="observed">1971</date>)</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2008-07-21" who="Platz">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="photos_0214.jpg"><desc>Goodchild (Reynolds Archive, 0214)</desc></graphic>
+        <graphic url="photos_0169.jpg"><desc>Goodchild (Reynolds Archive, 0169)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rgg-jmr1976"/> <citedRange unit="page">109</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1996.1695</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD050461">050461</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="emperor" ref="#philippus1"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ar</ex></expan></addName> 
+                <lb n="2"/><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Iulius">Iulius</name> <name nymRef="Filipus">Filipus</name>  
+                <lb n="3"/><addName nymRef="Pius">Pi<unclear>us</unclear></addName> <addName nymRef="Felix"><unclear>Fe</unclear>lix</addName>  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></addName> <w lemma="pontifex">po
+                <lb break="no" n="4"/>nti<unclear>fex</unclear></w> <w lemma="maximus">maximus</w> 
+                <lb n="5"/><w lemma="tribunicius">tr<unclear>ibuni</unclear>cie</w> <w lemma="potestas">potes
+                    <lb break="no" n="6"/>tate</w> <gap reason="lost" quantity="3" unit="character"/> <w lemma="pater">pater</w> <w lemma="patria">pat
+                <lb break="no" n="7"/>rie</w></persName> <w lemma="et"><unclear>et</unclear></w> <persName type="emperor" ref="#philippus2"><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Iulius">Iulius</name> 
+                <lb n="8"/><name nymRef="Philippus">P<unclear>hil</unclear>ippus</name> <w lemma="nobilis">nobil
+                <lb break="no" n="9"/>iss<supplied reason="lost">i</supplied>mus</w> <addName nymRef="Caesar">Cesar</addName> 
+                <lb n="10"/><w lemma="filius">filius</w> <addName nymRef="Augustus">Augusti</addName> 
+                <lb n="11"/><space extent="unknown" unit="character"/> <w lemma="noster">nostri</w></persName> <space extent="unknown" unit="character"/>
+                <lb n="12"/><w lemma="milia"><expan><abbr>m</abbr><ex>ilia</ex></expan></w> <w lemma="passus"><expan><abbr>p</abbr><ex>assuum</ex></expan></w> <w lemma="numerus"><expan><abbr>n</abbr><ex>umero</ex></expan></w> <num value="56">LVI</num>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Emperor Caesar Marcus Julius Filipus, Pius, Felix, Augustus, chief priest, holding tribunician power [ for the ? time] father of the country, and Marcus Julius Philippus, most noble 
+                Caesar, son of our Augustus. Number 56 miles.</p>
+            </div>
+            <div type="commentary">
+                <p>A further column survives, but is too weathered to be read.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

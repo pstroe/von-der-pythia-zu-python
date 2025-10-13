@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0322" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription under Augustus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+            <editor xml:id="cb">Caroline Barron</editor>
+           </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0322</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Theatre, in situ above the door from the orchestra into the East lateral corridor.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Lintel</objectType> (<dimensions>
+                                 <width unit="metre">3.17</width>
+                                 <height unit="metre">0.97</height>
+                                 <depth unit="metre">0.30</depth>
+                              </dimensions>) 
+               of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded <rs type="decoration">tabella ansata</rs> 
+               (die, <dimensions>
+                              <width unit="metre">2.315</width>
+                              <height unit="metre">0.62</height>
+                           </dimensions>);
+               there is a <rs type="decoration">rosette</rs> in relief within each <rs type="decoration">ansa</rs> and <rs type="decoration">clasped hands</rs> in relief in
+               the centre of line 2, between the words patre and Patriae. Two lines of Neo-Punic
+               follow the Latin text (unpublished but identical with the Neo-Punic text of <ref type="inscription" n="IRT0321">321</ref>,
+               q.v.) . Uniform with <ref type="inscription" n="IRT0321">321</ref>, <ref type="inscription" n="IRT0323">323</ref>. The text is identical with that of <ref type="inscription" n="IRT0323">323</ref>. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre">0.09-0.065</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate when="0002" evidence="internal-date">2 CE: <ref target="https://godot.date/id/qeVKWRpFE4sPRoZE4V8m4d">GODOT</ref> and <ref target="https://godot.date/id/fuxXS2R7BWFoNFqjn8j4pQ">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>, in
+                  situ above the door from the orchestra into the East lateral corridor.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Theatre, in situ above the door from the orchestra into the East lateral corridor.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-18" who="CB">Added Neo Punic texts and translations</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0395.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1281 Lastre)</desc></graphic>
+                  
+                  <graphic url="wp0397.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 798(?)Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="caputo1940"/> <!-- check --> 
+                  <citedRange>197</citedRange> ff, fig.15</bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>322</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT322.html">322</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059267">059267</ref></citedRange></bibl>
+               <bibl><ptr target="dellavida1938"/> <citedRange>104-109</citedRange></bibl>, whence
+               <bibl><ptr target="dellavida1987"/> <citedRange>59-60</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2008"/> <citedRange>Labdah N16b</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.       
+            </p>
+         </div>
+         <div type="edition" xml:space="preserve">
+    <div type="textpart" xml:lang="la" n="i">
+       <ab>
+          <lb n="1"/>
+               <persName type="emperor" ref="#augustus">
+                  <w lemma="imperator">
+                     <expan><abbr>Imp</abbr><ex>eratore</ex></expan>
+                  </w>
+                  <name type="cognomen" nymRef="Caesar">Caesare</name>
+                  <persName type="emperor" ref="#juliuscaesar"><w lemma="diuus">Diui</w></persName>
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan>
+                  </w>
+                  <name type="cognomen" nymRef="Augustus">
+                     <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+                  </name>
+                  <w lemma="pontifex">
+                     <expan><abbr>pont</abbr><ex>ifice</ex></expan>
+                  </w>
+                  <w lemma="maximus">
+                     <expan><abbr>max</abbr><ex>imo</ex></expan>
+                  </w>
+                  <w lemma="tribunicius">
+                     <expan><abbr>tr</abbr><ex>ibunicia</ex></expan>
+                  </w>
+                  <w lemma="potestas">
+                     <expan><abbr>pot</abbr><ex>estate</ex></expan>
+                  </w>
+                  <num value="24">XXIV</num>
+                  <lb n="2"/>
+                  <w lemma="consul">
+                     <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+                  </w>
+                  <num value="13">XIII</num>
+                  <w lemma="pater">patre</w>
+                  <w lemma="patria">
+                     <expan><abbr>patr</abbr><ex>iae</ex></expan>
+                  </w>
+               </persName>
+               <lb n="4"/>
+               <persName type="attested">
+                  <name type="cognomen" nymRef="Annobal">Annobal</name>
+                  <w lemma="ornator">ornator</w>
+                  <w lemma="patria">patriae</w>
+                  <w lemma="amator">amator</w>
+                  <w lemma="concordia">concordiae</w>
+                  <lb n="5"/>
+                  <w lemma="flamen">flamen</w>
+                  <w lemma="sufes">sufes</w>
+                  <w lemma="praefectus">
+                     <expan><abbr>praef</abbr><ex>ectus</ex></expan>
+                  </w>
+                  <w lemma="sacer">
+                     <expan><abbr>sacr</abbr><ex>orum</ex></expan>
+                  </w>
+                  <persName type="attested">
+                     <name type="cognomen" nymRef="Himilcho">Himilchonis</name>
+                     <name type="cognomen" nymRef="Tapapius">Tapapi</name>
+                  </persName>
+                  <w lemma="filius">
+                     <expan><abbr>f</abbr><ex>ilius</ex></expan>
+                  </w>
+                  <name type="cognomen" nymRef="Rufus">Rufus</name>
+               </persName>
+               <lb n="6"/>
+               <w lemma="de">
+                  <expan><abbr>d</abbr><ex>e</ex></expan>
+               </w>
+               <w lemma="suus">
+                  <expan><abbr>s</abbr><ex>ua</ex></expan>
+               </w>
+               <w lemma="pecunia">
+                  <expan><abbr>p</abbr><ex>ecunia</ex></expan>
+               </w>
+               <w lemma="facio">
+                  <expan><abbr>fac</abbr><ex>iendum</ex></expan>
+               </w>
+               <w lemma="coepio">
+                  <expan><abbr>coer</abbr><ex>auit</ex></expan>
+               </w>
+               <w lemma="idem">
+                  <expan><abbr>idemq</abbr><ex>ue</ex></expan>
+               </w>
+               <w lemma="dedico">dedicauit</w>
+            </ab>
+         <div type="textpart" xml:lang="xpu" n="ii">
+            <ab>
+             <lb n="1"/><persName type="attested" key="annobal"><name type="cognomen" nymRef="Annobal">ḥnbᶜl</name></persName> <w lemma="my">my</w><w lemma="šql">šql</w> 
+           <w lemma="ᵓrṣ">ᵓrṣ</w> <w lemma="ḥbb">m
+              <lb n="2" break="no"/>ḥb</w> <w lemma="dᶜt">dᶜt</w> <w lemma="h-">h</w><w lemma="tmt">tmt</w> <w lemma="zbḥ">zbḥ</w> <w lemma="špṭ">špṭ</w> <w lemma="ᵓdr">ᵓdr</w>
+             <w lemma="ᶜzrm">ᶜzrm</w> <w lemma="bn">bn</w> <persName type="attested"><name type="praenomen" key="Imilco">ḥmlkt</name> 
+            <name type="gentilicium" key="Tapapius">ṭbḥpy</name> <name type="cognomen" key="Rufus">rᵓps</name></persName> 
+            <w lemma="b-">b</w><w lemma="tᵓr">tᵓr</w><w lemma="mᵓs">m</w> <w lemma="b-">b</w><w lemma="tmm">tm</w> 
+           <w lemma="pᶜl">pᶜl</w> <w lemma="w">w</w><w lemma="qdš">ᵓyqdš</w> 
+            </ab>
+         </div>  
+         </div>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i. When Emperor Caesar Augustus, son of the deified <supplied reason="subaudible">Caesar</supplied>, 
+               chief priest, was <supplied reason="subaudible"/>holding tribunician power for the twentyfourth time, 
+               consul for the thirteenth, father of the country, Annobal, adorner of his country, lover of concord, flamen 
+               <note>local priest</note>, sufete, in charged of sacred things, son of Himilcho Tapapius Rufus, saw to the construction at his own 
+               expense and also dedicated it. </p></div>
+         <div type="translation" source="#cb" xml:lang="en">
+            <p>ii. Annobal, adorner of the fatherland, lover of complete knowledge, flamen, sufete, prefect,
+               of the cult, son of Imilcho Tapaphius Rufus, son of 'RM, made and dedicated this at his own expense.
+            </p>
+         </div>
+         <div type="commentary">
+          
+            <p>Line 4-5. Annobal Tapapius Rufus. See <ref type="inscription" n="IRT0319">319</ref> , n. 8.</p>
+            <p>Discussion of the Neo-Punic text: Jongeling, K. 1983, ‘Neo-punische-latijnse inscripties uit Lepcis Magna (Libye)’ in 
+               <ref target="https://zenon.dainst.org/Record/000821926">13</ref>, 412-413;
+               Amadasi Guzzo, M.G. 1986. 'L'onomastica nelle iscrizioni puniche tripolitane' 
+               in <ref target="https://zenon.dainst.org/Record/000598581"> 14</ref>, 21-51;
+               <ref target="https://zenon.dainst.org/Record/000261239">Giardina (1988)</ref>, 67-87;
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N16b;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 257-259.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

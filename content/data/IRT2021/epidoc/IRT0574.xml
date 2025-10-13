@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0574" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Laenatius Romulus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0574</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <material>marble</material> 
+                              <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.58</width>
+                                 <height unit="metre">1.50</height>
+                                 <depth unit="metre">0.58</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on one face, from which a previous inscription has been erased: line 1 on the upper moulding, and line 16 on the lower nmoulding; lines 2-15 within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.34</width>
+                              <height unit="metre">0.88</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: line 1, <height unit="metre">0.08</height>; remainder, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0324" notAfter="0326" evidence="prosopography">324-326 CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, central exedra.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0755.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 84)</desc></graphic>
+      <graphic url="tantillo0238.jpg">
+         <desc>Front view: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0239.jpg">
+         <desc>Front and right face: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0240.jpg">
+         <desc>Back and right face: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0241.jpg">
+         <desc>Back and left face: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0242.jpg">
+         <desc>Top: Tantillo, n.d. (P1050660)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="aurigemma1939"/>, <citedRange>113</citedRange> ff., fig. 2</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1948.38</citedRange></bibl>; 
+            <bibl><ptr target="irt1952"/>, <citedRange>574</citedRange></bibl>, whence 
+               <bibl><ptr target="chastagnol1966"/> <citedRange>540</citedRange></bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT574.html">574</ref></citedRange></bibl>, ;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>33</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2179">2179</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021543">021543</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><space extent="unknown" unit="character"/> <persName type="attested" ref="plre:1-romulus4"><name type="signum" nymRef="Romulius">Romulii</name></persName> <space extent="unknown" unit="character"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><w lemma="ob">Ob</w> <w lemma="tantus">tantam</w>
+               <lb n="3"/><w lemma="moderatio">moderatio<lb n="4" break="no"/>nem</w> 
+               <w lemma="iudicium">iudici<lb n="5" break="no"/>orum</w> 
+               <w lemma="prouisio">proui<lb n="6" break="no"/>sionesque</w> 
+               <w lemma="saluber">sa<lb n="7" break="no"/>luberrimas</w>
+               <lb n="8"/><w lemma="atque">adque</w> 
+               <w lemma="felicitas">felici<lb n="9" break="no"/>tatem</w> 
+               <w lemma="aduenio">aduen<lb n="10" break="no"/>tus</w> <w lemma="is">eius</w> 
+               <persName type="attested" key="plre:1-romulus4"><name type="gentilicium" nymRef="Laenatius">Laena<lb n="11" break="no"/>tio</name> <name type="cognomen" nymRef="Romulus">Romulo</name></persName> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w>
+               <lb n="12"/>
+               <w lemma="praeses"><expan><abbr>p</abbr><ex>raesidi</ex></expan></w> 
+               <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia"><expan><abbr>p</abbr><ex>rouinciae</ex></expan></w> 
+               <w lemma="Tripolitanus"><expan><abbr>Tripol</abbr><ex>itanae</ex></expan></w></placeName> 
+               <w lemma="suffragium">su<lb n="13"/>fragio</w> 
+               <w lemma="quiesco">quietis<lb n="14" break="no"/>simi</w> <w lemma="populus">populi</w> <w lemma="et">et</w>
+               <lb n="15"/><w lemma="decerno">dec<supplied reason="lost">r</supplied>eto</w> 
+               <w lemma="splendidus"><expan><abbr>s</abbr><ex>plendidissimi</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> 
+               <w lemma="sumptus"><expan><abbr>sum<abbr>p</abbr>tib</abbr><ex>us</ex></expan></w> <w lemma="se">suis</w> 
+               <w lemma="pono"><expan><abbr>pos</abbr><ex>uit</ex></expan></w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="15"><rdg resp="#irt1952">dec[r]eto s(plendidissimi) o(rdinis) sum-
+                  ptib(us) suis pos(uerunt)</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Romulius. On account of the great moderation of his judgements and  advantageous foresight and good fortune of 
+               his arrival <supplied reason="subaudible">among us</supplied>, they <note>the Lepcitanians</note> set <supplied reason="subaudible">this</supplied> up to 
+               Laenatius Romulus, excellent man <note>of equestrian status</note>, governor of the province of Tripolitania, in accordance with a vote of the most peaceful people 
+               and a decree of the most splendid city council, at their own expense.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Romulus! Per la grande moderazione nei giudizi, e per i quanto mai salutari provvedimenti, e per il felice suo avvento,
+               a Laenatius Romulus, uomo perfettissimo, governatore della Prouincia di Tripolitania, per suffragio del popolo quietissimo
+               e per decreto dello splendidissimo ordine, a sue spese pose.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>(Statue of) Romulus. On account of such great moderation of judgements, and the soundest provisions, 
+            and the felicity of his arrivaline To Laenatius Romulus, of perfectissimus rank, governor (<foreign xml:lang="la">praeses</foreign>) of the province of Tripolitania; by vote of the most peaceful people 
+            and by decree of the most splendid <foreign xml:lang="la">ordo</foreign>; he set this up at his own expense.</p></div>
+         <div type="commentary">
+            <p>Laenatius Romulus: <title>PLRE</title> I, Romulus 4.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

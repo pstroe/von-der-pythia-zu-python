@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0603" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Porfyrius</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0603</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Tetrapylon statue <objectType>base</objectType> of rough 
+               <material>grey-brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the front face within a recessed rectangular panel (die, <dimensions>
+                              <width unit="metre">1.18</width>
+                              <height unit="metre">0.36</height>
+                           </dimensions>) 
+               which has been cut into an earlier <rs type="decoration">tabella ansata</rs>.  
+               The sculptured ornament of the tetrapylon belongs to the earlier, erased inscription.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late form of Rustic capitals, av. <height unit="metre">0.055</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0250" notAfter="0299" precision="low" evidence="lettering">Second half of the third  century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>,
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/729">Punic Market</placeName>, in the courtyard near the limestone market-building.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+               <term xml:lang="grc-Latn">
+                  <rs type="textType">munera</rs>
+               </term>
+               <term>
+                  <rs type="textType">animals</rs>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="tantillo0281.jpg">
+      <desc>View: Tantillo, 2008 (P1060148)</desc></graphic>
+      <graphic url="tantillo0282.jpg">
+         <desc>Front: Tantillo (2008)</desc></graphic>
+                  <graphic url="wp0791.jpg">
+                  <desc>Upper face: Ward-Perkins Archive, BSR (Sopr. CLM 45)</desc></graphic>
+      <graphic url="bigi020.jpg">
+         <desc>Upper face, drawing: Bigi (2009)</desc></graphic>
+      <graphic url="tantillo0289.jpg">
+         <desc>Upper face: Tantillo, 2008 (P1060141)</desc></graphic>
+      <graphic url="tantillo0283.jpg">
+         <desc>Upper face, right end: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0284.jpg">
+         <desc>Upper face, left end: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0285.jpg">
+         <desc>Right support, detail: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0286.jpg">
+         <desc>Left support, detail: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0287.jpg">
+         <desc>Back: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0288.jpg">
+         <desc>Top: Tantillo, 2008 (P1050926)</desc></graphic>
+      
+      
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <!--Check Guidi in 
+               <bibl xml:id="rostovtzev1933">
+                  <author>Rostovtzev</author>, 
+                  <title level="m">Storia Economica e Sociale dell'Impero Romano</title>,check 
+                  <date>1933</date>, <citedRange>386, pl. LXVI, 2</citedRange>
+               </bibl>-->
+               <bibl><ptr target="aurigemma1940a"/>, <citedRange>82</citedRange> ff., figs. 17, 18
+               </bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1942-43.4</citedRange></bibl>;
+                <bibl><ptr target="irt1952"/>, <citedRange>603</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT603.html">603</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>50</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>2010.1780</citedRange></bibl>, 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2196">2196</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020412">020412</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="amator">Amatori</w> <w lemma="patria">patriae</w> <w lemma="et">et</w> <w lemma="ciuis">ciuium</w> <w lemma="suus">suo<unclear>r</unclear><supplied reason="lost">um</supplied></w> 
+               <w lemma="qui"><supplied reason="lost">quod</supplied></w> <w lemma="ex">ex</w> <w lemma="indulgentia">indul<unclear>genti</unclear>a</w> <w lemma="sacer">sacra</w>
+               <lb n="2"/><w lemma="ciuis">ciuibus</w> <w lemma="se">suis</w> <w lemma="fera">feras</w> <w lemma="dentatus">dentatas</w> <w lemma="quattuor">quattuor</w> <w lemma="uiuo">uiuas</w> <w lemma="dono">donauit</w>
+               <lb n="3"/><w lemma="ex">ex</w> <w lemma="decerno">decreto</w> <w lemma="splendidus">splendidissimi</w> <w lemma="ordo">ordinis</w> <w lemma="biga">bigam</w> 
+               <w lemma="decerno"><expan><abbr>decreu</abbr><ex>eru</ex><abbr>nt</abbr></expan></w>
+               <lb n="4"/><space quantity="3" unit="character"/> <persName type="attested"><name type="cognomen" nymRef="Porfyrius">Porfyri</name> <space quantity="30" unit="character"/> <name type="cognomen" nymRef="Porfyrius">Porfyri</name></persName><g ref="symbols.xml#palm"/></ab></div>
+         
+         
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg resp="#irt1952">qu]od indulg̣ẹṇṭịa</rdg>
+               </app>
+            </listApp>
+         </div>  
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To a lover of his country and of his fellow-citizens, because by the emperor's concession he presented to his fellow-citizens four living tusked beasts 
+               <note>elephants</note>. By decree of the most splendid city council they voted a two-horse chariot. <supplied reason="subaudible">In honour</supplied> of Porfyrius, of Porfyrius.</p></div>
+        
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>A . . . (?) amante della patria e dei suoi concittadini, per il fatto che, grazie alla sacra indulgenza, donò vive ai propri concittadini
+               quattro belve dentate, per decreto dello splendidissimo ordine, decretarono una biga. Porfyrius! Porfyrius! </p></div>
+         
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>To ... lover of his fatherland and of his fellow-citizens. Because, by sacred indulgence, he donated to his citizens four living teethed wild beasts, 
+               they have decreed, by decree of the most splendid council (<foreign xml:lang="la">ordo</foreign>) a two-horse chariot (<foreign xml:lang="la">biga</foreign>). Porfyrius, Porfyrius.</p>
+         </div>
+         <div type="commentary">
+         <!--    <p>Discussed: <ref target="https://zenon.dainst.org/Record/000108331">Zelazowski (2001)</ref>, no.13;  
+               <ref target="https://zenon.dainst.org/Record/001246059">Erkelenz (2003)</ref>, 203-4; 
+               <ref target="https://zenon.dainst.org/Record/000791145">Witschel (2007)</ref> no.21</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

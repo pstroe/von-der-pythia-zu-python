@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1227" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <rs type="textType">Honours</rs> for Severan emperors; <rs type="textType">building</rs> inscription for a cistern</title>
+                
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1227</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Limestone</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">block</objectType>
+                                    
+                                    <dimensions>
+                                        <height unit="metre">0.35</height>
+                                        <width unit="metre">1.02</width>
+                                    </dimensions>
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.065-0.075</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notAfter="0211" notBefore="0209" evidence="reign">198-211 CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1948">Gasr Zerzi</placeName>: 
+                           built into a cistern beside the Gasr</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/?">?</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Transcription (Brogan and Reynolds)</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-18" who="CMR">Transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="broganreynolds1964"/> <citedRange>2</citedRange>, p. 44</bibl>, whence 
+                    <bibl><ptr target="edcs"/> <citedRange>74000012</citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/> <persName type="emperor" ref="#seueri"><w lemma="imperator"><expan><abbr>Impp</abbr><ex>eratoribus</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caess</abbr><ex>aribus</ex></expan></addName> <persName type="emperor" ref="#septimiusseuerus"><name nymRef="Lucius">Lucio</name> 
+                    <name nymRef="Septimius">Sep<unclear>t</unclear>imio</name> <name nymRef="Seuerus">Seuero</name>
+              <lb n="2"/>    <addName nymRef="Pius">Pio</addName> <addName nymRef="Pertinax"><expan><abbr>Per</abbr><ex>tinace</ex></expan></addName> <addName nymRef="Augustus"><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan></addName></persName> 
+                    <w lemma="et">et</w> <persName type="emperor" ref="#caracalla"><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+                  <name nymRef="Aurelius">Aurelio</name> <name nymRef="Antoninus">Antoni
+                       <lb n="3" break="no"/>no</name></persName> <w lemma="et">et</w> <persName type="emperor" ref="#geta"><del rend="erasure"><name nymRef="Publius"><supplied reason="lost"><expan><abbr>P</abbr><ex>ublio</ex></expan></supplied></name></del> <name nymRef="Septimius">Septimio</name>
+                      <del rend="erasure"><name nymRef="Geta"><unclear>G</unclear><supplied reason="lost">eta</supplied>e</name></del> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+                  <addName nymRef="Augustus"><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan></addName></persName>
+                  <lb n="4"/><w lemma="et">et</w> <persName type="emperor" ref="#juliadomna"><name nymRef="Iulia">Iuliae</name> 
+                      <addName nymRef="Augustus"><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ustae</ex></expan></addName> <w lemma="mater">matri</w> <w lemma="castra"><expan><abbr>castr</abbr><ex>orum</ex></expan></w></persName></persName> <w lemma="cisterna"><expan><abbr>cister</abbr><ex cert="low">na</ex></expan></w>
+               </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>For the emperors Caesar Lucius Septimius Severus Pius Pertinax Augustus, and Marcus Aurelius Antoninus and Publius Septimius Geta <note>erased</note>, Caesar, Augustus 
+                    and Julia Augusta the mother of the camps, a cistern.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

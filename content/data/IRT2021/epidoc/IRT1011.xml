@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1011" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> for the Arch of Marcus Aurelius</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD015157</idno>
+                <idno type="TM">199312</idno>
+                <idno type="filename">IRT1011</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Marble</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">architrave</objectType> block
+                                    
+                                    <dimensions>
+                                        <height unit="metre">0.94</height>
+                                        <width unit="metre">8.25</width>
+                                    </dimensions>
+                                <!--   -->    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the outer face, on two fasciae
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Average: <height>0.14-0.15</height>, maximum: <height>0.17-0.18</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notAfter="0174" notBefore="0173" evidence="internal-date">10 December 173-9 December 174 CE: <ref target="https://godot.date/id/AQhHDCNxPDTEWmvjH3h3Fi">GODOT</ref></origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                            <placeName ref="https://www.slsgazetteer.org/1705">Decumanus Maximus</placeName>, 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/1706">Arch of Marcus Aurelius</placeName>; found in <date type="found">1959</date></p></provenance>
+                        
+                        <provenance type="observed"><p>Findspot (restored)</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-20" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard1963"/> <citedRange/></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1967.536</citedRange></bibl>, 
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015157">015157</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <persName type="emperor" ref="#marcusaurelius"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> <name nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Aurelius">Aurelio</name> <name nymRef="Antoninus">Antonino</name>  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> 
+                <addName nymRef="Armeniacus"><expan><abbr>Arm</abbr><ex>eniaco</ex></expan></addName> <addName nymRef="Medicus"><expan><abbr>Med</abbr><ex>ico</ex></expan></addName> <addName nymRef="Parthicus"><expan><abbr>Par</abbr><ex>thico</ex></expan></addName> <addName nymRef="Germanicus"><expan><abbr>Ger</abbr><ex>manico</ex></expan></addName> 
+                <w lemma="pontifex"><expan><abbr>p</abbr><ex>ontifici</ex></expan></w> <w lemma="maximus"><expan><abbr>m</abbr><ex>aximo</ex></expan></w> <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> 
+                <num value="28">XXVIII</num> <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <space quantity="2" unit="character"/> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <space quantity="3" unit="character"/> <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></persName> 
+                <w lemma="arcus">arcus</w> <w lemma="ex">ex</w> <w lemma="sestertius">HS</w> <num value="120">CXX</num> <w lemma="mille"><expan><abbr>m</abbr><ex>ilibus</ex></expan></w> <w lemma="numus"><expan><abbr>n</abbr><ex>ummum</ex></expan></w> 
+                <w lemma="ab">ab</w> <persName type="attested"><name nymRef="Auilius">Auilio</name> <name nymRef="Castus">Casto</name></persName> <w lemma="in">in</w> <w lemma="is">eum</w> <w lemma="et">et</w> <w lemma="statua">statuas</w> <w lemma="legatus">legatis</w> 
+                <lb n="2"/> <space quantity="10" unit="character"/> <w lemma="praeter">praeter</w> <w lemma="sestertius">HS</w> <!-- check --> <space quantity="5" unit="character"/> <w lemma="qui">quae</w> <w lemma="de">de</w> <w lemma="publicus">publico</w> <w lemma="adicio">adiecta</w> <w lemma="sum">sunt</w> <w lemma="dedico">dedicatus</w> <persName type="attested" key="pir-s-0485"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> 
+                <name nymRef="Septimius">Septimio</name> <name nymRef="Seuerus">Seuero</name></persName> <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> 
+                <persName type="attested" key="pir-s-0487"><name nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Septimius">Septimio</name> <name nymRef="Seuerus">Seuero</name></persName> <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> 
+                <w lemma="pro"><expan><abbr>pr</abbr><ex>o</ex></expan></w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w>  <space quantity="10" unit="character"/>
+            </ab></div>
+            <div type="translation" source="#vitaevrard1963" xml:lang="fr">
+                <p>À l'Empereur Marc-Aurèle . . . un arc, construit grâce aux 120 mille sexterces légués par Avilius Castus pour ce monument et ses statues, 
+                grâce de plus à la somme x qui a été prise en supplément sur les finances publiques, a été dédié sous le proconsulat de Caius Septimius Severus 
+                et la légation proprétorienne de Lucius Septimius Severus.</p>
+            </div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>For the Emperor Caesar Marcus Aurelius Antoninus Augustus, victor in Armenia, victor in Media, victor in Parthia, victor in Germany, chief priest, holding tribunician power 
+                    for the twenty-eighth time, acclaimed victor ?times <note>left blank</note>, consul ?times <note>left blank</note>, father of the country, the arch <supplied reason="subaudible">built</supplied> 
+                    from 120 thousand sesterces bequeathed for it, 
+                    and for the statues, by Avilius Castus, and a further ? <note>left blank</note> which were added from public resources, was dedicated, when Caius Septimius Severus was proconsul and
+                    Lucius Septimius Severus was legate with praetorian powers.</p>
+            </div>
+            <div type="commentary">
+              <!--  <p>Line 1: In the imperial titulature, the numbers for the occasions of tribunician power and consulate have been left blank.</p>
+                <p>Line 2: The number for the quantity of money provided has been left blank.</p> --> 
+                <p>C. Septimius Severus:<title>PIR</title> S 0485, <ref target="https://pir.bbaw.de/id/12213">https://pir.bbaw.de/id/12213</ref></p>
+                <p>L. Septimius Severus, the future emperor: <title>PIR</title> S 0487, <ref target="https://pir.bbaw.de/id/12214">https://pir.bbaw.de/id/12214</ref></p>
+            </div>
+        </body>
+    </text>
+</TEI>

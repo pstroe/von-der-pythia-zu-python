@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0029" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Commodus by Messius Rufinus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0029</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Nine fragments from  two <material>marble</material> 
+                              <objectType>architrave</objectType> blocks, <height>0.525</height>, original length c. <width>2.44</width>
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) - d) Lapidary capitals: <height unit="metre">0.11</height>. </handNote>
+                     <handNote>e) - g) Lapidary capitals: <height unit="metre">0.11</height>, erased. </handNote>
+                     <handNote>h) - i) Lapidary capitals: <height unit="metre">0.095</height>, 
+               <rs type="execution" ref="scalpro">Inscribed</rs> above a partially erased inscription, from which h (reinscribed) and i can be made out.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0186" notAfter="0189" evidence="titulature">186-189 CE: <ref target="https://godot.date/id/Ti2F4pkycyioNNQuScpwN8">GODOT</ref> and <ref target="https://godot.date/id/U7U3tsPgovoVUu9ndVcCjK">GODOT</ref></origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/859">Regio V</placeName>, 
+                              (insula  7) <placeName type="monuList" ref="https://www.slsgazetteer.org/860">Temple of Hercules</placeName>, from the surrounding portico.</p></provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>29</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT029.html">29</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059024">059024</ref></citedRange></bibl>; 
+               G. Caputo in <bibl><ptr target="aiosa2013"/>, <citedRange unit="page">23-26</citedRange>, nos. 13-25</bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>2013.1759</citedRange></bibl> 
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a and b" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ad">ad</w> <w lemma="consumatio">cons<supplied reason="lost">um</supplied>ationem</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="attested"><name type="gentilicium" nymRef="Messius">Messius</name> 
+                     <name type="cognomen" nymRef="Rufinus"><supplied reason="lost">R</supplied>ufinus</name></persName> 
+                  <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimae</ex></expan></w> 
+                  <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> 
+                  <supplied reason="lost"><w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">uerat</w>
+               </ab></div>
+            <div subtype="fragment" n="e" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><w part="F">rus</w> <w lemma="iu-" part="I">iu</w></del><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div>
+            <div subtype="fragment" n="f" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><w lemma="deus" part="M">di</w></del><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="g" type="textpart"><ab>
+                  <lb n="1"/><del><gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="emperor" ref="#commodus"><w lemma="imperator" part="I"><expan><abbr><supplied reason="lost">im</supplied>p</abbr><ex>erator</ex></expan></w> 
+                  <num value="8">VIII</num> <w lemma="consul" part="I"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <num value="5">V</num> 
+                  <w lemma="pater" part="I"><expan><abbr><unclear>p</unclear></abbr><supplied reason="lost"><ex>at</ex></supplied></expan></w> 
+                  <supplied reason="lost"><w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></supplied></persName><gap reason="lost" extent="unknown" unit="character"/></del>
+               </ab></div>
+            <div subtype="fragment" n="h" type="textpart"><ab>
+                  <lb n="1"/>
+                  <subst><del rend="erasure"><w lemma="imperator" part="I"><expan><abbr>Im<unclear>p</unclear></abbr><ex>erator</ex></expan></w></del><add place="above"><w lemma="imperator" part="I"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w></add></subst>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div>
+            <div subtype="fragment" n="i" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <subst><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del><add place="above">
+                        <persName type="emperor" ref="#anonymus"><name nymRef="Marcus"><seg part="I"><expan><abbr><supplied reason="lost">M</supplied></abbr><supplied reason="lost"><ex>arc</ex></supplied></expan></seg></name>
+                        <name type="gentilicium" nymRef="Aurelius"><seg part="I">Aur<supplied reason="lost">eli</supplied></seg></name></persName>
+                     </add></subst>
+                 <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p> a. + b. <gap reason="lost" extent="unknown" unit="character"/> with a view to ? accomplishing <gap reason="lost" extent="unknown" unit="character"/> </p><p> c. <gap reason="lost" extent="unknown" unit="character"/> Messius Rufinus, a man of outstanding memory <note>i.e. a deceased Roman senator</note> <gap reason="lost" extent="unknown" unit="character"/></p><p> d. -  f. Not usefully translateable </p><p> g. <gap reason="lost" extent="unknown" unit="character"/> acclaimed victor eight times, consul five times, father <supplied reason="lost">of the country</supplied> <gap reason="lost" extent="unknown" unit="character"/></p><p> h. Emperor <gap reason="lost" extent="unknown" unit="character"/> <note>or</note> acclaimed victor <gap reason="lost" extent="unknown" unit="character"/> <note>Repeated in recut text</note></p><p> i. <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> Aurelius <gap reason="lost" extent="unknown" unit="character"/> 
+               <note>case unknown</note></p></div>
+         <div type="commentary">
+            <p>Messius Rufinus: <title>PIR</title>, M 0520a <ref target="https://pir.bbaw.de/id/9199">https://pir.bbaw.de/id/9199</ref></p>
+            <!-- <p>g) Commodus who was imp VIII, cos V from 186.</p> -->
+            <p>h) - i) probably recut under Septimius Severus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

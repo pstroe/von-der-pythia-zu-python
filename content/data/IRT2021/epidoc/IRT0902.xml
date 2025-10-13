@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0902" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Title</rs> for an image of Isicuar</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0902</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db901">Çinili Köşk, Istanbul</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Block</objectType>  from the angle of the sculptured <objectType>frieze</objectType> of a mausoleum (<dimensions>
+                                 <width unit="metre">0.18</width> 
+                                 <height unit="metre">0.53</height>
+                                 <depth unit="metre">0.265</depth>
+                              </dimensions>, right-hand edge broken). 
+               On the front a <rs type="decoration">standing male figure</rs> facing to the right;
+               on the left face a <rs type="decoration">mounted horseman galloping</rs> to the right, spear in hand,
+               and below the horse a <rs type="decoration">hound</rs> and a <rs type="decoration">stag</rs>;
+               inscribed on the front above the figure.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the front above the figure</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400" evidence="context">First-fourth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/899">Wadi Zemzem</placeName>: (presumably; cf. <ref type="inscription" n="IRT0900">900</ref>,
+                  <ref type="inscription" n="IRT0901">901</ref>)
+                  <placeName ref="https://www.slsgazetteer.org/783">Ghirza</placeName> (map ref. W 7052). Origin not specifically recorded, but belongs certainly to a group of sculpture and inscriptions seen
+               by Denham and Clapperton in <date type="found">1824</date> and removed prior to 1868
+               to Istanbul; see also <ref type="inscription" n="IRT0900">900</ref>,
+                  <ref type="inscription" n="IRT0901">901</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Now inaccessible in the vaults of the
+                              <ref target="https://archnet.org/sites/15034">Çinili Köşk</ref>, Istanbul.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="cil"/>, <citedRange>10972</citedRange></bibl>, 
+               <bibl><ptr target="cil1904"/> <citedRange>745</citedRange></bibl>
+               illustrated and described in <bibl><ptr target="mendel1914"/> <citedRange>II, 68-9</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>902</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT902.html">902</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059743">059743</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Isicuar">Isicua<supplied reason="lost">r</supplied></name></persName>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Isicuar</p></div>
+         <div type="commentary">
+            <p> 
+For this name see also <ref type="inscription" n="IRT0867">867</ref>, line 1-2, and  <ref type="inscription" n="IRT0886">886</ref>(h), line 2, and (k); the final R, read by Dumont and others, has since been damaged.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

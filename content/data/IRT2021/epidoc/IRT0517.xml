@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0517" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for M. Appius Atilius Bradua Regillus Atticus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0517</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <objectType>Balustrade</objectType> of <material>grey limestone</material>. See also <ref type="inscription" n="IRT0587">587</ref>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the front face within a recessed panel (die <dimensions>
+                              <width unit="metre">0.50</width>
+                              <height unit="metre">0.89</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular capitals with some Rustic forms: line 1-2, <height unit="metre">0.07</height>; line 3-4, <height unit="metre">0.04</height>; line 5, <height unit="metre">0.045</height>; line 6-8, <height unit="metre">0.05</height>; line 9-10, <height unit="metre">0.055</height>; line 11, <height unit="metre">0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0185" notAfter="0200" evidence="prosopography">After CE 185</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, 
+                  flanking the steps to the <placeName type="monuList" ref="https://www.slsgazetteer.org/714">Curia</placeName>, North West side.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0657.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 917)</desc></graphic>
+                  <graphic url="wp0658.jpg">
+                  <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.XIV.3)</desc></graphic>
+      <graphic url="tantillo0178.jpg">
+         <desc>Face: Tantillo (2003)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>517</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT517.html">517</ref></citedRange></bibl>; 
+               <bibl><ptr target="pflaum1953"/> <citedRange>4</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1955.227</citedRange></bibl>;
+               discussed <bibl><ptr target="vitaevrard1981"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1981.863</citedRange></bibl>;
+               <bibl><ptr target="thomasson1996"/> <citedRange>134</citedRange></bibl>;
+               whence <bibl><ptr target="EDH"/> (Feraudi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030919">030919</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" key="pir-m-0541"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Atilius">Atilio</name> <name type="gentilicium" nymRef="Metilius">Metilio</name>
+               <lb n="2"/><name type="cognomen" nymRef="Bradua">Bra<supplied reason="lost">d</supplied>uae</name>
+                  <name type="gentilicium" nymRef="Caucidius">Cauci<lb n="3" break="no"/><supplied reason="lost">dio</supplied></name> <name type="cognomen" nymRef="Tertullus"><supplied reason="lost">Tertullo</supplied></name> 
+               <name type="gentilicium" nymRef="Claudius"><supplied reason="lost">Claudio</supplied></name> <name type="cognomen" nymRef="Atticus"><supplied reason="lost">At</supplied>tico</name>
+               <lb n="4"/><name type="gentilicium" nymRef="Vibullius"><supplied reason="lost">Uibu</supplied>llio</name> <name type="cognomen" nymRef="Pollio"><unclear>P</unclear>oll<unclear>ion</unclear><supplied reason="lost">i</supplied></name> 
+               <name type="gentilicium" nymRef="Gauidius">Gauidio</name>
+               <lb n="5"/><name type="cognomen" nymRef="Latiaris"><supplied reason="lost">L</supplied>atiari</name> <name type="gentilicium" nymRef="Atrius">Atrio</name> <name type="cognomen" nymRef="Bassus">Basso</name></persName> 
+               <lb n="6"/><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <lb n="7"/><persName type="attested"><name type="praenomen" nymRef="Decimus"><expan><abbr>D</abbr><ex>ecimus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Iunius">Iunius</name> <name type="cognomen" nymRef="Crescens">Crescens</name></persName>
+                  <lb n="8"/><persName type="attested"><name type="praenomen" nymRef="Decimus"><expan><abbr>D</abbr><ex>ecimus</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Iunius">Iunius</name> <name type="cognomen" nymRef="Galba">Galba</name></persName>
+               <lb n="9"/><persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Calpurnius">Calpurnius</name> <name type="cognomen" nymRef="Capito">Capito</name></persName>
+               <lb n="10"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Plautius">Plautius</name> <name type="cognomen" nymRef="Octauianus">Octauian<supplied reason="lost">us</supplied></name></persName>
+               <lb n="11"/><w lemma="patronus">patrono</w></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Marcus Atilius Metilius Bradua Caucidius Tertullus Claudius Atticus Vibullius Pollio 
+            Gauidius Latiaris Atrius Bassus, proconsul; Decimus Junius Crescens, Decimus Junius Galba, Quintus Calpurnius Capito, Lucius Plautius Octavianus to their patron.</p></div>
+         <div type="commentary">
+            <p>Marcus Atilius Metilius Bradua Caucidius Tertullus Claudius Atticus Vibullius Pollio 
+               Gauidius Latiaris Atrius Bassus: <title>PIR</title> M 541, <ref target="https://pir.bbaw.de/id/2212">https://pir.bbaw.de/id/2212</ref></p>
+            <!-- <p>Line5: Probably M. Atilius Bradua Regillus Atticus, cos. 185, 
+               (2) C 785. Not previously known to have been procos. Africae.</p>
+            <p>Line 8. D. Iunius Galba perhaps also attested in <ref type="inscription" n="IRT0534">534</ref>.</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

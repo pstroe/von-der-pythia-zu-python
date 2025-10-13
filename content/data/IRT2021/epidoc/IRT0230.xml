@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0230" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Commodus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0230</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Four inscribed <material>marble</material> 
+                              <objectType>block</objectType>s 
+               (lengths respectively, <width unit="metre">2.52</width>, 
+               <width unit="metre">2.13</width>, 
+               <width unit="metre">1.42</width> (incomplete) and
+               <width unit="metre">2.05</width>
+                              <dimensions>
+                                 <width unit="metre" quantity="8.12">2.05</width>
+                                 <height unit="metre">0.95</height>
+                                 <depth unit="metre">0.90</depth>
+                              </dimensions>) from the left-hand part of the architrave of a temple, 
+               of which a large part of the pediment, with figures of the <rs type="decoration">Tyche of Oea</rs>, of 
+               <rs type="decoration">Apollo</rs>, of <rs type="decoration">Minerva</rs>, and of the <rs type="decoration">Dioscuri</rs>, also survives. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>There are mouldings at 
+               top and bottom, and centrally between the two lines of the inscription. There 
+               were originally 5, or possibly 6, blocks to the complete architrave, those at the 
+               ends being longer than those in the centre.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: line 1, <height unit="metre">0.155</height>; 
+               line 2, <height unit="metre">0.085</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+
+                     <origDate notBefore="0183" notAfter="0185" evidence="titulature">CE 183-185</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                              <placeName ref="https://www.slsgazetteer.org/657">Oea</placeName>:
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/805">Arch of Marcus Aurelius</placeName>. Found during the isolation and restoration of the arch.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+               <term>
+                  <rs type="textType">munera</rs>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0282.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 299 Leica)</desc></graphic>
+                  <graphic url="wp0283.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 302 Leica)</desc></graphic>
+                  <graphic url="wp0284.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 307 Leica)</desc></graphic>
+                  <graphic url="wp0285.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 306 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="caputo1940a"/>, <citedRange>35</citedRange>, figs. 2-5</bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>1942-43.1</citedRange></bibl>; discussed 
+               <bibl><ptr target="barbieri1941"/>, <citedRange unit="page">196</citedRange>, <citedRange unit="page">292</citedRange> ff.</bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>1945.32</citedRange>, <citedRange>1945.68</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>230</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT230.html">230</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019884">019884</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#commodus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w>
+               
+                  <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName>
+                  <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Aurelius">Aurelio</name> 
+                  <name type="cognomen" nymRef="Commodus">Commodo</name> 
+                  <name type="gentilicium" nymRef="Antoninus">Antonino</name> 
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> 
+                  <addName nymRef="Pius">Pio</addName> </persName>
+                  <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w>   
+                  <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+               <persName type="attested" key="pir-a-0345">
+                  <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Aemilius">Aemilius</name>
+                  <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName>
+                  <w lemma="filius"><expan><abbr>fil</abbr><ex>ius</ex></expan></w> 
+                  <name type="tribe" nymRef="Quirina"><w lemma="Quirina"><expan><abbr>Quir</abbr><ex>ina tribu</ex></expan></w></name> 
+                  <gap reason="lost" extent="unknown" unit="character"/></persName>
+               <w lemma="consul"><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <placeName nymRef="#Asia" ref="#asia">Asiae</placeName> 
+               <persName type="divine" ref="#geniuscol"><name nymRef="Genius">Genio</name> 
+                  <w lemma="colonia">Co<supplied reason="lost">loniae</supplied></w></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><w lemma="item">item</w> 
+               <w lemma="sestertius"><expan><abbr><am><g ref="symbols.xml#sestertius"/></am></abbr><ex>sestertiis</ex></expan></w>
+               <num value="10">X</num> 
+               <w lemma="centenus">centena</w> 
+               <w lemma="mille"><expan><abbr>mil</abbr><ex>ia</ex></expan></w>
+               <w lemma="nummus"><expan><abbr>n</abbr><ex>ummum</ex></expan></w> 
+               <w lemma="lego">legauit</w> 
+               <w lemma="ex">ex</w> 
+               <w lemma="qui">cu<supplied reason="lost">ius</supplied></w>
+               <w lemma="usura"><expan><abbr><supplied reason="lost">usu</supplied>r</abbr><ex>is</ex></expan></w> 
+               <w lemma="sportula">sportulae</w> 
+               <w lemma="ciuis">ciuibus</w> 
+               <w lemma="et">et</w> 
+               <w lemma="ludus"><unclear>l</unclear>u<unclear>d</unclear><supplied reason="lost">i</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="do"><supplied reason="lost">darent</supplied>ur</w> 
+               <w lemma="qui">quod</w> 
+               <w lemma="opus">opus</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Sulla">Sulla</name></persName> 
+               <w lemma="frater">frater</w> 
+               <w lemma="et">et</w> 
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Emperor Caesar Marcus Aurelius Commodus Antoninus Augustus Pius, Father of the Country; 
+               Lucius Aemilius <gap reason="lost" extent="unknown" unit="character"/>, 
+                     son of Lucius, of the Roman voting tribe Quirina, consul, proconsul <note>i.e. governor</note> of Asia, to the Genius of the colony 
+               <gap reason="lost" extent="unknown" unit="character"/>; likewise he beqeathed 100,000 sesterces, from the interest of which food boxes should be 
+               provided for the citizens, and games <gap reason="lost" extent="unknown" unit="character"/>. This matter his brother Sulla and <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>
+               Commodus was <foreign xml:lang="la">Pius</foreign> in 183; 
+            <foreign xml:lang="la">Felix</foreign> in 185.</p>  
+            <p>Aemilius Frontinus: <title>PIR</title>, A 345, <ref target="https://pir.bbaw.de/id/985">https://pir.bbaw.de/id/985</ref></p>
+         </div>
+      </body>
+   </text>
+</TEI>

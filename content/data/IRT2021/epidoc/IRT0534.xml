@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0534" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription for the proscaenium of the Theatre</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0534</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Now restored to their original position.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>a) <material>Marble</material> 
+                              <objectType>balustrade</objectType> blocks from the lowest order of each of the six projecting elements of the scaenae frons of the Theatre 
+               (surviving length, together <dimensions>
+                                 <width unit="metre">29.42</width>
+                              </dimensions>). 
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre">0.13-0.18</height>.</handNote>
+                     
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Theatre: proscaenium</origPlace>
+                     <origDate cert="low" when="0157" evidence="prosopography">157/8 CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>. Found fallen and re-used as steps.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Restored to their original position.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0684.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 301 Leica)</desc></graphic>
+                  <graphic url="wp0685.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 302 Leica)</desc></graphic>
+                  <graphic url="wp0686.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 303 Leica)</desc></graphic>
+                  <graphic url="wp0687.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 304 Leica)</desc></graphic>
+                  <graphic url="wp0690.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 232 Leica)</desc></graphic>
+                  <graphic url="wp0689.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 518 Leica)</desc></graphic>
+                  <graphic url="wp0688.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1519 Leica)</desc></graphic>
+                  <graphic url="wp0692.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp0693.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 481 Leica)</desc></graphic>
+                  <graphic url="wp0691.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 703 Leica)</desc></graphic>
+                  <graphic url="wp0695.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1519 Leica)</desc></graphic>
+                  <graphic url="wp0694.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1517 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+                
+               <bibl><ptr target="caputo1950a"/> <citedRange unit="page">166-167</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/>  <citedRange>1951.86</citedRange></bibl>;
+               <bibl><ptr target="guey1951b"/> <citedRange>311-315</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1952.177</citedRange>.b</bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>534</citedRange></bibl>, 
+               <bibl><ptr target="degrassi1954"/> <citedRange/></bibl>, whence  
+               <bibl><ptr target="reynolds1955"/> <citedRange>143</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT534.html">534</ref></citedRange></bibl>;
+               <bibl><ptr target="divita1989"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1990.1030</citedRange></bibl>;
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025086">025086</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+            
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/> <milestone unit="bay" n="i" rend="|"/><w lemma="proscaenium">Pro<unclear>scaenium</unclear></w> <milestone unit="bay" n="ii" rend="|"/> <w lemma="columna">columnis</w> <w lemma="et"><supplied reason="lost">e</supplied>t</w> <w lemma="marmor">marmoribus</w> 
+               <milestone unit="bay" n="iii" rend="|"/> <w lemma="ex">ex</w> 
+               <w lemma="sestertius"><expan><abbr><am><g ref="symbols.xml#sestertius"/></am></abbr><ex>sestertiis</ex></expan></w> 
+               <num value="200000"><hi rend="supraline">CC</hi></num> <w lemma="ab">a</w> <persName type="attested"><name type="gentilicium" nymRef="Marcius">Marcio</name> <name type="cognomen" nymRef="Uitalis">Uitale</name></persName> <w lemma="item">itemque</w> <w lemma="ex">ex</w> 
+               <w lemma="sestertius"><expan><abbr><am><g ref="symbols.xml#sestertius"/></am></abbr><ex>sestertiis</ex></expan></w> 
+               <num value="300000"><hi rend="supraline">CCC</hi></num> <w lemma="ab">a</w> <persName type="attested"><name type="gentilicium" nymRef="Iunius">Iunio</name> 
+                  <name type="cognomen" nymRef="Galba">Galba</name></persName> 
+               <w lemma="in">in</w> <w lemma="is">eam</w> <w lemma="res">rem</w> <milestone unit="bay" rend="|" n="iv"/><supplied reason="lost"><w lemma="do">datis</w> <w lemma="item">item</w></supplied> 
+               <milestone unit="bay" rend="|" n="v"/><supplied reason="lost"><w lemma="tetrastyla">tetrastylis</w></supplied> <w lemma="lacuna">lac<supplied reason="lost">u</supplied>na<unclear>r</unclear><supplied reason="lost">um</supplied></w>
+               <milestone unit="bay" rend="|" n="vi"/><w lemma="pecunia"><expan><abbr>pec</abbr><ex>unia</ex></expan></w> 
+               <w lemma="publicus"><expan><abbr>publ</abbr><ex>ica</ex></expan></w> 
+               <w lemma="exorno">exornatum</w> <w lemma="dedico">dedicatum</w> <w lemma="sum">est</w>
+               <persName type="attested" key="pir-h-0040"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Hedius">Hedio</name> <name type="cognomen" nymRef="Rufus">Ruf<unclear>o</unclear></name> 
+               <name type="cognomen" nymRef="Lollianus"><supplied reason="lost">Lo</supplied>lliano</name> <name type="cognomen" nymRef="Auitus">Auito</name></persName>  
+               <milestone unit="bay" rend="|" n="vii"/> 
+               <w lemma="proconsul">
+<abbr><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr></expan></abbr><expan><ex>ule</ex></expan></w> 
+               <persName type="attested" key="bbaw:14367"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name type="gentilicium" nymRef="Vibius">Uibio</name> <name type="cognomen" nymRef="Gallio">Gallione</name> <name type="gentilicium" nymRef="Claudius">Clau<milestone unit="bay" rend="|" n="viii" break="no"/>dio</name> 
+               <name type="cognomen" nymRef="Seuerus">Seue<supplied reason="lost">ro</supplied></name></persName> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> 
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <note> 
+                    Vertical lines indicate the interrupting bays. 
+                  </note>
+               </app>
+            <app loc="1.iii">
+                  <rdg resp="#degrassi1954">
+                     <hi rend="supraline">CC</hi> and <hi rend="supraline">CCC</hi>
+                  </rdg>
+               </app>
+               <app loc="1.iv">
+                  <rdg resp="#divita1989">[datis item]</rdg></app>
+               <app loc="1.v">
+                  <lem>[tetrastylis] lac[u]naṛ[um] </lem>
+                  <rdg resp="#irt1952">[---]NA[---][---]LAC[---] </rdg><note>published as 534.b, corrected by Di Vita</note></app> 
+            
+               
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p> The theatre-stage was decorated with columns and marbles by Marcius Vitalis who spent 200,000 sesterces, and Junius Galba who spent 300,000 sesterces of public money on the work; 
+               it was dedicated when Lucius Hedius Rufus Lollianus Avitus was proconsul, <supplied reason="lost">and</supplied> Caius Vibius Gallio Claudius Severus, was his legate. 
+               </p></div>
+         <div type="commentary">
+            <p>L. Hedius Rufus Lollianus Avitus: <title>PIR</title> H 0040, <ref target="https://pir.bbaw.de/id/6803">https://pir.bbaw.de/id/6803</ref></p>
+            <p>C. Vibius Gallio Claudius Severus: <ref target="https://pir.bbaw.de/id/14367">https://pir.bbaw.de/id/14367</ref></p>
+        <!--     <p>  Iunius Galba. Perhaps also in <ref type="inscription" n="IRT0517">517</ref>, line 8. </p>
+            <p>Lollianus Auitus. See <ref type="inscription" n="IRT0533">533</ref>, n. 1.</p>
+            <p>Claudius Seuerus. Also in <ref type="inscription" n="IRT0533">533</ref>, line 4. </p>
+            <p>The <foreign xml:lang="la">lacunae</foreign> should be the <foreign xml:lang="la">ornamenta proscaenii</foreign> (Guey, Di Vita, linecc.)</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

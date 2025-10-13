@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0934" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile VIII. Maximinus.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0934</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Supporting the arcade of an Arab building in a small group of habitations. </repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> <objectType>Column</objectType>ar milestone of <material>limestone</material>, partly buried (measurable: <dimensions>
+                              <dim unit="metre" type="diameter">0.47</dim>
+                              <height unit="metre">1.04</height>
+                           </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>No description.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height>0.07</height>; line 9, <height>0.12</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName></origPlace>
+                     <origDate cert="low" when="0237" evidence="context">CE 237</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName>: At the head of the 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/695">Wadi Haj Ali</placeName> <!-- check, change -->.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Supporting the arcade of an Arab building in a small group of habitations (<date type="observed">1947</date>)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210221/tarhunah.html">Tarhūnah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>934</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT934.html">934</ref></citedRange></bibl>; 
+               <bibl>
+                  <ptr target="goodchild1948"/>, <citedRange>10</citedRange>, p.13</bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059770">059770</ref></citedRange></bibl>.
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"> 
+            <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="1a"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="emperor" ref="#maximinusthrax"><addName nymRef="Dacicus"><supplied reason="lost">Dac</supplied>
+               <lb n="1" break="no"/> icus</addName> <w lemma="maximus">maximus</w></persName> <w lemma="pons">pontes</w> 
+               <lb n="2"/><w lemma="uetustas">uetustate</w> <w lemma="delabor">dilabsos</w> <supplied reason="lost" cert="low"><w lemma="et">et</w></supplied> 
+               <lb n="3"/><w lemma="iter">iter</w> <w lemma="longus">longa</w> <w lemma="iniuria">iniuria</w> <w lemma="corrumpo">corru
+                  <lb n="4" break="no"/>ptum</w> <w lemma="restituo">restituerunt</w> <w lemma="et">et</w> <w lemma="pro">pro</w> <w lemma="suus">su
+                     <lb n="5" break="no"/>a</w> <w lemma="infatigabilis">infaticabili</w> <w lemma="prouidentia">prouidenti
+                <lb n="6" break="no"/>a</w> <w lemma="peruia">peruiam</w> <w lemma="commeo">comeantibus</w> <w lemma="reddo">redd
+              <lb n="7" break="no"/> <space extent="unknown" unit="character"/> iderunt</w> <space extent="unknown" unit="character"/>
+               <lb n="7a"/> <space quantity="1" unit="line"/>
+               <lb n="8"/><w lemma="miliarium"><expan><abbr>m</abbr><ex>iliarium</ex></expan></w> <num value="8">VIII </num></ab></div>
+         
+         <div type="translation" resp="#cmr" xml:lang="en">
+         <p>. . . ] 
+            greatest victor in Dacia, restored the bridges, which had collapsed because of their age, and the road which was disrupted by long-standing damage, 
+            and rebuilt a way along it for travellers, by their untiring providence. Mile 8.</p></div>
+         <div type="commentary">
+           
+         </div>
+      </body>
+   </text>
+</TEI>

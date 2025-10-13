@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0941" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>: mile LXXXII. Caracalla.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0941</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Column</objectType>ar milestone of <material>limestone</material> (<dimensions>
+                                 <dim unit="metre" type="diameter">0.40</dim>
+                                 <height unit="metre">2.20</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the shaft.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Line 1, <height unit="metre">0.07</height>;
+               remainder, <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate when="0216" evidence="internal-date">CE 216: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/645">Central Road to the Fezzan</placeName>, Oea-Mizda: a little south of the 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/890">Chormet el-Hantescia Pass</placeName>, 125km  from Tripoli, 
+                              a few yards West of the modern road; found about 50 m. north of <ref type="inscription" n="IRT0942">942</ref>, <foreign xml:lang="la">q.v.</foreign> 
+                           </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot, with two bases in situ. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2216815/khurmat-al-%E1%B8%A9atshah.html">Khurmat al Ḩatshah </placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Goodchild)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1164.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1165.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 310)</desc></graphic>
+                  <graphic url="wp1166.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+                  <graphic url="wp1163.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 364)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="goodchild1948"/>, <citedRange>16</citedRange>, page 16</bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>941</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT941.html">941</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059779">059779</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><space extent="unknown" unit="character"/>
+               <persName type="emperor" ref="#caracalla"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <space extent="unknown" unit="character"/>
+               <lb n="2"/>
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> <persName type="emperor" ref="#septimiusseuerus"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Septimius">Septi
+                  <lb n="3" break="no"/>mi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> <addName nymRef="Pius">Pii</addName> <addName nymRef="Arabicus">Ara
+                     <lb n="4" break="no"/>bici</addName> <addName nymRef="Adiabenicus">Adiabenici</addName> <addName nymRef="Parthicus">Pa
+                        <lb n="5" break="no"/>rthici</addName> <w lemma="maximus">maximi</w> <addName nymRef="Britannicus">Bri
+                           <lb n="6" break="no"/>tanici</addName> <w lemma="maximus">maximi</w></persName> <w lemma="filius">filio</w>
+               <lb n="7"/><persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Pius">Pii</name>
+               <lb n="8"/><addName nymRef="Germanicus">Germanici</addName> <addName nymRef="Sarmaticus">Sar<lb n="9" break="no"/>matici</addName></persName> <w lemma="nepos">nepoti</w> <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">di
+                  <lb n="10" break="no"/>ui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name> <addName nymRef="Pius">Pii</addName></persName>
+               <lb n="11"/><space extent="unknown" unit="character"/> <w lemma="pronepos">pronepoti</w> <w lemma="diuus">diui</w> <space extent="unknown" unit="character"/>
+               <lb n="12"/><space extent="unknown" unit="character"/> <persName type="emperor" ref="#hadrianus"><name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> <w lemma="abnepos">ab <space extent="unknown" unit="character"/>
+               <lb n="13" break="no"/><space extent="unknown" unit="character"/> nepoti</w> <w lemma="diuus">diui</w> <space extent="unknown" unit="character"/>
+               <lb n="14"/><persName type="emperor" ref="#traianus"><name type="cognomen" nymRef="Traianus">Traiani</name> <addName nymRef="Parthicus">Parthici</addName></persName>
+               <lb n="15"/> <w lemma="et">et</w> <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Neruae</name></persName> <w lemma="adnepos">ad
+                  <lb n="16" break="no"/><space extent="unknown" unit="character"/> nepoti</w> <space extent="unknown" unit="character"/>
+               <lb n="17"/>
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurellius">Aurellio</name> <name type="gentilicium" nymRef="Antoninus">Antonino</name>
+               <lb n="18"/><addName nymRef="Pius">Pio</addName> <addName nymRef="Felix">Felici</addName> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <addName nymRef="Parthicus">Parthi
+                  <lb n="19" break="no"/>co</addName> <w lemma="maximus">maximo</w> <addName nymRef="Britannicus">Britani
+                  <lb n="20" break="no"/>co</addName> <w lemma="maximus">maximo</w> <addName nymRef="Germanicus">Germani<lb n="21" break="no"/>co</addName> </persName>
+               <w lemma="maximus">maximo</w> <w lemma="pontifex">pontifici</w>
+               <lb n="22"/><w lemma="maximus">maximo</w> <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> 
+             <num value="19">XVIIII</num>
+               <lb n="23"/>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> 
+               <num value="3">III</num>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <num value="4">IIII</num>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <w lemma="proconsul">pro
+               <lb n="24"/> <space extent="unknown" unit="character"/> 
+               <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <space extent="unknown" unit="character"/>
+               <lb n="25"/> 
+               <w lemma="miliarium"><expan><abbr>mil</abbr><ex>iarium</ex></expan></w> 
+               <w lemma="numerus"><expan><abbr>n</abbr><ex>umero</ex></expan></w> 
+               <num value="82">LXXXII</num>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To emperor Caesar, son of deified Septimius Severus, Pius, victor in Arabia, victor in Adiabene, 
+               greatest victor in Parthia, greatest victor in Britannia, grandson of deified Antoninus Pius , victor in Germany, victor in Sarmatia, 
+               great grandson of deified Antoninus Pius, great great grandson of deified Hadrian, great great great grandson of deified Trajan, victor in Parthia and of deified Nerva, 
+               Marcus Aurellius Antoninus Pius Felix Augustus, greatest victor in Parthia, greatest victor in Britannia, greatest victor in Germany, chief priest, holding tribunician power 
+               for the nineteenth time, acclaimed victor three times, consul four times, father of the country, proconsul. Milestone eighty-two.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

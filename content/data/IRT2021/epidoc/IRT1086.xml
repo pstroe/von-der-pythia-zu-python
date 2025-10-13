@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1086" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Haterianus</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1086</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> <objectType>Panel</objectType> of marbled <material>limestone</material>, recomposed from 13 fragments
+                              
+               (<dimensions>
+                                 <width unit="metre">0.53</width>
+                                 <height unit="metre">0.72</height>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height unit="metre">0.05-0.052</height>; Lines 1-2, 0.036 wide; lines 3-6, rustic capitals, 0.02 wide.
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="0150" notBefore="0125" evidence="context, prosopography">Second quarter of the second century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  
+                              <placeName ref="https://www.slsgazetteer.org/1705">Decumanus maximus</placeName>, 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/1702">Schola</placeName>; from the western exedra.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>
+                           </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications (Roueché)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-07-16" who="CMR">Transcribed</change>
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="chaisemartin2017"/>, <citedRange>37</citedRange>, no. 1 and fig. 30</bibl>, whence  
+               <bibl><ptr target="ae"/>, <citedRange>2017.1683</citedRange></bibl>, 
+               <bibl><ptr target="edcs"/> <citedRange>78300369</citedRange></bibl>
+               </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab><lb n="1"/><persName type="attested" key="bbaw:1819"><name nymRef="Marcus"><expan><abbr><unclear>M</unclear></abbr><ex>arco</ex></expan></name> <name nymRef="Aquilius"><unclear>A</unclear>quilio</name> <g ref="symbols.xml#stop"/> <persName type="attested"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aii</ex></expan></name></persName> 
+               <g ref="symbols.xml#stop"/> <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w>
+      <lb n="2"/><space extent="unknown" unit="character"/> <name nymRef="Haterianus"><unclear>H</unclear><supplied reason="lost">a</supplied><unclear>te</unclear>riano</name></persName>
+      <lb n="3"/><w lemma="ex">ex</w> <w lemma="uoluntas">uol<unclear>u</unclear><supplied reason="lost">ntate</supplied></w> <g ref="symbols.xml#stop"/> <persName type="attested" key="bbaw:1824"><name nymRef="Aquilius">Aquili</name>
+      <lb n="4"/><space extent="unknown" unit="character"/> <name nymRef="Postumus">Pos<unclear>tu</unclear>mi</name></persName> <w lemma="pater">patris</w>
+      <lb n="5"/><persName type="attested" key="bbaw:1809"><name nymRef="Aquilia">Aquilia</name> <name nymRef="Blaesilla">Blaesilla</name></persName> <g ref="symbols.xml#stop"/> <w lemma="clarissimus"><expan><abbr>clar</abbr><ex>issima</ex></expan></w> <g ref="symbols.xml#stop"/>
+      <lb n="6"/><w lemma="femina"><expan><abbr>fem</abbr><ex>ina</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="soror">soror</w> <g ref="symbols.xml#stop"/> <w lemma="pono">posuit</w></ab>
+           
+         </div>
+         
+         
+         <div type="translation" source="#chaisemartin2017" xml:lang="fr">
+            <p>À Marcus Aquilius Haterianus, fils de Caius, selon la volonté d’Aquilius Postumus leur père, Aquilia Blaesilla, dame très illustre, a érigé (ceci).</p></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>For Marcus Aquilius Haterianus, son of Caius, according to the wish of Aquilius Postumus his father, Aquilia Blaesilla, woman of senatorial rank, 
+               his sister, established <supplied reason="subaudible">this monument</supplied> </p></div>
+         <div type="commentary">
+            <p>M. Aquilius Haterianus:  <ref target="https://pir.bbaw.de/id/1819">https://pir.bbaw.de/id/1819</ref>. </p>
+            <p>Aquilius Postumus:  <ref target="https://pir.bbaw.de/id/1824">https://pir.bbaw.de/id/1824</ref>. </p>
+            <p>Aquilia Blaesilla:  <ref target="https://pir.bbaw.de/id/1809">https://pir.bbaw.de/id/1809</ref>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1022" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> inscription</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD018474</idno>
+                <idno type="TM">199573</idno>
+                <idno type="filename">IRT1022</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Findspot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Panel</objectType> with a moulded edge, 
+                                      with upper left corner broken away
+                                    <!-- <material ref="http://www.eagle-network.eu/voc/material/lod/138">no description</material> -->
+                                    <dimensions>
+                                        <height unit="metre">65.0</height>
+                                        <width unit="metre">63.0</width>
+                                        <depth unit="metre"/>
+                                    </dimensions>
+                                 <!--   -->   
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.04</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="-0050" notAfter="0300">Roman imperial period
+                            </origDate>
+                            
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                            "alla destra del fiume", apparently beside the  
+                            <placeName ref="https://www.slsgazetteer.org/760">Wadi Lebdah</placeName>; recorded in <date type="found">1910</date>.</p></provenance>
+                        <provenance type="observed"><p>Findspot (<date type="observed">1910</date>)</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-20" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="paci1989"/> <citedRange>4</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1989.770</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018474">018474</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ii</orig> 
+                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="-ius"><seg part="F">io</seg></name></persName> <w lemma="sacerdos">sa<lb break="no" n="3"/><supplied reason="lost">ce</supplied>rdoti</w> 
+                <lb n="4"/><persName type="attested"><name nymRef="Antestus">Antestus</name> <note>sic</note> <lb n="5"/><name nymRef="Burucus">Burucus</name></persName> <w lemma="libertus"><expan><abbr>lib</abbr><ex>ertus</ex></expan></w> 
+                <lb n="6"/><w lemma="et">et</w> <w lemma="heres">heres</w> <w lemma="ex">ec</w> <note>sic</note> 
+                <lb n="7"/><w lemma="testamentum">testamento</w> 
+                <lb n="8"/><w lemma="is">eius</w> <w lemma="ex">ex</w> <w lemma="decretus"><expan><abbr>d</abbr><ex>ecreto</ex></expan></w> <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> <w lemma="pono"><expan><abbr>p</abbr><ex>osuit</ex></expan></w>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p> [ . . . . ] priest, Antestus, Burucus, his freedman and heir, placed <supplied reason="subaudible">this monument</supplied>, from his will, in accordance with a decree of the city council</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

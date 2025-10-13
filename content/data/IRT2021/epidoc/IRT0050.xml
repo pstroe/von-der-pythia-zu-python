@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0050" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Gallienus and Cornelia Salonina  by Sabratha</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0050</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <objectType>panel</objectType> 
+               (<dimensions>
+                                 <width unit="metre">1.74</width>
+                                 <height unit="metre">0.90</height>
+                              </dimensions>) broken at the left side. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century capitals: <height unit="metre">0.09</height>. Traces of red paint in the lettering. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+
+                     <origDate notBefore="0265-12-10" notAfter="0266-12-09" evidence="titulature">CE 265-266</origDate>
+
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/832">Capitolium</placeName>, found in the vaults; see note on <ref type="inscription" n="IRT0001">1</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="wp0067.jpg">
+         <desc>From left: Above: <ref type="inscription" n="IRT0048">48</ref>, <ref type="inscription" n="IRT0048">48</ref>, <ref type="inscription" n="IRT0044">44</ref>, <ref type="inscription" n="IRT0075">75</ref>; 
+            Below:  <ref type="inscription" n="IRT0050">50</ref>: Ward-Perkins Archive, BSR (Sopr. CS 217)</desc></graphic>
+                  <graphic url="wp0071.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 217)</desc></graphic>
+                  <graphic url="wp0072.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DS 256 Lastre)</desc></graphic>
+                  <graphic url="wp0117.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 217)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Described <bibl><ptr target="bartoccini1950"/>, <citedRange>52, under b</citedRange>
+            </bibl>, whence <bibl><ptr target="ae"/> <citedRange>1950.153b</citedRange>
+            </bibl>; <bibl><ptr target="irt1952"/>, <citedRange>50</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT050.html">50</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059043">059043</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="imperator"><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><ex>eratori</ex></expan></w> 
+               <persName type="emperor" ref="#gallienus"><addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licinio</name> <name type="cognomen" nymRef="Gallienus">Gallieno</name>
+                  <lb n="2"/><addName nymRef="Pius">Pii</addName> 
+              <addName nymRef="Felix">Felici</addName> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> 
+               <w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w> 
+               <w lemma="pontifex">ponti<lb n="3" break="no"/><supplied reason="lost">fici</supplied></w>
+               <w lemma="maximus"><supplied reason="lost">maximo</supplied></w> 
+               <w lemma="tribunicius"><expan><abbr><supplied reason="lost">t</supplied>rib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w>
+               <num value="14">XIIII</num>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>    
+               <lb n="4"/><supplied reason="lost"><num value="6">VI</num></supplied>
+               <w lemma="designo"><supplied reason="lost">designa</supplied>to</w> <num value="7">VII</num> 
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+              <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <lb n="5"/><supplied reason="lost"><w lemma="et">et</w></supplied>
+               <persName type="emperor" ref="#salonina"><name type="gentilicium" nymRef="Cornelia"><supplied reason="lost">Corneli</supplied>ae</name> <name type="cognomen" nymRef="Salonina">Saloninae</name> 
+               <addName nymRef="Augusta"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></persName>
+               <lb n="6"/><w lemma="coniunx"><supplied reason="lost">coniugi</supplied></w>
+               <gap reason="lost" quantity="10" unit="character" precision="low"/>
+               <persName type="emperor" ref="#gallienus"><name type="cognomen" nymRef="Gallienus">Gallieni</name> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName></persName>
+               <lb n="7"/><placeName type="ethnic" nymRef="#Sabrathensis" ref="#sabratha"><supplied reason="lost">Sabrathe</supplied>nses</placeName> <w lemma="publicus">public<add place="overstrike">a</add>e</w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <lem>Pii <note>sic</note>
+                  </lem>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Emperor Caesar Publius Licinius Gallienus, Pius, Felix, Augustus, our lord, 
+               <supplied reason="lost">chief</supplied> priest, holding tribunician power for the fourteenth time,
+               consul <supplied reason="lost">for the sixth and designated</supplied> for the seventh time, father of the country, proconsul, 
+               <supplied reason="lost">and Cornelia</supplied> Salonina Augusta <supplied reason="lost">wife</supplied> of 
+               <gap reason="lost" extent="unknown" unit="character"/> Gallienus Augustus; the people of Sabratha <supplied reason="subaudible">set this up</supplied> publicly.</p></div>
+         <div type="commentary">
+            <p>Line 3. trib. pot. XIIII. On the normal reckoning 10 Dec. 265-9 Dec. 266. Gallienus was cos. VII on 1 Jan. 266. But see <bibl>
+                  <author>Alföldi </author>, <title level="j">JRS</title>  XXX (1940) 1 ff</bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

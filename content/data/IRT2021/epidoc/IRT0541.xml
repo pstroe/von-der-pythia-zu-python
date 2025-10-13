@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0541" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for P. Septimius Geta</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0541</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.67</width>
+                                 <height unit="metre">1.22</height>
+                                 <depth unit="metre">0.62</depth>
+                              </dimensions>) of <material>yellowish limestone</material>, standing on a moulded plinth. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.325</width>
+                              <height unit="metre">0.66</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre" atLeast="0.024" atMost="0.038">0.038-0.024</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0195" evidence="prosopography">CE 195</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>, against the facade wall of the cavea, at the foot of the central staircase.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0702.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 140 Lastre)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="bersanetti1942"/>, <citedRange>105</citedRange> ff. </bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1946.131</citedRange></bibl>;
+               mentioned <bibl><ptr target="aurigemma1950"/>, <citedRange>72-73</citedRange>
+               </bibl>, whence <bibl><ptr target="ae"/> <citedRange>1950 page 55</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>541</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT541.html">541</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022609">022609</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+            <p/><!-- check -->
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" key="pir-s-0453"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Geta">Getae</name></persName> 
+               <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <num value="10">X</num>
+               <lb n="2"/><w lemma="uir"><expan><abbr>uir</abbr><ex>o</ex></expan></w> <w lemma="lis">stlitibus</w> 
+               <w lemma="iudico">iudican<lb n="3" break="no"/>dis</w> <w lemma="tribunus"><expan><abbr>trib</abbr><ex>uno</ex></expan></w> 
+               <w lemma="laticlauius"><expan><abbr>latic</abbr><ex>lauio</ex></expan></w> 
+               <orgName type="military" ref="#legio2august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+               <num value="2">II</num> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></orgName>
+               <lb n="4"/><w lemma="quaestor"><expan><abbr>quaest</abbr><ex>ori</ex></expan></w> 
+               <placeName ref="#creteandcyrene" nymRef="#Prouincia Cretae et Cyrenarum"><w lemma="prouincia"><expan><abbr>prouin</abbr><ex>ciae</ex></expan></w> <placeName ref="#crete" nymRef="#Creta">Cretae</placeName> <w lemma="et">et</w>
+               <lb n="5"/><placeName ref="#cyrene" nymRef="#Cyrenae">Cyrenarum</placeName></placeName> 
+               <w lemma="aedilis"><expan><abbr>aed</abbr><ex>ili</ex></expan></w> <w lemma="cerealis">cereali</w>
+               <lb n="6"/><w lemma="curator">curatori</w> <w lemma="res">rei</w> 
+               <w lemma="publicus"><expan><abbr>pub</abbr><ex>licae</ex></expan></w> 
+               <placeName type="ethnic" ref="#ancona" nymRef="#Anconitanus">Anconita<lb n="7" break="no"/>norum</placeName> 
+               <w lemma="praetor"><expan><abbr>praet</abbr><ex>ori</ex></expan></w> <w lemma="hastarius">hastario</w> <w lemma="et">et</w> 
+               <w lemma="tutelarius"><expan><abbr>tu<lb n="8" break="no"/>telar</abbr><ex>io</ex></expan></w> 
+               <w lemma="sacerdos">sacerdoti</w> <w lemma="fetialis">fetiali</w> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w>
+                  <lb n="9"/><orgName type="military" ref="#legio1ital"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="1">I</num> <addName nymRef="Italicus">Italicae</addName></orgName> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <placeName ref="#sicilia" nymRef="#Sicilia">Siciliae</placeName>
+               <lb n="10"/><w lemma="legatus"><expan><abbr>le<unclear>g</unclear></abbr><ex>ato</ex></expan></w>  
+               <persName type="emperor" ref="#seueri"><addName nymRef="Augustus"><expan><abbr>Augg<del rend="erasure">g</del></abbr><ex>ustorum</ex></expan></addName></persName>  
+               <w lemma="pro"><expan><abbr>pr</abbr><ex>o</ex></expan></w> 
+               <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> <placeName ref="#lusitania" nymRef="#Prouincia Lusitania"><w lemma="prouincia">prouinciae</w>
+               <lb n="11"/>Lusitaniae</placeName> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> 
+               <persName type="emperor" ref="#seueri"><addName nymRef="Augustus"><expan><abbr>Augg<del rend="erasure">g</del></abbr><ex>ustorum</ex></expan></addName></persName>  
+               <lb n="12"/><w lemma="pro"><expan><abbr>pr</abbr><ex>o</ex></expan></w> 
+               <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> <placeName ref="#moesiainf" nymRef="#Prouincia Mysia Inferior"><w lemma="prouincia">prouinciae</w> Mysiae
+               <addName nymRef="Inferior">In<lb n="13" break="no"/>ferioris</addName></placeName>  <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> 
+               <persName type="emperor" ref="#seueri"><addName nymRef="Augustus"><expan><abbr>Au<supplied reason="lost">g<am>gg</am></supplied></abbr><supplied reason="lost"><ex>ustorum</ex></supplied></expan></addName></persName> 
+               <w lemma="pro"><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>o</ex></expan></w> 
+               <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w>
+               <lb n="14"/><placeName ref="#dacia" nymRef="#Prouinciae Daciae"><w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iarum</ex></expan></w> <name nymRef="Dacia">Daciarum</name></placeName> 
+               <lb n="15"/><orgName type="civil" ref="#curia" nymRef="#Curia Dacica"><w lemma="curia">curia</w> <addName nymRef="Dacicus">Dacica</addName></orgName> <w lemma="ex">ex</w> <w lemma="uotum">uoto</w> <w lemma="pono">posuit</w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="10">
+                  <lem>leg</lem><rdg>LES</rdg>
+           </app>
+               
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour of</supplied> Publius Septimius Geta, splendid man <note>of senatorial status</note>, member of the commitee of ten who judge lawsuits, 
+               senatorial tribune of Legion II Augusta, quaestor of the province of Crete and Cyrenae, an aedile concerned with the corn-supply of Rome, curator of the city of Ancona, 
+               praetor concerned with the centumviral court and guardianship, fetial priest, legate of Legion I Italica, proconsul of Sicily, legate of three Augusti <note>emended to two</note> 
+               with propraetorian power in the province of Lusitania, consul, legate of three Augusti <note>emended to two</note> with propraetorian power in the province of Mysia Inferior, 
+               legate of three Augusti <note>damaged but surely emended to two</note> in the Dacian provinces; the Curia Dacica set this up in accordance with a vow.</p></div>
+         <div type="commentary">
+          
+            <p>P. Septimius Geta:  <title>PIR</title> S 0453<!-- check PIR -->; see <ref target="https://pir.bbaw.de/id/12173">https://pir.bbaw.de/id/12173</ref></p> 
+             <!--   <ref target="https://zenon.dainst.org/Record/000173792">Piso (1993)</ref> 150-156, Nr. 31, 5</p>
+            <p>Line 15: perhaps an error for <foreign xml:lang="la">colonia Dacica</foreign>: 
+               see <ref target="https://zenon.dainst.org/Record/000314993">Gostar (1960)</ref>, whence AE 1960.374</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

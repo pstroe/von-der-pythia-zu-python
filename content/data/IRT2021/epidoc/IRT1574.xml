@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="IRT1574">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostrakon: <rs type="textType">Letter</rs></title>
+            <editor xml:id="GB" role="translation (English); encoding; scripting">Gabriel Bodard</editor>
+            <editor xml:id="cb" role="translation (English)">Caroline Barron</editor>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1574</idno>
+            <idno type="hgv">73224</idno>
+            <idno type="TM">73224</idno>
+            <idno type="ddb-perseus-style">0016;;74</idno>
+            <idno type="ddb-filename">o.bu.njem.74</idno>
+            <idno type="ddb-hybrid">o.bu.njem;;74</idno>
+         <availability>
+              <p>Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). All reuse or distribution of this work must link back to the URL <ref>http://irt.kcl.ac.uk/</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli National Museum</repository><idno>71-87</idno><idno>71-178</idno></msIdentifier>
+               <physDesc>
+                  <objectDesc><supportDesc><support><p><material>Ceramic</material> <objectType>ostrakon</objectType> in two contiguous fragment (combined <dimensions unit="metre"><height>0.06</height><width>0.04</width><depth>0.01</depth></dimensions>).</p></support></supportDesc>
+            <layoutDesc><layout>Letters <rs type="execution" ref="pictura">painted</rs> on both sides.</layout></layoutDesc></objectDesc>
+            <handDesc><handNote>No measurements</handNote></handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0253-01-14" notAfter="0253-01-31" evidence="internal-date">14. - 31. Jan. 253: <ref target="https://godot.date/id/nnb8cMaZ5vXVxLzntmyAkR">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the <placeName ref="https://www.slsgazetteer.org/2268" type="monuList">Principia</placeName>.</p></provenance>
+            <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/1098">Tripoli National Museum</placeName>.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Marked-up according to the EpiDoc Guidelines version 9.</p></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief? (amtlich)</term>
+               <term>Militär</term>
+            </keywords>
+         </textClass>
+         <textClass><keywords scheme="IRCyr"><term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term><term><geogName type="modernCountry" key="LY">Libya</geogName></term><term><placeName type="modernFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName></term><term><ref type="pleiades" target="https://pleiades.stoa.org/places/344377">Gholaia</ref></term><term><ref type="geonames" target="https://www.geonames.org/2220431">Qaryat Bū Nujaym</ref></term><term><placeName xml:lang="ar">بو نجيم</placeName></term></keywords></textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-11-05" who="#GB">Merged HGV data, Duke Databank text, PE translation from Papyri.info EpiDoc; aligned structure to IRT</change>
+         <change who="HGV" when="1999-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div xml:lang="la" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+
+    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><persName type="attested"><name nymRef="Cornelius"><supplied reason="lost" cert="low">Corn</supplied><unclear>elius</unclear></name></persName><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="Aemilius"><supplied reason="lost" cert="low">A</supplied><unclear>emil</unclear><supplied reason="lost" cert="low">ius</supplied></name></persName><gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+</ab></div>
+               <div n="v" type="textpart"><ab>
+
+    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <persName type="attested"><name nymRef="Cornelius">Cornel<supplied reason="lost">i</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <w lemma="supra"><expan><abbr>s</abbr><ex>upra</ex></expan></w> <g ref="symbols.xml#middot"/> <w lemma="scriptus" part="I"><expan><abbr>s</abbr><ex>cript</ex></expan></w> <g ref="symbols.xml#middot"/> <w lemma="ses-" part="I">ses</w><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="Philippus"><supplied reason="lost">Philip</supplied>p<unclear>u</unclear>s</name> <name nymRef="Galba">Gal<unclear>b</unclear><supplied reason="lost">a</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="Februarius">F<unclear>e</unclear>br<supplied reason="omitted">u</supplied>a<unclear>ria</unclear><supplied reason="lost">s</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="5"/><handShift new="m2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="kalendae"><expan><abbr>Kal</abbr><ex>en  </ex></expan></w> <w lemma="Februarius">Febr</w><gap reason="lost" extent="unknown" unit="character"/> 
+                  <w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w> <persName type="attested" key="pir-v1-0376"><name nymRef="Uolusianus">Uolusi<supplied reason="lost">ano</supplied></name></persName> <supplied reason="lost"><num value="2">II</num> <w lemma="et">et</w> <persName type="attested" key="pir-v1-0121"><name nymRef="Maximus">Maximo</name></persName> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w></supplied>
+               </ab>
+            </div>
+         </div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p> <note>recto</note>: <note>not usefully translatable</note></p>
+               
+               
+            <p> <note>verso</note>: . . . ] Cornelius [ . . . ] written above [ . . . ] Philippus Galba [ . . . ]  February [ . . . 
+               
+               <note>hand 2</note>: On the Kalends of February (1 February)  [ . . . ]   the consuls being our lord Volusianus for the second time, and Maximus.</p>
+               
+            
+         </div>  
+         <div type="commentary" subtype="general">
+            <p>C. Vibius Volusianus: <title>PIR</title> V1 0376: <ref target="https://pir.bbaw.de/id/3360">https://pir.bbaw.de/id/3360</ref></p>
+            <p>L. Valerius Publicola Balbinus Maximus: <title>PIR</title> V1 0121: <ref target="https://pir.bbaw.de/id/13953">https://pir.bbaw.de/id/13953</ref></p>
+         </div>
+         <div type="bibliography">
+            <p><bibl><ptr target="OBuNjem"/> <citedRange unit="numbers">74</citedRange></bibl>, whence <bibl><ptr target="hgv"/> <citedRange>73224</citedRange></bibl>, <bibl><ptr target="ddbdp"/> <citedRange>o.bu.njem.74</citedRange></bibl>.
+    </p></div>
+      </body>
+   </text>
+</TEI>

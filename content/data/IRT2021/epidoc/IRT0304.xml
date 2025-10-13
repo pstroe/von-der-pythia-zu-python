@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0304" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Mercury and Minerva</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0304</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Tall, narrow, moulded <objectType>base</objectType>
+               (<dimensions>
+                                 <width unit="metre">0.36</width>
+                                 <height unit="metre">1.38</height>
+                                 <depth unit="metre">0.33</depth>
+                              </dimensions>) 
+               Of <material>grey-brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face 
+               (die, <dimensions>
+                              <width unit="metre">0.34</width>
+                              <height unit="metre">0.97</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: I.1, <height unit="metre">0.065</height>; remainder, <height unit="metre">0.035</height>- <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="lettering, prosopography">Second century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/726">Al Khums</placeName>:
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/755">Central Barracks</placeName>; found with capitals and other architectural elements in <date type="found">1942</date>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0364.jpg">
+                     <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXXV.17)</desc></graphic>
+                  <graphic url="wp0365.jpg">
+                     <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXXV.18)</desc></graphic>
+      <graphic url="tantillo0065.jpg">
+         <desc>Face: Tantillo (2004)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>304</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT304.html">304</ref></citedRange></bibl>, whence
+               <bibl><ptr target="thomasson1996"/> <citedRange>64b</citedRange></bibl>, 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030766">030766</ref></citedRange></bibl>; 
+               discussed <bibl><ptr target="lemosse1953"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1954.215</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="divine" ref="#mercurius"><name nymRef="Mercurius"><expan><abbr>Merc</abbr><ex>urio</ex></expan></name></persName> <w lemma="et">et</w> <persName type="divine" ref="#minerua"><name nymRef="Minerua"><expan><abbr>Min</abbr><ex>eruae</ex></expan></name></persName> 
+               <lb n="2"/><w lemma="uotum"><expan><abbr>u</abbr><ex>otum</ex></expan></w> 
+               <w lemma="soluo"><expan><abbr>s</abbr><ex>oluit</ex></expan></w> <persName type="attested"><name type="cognomen" nymRef="Tullus">Tullus</name></persName> <w lemma="sacerdos"><expan><abbr>sacerd</abbr><ex>os</ex></expan></w>
+               <lb n="3"/><w lemma="ex">ex</w> <w lemma="pecunia">pecunia</w> <w lemma="qui">quam</w>
+               <lb n="4"/><w lemma="ab">a</w> <persName type="attested"><name type="gentilicium" nymRef="Boccius">Boccio</name> <name type="cognomen" nymRef="Copo">Copone</name></persName>
+               <lb n="5"/><w lemma="accipio">accepit</w> <w lemma="ne">ne</w> <w lemma="cum">cum</w> <w lemma="is">eo</w>
+               <lb n="6"/><w lemma="ex">ex</w> <w lemma="decerno"><expan><abbr>decr</abbr><ex>eto</ex></expan></w> <persName type="attested" key="pir-m-0190"><name type="cognomen" nymRef="Marcellus">Marcelli</name></persName>
+               <lb n="7"/><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w> <w lemma="qui">qui</w> <w lemma="is">eum</w>
+               <lb n="8"/><w lemma="calumniator">kalumniator<unclear>e</unclear>m</w>
+               <lb n="9"/><w lemma="cognosco"><expan><abbr>cogno</abbr><ex>uerat</ex></expan></w> <w lemma="iniuria"><expan><abbr>iniuriar</abbr><ex>um</ex></expan></w>
+               <lb n="10"/><w lemma="ago">ageret</w></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Mercury and Minerva, Tullus, the priest, paid his vow from the money which he received from Boccius Copo, 
+               in lieu of taking action on account of the injuries <supplied reason="subaudible">inflicted on him</supplied>, following the decree of the proconsul 
+               Marcellus who had judged that Boccius had made a false charge <supplied reason="subaudible">against Tullus</supplied>.</p></div>
+         
+         <div type="translation" source="#lemosse1953" xml:lang="fr">
+            <p>Exécution d'un voeu à Mercure et à Minerve par le prêtre Tullus a l'aide d'une somme d'argent reçue d'un certain Boccius Copo afin de ne pas intenter contre celui-ci 
+               l'action d'injures en vertu d'un décret du proconsul Marcellus qui avait reconnu ce Boccius comme calomniateur</p></div>
+         <div type="commentary">
+            <p>Marcellus: <title>PIR</title> M 0190 <ref target="https://pir.bbaw.de/id/8841">https://pir.bbaw.de/id/8841</ref></p>
+            <!-- <p>Line 1. See also <ref type="inscription" n="IRT0303">303</ref> . </p>
+            <p> 
+De Domitiis Lucano et Tullo honoribusque eorum disseruit Ginette di Vita-Evrard, L’Afr. rom. 4 
+(1986), pp. 509–529, cf. AE 1987.984 -->
+         </div>
+      </body>
+   </text>
+</TEI>

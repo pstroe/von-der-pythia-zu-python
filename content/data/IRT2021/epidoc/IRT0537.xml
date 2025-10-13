@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0537" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription by Q. Pomponius Rufus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0537</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Five <objectType>block</objectType>s (each, height. 
+               <height unit="metre">0.52</height>; together, total length, 
+               <height unit="metre">4.04</height>) of <material>grey limestone</material>,
+               comprising the greater part of an inscription which stood on the South West face of the arch of Trajan; 
+               see also <ref type="inscription" n="IRT0353">353</ref>, <ref type="inscription" n="IRT0523">523</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face; there is a <rs type="decoration">cornice moulding</rs> above the inscription. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: line 1, <height unit="metre">0.08</height>; line 2, 
+               <height unit="metre">0.06</height>; line 3, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0109" notAfter="0110" evidence="proconsulate">109-110 CE</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/728">Cardo Maximus</placeName>,  
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/703">Arch of Trajan</placeName>. On the South West face, across the Main Street at the angle
+                              of <placeName ref="https://www.slsgazetteer.org/742/">Regio IV</placeName>,                                , insulae 2 and 3, and <placeName ref="https://www.slsgazetteer.org/744/">Regio V</placeName>, insulae 1 and 3.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0698.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 932)</desc></graphic>
+                  <graphic url="wp0699.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 930)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               First two blocks: <bibl><ptr target="delaporte1836"/> <citedRange>7-8</citedRange></bibl>, whence <bibl><ptr target="cil"/> <citedRange>13</citedRange></bibl>; 
+              <bibl><ptr target="cil1916"/> <citedRange>22670</citedRange>, line 6-10</bibl>; 
+               <bibl><ptr target="romanelli1940"/>, <citedRange>99</citedRange> ff., figs. 10-11</bibl>, whence 
+               <bibl> <ptr target="ae"/> <citedRange>1948:3</citedRange></bibl>;
+               <bibl><ptr target="ils"/> <citedRange>1014</citedRange></bibl>;
+               <bibl><ptr target="guey1951"/> <citedRange/></bibl>, whence  
+               <bibl> <ptr target="ae"/> <citedRange>1952, page 36</citedRange></bibl>; <!-- check -->
+            <bibl><ptr target="irt1952"/>, <citedRange>537</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT537.html">537</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019665">019665</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+           <!--   <p>A. Jagenteufel, Die Statthalter der römischen Provinz Dalmatia von Augustus bis Diokletian (Wien 1958) 32, Nr. 14, 1. </p>
+           ST 17  	Österreichische Akademie der Wissenschaften. Schriften der Balkankommission. Antiquarische Abteilung ; 12
+	Akademie der Wissenschaften, Vienna. Balkankommission. Antiquarische Abteilung. Schriften 12. -->
+            
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+      
+               <lb n="1"/><persName type="attested" key="pir-p-0749"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Pomponius">Pomponius</name> <name type="cognomen" nymRef="Rufus">Rufus</name></persName>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w> 
+               <w lemma="sodalis"><expan><abbr>sodal</abbr><ex>is</ex></expan></w> 
+               <w lemma="Flavialis"><expan><abbr>Fla</abbr><ex>uialis</ex></expan></w> 
+               <w lemma="curator"><expan><abbr>cur</abbr><ex>ator</ex></expan></w> 
+               <w lemma="opus"><expan><abbr>oper</abbr><ex>um</ex></expan></w> 
+               <w lemma="publicus"><expan><abbr>publicor</abbr><ex>um</ex></expan></w> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> 
+               <persName type="emperor" ref="#anonymus"><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName></persName>
+               <lb n="2"/><w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+               <w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iarum</ex></expan></w> 
+               <placeName ref="#moesia" nymRef="#Moesia"><supplied reason="lost">M</supplied>oesiae</placeName> 
+               <placeName ref="#dalmatia" nymRef="#Dalmatia"><expan><abbr>Dalmat</abbr><ex>iae</ex></expan></placeName> 
+               <placeName ref="#hispania" nymRef="#Hispania"><expan><abbr>Hisp</abbr><ex>aniae</ex></expan></placeName> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> 
+                  <orgName type="military" ref="#legio5"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="5"> V</num></orgName> 
+               <w lemma="praefectus"><expan><abbr>prae</abbr><ex>fectus</ex></expan></w> <w lemma="ora">orae</w> 
+               <w lemma="maritimus"><expan><abbr>marit</abbr><ex>imae</ex></expan></w> 
+               <placeName ref="#hispaniacit" nymRef="#Hispania Citerior"><expan><abbr>Hispan</abbr><ex>iae</ex></expan> <expan><abbr>Citer</abbr><ex>ioris</ex></expan></placeName> 
+               <placeName ref="#gallianarb" nymRef="#Gallia Narbonensis">Gallia<supplied reason="lost">e</supplied>
+                  <lb n="3"/><expan><abbr>N<supplied reason="lost">a</supplied>rbon</abbr><ex>ensis</ex></expan></placeName>
+               <w lemma="bellum">bello</w> <w lemma="qui">qu<supplied reason="lost">od</supplied></w> 
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> 
+               <persName type="emperor" ref="#galba"><name type="cognomen" nymRef="Galba">G<supplied reason="lost">a</supplied>lba</name></persName> <w lemma="pro">pro</w> 
+               <w lemma="republica"><supplied reason="lost">re<expan><abbr>p</abbr><ex>ublica</ex></expan></supplied></w> <w lemma="gero">gessit</w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <placeName ref="#africaprocons" nymRef="#Prouincia Africa"><w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iae</ex></expan></w> <w lemma="Africus">Africae</w></placeName> <w lemma="per">per</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucium</ex></expan></name> 
+               <name type="gentilicium" nymRef="Asinius">Asinium</name> <name type="cognomen" nymRef="Rufus">Ru<supplied reason="lost">fum</supplied></name></persName> 
+              <lb n="4"/><supplied reason="lost"><w lemma="legatus"><expan><abbr>leg</abbr><ex>atum</ex></expan></w></supplied> <w lemma="pro"><supplied reason="lost">p</supplied>ro</w> 
+               <w lemma="praetor"><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <lem>
+                     <expan>
+                        <abbr>Fla</abbr><ex>uialis</ex>
+                     </expan>
+                  </lem>
+                  <rdg> 
+                     <note>or</note> 
+                     <expan>
+                        <abbr>fla</abbr><ex>men</ex>
+                     </expan>
+                  </rdg>
+                  <note>There is a space after sodal(is).</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Quintus Pomponius Rufus, consul, priest, member of the priestly college for cult of the Flavians, curator of public works, imperial legate with propraetorian powers in the provinces of Moesia, Dalmatia and Hispania, commander of Legion Five, prefect of the coasts of nearer Spain, and Gallia Narbonensis in the war which Emperor Galba fought for the <supplied reason="lost">Republic</supplied>, proconsul of the province of Africa, through the agency of Lucius Asinius Rufus, propraetorian legate <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>Q. Pomponius Rufus:  <title>PIR</title> P 0749, <ref target="https://pir.bbaw.de/id/10845">https://pir.bbaw.de/id/10845</ref></p>
+            <!-- <p>Line 2-3. This epigraphical reference to Galba's campaign against Nero is unique: but the reading given appears to be certain, although the lower part of the letters is broken away and 
+               some of them are completely lost, as marked in the text. 
+            See <title>CIL</title> VIII, 22670, line 6-l0, which is clearly derived from scattered blocks of this inscription, seen when they were better preserved.</p>
+            <p>Line 3. <foreign xml:lang="la">Procos. Prouinciae Africae</foreign>. 109-110; see also <ref type="inscription" n="IRT0353">353</ref>, n. 1.</p> -->
+            <p>Line 3. L. Asinius Rufus. Perhaps <title>PIR</title> A 1248, <ref target="https://pir.bbaw.de/id/2144">https://pir.bbaw.de/id/2144</ref> 
+               or <title>PIR</title> A 1250. <ref target="https://pir.bbaw.de/id/2144">https://pir.bbaw.de/id/2144</ref></p>
+         </div>
+      </body>
+   </text>
+</TEI>

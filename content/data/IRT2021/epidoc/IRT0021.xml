@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0021" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Marcus Aurelius and Lucius  Verus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0021</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Three <material>marble</material> 
+                              <objectType>balustrade</objectType> blocks
+               (<dimensions>
+                                 <height>0.66</height>
+                              </dimensions> high) from the
+               monumental inscription of the entablature of 
+               the Antonine Temple. Two of the blocks, from the angles of the building, are substantially complete.
+               The third is fragmentary.  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals line 1, <height unit="metre">0.13</height>;
+               line 2, <height unit="metre">0.105</height>;
+               lines 3-4, <height unit="metre">0.095</height>.  </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0166" notAfter="0169" evidence="reign">CE 166-169</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/856">Regio II</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/829">Antonine Temple</placeName>
+                           </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile> <graphic url="wp0029.jpg">
+                  <desc>Left end block, lines 1-4: Ward-Perkins Archive, BSR (Sopr. DS 844 Leica)</desc></graphic>
+                  <graphic url="wp0027.jpg">
+                  <desc>Fragment: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XI.22)</desc></graphic>
+                  <graphic url="wp0028.jpg">
+                  <desc>Fragment: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XI.23)</desc></graphic>
+                 
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/> <citedRange>21</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/> <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT021.html">21</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030835">030835</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..
+             <!--   <bibl><ptr target="laterculi"/> <citedRange>39.095</citedRange></bibl>check Thomasson, Fasti Africani 83a--></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <persName type="emperor" ref="#marcusaurelius"><addName nymRef="Caesar">Caes<supplied reason="lost">ari</supplied></addName> 
+               <supplied reason="lost"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name></supplied>
+                  <name type="gentilicium" nymRef="Aurelius"><supplied reason="lost">Au</supplied>re<unclear>li</unclear><supplied reason="lost">o</supplied></name> 
+               <supplied reason="lost"><name type="gentilicium" nymRef="Antoninus">Antonino</name> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName>
+                  <addName nymRef="Armeniacus">Armeniaco</addName> <addName nymRef="Parthicus">Parthico</addName>
+                  <w lemma="maximus">maximo</w> <addName nymRef="Medicus">Medico</addName></supplied></persName> 
+               <supplied reason="lost"><w lemma="pontifex">pontifici</w> <w lemma="maximus">maximo</w>
+                  <w lemma="tribunicius">tribunicia</w> <w lemma="potestas">potestate</w></supplied> <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+               <supplied reason="lost"><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w></supplied> <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+              <supplied reason="lost"> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w></supplied>
+               <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num> <supplied reason="lost"><w lemma="et">et</w></supplied>
+               <lb n="2"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <persName type="emperor" ref="#luciusverus"><addName nymRef="Caesar">Caesari</addName> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr><unclear>L</unclear></abbr><ex>ucio</ex></expan></name> 
+               <supplied reason="lost"><name type="gentilicium" nymRef="Aurelius">Aurelio</name> <name type="cognomen" nymRef="Uerus">Uero</name> 
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> 
+                  <addName nymRef="Armeniacus">Armeniaco</addName> <addName nymRef="Parthicus">Parthico</addName>
+                  <w lemma="maximus">maximo</w> <addName nymRef="Medicus">Medico</addName></supplied></persName> 
+               <supplied reason="lost"><w lemma="pontifex">pontifici</w> <w lemma="maximus">maximo</w>
+                  <w lemma="tribunicius">tribunicia</w> <w lemma="potestas">potestate</w></supplied> <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+                  <supplied reason="lost"><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w></supplied> <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+                 <supplied reason="lost"> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w></supplied>
+                  <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+                  <supplied reason="lost"><persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Pius">Pii</name></persName> <w lemma="filius">filiis</w>
+                 <persName type="emperor" ref="#hadrianus"> <w lemma="diuus">diui</w> <name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> </supplied>
+               <w lemma="nepos"><expan><abbr>nepotib</abbr><ex>us</ex></expan></w>
+               <lb n="3"/><persName type="emperor" ref="#traianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name>
+                  <addName nymRef="Parthicus">P<unclear>a</unclear><supplied reason="lost">rthici</supplied></addName></persName> 
+               <supplied reason="lost"><w lemma="pronepos">pronepotibus</w>
+               <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Neruae</name></persName></supplied>
+               <supplied reason="lost"><w lemma="abnepos">abnepotibus</w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><persName type="attested" key="pir-a-0073"><name type="praenomen" nymRef="Manius"><expan><abbr>M</abbr><ex>anius</ex></expan></name> <name type="gentilicium" nymRef="Acilius">Acilius</name> 
+               <name type="cognomen" nymRef="Glabrio">Glab<supplied reason="lost">rio</supplied></name></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1, 2">
+                  <note> The length of the lines, which can be calculated from the position of the blocks,
+                     necessitates the inclusion of the titles supplied here. </note>
+               </app>
+            </listApp>
+         </div>   
+            <div type="translation" resp="#jmr" xml:lang="en">
+               <p>To Emperor Caesar <supplied reason="lost">Marcus</supplied> Aurelius <supplied reason="lost">Antoninus Augustus, victor in Armenia, greatest 
+            victor in Parthia, victor in Media, high priest, holding Tribunician power for the . . .  time, acclaimed 
+            victor    . . .  times, consul for the 
+                . . .  time, and</supplied>  to Emperor Caesar Lucius <supplied reason="lost">Aurelius Verus Augustus, 
+               victor in Armenia, greatest victor in Parthia, victor in Media, holding tribunician power for the  . . .  
+               time, accaimed victor  . . .  times, consul for the  . . .  
+               time, sons of deified Pius,</supplied> grandsons <supplied reason="lost">of deified Hadrian, great grandsons</supplied> 
+               of deified Trajan, victor in Parthia, <supplied reason="lost">great great grandsons of deified Nerva . . .</supplied> ; 
+               Manius Acilius Glab<supplied reason="lost">rio . . .</supplied> </p></div>
+         <div type="commentary">
+            <p>Manius Acilius Glabrio, <title>PIR</title> A 73, <ref target="https://pir.bbaw.de/id/580">https://pir.bbaw.de/id/580</ref>. 
+             <!--   Check Thomasson, loc.cit.Presumably <foreign xml:lang="la">procos. Africae</foreign>, though nowhere so attested. --> 
+                </p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

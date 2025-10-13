@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="IRT1572">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostrakon: <rs type="textType">Military</rs> <rs type="textType">report</rs></title>
+            <editor xml:id="GB" role="translation (English); encoding; scripting">Gabriel Bodard</editor>
+            <editor xml:id="cb" role="translation (English)">Caroline Barron</editor>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1572</idno>
+            <idno type="hgv">73222</idno>
+            <idno type="TM">73222</idno>
+            <idno type="ddb-perseus-style">0016;;72</idno>
+            <idno type="ddb-filename">o.bu.njem.72</idno>
+            <idno type="ddb-hybrid">o.bu.njem;;72</idno>
+         <availability>
+              <p>Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). All reuse or distribution of this work must link back to the URL <ref>http://irt.kcl.ac.uk/</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli National Museum</repository><idno>71-94</idno></msIdentifier>
+               <physDesc>
+                  <objectDesc><supportDesc><support><p><material>Ceramic</material> <objectType>ostrakon</objectType> (<dimensions unit="metre"><height>0.058</height><width>0.125</width><depth>0.007</depth></dimensions>).</p></support></supportDesc>
+            <layoutDesc><layout>Letters <rs type="execution" ref="pictura">painted</rs> on one side.</layout></layoutDesc></objectDesc>
+            <handDesc><handNote>No measurements</handNote></handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0253" notAfter="0259" evidence="context">253 - 259</origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the <placeName ref="https://www.slsgazetteer.org/2268" type="monuList">Principia</placeName>.</p></provenance>
+            <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/1098">Tripoli National Museum</placeName>.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Marked-up according to the EpiDoc Guidelines version 9.</p></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Bericht</term>
+               <term>Militär</term>
+            </keywords>
+         </textClass>
+         <textClass><keywords scheme="IRCyr"><term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term><term><geogName type="modernCountry" key="LY">Libya</geogName></term><term><placeName type="modernFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName></term><term><ref type="pleiades" target="https://pleiades.stoa.org/places/344377">Gholaia</ref></term><term><ref type="geonames" target="https://www.geonames.org/2220431">Qaryat Bū Nujaym</ref></term><term><placeName xml:lang="ar">بو نجيم</placeName></term></keywords></textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-11-05" who="#GB">Merged HGV data, Duke Databank text, PE translation from Papyri.info EpiDoc; aligned structure to IRT</change>
+         <change who="HGV" when="1999-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+            <div xml:lang="la" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+
+    <lb n="1"/><w lemma="dies">die</w> <w lemma="supra"><expan><abbr>s</abbr><ex>upra</ex></expan></w> <w lemma="scriptus"><expan><abbr>s</abbr><ex>cripto</ex></expan></w> <g ref="symbols.xml#middot"/> <w lemma="introeo">intr<supplied reason="lost">oierunt</supplied></w> 
+               <placeName type="ethnic" ref="#garama" nymRef="#Garamantes"><supplied reason="lost" cert="low">Garaman</supplied>
+
+    <lb n="2" break="no"/>tes</placeName> <w lemma="fero">ferentes</w> <w lemma="hordeum">hor<supplied reason="lost">deum</supplied></w> <w lemma="mulus">muli</w> <g ref="symbols.xml#middot"/> <w lemma="numerus"><expan><abbr>n</abbr><ex>umero</ex></expan></w> <num value="3">III</num> <g ref="symbols.xml#middot"/> 
+
+    <lb n="3"/><w lemma="et">et</w> <w lemma="asinus">asinos</w> <g ref="symbols.xml#middot"/> <num value="4">IIII</num> <g ref="symbols.xml#middot"/> <w lemma="dies">di<unclear>e</unclear></w> <supplied reason="lost"><w lemma="supra"><expan><abbr>s</abbr><ex>upra</ex></expan></w> <w lemma="scriptus"><expan><abbr>s</abbr><ex>cripto</ex></expan></w> <g ref="symbols.xml#middot"/></supplied> <gap reason="lost" quantity="4" unit="character"/> <w lemma="uenio" part="I">uener
+
+    <lb n="4" break="no"/><supplied reason="lost" cert="low">unt</supplied></w> <persName type="attested"><name nymRef="Iulius"><expan><abbr><unclear>Iul</unclear></abbr><ex>ius</ex></expan></name> <g ref="symbols.xml#middot"/> <name nymRef="Ianuarius"><expan><abbr><unclear>Ia</unclear></abbr><ex>nuarius</ex></expan></name></persName> <g ref="symbols.xml#middot"/> <persName type="attested"><name nymRef="Octauius">Octauius</name> <name nymRef="Fortunatus">F<unclear>o</unclear>rtunatus</name></persName> 
+
+    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="Horatianus"><supplied reason="lost">H</supplied>oratianus</name></persName> <gap reason="lost" extent="unknown" unit="character"/> 
+
+    <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div>
+         
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>  . . . ] On the day written above [Garaman]tes came in bringing barley, mules 3 in number and 4 donkeys. On the day written above came 
+              Iulius Ianuarius, Octavius Fortunatus, [ . . . ] Horatianus, [ . . . 
+            </p>
+         </div> 
+         <div type="commentary" subtype="general">
+            <!-- <p>Vgl. Stauner, Schriftwesen, S. 85-87.</p> -->
+         </div>
+         <div type="bibliography">
+            <p><bibl><ptr target="OBuNjem"/> <citedRange unit="numbers">72</citedRange></bibl>, whence 
+               <bibl><ptr target="hgv"/> <citedRange>73222</citedRange></bibl>, 
+               <bibl><ptr target="ddbdp"/> <citedRange>o.bu.njem.72</citedRange></bibl>.
+    </p></div>
+         
+      </body>
+   </text>
+</TEI>

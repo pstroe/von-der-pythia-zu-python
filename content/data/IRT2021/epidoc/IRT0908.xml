@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0908" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Alexander Severus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0908</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Fragmentary <objectType>panel</objectType> (<dimensions>
+                                 <width unit="metre">0.26</width> 
+                                 <height unit="metre">0.52</height>
+                              </dimensions>),
+               probably of <material>limestone</material>. Not seen. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: line 1, <height unit="metre">0.045</height>;
+               remainder, <height unit="metre">0.03</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notAfter="0235" notBefore="0222" evidence="reign">222-235 CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/827">Ghadames</placeName>:
+                  Found at the ruins of the <placeName type="monuList" ref="https://www.slsgazetteer.org/906">Asnam</placeName> in <date type="found">1860</date> by Auguste Cherbonneau.</p> <!-- check -->
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot (<date type="observed">1860</date>)</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2217440/ghadamis.html">Ghadāmis</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="cil"/>, <citedRange>1</citedRange></bibl>, 
+               <bibl><ptr target="cil1891"/> <citedRange>10990</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>908</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT908.html">908</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033526">033526</ref></citedRange></bibl>;
+                 <bibl><ptr target="thomasson1996"/> <citedRange>61b</citedRange></bibl></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#seuerusalexander"><w lemma="imperator"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name>
+                  <name type="gentilicium" nymRef="Aurelius">Aureli<supplied reason="lost">o</supplied></name>
+                  <name type="cognomen" nymRef="Seuerus"><supplied reason="lost">Seuero</supplied></name>
+               <lb n="2"/>
+               <name type="cognomen" nymRef="Alexander"><del rend="erasure"><supplied reason="lost">Ale</supplied>xandro</del></name>
+                  <addName nymRef="Pius">Pio</addName>
+                  <addName nymRef="Felix">Fel<supplied reason="lost">ici</supplied></addName>
+                  <addName nymRef="Augustus"><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied></addName></persName>
+               <lb n="3"/>
+               <persName type="emperor" ref="#juliamamaea"><w lemma="et"><supplied reason="lost">et</supplied></w>
+                  <name type="gentilicium" nymRef="Iulia"><supplied reason="lost">Iuli</supplied>ae</name>
+                  <name type="cognomen" nymRef="Mamaea"><del rend="erasure">Mamaeae</del></name>  <addName nymRef="Augusta"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></persName> 
+               <w lemma="mater"><supplied reason="lost">matri</supplied></w>
+               <lb n="4"/>
+               <persName type="emperor" ref="#seuerusalexander"><addName nymRef="Augustus"><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied></addName> 
+               <w lemma="et"><supplied reason="lost">e</supplied>t </w><w lemma="castrum">castrorum</w></persName> <w lemma="sub">sub</w> <persName type="attested"><orig><unclear>FA</unclear></orig></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="5"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="legatus"><expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ato</ex></expan></w> 
+               <persName type="emperor" ref="#anonymus"><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName></persName> 
+               <w lemma="pro"><expan><abbr>pr</abbr><ex>o</ex></expan></w> 
+               <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+               <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <w lemma="uexillatio">uexi<supplied reason="lost">lla</supplied><lb n="6" break="no"/><supplied reason="lost">tio</supplied></w> 
+               <orgName type="military" ref="#legio3august"><w lemma="legio"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied></w><supplied reason="lost"><num value="3">III</num></supplied> <addName nymRef="Augustus"><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>ustae</ex></expan></addName> 
+               <addName nymRef="Pius"><expan><abbr>P</abbr><ex>iae</ex></expan></addName>
+               <addName nymRef="Uindex"><expan><abbr>U</abbr><ex>indicis</ex></expan></addName> <addName nymRef="Seuerianus">Seuerianae</addName></orgName> <w lemma="per">per</w>
+               <lb n="7"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>u</unclear>um</w> <w lemma="centurio"><expan><abbr>c</abbr><ex>enturionem</ex></expan></w> 
+               <w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <w lemma="idem">eiusdem</w>
+               <lb n="8"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="facio">fecit</w> 
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2-3">
+                  <lem xml:lang="la">Alexandro <note xml:lang="en">and</note> Mamaeae</lem>
+                  <note>: erased after Alexander's damnatio in 235.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To <supplied reason="lost">emperor</supplied> Caesar Marcus Aurelius <supplied reason="lost">Severus</supplied> Alexander <note>name erased</note>, Pius, Felix, <supplied reason="lost">Augustus and Julia</supplied> Mamaea <note>erased</note> Augusta <supplied reason="lost">mother of Augustus</supplied> and of the camps, under <gap reason="lost" extent="unknown" unit="character"/>, legate of Augustus with propraetorian powers, splendid man <note>of senatorial status</note>, a detachment of Legion III Augusta, Pia, Vindex, Severiana, through the agency of <gap reason="lost" extent="unknown" unit="character"/>uus, centurion of the same legion <gap reason="lost" extent="unknown" unit="character"/> erected <supplied reason="subaudible">this</supplied>.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

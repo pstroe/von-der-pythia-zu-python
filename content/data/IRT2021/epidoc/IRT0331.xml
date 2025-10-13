@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0331" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> 
+               <rs type="textType">dedication</rs> to Tiberius  for road paving</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0331</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Ten <objectType>block</objectType>s of <material>grey limestone</material>
+               (together, <dimensions>
+                                 <width unit="metre">4.75</width>
+                                 <height unit="metre">0.95</height>
+                              </dimensions>).
+               An eleventh inscribed block is missing.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face only. The text is identical with <ref type="inscription" n="IRT0330">330</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: line 1, <height unit="metre">0.12</height>;
+                   line 2, <height unit="metre">0.09</height>;
+                   remainder, <height unit="metre" atLeast="0.055" atMost="0.07">0.055-0.07</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0035" notAfter="0036" evidence="internal-date">CE 35-36: <ref target="https://godot.date/id/Ahd9Th8A7LiBQKW93hogJN">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, (insula  14): 
+                  From a simple arch across the street at the North angle of the Portico behind the <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName> .</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0409.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1359 Leica)</desc></graphic>
+                  <graphic url="wp0410.jpg">
+                  <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.XVII.25)</desc></graphic>
+                  <graphic url="wp0411.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 135 Lastre)</desc></graphic>
+                  <graphic url="wp0412.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 136 Lastre)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>  <bibl><ptr target="romanelli1940"/>, 87 ff,., figs. 2, 3 </bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1948.1</citedRange></bibl>
+            <bibl><ptr target="irt1952"/>, <citedRange>331</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT331.html">331</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059272">059272</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#tiberius"><name type="praenomen" nymRef="Tiberius"><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan></supplied></name> <addName nymRef="Caesar"><supplied reason="lost">Caes</supplied>ari</addName> 
+               <persName type="emperor" ref="#augustus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <addName nymRef="Augustus">Augusto</addName> 
+                  <persName type="emperor" ref="#juliuscaesar"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Iulius">Iuli</name></persName>
+               <w lemma="nepos"><expan><abbr>n</abbr><ex>epoti</ex></expan></w></persName> 
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+               <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>uli</ex></supplied></expan></w> 
+               <supplied reason="lost"><num value="5">V</num></supplied> 
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="8">VIII</num>
+               <lb n="2"/><w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="37">XXXVII</num>
+               <lb n="3"/><persName type="attested" key="pir-r-0111"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Rubellius">Rubellius</name> <name type="cognomen" nymRef="Blandus">Blandus</name></persName> 
+               <w lemma="quaestor"><expan><abbr>q</abbr><ex>uaestor</ex></expan></w> <persName type="emperor" ref="#augustus"><w lemma="diuus">diui</w> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="tribunus"><expan><abbr>tr</abbr><ex>ibunus</ex></expan></w> 
+               <w lemma="plebs"><expan><abbr>pl</abbr><ex>ebis</ex></expan></w> 
+               <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetor</ex></expan></w> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w> <w lemma="patronus">patronus</w>
+               <lb n="4"/><w lemma="ex">ex</w> <w lemma="reditus">r<supplied reason="lost">e</supplied>ditibus</w>
+               <w lemma="ager">agrorum</w> <w lemma="qui">quos</w>
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lepcitanis</placeName> 
+               <w lemma="restituo">restituit</w> <w lemma="uia">uias</w> <w lemma="omnis">omnis</w> 
+               <w lemma="ciuitas">ciuitatis</w> <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lepcitanae</placeName> 
+               <w lemma="sterno">ster<lb n="5" break="no"/>nendas</w> <w lemma="silex">silice</w>
+               <w lemma="curo">curauit</w>
+               <lb n="6"/><persName type="attested" key="pir-e-0103"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Etrilius">Etrilius</name> 
+                  <name type="cognomen" nymRef="Lupercus">Lupercus</name></persName> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> 
+               <w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+               <w lemma="patronus">patronus</w> <w lemma="sub">sub</w>
+               <w lemma="hasta">hasta</w>
+               <w lemma="facio"><expan><abbr>f</abbr><ex>aciendum</ex></expan></w>  
+              <w lemma="loco"> <expan><abbr>l</abbr><ex>ocauit</ex></expan></w> 
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Tiberius Caesar Augustus, son of the deified Augustus, grandson of deified Julius, chief priest, consul <supplied reason="lost">for the fifth time</supplied>, acclaimed victor for the eight, 
+               holding tribunician power for the thirty-seventh; Caius Rubellius Blandus, quaestor of deified Augustus, tribune of the people, praetor, consul, proconsul, priest, patron, using the income from land which he restored to the people of Lepcis, <supplied reason="lost">saw to it</supplied> that all the streets of the city of Lapcis were paved with silex. Marcus Etrilius Lupercus, his legate <note>senatorial assistent</note> and civic patron let the contracts for the work. </p></div>
+         <div type="commentary">
+            <p>Line 2. trib. pot. XXXVII - July 35 - 30 June 36. </p>
+            <p>C. Rubellius Blandus: <title>PIR</title>, R 111, <ref target="https://pir.bbaw.de/id/11481">https://pir.bbaw.de/id/11481</ref>
+               </p>
+            <p>M. Etrilius Lupercus:  <title>PIR</title> E 0103;  <ref target="https://pir.bbaw.de/id/5617">https://pir.bbaw.de/id/5617</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

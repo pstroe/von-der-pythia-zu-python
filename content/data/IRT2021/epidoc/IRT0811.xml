@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0811" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0811</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment of a <material>marble</material> 
+                              <objectType>pilaster</objectType> , re-used.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the reverse face (<dimensions>
+                              <width unit="metre">0.37</width>
+                              <height unit="metre">0.21</height>
+                              <depth unit="metre">0.05</depth>
+                           </dimensions>, lower edge).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals . <height unit="metre">0.045</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0351" notAfter="0400" precision="low" evidence="lettering">Second half of the fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: Findspot unrecorded.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="tantillo0399.jpg"><desc>A: Tantillo, 2005 (DSCN1702)</desc></graphic>
+      <graphic url="tantillo0398.jpg"><desc>B: Tantillo, 2005 (DSCN1691)</desc></graphic>
+      <graphic url="tantillo0400.jpg"><desc>Reverse face: Tantillo, 2005 (DSCN1693)</desc></graphic>
+                  <graphic url="wp0754.jpg">
+                  <desc>From left: Above, <ref type="inscription" n="IRT0573">IRT 573 a and b</ref>; 
+                     Below: <ref type="inscription" n="IRT0811">IRT 811.b</ref>, <ref type="inscription" n="IRT0789">IRT 789</ref>: 
+                     Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXII.34)</desc></graphic>
+      
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>B: <bibl><ptr target="irt1952"/>, <citedRange>811</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT811.html">811</ref></citedRange></bibl>;
+               A and B, <bibl><ptr target="tantillo2010"/>, <citedRange>78</citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059661">059661</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            
+                <div n="A" type="textpart">
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+   <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="praeses"><supplied reason="lost">pra</supplied>eses</w> 
+   <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia"><expan><abbr>p<unclear>r</unclear><supplied reason="lost">ou</supplied></abbr><supplied reason="lost"><ex>inciae</ex></supplied></expan></w> 
+      <supplied reason="lost"><w lemma="Tripolitanus"><expan><abbr>Tripol</abbr><ex>itanae</ex></expan></w></supplied></placeName>
+   <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+
+</ab>
+</div>
+<div n="B" type="textpart">
+<ab>
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><w lemma="reformo"><supplied reason="lost">refor</supplied>mau<unclear>it</unclear></w> <w lemma="magnus">magn<unclear>a</unclear></w><supplied reason="lost"> <w lemma="ex">ex</w> <w lemma="pars">parte</w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+<supplied reason="lost"><w lemma="curo">curante</w></supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><w lemma="ex">ex</w></supplied> <w lemma="comes"><supplied reason="lost">c</supplied><unclear>o</unclear>mitibus</w> 
+   <w lemma="ciuis">ciue</w> <orig>a<unclear>t</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab>
+</div></div>
+               
+               
+         <div type="apparatus">
+            <listApp>
+               <app loc="B.1"><rdg resp="#irt1952">[·· ? ··] MẠṾṬỊ magni[·· ? ··] </rdg></app>
+               <app loc="B.2"><rdg resp="#irt1952">[·· ? ··]omitibus CIVEAT [·· ? ··] </rdg></app></listApp>
+         </div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>B</note>: <gap reason="lost" extent="unknown" unit="character"/> ?of a great 
+               <gap reason="lost" extent="unknown" unit="character"/> ? to <note>or by</note> ?companions 
+               <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>The fragments recognised and assembled by Bigi and Tantillo.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

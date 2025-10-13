@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1206" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> text (En-Ngila cemetery)</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1206</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Tomb</objectType> of rubble, with a <material>plaster</material> surface, <dimensions><width>1.35</width> <depth>0.50</depth> <height>0.30</height></dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the north face; there is an illegiel text on the south face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>? Smaller letters</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="1025" notBefore="0975" evidence="context" cert="low"> Late 10th-early eleventh century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                  Christian cemetery among the sand-dunes at <placeName ref="https://www.slsgazetteer.org/821">en-Ngila</placeName> </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219597/tripoli.html">an Najīlah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-05" who="CMR">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="paribeni1927"/>, <citedRange>VI</citedRange></bibl>;
+               mentioned and indexed <bibl><ptr target="irt1952"/>, <citedRange>262</citedRange></bibl>, whence mentioned 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT262.html">262</ref></citedRange></bibl>;
+               <bibl><ptr target="bartoccini1977"/> <citedRange>XI</citedRange></bibl></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab><lb n="1"/> <supplied reason="lost"><w lemma="o">O</w></supplied> <w lemma="uos">bos</w> <w lemma="omnis">omnes</w> <supplied reason="lost"><w lemma="qui">qui</w> <w lemma="transeo">transitis</w> <w lemma="per">per</w></supplied>
+               <lb n="2"/><w lemma="uia">biam</w>, <w lemma="aspicio">aspicite</w> <w lemma="et">et</w> <w lemma="uideo">bidetis</w> <orig>ifa</orig> <supplied reason="lost"><w lemma="si">si</w> <w lemma="sum">est</w></supplied> <w lemma="dolor"><supplied reason="lost">do</supplied>
+            <lb n="3" break="no"/>lo<supplied reason="omitted">r</supplied></w> <w lemma="uester"><expan><abbr/><ex>beste</ex><abbr>r</abbr></expan></w> <w lemma="qualis">qualis</w> <w lemma="sum">e<supplied reason="omitted">st</supplied></w> <w lemma="dolor">dolor</w> <w lemma="meus">meus</w></ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2"><rdg resp="#paribeni1927">bidetis IFA [</rdg></app>
+               <app loc="3"><rdg resp="#paribeni1927">-lor qualis</rdg></app>
+               
+            </listApp>
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p> Oh all you who pass on the road, behold and see if your grief is such as my grief. </p>
+         </div>
+         <div type="commentary">
+            <p>1-2: See Lamentations 1.12, available at <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0527.tlg051.perseus-lat1:1.12">Perseus</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

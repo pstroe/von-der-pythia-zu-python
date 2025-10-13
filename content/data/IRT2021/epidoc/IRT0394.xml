@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0394" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Septimius Severus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0394</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragments of a <material>marble</material> 
+                              <objectType>panel</objectType>, <depth unit="metre">0.025</depth> thick. 
+               a) <dimensions>
+                                 <width unit="metre">0.215</width>
+                                 <height>0.255</height>
+                              </dimensions>
+               b) <dimensions>
+                                 <width unit="metre">0.24</width>
+                                 <height>0.155</height>
+                              </dimensions>
+               c) <dimensions>
+                                 <width unit="metre">0.42</width>
+                                 <height>0.43</height>
+                              </dimensions>
+               d) <dimensions>
+                                 <width unit="metre">0.15</width>
+                                 <height>0.21</height>
+                              </dimensions>
+               e) <dimensions>
+                                 <width unit="metre">0.25</width>
+                                 <height>0.34</height>
+                              </dimensions>
+               f) <dimensions>
+                                 <width unit="metre">0.23</width>
+                                 <height>0.19</height>
+                              </dimensions>
+               g) <dimensions>
+                                 <width unit="metre">0.26</width>
+                                 <height>0.17</height>
+                              </dimensions>
+               h) <dimensions>
+                                 <width unit="metre">0.25</width>
+                                 <height>0.24</height>
+                              </dimensions>
+               i) <dimensions>
+                                 <width unit="metre">0.13</width>
+                                 <height>0.125</height>
+                              </dimensions>
+               j) not measurable
+               k) <dimensions>
+                                 <width unit="metre">0.09</width>
+                                 <height> 0.07
+               l</height>
+                              </dimensions>) <dimensions>
+                                 <width unit="metre">0.11</width>
+                                 <height>0.12</height>
+                              </dimensions>
+               Fragments a) to d) upper edge.
+               Fragments e) and f)  no edges surviving.
+               Fragments g) and h)  no edges surviving.
+               Fragments i) and j)  no edges surviving.
+               Fragments k ) and l)  no edges surviving.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Elaborate capitals:</handNote>
+                     <handNote>Fragments a) to d):  0.135</handNote>
+                     <handNote>Fragments e) and f):<height unit="metre">0.135</height>.</handNote>
+                     <handNote>Fragments g) and h):  <height unit="metre">0.145</height>.</handNote>
+                     <handNote>Fragments i) and j) :  0.11</handNote>
+                     <handNote>Fragments k ) and l): lettering not measurable:</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0202" cert="low" evidence="titulature">CE 201 or 202 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  All found in the <placeName type="monuList" ref="https://www.slsgazetteer.org/729">Punic Market</placeName>, except a) found in the portico behind the <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0502.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXII.22)</desc></graphic>
+                  <graphic url="wp0503.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XVI.15)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>394</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT394.html">394</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059314">059314</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="emperor" ref="#hadrianus"><name type="cognomen" nymRef="Hadrianus"><supplied reason="lost">H</supplied>adr<supplied reason="lost">iani</supplied></name></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">s</w> <w lemma="po-" part="I">po</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                 <persName type="emperor"> <addName nymRef="Parthicus"><seg part="I"><expan><abbr><supplied reason="lost">Pa</supplied>rth</abbr><ex>ic</ex></expan></seg></addName>
+                  <w lemma="maximus" part="I">m<supplied reason="lost">axim</supplied></w></persName><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="emperor"><addName nymRef="Augustus"><seg part="I"><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ust</ex></expan></seg></addName></persName>
+                  <addName nymRef="felix"><seg part="I">feli</seg></addName><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="maximus" part="I">max<supplied reason="lost">im</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="e" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  
+                  <supplied reason="lost"><w lemma="tribunicius">tribunicia</w> <w lemma="potestas">potestate</w></supplied>
+                  <num><gap reason="lost" atLeast="1" atMost="3" unit="character"/>X</num> 
+                  <w lemma="imperator" part="I"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> 
+                  <num>X<gap reason="lost" atLeast="1" atMost="3" unit="character"/></num><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="emperor"><addName nymRef="Augustus"><seg part="I"><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ust</ex></expan></seg></addName>
+                  <addName nymRef="Arabicus"><seg part="I">A<supplied reason="lost">rabic</supplied></seg></addName></persName><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="f" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ma</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="g" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">er</w> <w lemma="ab" part="I">a</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="h" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ati</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="i" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>su</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="j" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>u</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="k" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>c</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="l" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ui</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a.<gap reason="lost" extent="unknown" unit="character"/> of Hadrian<gap reason="lost" extent="unknown" unit="character"/></p><p>b. <note>Not usefully translatable</note></p><p><note> 
+      c-e</note><gap reason="lost" extent="unknown" unit="character"/>holding tribunician power <supplied reason="lost">for the</supplied> ?tenth time <gap reason="lost" extent="unknown" unit="character"/> 
+      greatest victor in Parthia<gap reason="lost" extent="unknown" unit="character"/> 
+     <supplied reason="lost">A</supplied>ugustus <note>case not known</note><supplied reason="lost">Uictor
+     in A</supplied>rabia<gap reason="lost" extent="unknown" unit="character"/></p><p>f-line <note>Not usefully translatable</note></p></div>
+         <div type="commentary">
+            <p>e) line 1.  Probably Septimius Severus in 201 (trib. pot. IX imp. XI) or 202 (trib. pot. X imp. XI). 
+               The elaborate, fine-quality lettering is unusual and would more naturally be Commodan; it can hardly be later than Severus. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0999" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD005919</idno>
+                <idno type="TM">198895</idno>
+                <idno type="filename">IRT0999</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">Labrum</objectType> of
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">marble</material>
+                                    <dimensions>
+                                        <dim unit="metre">0.58</dim>
+                                        <height unit="metre">0.10</height></dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the rim, i, in punic, on the interior side, ii on the outside
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03-0.032</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="-0050" notAfter="0300" evidence="lettering">Roman imperial period
+                            </origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>
+                            <placeName type="modern_region">Az Zāwiyah</placeName>; found in <date type="foud">1973</date>.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2011-08-04" who="Gräf">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p> <bibl><ptr target="rossigarbini"/> <citedRange>9-13</citedRange>, plates 2-4</bibl>, whence
+                    <bibl><ptr target="ae"/> <citedRange>1980.900</citedRange></bibl>; 
+                    <bibl><ptr target="vitaevrard2002"/> <citedRange>297-300</citedRange></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>2003.1923</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD005919">005919</ref></citedRange></bibl>;
+                   
+                   
+                </p>
+                   
+                   
+               
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <div type="textpart" n="i" xml:lang="xpu"><ab><lb n="1"/>
+                    <w lemma="ndr">ndr</w> <w lemma="l">l</w><persName type="divine" ref="Baal"><name nymRef="Baal">bᶜl</name></persName> 
+                    <placeName nymRef="Bs'ntst">bšᶜnṭsty</placeName> <persName type="attested"><name nymRef="Ywnthn"><supplied reason="lost">y</supplied>wntḥn</name></persName> 
+                    <w lemma="bn">bn</w><persName type="attested"><name nymRef="ᵓgᵓdr">ᵓgᵓdr</name></persName>
+                    <w lemma="ks">ks</w> <w lemma="dḥᵓ">dḥᵓ</w> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ᵓt">ᵓt</w> <w lemma="ql">qlm</w>
+                </ab></div>
+                <div type="textpart" n="ii" xml:lang="la"><ab><lb n="1"/>
+              <persName type="divine" ref="#saturn"><w lemma="dominus">Dom<supplied reason="omitted">i</supplied>no</w> 
+                  <name nymRef="Saturnus">Sapurno</name></persName> <note>sic</note> <placeName ref="#antistianus" nymRef="#Uicus Antistianus"><w lemma="uicus">Uico</w> <w lemma="Antistianus">A<supplied reason="lost">ntistia</supplied>no</w></placeName> <w lemma="uotum"><expan><abbr>u</abbr><ex>oto</ex></expan></w> <w lemma="suscipio"><expan><abbr>s</abbr><ex>uscepto</ex></expan></w> 
+                   <persName type="attested"><name nymRef="Iurathan">Iu<gap reason="lost" extent="unknown" unit="character"/>hn</name> <gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="Agiadur"><supplied reason="lost" cert="low">A</supplied>giaduris</name></persName> <w lemma="filius">f<supplied reason="lost">il</supplied>ius</w></persName> 
+                        <w lemma="facio"><expan><abbr>f</abbr><ex>ecit</ex></expan></w>
+            </ab></div></div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="ii.1"><rdg>SAPURNO</rdg></app>
+                    <app loc="ii.1"><rdg resp="rossigarbini">M[ . . . ]no</rdg></app>
+                </listApp>
+            </div>
+            <div type="translation" source="#vitaevrard2002" xml:lang="fr">
+                <p>i:a voué à Ba'al de Bs'ntst (ou dans le bourg de Tst /T'sn) Ywnthn fils de 'g'dr le vase à ablutions...[parce qu'il a entendu] sa voix</p>
+            </div>
+            <div type="translation" source="#vitaevrard2002" xml:lang="fr">
+                <p>ii: Au seigneur Saturne (vénéré) dans le vicus A[ntistian]us, en ayant fait le voeu, Iurathan fils de (A?)giadur a fait faire (cette vasque)</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

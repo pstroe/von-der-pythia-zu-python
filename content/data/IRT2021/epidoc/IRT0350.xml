@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0350" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0350</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Built into the Byzantine Gate.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Four <objectType>block</objectType>s of <material>grey limestone</material> (each approx. <height unit="metre">0.53</height> high) probably from the same monumental inscription.
+               a) On the North face of the East tower:
+               b) On the West face of the East tower:
+               c) On the South face of the wall West of the gate:
+               d) On the top of the East tower:</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals: line 1 ( erased ) approx., <height unit="metre">0.19</height>; 
+               line 2. <height unit="metre" atLeast="0.15" atMost="0.16">0.15-0.16</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0081" notAfter="0096" cert="low" precision="low" evidence="lettering">CE 81-96</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/728">Cardo Maximus</placeName>,  
+                  Built into the <placeName type="monuList" ref="https://www.slsgazetteer.org/706">Byzantine Gate</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Built into the Byzantine Gate.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>a and b: <bibl><ptr target="bartoccini1924"/> <citedRange>70</citedRange>, a) and b) only</bibl>; 
+               c: <bibl><ptr target="mehier1906"/> <citedRange unit="page">79</citedRange></bibl>, whence 
+               <bibl><ptr target="cil1916"/> <citedRange>22677</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>350</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT350.html">350</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059279">059279</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="face" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <del rend="erasure"><gap reason="lost" extent="unknown" unit="line"/></del>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">ceps</w> <w lemma="mu-" part="I">mu</w><gap reason="lost" extent="unknown" unit="character"/>   
+               </ab></div><div subtype="face" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <del rend="erasure"><gap reason="lost" extent="unknown" unit="line"/></del>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>a</unclear>e</w> 
+                  <w lemma="suus">sua<supplied reason="lost">e</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="face" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <del rend="erasure"><gap reason="lost" extent="unknown" unit="line"/></del>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">us</w> <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> 
+                  <name type="tribe" nymRef="Quirina"><w lemma="Quirina"><expan><abbr>Qu<supplied reason="lost">ir</supplied></abbr><supplied reason="lost"><ex>ina tribu</ex></supplied></expan></w></name></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="section" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <del rend="erasure"><gap reason="lost" extent="unknown" unit="line"/></del>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>stu</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="a 1">
+                  <note> Probably Domitian - the material and lettering suggest a first century date. </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a</note>,<num>b</num>and d are not usefully translatable </p><p>c.<note>erased</note><gap reason="lost" extent="unknown" unit="character"/>us, son of Quintus, of the Roman voting tribe Quirina <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0560" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Fragmentary <rs type="textType">honours<certainty match=".." locus="value"/>
+               </rs> 
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0560</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Grey <material>limestone</material> <objectType>Base</objectType> with moulding above and below (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre">1.55</height>
+                                 <depth unit="metre">0.50</depth>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face  (die, <dimensions>
+                              <width unit="metre">0.55</width>
+                              <height unit="metre">0.95</height>
+                        </dimensions>), much worn or deliberately erased.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals:<height unit="metre">0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="titulature">First to third centuries CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  
+                              <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, in the South East Portico of the <placeName type="monuList" ref="https://www.slsgazetteer.org/714">Curia</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0726.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XIV.29)</desc></graphic>
+      <graphic url="tantillo0200.jpg">
+         <desc>Face: Tantillo, 2003</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>560</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT560.html">560</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059432">059432</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><del rend="erasure"><gap reason="illegible" extent="unknown" unit="character"/>
+                  <lb n="2"/><w part="F"><unclear>n</unclear>o</w> <persName type="attested"><name type="cognomen" nymRef="Castus">Casto</name></persName>
+                  <lb n="3"/><w lemma="tribunus"><expan><abbr>tr</abbr><ex>ibuno</ex></expan></w> 
+                  <w lemma="miles"><expan><abbr>mil</abbr><ex>itum</ex></expan></w> 
+                  <orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+                  <num value="3">III</num> 
+                 <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></orgName>
+               <lb n="4"/><w lemma="ciuis">ciues</w> <orig>b</orig><gap reason="lost" quantity="7" unit="character" precision="low"/> <num value="6">VI</num>
+               <lb n="5"/><placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus"><w lemma="Lepcitanus">Lepcit<supplied reason="lost">ani</supplied></w></placeName>
+                  <gap reason="lost" extent="unknown" unit="character"/></del>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To <note>erased name</note><gap reason="lost" extent="unknown" unit="character"/>nus Castus, military tribune in Legion III Augusta; the citizens <gap reason="lost" quantity="10" unit="character" precision="low"/> the Lepcitanians <gap reason="lost" extent="unknown" unit="character"/> <note>all erased</note> </p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

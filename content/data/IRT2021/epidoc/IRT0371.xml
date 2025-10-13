@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0371" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building<certainty match=".." locus="value"/>
+               </rs> inscription under Antoninus Pius</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0371</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Four fragments of a <objectType>panel</objectType> of white <material>marble</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a <rs type="decoration">tabella ansata</rs> (<dimensions>
+                              <width unit="metre">0.53</width>
+                              <height unit="metre">0.48</height>
+                           </dimensions>. top left-hand corner; 
+               <dimensions>
+                              <width unit="metre">0.57</width>
+                              <height unit="metre">0.48</height>
+                           </dimensions>, top right-hand corner, <dimensions>
+                              <width unit="metre">0.88</width>
+                              <height unit="metre">0.22</height>
+                           </dimensions>, bottom left-hand corner; <dimensions>
+                              <width unit="metre">0.22</width>
+                              <height unit="metre">0.16</height>
+                           </dimensions>, no edges surviving).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: line 1, <height unit="metre">0.115</height>; line 2, <height unit="metre">0.075</height>; line 3. <height unit="metre">0.12</height>; last line <height unit="metre">0.085</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0153" evidence="internal-date">CE 153: <ref target="https://godot.date/id/vA9QJY4NkASEsXvYABuhQZ">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              The three first were found in the <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, in the <placeName type="monuList" ref="https://www.slsgazetteer.org/1696">Temple of Liber Pater</placeName>;  the findspot of the fourth is not recorded.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0474.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.X.24)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="relscav"/> <citedRange>27.5.34</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>371</citedRange></bibl>, whence 
+               
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT371.html">371</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059295">059295</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="emperor" ref="#antoninuspius"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> 
+                  <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>are</ex></expan></addName> 
+                  <supplied reason="lost"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name type="gentilicium" nymRef="Aelius">Aelio</name></supplied> 
+                  <name type="cognomen" nymRef="Hadrianus">Hadr<supplied reason="lost">iano</supplied></name> <name type="gentilicium" nymRef="Antoninus"><supplied reason="lost">Antoni</supplied>no</name> 
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <addName nymRef="Pius">Pio</addName></persName>
+                  <w lemma="pontifex"><expan><abbr>po<supplied reason="lost">nt</supplied></abbr><supplied reason="lost"><ex>ifice</ex></supplied></expan></w> 
+                  <supplied reason="lost"><w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w></supplied> 
+                  <lb n="2"/>
+                  <supplied reason="lost"><w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w></supplied>
+                     <w lemma="potestas"><expan><abbr><supplied reason="lost">p</supplied>ot</abbr><ex>estate</ex></expan></w> <num value="16">XVI</num>
+                     <w lemma="imperator"><expan><abbr>i<supplied reason="lost">mp</supplied></abbr><supplied reason="lost"><ex>eratore</ex></supplied></expan></w> 
+                  <supplied reason="lost"><num value="2">II</num>
+                     <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w></supplied> 
+                  <num value="4"><supplied reason="lost">II</supplied>II</num> 
+                  <w lemma="pater"><expan><abbr>p</abbr><ex>atre</ex></expan></w> 
+                  <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+                  <lb n="3"/>
+                  <persName type="emperor" ref="#anonymus"><gap reason="lost" extent="unknown" unit="character"/>
+                     <addName nymRef="Augustus"><seg part="I">Au<unclear>g</unclear></seg></addName><gap reason="lost" extent="unknown" unit="character"/></persName>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Calpurnia">Calpurnia</name> <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name></persName> 
+                  <w lemma="filia"><expan><abbr>f</abbr><ex>ilia</ex></expan></w></persName> 
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a. When emperor Caesar <supplied reason="lost">Titus Aelius</supplied> Hadrian <supplied reason="lost">Antoninus</supplied> Augustus Pius 
+               <supplied reason="lost">was chief priest, holding tribunician</supplied> power for the sixteenth time, <supplied reason="lost">acclaimed victor twice, 
+                  consul</supplied> four times, father of the country,<gap reason="lost" extent="unknown" unit="character"/> </p>
+            <p><note> b.</note> Calpurnia, daughter of Quintus <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+           
+        <!--    <p>b) line 1. Probably Calpurnia Honesta, recorded in  <ref type="inscription" n="IRT0370">370</ref>  as responsible for building a temple in honour of Antoninus Pius, dedicated in 153.</p> --> 
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0318" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> of an altar</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0318</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Octagonal <objectType>altar</objectType> of <material>grey limestone</material>, comprising three separate pieces: 
+               a square, moulded plinth (<dimensions>
+                                 <width unit="metre">0.77</width>
+                                 <height unit="metre">0.77</height>
+                                 <depth unit="metre">0.28</depth>
+                              </dimensions>) with a <rs type="decoration">circular socket</rs> in the centre of the upper face; 
+               an octagonal shaft,  from face to opposite face; <dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.80</height>
+                              </dimensions>), moulded at the foot and mortised into the socket of the plinth; 
+               and an octagonal cornice-block, now much damaged (<dimensions>
+                                 <height unit="metre">0.30</height>
+                              </dimensions>), of which <dimensions>
+                                 <height unit="metre">0.55</height>
+                              </dimensions>, below the mouldings, is flush with, and forms part of, the face of the shaft below.
+              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on three faces of the octagonal shaft, on the front and right- hand faces in Latin, and on the left- hand face in Neo-Punic. 
+               Texts b) and c) are closely related to <ref type="inscription" n="IRT0347">347</ref>, inscribed on the parapet which bounds the platform.
+               a) On the front (die, <dimensions>
+                              <width unit="metre">0.19</width>
+                              <height unit="metre">0.68</height>
+                           </dimensions>). line 1, carved on the upper block, is missing, and line 2,3 and 6 overlap on to the adjacent face.
+               b) On the right- hand face (die,<dimensions>
+                              <width unit="metre">0.185</width>
+                              <height unit="metre">0.33</height>
+                           </dimensions>; about half of the text missing).
+               c) On the left- hand face, Neo-Punic 32. The Neo-Punic text is a faithful transcription of the Latin of <ref type="inscription" n="IRT0318">318</ref> and <ref type="inscription" n="IRT0347">347</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) Capitals with incipient Rustic forms: <height unit="metre" atLeast="0.05" atMost="0.045">0.05-0.045</height>.</handNote>
+                     <handNote>b) Capitals with incipient Rustic forms: <height unit="metre" atLeast="0.035" atMost="0.018">0.035-0.018</height>.</handNote>
+                     <handNote>c) Neo-Punic </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate when="0092" evidence="prosopography">Probably CE 92</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:   <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>:
+                  The plinth was found in position in the <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>, 
+                  near the centre of the raised limestone paving of the Orchestra, and the shaft and cornice, dispersed in late antiquity, 
+                  have been recomposed in position. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-07-18" who="CB">Added Neo Punic texts and translations</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0382.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 259 Leica)</desc></graphic>
+                  <graphic url="wp0383.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 260 Leica)</desc></graphic>
+                  <graphic url="wp0384.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 261 Leica)</desc></graphic>
+                  <graphic url="wp0385.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXI.25)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="caputo1939"/>, <citedRange>83-91</citedRange>, pls. I, II</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1949.159,160</citedRange></bibl>, whence
+               <bibl><ptr target="dellavida1949"/> <citedRange>404-406</citedRange></bibl>;
+               discussed, <bibl><ptr target="caputo1949a"/>, <citedRange>214-215</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1951.83</citedRange></bibl>;
+               a and b: <bibl><ptr target="irt1952"/>, <citedRange>318</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT318.html">318</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027741">027741</ref></citedRange></bibl>
+               c: <bibl><ptr target="amadasi1980"/> <citedRange unit="page">31-32</citedRange></bibl>;
+               <bibl><ptr target="dellavida1987"/> <citedRange>27</citedRange></bibl>
+               <bibl><ptr target="jongeling2005"/> <citedRange>22</citedRange></bibl>;                   
+               <bibl><ptr target="jongeling2008"/> <citedRange>Labdah N19</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div n="a" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                  <lb n="2"/><persName type="emperor" ref="#augustus"><name nymRef="Augustus"><supplied reason="lost">Augu</supplied>sto</name></persName>
+                  <lb n="3"/><w lemma="sacer"><supplied reason="lost">sac</supplied>rum</w>
+                  <lb n="4"/><persName type="attested" key="pir-n-0127"><name type="cognomen" nymRef="Asprenas"><unclear>Asp</unclear><supplied reason="lost">r</supplied>enas</name></persName>
+                  <lb n="5"/><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+                  <lb n="6"/><w lemma="dedico">dedicauit</w>
+               </ab></div>
+            <div n="b-" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+                  <lb n="2"/><w lemma="ornator">orna<unclear>tor</unclear></w> <w lemma="patria"><unclear>pat</unclear><supplied reason="lost">riae</supplied></w>
+                  <lb n="3"/><w lemma="amator">amator</w> 
+                  <w lemma="concordia">concor<lb n="4" break="no"/>diae</w> <w lemma="qui">cui</w> <w lemma="primus">primo</w>
+                  <lb n="5"/><w lemma="ordo">ordo</w> <w lemma="et">et</w> <w lemma="populus">populus</w>
+                  <lb n="6"/><w lemma="ob">ob</w> <w lemma="meritum">merita</w> 
+                  <w lemma="maior">maio<lb n="7" break="no"/>rum</w> <w lemma="is">eius</w> <w lemma="et">et</w> <w lemma="ipse">ipsius</w>
+                  <lb n="8"/><w lemma="fero">lato</w> <w lemma="clauus">clauo</w> 
+                  <w lemma="semper">sem<lb n="9" break="no"/>per</w> <w lemma="utor">uti</w> <w lemma="concedo">concessit</w>
+                  <lb n="10"/><w lemma="ara">aram</w> <w lemma="et">et</w> <w lemma="podium"><expan><abbr>podi</abbr><ex>um</ex></expan></w>
+                  <lb n="11"/><w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+                  <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>acienda</ex></expan></w> 
+                  <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan></w> 
+               </ab></div>
+            <div n="c" type="textpart" xml:lang="xpu">
+            <ab>
+               <lb n="1"/><w lemma="bn">bn</w> <persName type="attested"><name type="praenomen" nymRef="Tiberius">ṭybry</name> 
+               <name type="gentilicium" nymRef="Claudius">q<supplied reason="lost">lᶜwdy</supplied></name> 
+               <name type="cognomen" nymRef="Sestius"><supplied reason="lost">sᵓsty</supplied></name></persName>
+               <lb n="2"/><w lemma="ᵓdr">ᵓdr</w> <w lemma="ᶜzrm">ᶜzrm</w> <w lemma="zbḥ">z<supplied reason="lost">bḥ</supplied></w> 
+               <w lemma="l"><supplied reason="lost">l</supplied></w><w lemma="ᵓl"><supplied reason="lost">ᵓlm</supplied></w> 
+               <lb n="3"/><persName type="emperor" ref="#vespasianus"><name type="cognomen" nymRef="Vespasian">wᵓspᶜsyᶜnᵓ</name></persName> 
+               <w lemma="špṭ"><supplied reason="lost">š</supplied><unclear>pṭ</unclear></w><!-- pṭ --> 
+               <lb n="4"/><w lemma="zbḥ">zbḥ</w> <w lemma="l">l̊</w><w lemma="kl">k<supplied reason="lost">l</supplied></w> 
+               <w lemma="ḥyt"><supplied reason="lost">ḥy</supplied>t</w> <w lemma="ḥbb">mḥb</w> <w lemma="ᵓrṣ">ᵓrṣ</w> 
+               <w lemma="ḥbb"><unclear>m</unclear><!-- m --> 
+               <lb n="5"/>ḥb</w> <w lemma="bn">bnᵓ</w> <w lemma="ᶜm">ᶜm</w> <w lemma="my">my</w><w lemma="šql">šql</w> <w lemma="ᵓrṣ">ᵓrṣ</w> 
+               <lb n="6"/><w lemma="m">m</w><w lemma="šlk">šlk</w> <w lemma="bn">bnᵓ</w> <w lemma="ᶜm">ᶜm</w> <w lemma="ḥbb">mḥb</w> 
+               <w lemma="dᶜt">dᶜt</w> <w lemma="h-">h</w><w lemma="tmt">tmt</w> 
+               <lb n="7"/><w lemma="l">l</w><w lemma="my">my</w> <w lemma="lpny">lpny</w> <w lemma="ᵓdr">ᵓdrᵓ</w> 
+               <placeName ref="#lepcis" nymRef="#ᵓlpqy">ᵓlpqy</placeName> <w lemma="w">w</w><w lemma="ᶜm">ᶜm</w> <placeName ref="#lepcis" nymRef="#ᵓlpqy">ᵓlpqy</placeName> 
+               <lb n="8"/><w lemma="l">l</w><w lemma="py">py</w> <w lemma="mᵓs">mᵓsᵓ</w> <w lemma="ᵓb">ᵓb</w><w lemma="tmm">tm</w> 
+               <w lemma="w">w</w><w lemma="mᵓs">mᵓsm</w> <w lemma="bn" cert="low">bnt/m</w> 
+               <lb n="9"/><w lemma="ytn">ytnᵓ</w> <w lemma="l">l</w><w lemma="ᶜbd">ᶜbd</w> <w lemma="b-">b</w><w lemma="ṣpt">ṣpᵓt</w> 
+               <w lemma="kl">kl</w> <w lemma="ḥyt">ḥytm</w> 
+               <lb n="10"/><w lemma="mzbḥ">mzbḥ</w> <w lemma="w">w</w><w lemma="pᵓdy">pᵓdy</w> 
+               <lb n="11"/><w lemma="pᶜl">pᶜl</w> <w lemma="lmb">lmb</w><w lemma="mlkt">mlktm</w> <w lemma="b-">b</w><w lemma="tm">tm</w>
+                <!-- when xml:lang=xpu then output 'unclear' with &#x30A;  (=combining ring above), 
+              and not the underdot employed in all other languages as above -->
+            </ab>
+         </div>  
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a. Sacred to <gap reason="lost" extent="unknown" unit="character"/> Augustus; Asprenas, proconsul, dedicated <supplied reason="subaudible">this</supplied>
+                              </p>
+            <p>b. <gap reason="lost" extent="unknown" unit="character"/> adorner of his country, lover of concord, the first person whom the town council and the people allowed to wear the broad band permanently, on account of his merit and those of his ancestors. He organised the making of the altar and the paved base at his own expense.</p></div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>c. [Tiberius Claudius Sestius, of the Quirina voting tribe]
+               son of Tiberius Claudius Sestius
+               prefect of the cult, flamen of the divine
+               Vespasian, sufete,
+               perpetual flamen, lover of the fatherland,
+               lover of the sons of people, adorner of the fatherland
+               saviour of the sons of the people, lover of complete knowledge,
+               to whom, for the first time, the elders of Lepcis and the people of Lepcis,
+               for the achievements of his fathers and for his own achievements,
+               they gave him the right to wear the purple for his whole life.
+               An altar and podium
+               made, according to the work to be done, at his own expense.</p>     
+         </div>          
+         <div type="commentary">
+            
+           
+            <p>a: L. Nonius Asprenas: <title>PIR</title>, N 127, <ref target="https://pir.bbaw.de/id/9645">https://pir.bbaw.de/id/9645</ref></p>
+           <!--  <p>a)There is no indication that the altar is earlier than the paving (dated to 92, see <ref type="inscription" n="IRT0347">347</ref>) on which it stands. 
+            Asprenas is therefore presumably to be distinguished from , procos. Africae in 82- 3 (<ref type="inscription" n="IRT0346">346</ref>).</p> -->
+            <p>b) line 1. Ti. Claudius Sestius, see  <ref type="inscription" n="IRT0347">347</ref>. The surviving text is identical with that of  <ref type="inscription" n="IRT0347">347</ref>, dated in 92, with the exception of the order of the words in line 9.  </p>
+            <!--   <p>b) line 9. <foreign xml:lang="la">Podium</foreign>: Referring presumably to the raised limestone paving on which the altar stood. </p> -->
+            <p>c: Discussion of the Neo-Punic text:
+               <ref target="https://zenon.dainst.org/Record/000299186">Levi della Vida (1971)</ref>, 460-461;
+               <ref target="https://zenon.dainst.org/Record/000462806">Amadasi Guzzo (1979)</ref>, 27-35;
+               Jongeling, K. 1983, ‘Neo-punische-latijnse inscripties uit Lepcis Magna (Libye)’ in 
+               <ref target="https://zenon.dainst.org/Record/000821926"/>, 413;
+               <ref target="https://zenon.dainst.org/Record/000255650">Garbini (1987)</ref>, 12;
+               <ref target="https://zenon.dainst.org/Record/001026471">Fontana (2001)</ref>, 165;
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N19;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 253; 
+               <ref target="https://zenon.dainst.org/Record/001362679">Wilson (2012)</ref>, 297-299.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

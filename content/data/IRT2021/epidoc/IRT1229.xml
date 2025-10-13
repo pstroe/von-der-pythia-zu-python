@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1229" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication<certainty match=".." locus="value"/></rs> to Julia Maesa</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1229</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="institution.xml#db654">Lepcis Museum</repository><idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Fragmentary
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">block</objectType> of 
+                                     <material>limestone</material>,
+                                    <dimensions>
+                                        <height unit="metre">0.48</height>
+                                        <width unit="metre">0.37</width>
+                                        <depth unit="metre">0.195</depth>
+                                    </dimensions>
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.055</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notAfter="0235" notBefore="0222" evidence="reign" cert="low">222-235 CE</origDate>
+                        </origin><provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the <placeName type="monuList" ref="https://www.slsgazetteer.org/2268">Principia</placeName></p></provenance>
+                        <provenance type="observed"><p><placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2220431">Abū Nujaym</placeName></term>
+                </keywords>
+            </textClass>
+        <creation>Taken from Rebuffat</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-18" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rebuffat1970"/> <citedRange>70-49</citedRange>, pp 139-140</bibl>, whence 
+                    <bibl><ptr target="edcs"/> <citedRange>59800045</citedRange></bibl></p> 
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                 <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                <lb n="2"/><orig>pm<unclear>po</unclear></orig> <gap reason="lost" quantity="3" unit="character"/>
+                 <lb n="3"/><orig>iuii</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="4"/><persName type="emperor" ref="#juliamaesa"><w lemma="mater"><supplied reason="lost">mat</supplied>ri</w><gap reason="lost" quantity="3" unit="character"/>
+                <lb n="5"/><persName type="emperor" ref="#seuerusalexander"><del rend="erasure"><supplied reason="lost"><name nymRef="Alexander">Alexandri</name></supplied></del> 
+                    <addName nymRef="Pius">P<unclear>ii</unclear></addName> <addName nymRef="Felix"><expan><abbr><unclear>Fel</unclear></abbr><ex>icis</ex></expan></addName> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName></persName>
+                <lb n="6"/><del rend="erasure"><supplied reason="lost"><w lemma="et">et</w></supplied></del> <persName type="emperor" ref="#juliamamaea"><del rend="erasure"><supplied reason="lost"><name nymRef="Iulia"><expan><abbr>Iul</abbr><ex>iae</ex></expan></name> 
+                    <name nymRef="Auita">Auitae</name> <name nymRef="Mamaea">Mamaeae</name></supplied></del>
+                <lb n="7"/><del rend="erasure"><supplied reason="lost"><w lemma="mater">matris</w></supplied></del> <persName type="emperor" ref="#seuerusalexander"><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName> 
+                <w lemma="noster"><expan><abbr>n</abbr><ex>ostri</ex></expan></w></persName> <w lemma="et">e<unclear>t</unclear></w> <w lemma="castrum">cast<supplied reason="lost">rorum</supplied></w></persName>
+               </persName>
+               <lb n="7a"/> <gap reason="lost" extent="unknown" unit="line"/>
+               
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p> . . . ] ?mother [ . . . ] of Alexander Pius, Felix, Augustus and of Julia Avita Mammaea, mother of our Augustus and of the camps [ . . .</p>
+            </div>
+            <div type="commentary">
+                
+            </div>
+        </body>
+    </text>
+</TEI>

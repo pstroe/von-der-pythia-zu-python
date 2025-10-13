@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1067" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title>Fragmentary <rs type="textType">dedication</rs>  </title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1067</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Six joining fragments from the left side of a <material ref="http://www.eagle-network.eu/voc/material/lod/138">marble</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">panel</objectType> from the support for a statue 
+                                    <dimensions>
+                                        <height unit="metre">0.65</height>
+                                    <width>0.33</width>
+                                    <depth>0.015</depth></dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Lapidary rustic capitals, <depth>0.043</depth></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notAfter="0225" notBefore="0199" evidence="prosopography">Early third century CE
+                            </origDate>
+                        </origin><provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName></p></provenance>
+                        <provenance type="observed">
+                            <p> 
+                                <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>CMr transcribed</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="CMR">addeded</change>
+         
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard2008"/> <citedRange/></bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>2008.1619</citedRange></bibl>, 
+                    <bibl><ptr target="edcs"/> <citedRange>51500073</citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/><persName type="attested"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius">Iulio</name> <name nymRef="Cerealis">Cer<supplied reason="lost">eali</supplied></name></persName> 
+                <lb n="2"/><persName type="attested"><name nymRef="Iulia">Iulia</name> <name nymRef="Seuera">Seu<supplied reason="lost">era</supplied></name> <name nymRef="Gaetulica"><supplied reason="lost">Gae</supplied>
+                 <lb n="3" break="no"/><unclear>t</unclear>ulica</name></persName> <w lemma="pro">pr<supplied reason="lost">o</supplied></w> <w lemma="maritus"><supplied reason="lost">mari</supplied>
+                <lb n="4" break="no"/><unclear>t</unclear>o</w> <w lemma="suus">suo</w> <w lemma="statua">statuam</w>
+                <lb n="5"/><w lemma="iubeo">iussit</w> <w lemma="quam"><unclear>q</unclear><supplied reason="lost">uam</supplied></w>
+                <lb n="6"/><persName type="attested"><name nymRef="Gratill-"><seg part="I">Gratill</seg></name></persName><gap reason="lost" quantity="4" unit="character"></gap>
+                <lb n="7"/><w lemma="heres">heres</w> <supplied reason="lost"><w lemma="facio"><expan><abbr>fac</abbr><ex>iendum</ex></expan></w> <w lemma="curo"><expan><abbr>cur</abbr><ex>auit</ex></expan></w></supplied>
+                
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>For Caius Julius Ceralis: Julia Severa Gaetulica ordered a statue for her own husband, of which Gratill[ . .] her heir [oversaw the construction].</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

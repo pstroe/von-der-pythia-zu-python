@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0918" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Verse</rs> inscription by Q. Avidius Quintianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0918</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <objectType>stele</objectType> (<dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">1.88</height>
+                                 <depth unit="metre">0.14</depth>
+                              </dimensions>) of hard grey <material>limestone</material> of marble-like quality.  
+               Uniform with <ref type="inscription" n="IRT0919">919</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Elegantly <rs type="execution" ref="scalpro">inscribed</rs>  on the face within a moulded panel 
+               (die,<width unit="metre">0.34</width>
+                           <height unit="metre">1.79</height>): using indentation to mark lines of verse; the acrostic of the initial letters of the lines.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century lapidary capitals: <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0259" evidence="context">201-259 CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the <placeName type="monuList" ref="https://www.slsgazetteer.org/825">Baths</placeName></p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2220431/abu-nujaym.html">Abū Nujaym</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1145.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. B. 1987)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography"><!-- Check add from Adams -->
+            <p>
+               <bibl><ptr target="bartoccini1928a"/>, <citedRange>55</citedRange> ff., with fig</bibl>, 
+               whence <bibl><ptr target="ae"/>, <citedRange>1929.7b</citedRange></bibl>,
+               <bibl><ptr target="lavagnini1928"/>, <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>1929 page 48</citedRange></bibl>; cf also 
+               <bibl><ptr target="lavagnini1930"/>, <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>1931 page 36</citedRange></bibl>;
+                  <bibl><ptr target="irt1952"/>, <citedRange>918</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT918.html">918</ref></citedRange></bibl>;
+               <bibl><ptr target="adams1999"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1999.1760</citedRange></bibl>;
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024265">024265</ref></citedRange></bibl>;
+               <bibl><ptr target="benseddik2010"/> <citedRange>44, 45</citedRange></bibl>; ;  <ref target="http://www.mqdq.it/textsce/CE|appe|345">Musisque Deoque 245</ref>; for further bibliography see Adams, loc.cit.;
+                 For BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>. </p><!-- check -->
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" n="a"><lg met="iambic senarii"><l><lb n="1"/><w lemma="quaero">Quaesii</w> <w lemma="multa">multum</w> <w lemma="quot">quot</w>
+               <lb n="2"/><w lemma="memoria">memoriae</w> <w lemma="trado">tradere</w></l><l><lb n="3"/><w lemma="ago">Agens</w> <w lemma="prae">prae</w> <w lemma="cunctus">cunctos</w> <w lemma="in">in</w>
+               <lb n="4"/><w lemma="hic">hac</w> <w lemma="castrum">castra</w> <w lemma="miles">milites</w></l><l><lb n="5"/><w lemma="uotum">Uotum</w> <w lemma="communis">communem</w> <w lemma="pro">pro<lb n="6" break="no"/>que</w> <w lemma="reditus">reditu</w> <w lemma="exercitus">exercitus</w></l>
+               <l><lb n="7"/><w lemma="inter">Inter</w> <w lemma="prior">priores</w> <w lemma="et">et</w> <w lemma="futurus">fu<lb n="8" break="no"/>turos</w> <w lemma="reddo">reddere</w></l><l><lb n="9"/><w lemma="dum">Dum</w> <w lemma="quaero">quaero</w> <w lemma="mecum">mecum</w> <w lemma="dignus">dig<lb n="10" break="no"/>na</w> <w lemma="diuus">diuom</w> <w lemma="nomen">nomina</w></l><l><lb n="11"/><w lemma="inuenio">Inueni</w> <w lemma="tandem">tandem</w> <w lemma="nomen">nomen</w>
+                  <lb n="12"/><w lemma="et">et</w> <w lemma="numen">numen</w> <w lemma="dea">deae</w></l><l><lb n="13"/><w lemma="uotum">Uotis</w> <w lemma="perennis">perennem</w> <w lemma="qui">quem</w>
+                  <lb n="14"/><w lemma="dico">dicare</w> <w lemma="in">in</w> <w lemma="hic">hoc</w> <w lemma="locus">loco</w></l><l><lb n="15"/> <w lemma="salus">Salutis</w> <w lemma="igitur">igitur</w> <w lemma="quamdiu">quan<lb n="16" break="no"/>dium</w> <w lemma="cultor">cultores</w> <w lemma="sum">sient</w></l><l><lb n="17"/><w lemma="qua">Qua</w> <w lemma="possum">potui</w> <w lemma="sancio">sanxi</w> <w lemma="nomen">nomen</w>
+                  <lb n="18"/><w lemma="et">et</w> <w lemma="cunctus">cunctis</w> <w lemma="do">dedi</w></l><l><lb n="19"/><w lemma="uerus">Ueras</w> <w lemma="salus">salutis</w> <w lemma="lympha">lymphas</w>
+               <lb n="20"/><w lemma="tantus">tantis</w> <w lemma="ignis">ignibus</w></l><l><lb n="21"/><w lemma="in">In</w> <w lemma="iste">istis</w> <w lemma="semper">semper</w> <w lemma="harenaceus">ha<lb n="22" break="no"/>renacis</w> <w lemma="collis">collibus</w></l><l><lb n="23"/><w lemma="nuto">Nutantis</w> <w lemma="auster">Austri</w> <w lemma="sol">solis</w>
+                  <lb n="24"/><w lemma="flamma">flammas</w> <w lemma="feruidus">feruidas</w></l><l><lb n="25"/><w lemma="tranquillus">Tranquille</w> <w lemma="ut">ut</w> <w lemma="no">nando</w>
+                  <lb n="26"/><w lemma="delenio">delenirent</w> <w lemma="corpus">corpora</w></l><l><lb n="27"/><w lemma="ita">Ita</w><w lemma="tu"> tu</w> <w lemma="qui">qui</w> <w lemma="sentio">sentis</w> <w lemma="magnus">mag<lb n="28" break="no"/>nam</w> <w lemma="facio">facti</w> <w lemma="gratia">gratiam</w></l><l><lb n="29"/><w lemma="aestuo">Aestuantis</w> <w lemma="anima">animae</w>
+               <lb n="30"/><w lemma="fucilis">fucilari</w> <w lemma="spiritus">spiritum</w></l><l><lb n="31"/><w lemma="nolo">Noli</w> <w lemma="pigeo">pigere</w> <w lemma="laus">laudem</w>
+    <lb n="32"/><w lemma="uox">uoce</w> <w lemma="reddo">reddere</w></l><l><lb n="33"/><w lemma="uerus">Ueram</w> <w lemma="qui">qui</w> <w lemma="uolo">uoluit
+                  </w><lb n="34"/><w lemma="sum">esse</w><w lemma="tu"> te</w> <w lemma="sanus">sanum</w> <w lemma="tu">tib<supplied reason="lost">i</supplied></w></l><l> <lb n="35"/> 
+                     <w lemma="sed">Set</w> <w lemma="protesto">protestare</w> <w lemma="uel">uel</w><lb n="36"/><w lemma="salus">salutis</w> <w lemma="gratia">gratia</w></l></lg></div>
+         <div type="textpart" n="Acrostic"><ab><persName type="attested"><name type="praenomen">Q. </name>
+                        <name type="gentilicium">Auidius</name> 
+                        <name type="cognomen">Quintianus</name></persName></ab></div></div>
+         
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>While acting in command of all the soldiers in this fort, I have much sought what to hand down to memory, in order to declare to earlier and to 
+               future readers the vow which was common to all and made for the safe return of the army. While seeking in my mind for appropriate divinities 
+               I have finally thought of the name and power of a never-failing goddess to whom to dedicate this place; and so it is of Health that, insofar as I could, 
+               I have sanctified the name for as long as there are worshippers here; to all  I have given the true waters of Health in these fiery temperatures, 
+               so that, in the midst of the hills of sand, they may ease their bodies from the burning flames of the southern sun by swimming in tranquillity. 
+               So do not be slow, you who feel the great attraction of what I have done, to speak in praise of one who worked for your health, but testify for the sake of Health.</p></div>
+         <div type="commentary">
+            <p>Quintianus is taken to be the centurio of the companion stele, <ref type="inscription" n="IRT0919">919</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

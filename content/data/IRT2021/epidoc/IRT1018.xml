@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1018" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of the Severan Basilica</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD017203</idno>
+                <idno type="TM">199498</idno>
+                <idno type="filename">IRT1018</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>No description</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    No description
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>No description</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate when="0216" evidence="internal-date">216 CE: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref></origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>: <placeName type="monuList" ref="https://www.slsgazetteer.org/704">Severan Basilica</placeName>, eastern apse</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-20" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="bartoccini1961"/> <citedRange>120-125</citedRange></bibl>, whence <!-- check QAl 4 -->
+                    <bibl><ptr target="ae"/> <citedRange>1963.144d</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017203">017203</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <ab><lb n="1"/>
+                <persName type="emperor" ref="#septimiusseuerus"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ar</ex></expan></addName> <name nymRef="Lucius">Lucius</name></supplied> 
+                    <name nymRef="Septimius"><supplied reason="lost">Se</supplied>ptimiu<supplied reason="lost">s</supplied></name> <supplied reason="lost"><name nymRef="Seuerus">Seuerus</name> <addName nymRef="Pius">Pius</addName> <addName nymRef="Pertinax">Pertinax</addName>  <name nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></name></supplied> 
+                <lb n="2"/><supplied reason="lost"><addName nymRef="Arabicus">Arabicus</addName></supplied> <addName nymRef="Adiabenicus"><supplied reason="lost">Adiab</supplied>enicu<supplied reason="lost">s</supplied></addName> <addName nymRef="Parthicus">Parthicus</addName> <w lemma="maximus">maximus</w></persName> <gap reason="lost" extent="unknown" unit="character"/> 
+                   <gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/> 
+                <lb n="3"/><supplied reason="lost"><w lemma="pater">pater</w></supplied> <w lemma="patria"><supplied reason="lost">p</supplied>at<supplied reason="lost">riae</supplied></w> <w lemma="proconsul"><expan><abbr>pro<supplied reason="lost">c</supplied>o</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                    <orig>co</orig><gap reason="lost" extent="unknown" unit="character"/><orig>t</orig> <persName type="emperor" ref="#caracalla"><w lemma="imperator"><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><ex>erator</ex></expan></w> <addName nymRef="Caesar"><supplied reason="lost">C</supplied>aes<supplied reason="lost">ar</supplied></addName> 
+                    <persName type="emperor" ref="#septimiusseuerus"><w lemma="diuus"><supplied reason="lost">diui</supplied></w> <name nymRef="Septimius">Se<supplied reason="lost">ptimi</supplied></name> 
+                    <lb n="4"/><supplied reason="lost"><name nymRef="Seuerus">Seueri</name> <addName nymRef="Pius">Pii</addName> <addName nymRef="Arabicus">Arabici</addName></supplied> <addName nymRef="Adiabenicus"><supplied reason="lost">Adi</supplied>a<supplied reason="lost">benici</supplied></addName>  
+                        <addName nymRef="Parthicus"><supplied reason="lost">P</supplied><expan><abbr>arth</abbr><ex>ici</ex></expan></addName> <w lemma="maximus"><expan><abbr>max</abbr><ex>imi</ex></expan></w> <addName nymRef="Britannicus"><supplied reason="lost">Britann</supplied>ici</addName> 
+                    <lb n="5"/><supplied reason="lost"><w lemma="maximus">maximi</w></supplied></persName> <supplied reason="lost"><w lemma="filius"><expan><abbr>fil</abbr><ex>ius</ex></expan></w></supplied> <persName type="emperor" ref="#marcusaurelius"><supplied reason="lost"><w lemma="diuus">diui</w></supplied> <name nymRef="Marcus"><supplied reason="lost">M</supplied>arc<supplied reason="lost">i</supplied></name> <supplied reason="lost"><name nymRef="Antoninus">Antonini</name> <name nymRef="Pius">Pii</name></supplied> <w lemma="Germanicus"><supplied reason="lost">Germani</supplied>ci</w></persName> 
+                    <lb n="6"/><supplied reason="lost"><addName nymRef="Sarmaticus">Sarmatici</addName></supplied> <w lemma="nepos">nepos</w> <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">di<supplied reason="lost">ui</supplied></w> <name nymRef="Antoninus"><supplied reason="lost">Antoni</supplied>ni</name> <addName nymRef="Pius">Pii</addName></persName> <w lemma="pronepos">pronep<supplied reason="lost">os</supplied></w> <persName type="emperor" ref="#hadrianus"><supplied reason="lost"><w lemma="diuus">diui</w></supplied> 
+                    <lb n="7"/><name nymRef="Hadrianus">Hadriani</name></persName> <w lemma="abnepos">abnepos</w> <persName type="emperor" ref="#traianus"><w lemma="diuus">d<supplied reason="lost">iui</supplied></w> <name nymRef="Traianus"><supplied reason="lost">Trai</supplied>ani</name> <addName nymRef="Parthicus">Parthici</addName></persName> <w lemma="et">et</w> <persName type="emperor" ref="#traianus"><w lemma="diuus">diui</w> 
+                    <lb n="8"/><name nymRef="Nerua">Neruae</name></persName> <w lemma="adnepos">adnepos</w> 
+                    <lb n="9"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ar</ex></expan></addName> <name nymRef="Marcus">Marcus</name> <name nymRef="Aurelius">Aurellius</name> <note>sic</note> <name nymRef="Antoninus">Antoninus</name> <addName nymRef="Pius">Pius</addName>  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></addName> 
+                    <lb n="10"/><addName nymRef="Parthicus">Parthicus</addName> <w lemma="maximus"><expan><abbr>max</abbr><ex>imus</ex></expan></w> <addName nymRef="Britannicus">Britannicus</addName> <w lemma="maximus">maximus</w> <addName nymRef="Germanicus">Germanicus</addName> 
+                    <lb n="11"/><w lemma="maximus">maximus</w></persName> <w lemma="pontifex">pontifex</w> <w lemma="maximus">maximus</w> <w lemma="tribunicius">tribuniciae</w> <w lemma="potestas">potestatis</w> 
+                    <lb n="12"/><w lemma="decemnouies">decemnouies</w> <w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w> <w lemma="ter">ter</w> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                        <w lemma="quater">quater</w> <w lemma="pater">pater</w> <w lemma="patria">patriae</w> <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                    <lb n="13"/><w lemma="perficio">perfici</w> <w lemma="curo">curauit</w>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>[Emperor Caesar Lucius Se]ptimiu[s Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiab]ene, greatest victor in Parthia, [ . . . ] father of the country, proconsul, began 
+                    [ . . . ] (scil. this); Emperor Caesar, son of deified Septimius Severus Pius, victor in Arabia, victor in Adiabene, greatest victor in Parthia, greatest victor in Britannia, 
+                    grandson of deified Marcus Antoninus, victor in Germany, victor in Sarmatia, great grandson of deified Antoninus Pius, 
+                    great great grandson of deified Hadrian, great great great grandson of deified Trajan, victor in Parthia and of deified Nerva, Emperor Caesar Marcus Aurellius Antoninus Pius Augustus, 
+                    greatest victor in Parthia, greatest victor in Britannia, greatest victor in Germany, chief priest, holding tribunician power for the nineteenth time, acclaimed victor three times, 
+                    consul four times, father of the country, proconsul, arranged for its completion. </p>
+            </div>
+            <div type="commentary">
+                <p>For the text see <ref type="inscription" n="IRT0427">427</ref> and <ref type="inscription" n="IRT0428">428</ref></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0886f" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Funerary</rs> inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0886f</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <objectType>stele</objectType> of <material>brown limestone</material> (<dimensions>
+                                 <width unit="metre">0.26</width>
+                                 <height unit="metre">0.80</height>
+                              <depth>0.26</depth>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the face. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height unit="metre">0.025</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="0425" notBefore="0301" evidence="content">Fourth-early fifth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/655">Middle Lower Sofeggin Basin</placeName>: 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/774">Bir ed-Dreder</placeName>: Surveyed in situ, in the Libyan cemetery, by Goodchild in <date type="found">1949</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName></p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2217718/bi-r-duraydir.html">Bi'r Duraydir</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription (Goodchild, Kerr).</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-01" who="CMR">divided, updated</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>886</citedRange>.f</bibl> (part only), whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT886.html">886f</ref></citedRange></bibl>; 
+               <bibl><ptr target="goodchild1954"/> <citedRange>6</citedRange></bibl>;
+               <bibl><ptr target="elmayer1983"/>88-89</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1983.948</citedRange></bibl>, 
+               <bibl><ptr target="krahmalkov1994"/> <citedRange></citedRange></bibl>
+               <bibl><ptr target="elmayer1997"/>, <citedRange>37</citedRange></bibl>, 
+               <bibl><ptr target="kerr2010"/>, <citedRange unit="page">176</citedRange> (where see bibliography)</bibl>.</p>
+         </div>
+         <div type="edition" xml:lang="xpu-Latn" xml:space="preserve">
+            <ab>
+                  <lb n="1"/><persName type="attested"><name nymRef="Iulius">Iulius</name> <name nymRef="Nasif">Nasif</name>
+                       <lb n="2"/><w lemma="tribunus">tribunus</w> <w lemma="byn"><expan><abbr>by</abbr><ex>n</ex></expan></w> 
+                       <lb n="3"/><persName type="attested"><name nymRef="Siraban">Siraban</name> <w lemma="byn"><expan><abbr>by</abbr><ex>n</ex></expan></w>
+                       <lb n="4"/><persName type="attested"><name nymRef="Iyzihan">Iyσihan</name> <name nymRef="Rirachan">Rira
+                       <lb n="5" break="no"/>chan</name></persName></persName></persName> <orig>bao</orig><gap reason="lost" quantity="2" unit="character"/><orig>m</orig> <orig>sa</orig>
+                       <lb n="6"/><orig>rasthi</orig> <orig>σun</orig> <orig>mysy</orig>
+                       <lb n="7"/><orig>rthim</orig> <orig>baisem</orig> <orig>rm</orig>
+                       <lb n="8"/><orig>sabsi</orig> <orig>ben</orig> <orig>mycne</orig>
+                       <lb n="9"/><orig>isab</orig> <orig>sy<supplied reason="lost">U</supplied></orig><gap reason="lost" quantity="1" unit="character"/><orig>fath</orig> <orig>sy</orig> <w lemma="byn">by
+                       <lb n="10"/>n</w> <orig>aabsm<supplied reason="lost">un</supplied></orig> <orig>eosa</orig> <orig>l</orig>
+               <lb n="11"/><orig>un</orig> <orig>at</orig> <gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+           <p> Julius Nasif, tribune.</p></div>
+         <div type="translation" source="#elmayer1983" xml:lang="en">
+            <p>Julius Nasif, Tribunus stele of stone, son of Jyeihan Rirachan, chief of administration and justice, great man and great soldier, from the tribe of Mycnei, war-like people (?) and
+               victorious (?) Byn Abdsmun the great (?), lived years ...</p></div>
+         <div type="translation" resp="#krahmalkov1994" xml:lang="en">
+            <p>Iulius Nasif, tribune, the s[on of] Siraban.
+               "When He Drove Out Yrirachan"
+               I drove the wicked fellow from Adnim,
+               The infamous fellow, from the Syrthis;
+               (When) our militia surrounded Mycne,
+               Then did I take that chieftain captive;
+               The chieftain asked. . . for himself:
+               "Judge (?) thou thy ser[vant]."</p></div>
+         <div type="translation" source="#kerr2010" xml:lang="en">
+            <p> Iulius Nasif, tribune, son of Siraban, son of Iyzihan Rirachan [ . . .</p></div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

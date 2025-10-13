@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0581" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs>
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0581</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragments of a <material>marble</material> 
+                              <objectType>base</objectType>:  
+                              a (Text A): fragment with upper moulding, and a feline creature in reliff on the left side <dimensions><width unit="metre">0.30</width><height unit="metre">0.27</height>
+                              <depth unit="metre">0.08</depth></dimensions>; 
+                              b (Text B, lines 5-9): left side fragment, <dimensions> <width unit="metre">0.37</width> <height unit="metre">0.30</height>
+                                 <depth unit="metre">0.13</depth></dimensions>;
+                              c (Text B, lines 1-5): fragment with no edges surviving, <dimensions><width unit="metre">0.30</width><height unit="metre">0.27</height>
+                                 <depth unit="metre">0.08</depth></dimensions>; 
+                              d (Text B, line 9): fragment with no edges surviving, <dimensions><width unit="metre">0.18</width><height unit="metre">0.13</height>
+                                 <depth unit="metre">0.11</depth></dimensions>;
+                              e (Text B, 4-7): fragment with no edges surviving: no measurements</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> A, line 1 on the upper moulding; A line 2 and B within a moulded panel.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre" atLeast="0.037" atMost="0.035">0.037-0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0320" notAfter="0337" precision="low" evidence="prosopography">Late Constantinian.</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>,
+                              a: <placeName type="monuList" ref="https://www.slsgazetteer.org/729">Punic Market</placeName>, South side; 
+                              b: <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>;  
+                           c, d: Findspot unrecorded</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName> 
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="bigi022.jpg">
+         <desc>Fragments assembled, drawing: Bigi (2009)</desc></graphic>
+      <graphic url="wp0797.jpg">
+         <desc>a: Text A: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXIV.24)</desc></graphic>
+      <graphic url="tantillo0295.jpg">
+         <desc>a: Text A: Tantillo (2003)</desc></graphic>
+      <graphic url="tantillo0296.jpg">
+         <desc>a: left side: Tantillo (2003)</desc></graphic>
+      <graphic url="tantillo0269.jpg">
+         <desc>B, lines 1-9 left end, assembled: Tantillo, 2005 (DSCN1653)</desc></graphic>
+      <graphic url="tantillo0270.jpg">
+         <desc>B, lines 5-9 complete, assembled: Tantillo, 2005 (DSCN1655)</desc></graphic>
+                  <graphic url="wp0765.jpg"> 
+                  <desc>b: B, lines 5-9: Ward-Perkins Archive, BSR (Sopr. DLM 1623 Leica)</desc></graphic>
+      <graphic url="wp0798.jpg">
+         <desc>c: B, lines 1-5: Ward-Perkins Archive, BSR</desc></graphic>
+      <graphic url="wp0799.jpg">
+         <desc>c: B, lines 1-5: Ward-Perkins Archive, BSR (Sopr. DLM 384 Lastre)</desc></graphic>
+      <graphic url="wp0938.jpg">
+         <desc>From left: above, <ref type="inscription" n="IRT0754b">IRT 754b</ref>, <ref type="inscription" n="IRT0586">IRT 586</ref>, <ref type="inscription" n="IRT0762">IRT 762</ref>
+            below, <ref type="inscription" n="IRT0581">IRT 581</ref>e, B, lines 4-7, <ref type="inscription" n="IRT0555">IRT 555</ref>: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XXIV.9)</desc></graphic>
+      <graphic url="wp0816.jpg">
+         <desc>From left: <ref type="inscription" n="IRT0754b">IRT 664</ref>, <ref type="inscription" n="IRT0581">IRT 581</ref>d, B line 9: 
+            Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XII.9)</desc></graphic>
+      <graphic url="tantillo0271.jpg">
+         <desc>e, B, lines 4-7: Tantillo (2004)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>a: <bibl><ptr target="irt1952"/>, <citedRange>581</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT581.html">581</ref></citedRange></bibl>;
+               b and c: <bibl><ptr target="irt1952"/>, <citedRange>608</citedRange></bibl>, whence  
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT608.html">608</ref></citedRange></bibl>;
+               d: <bibl><ptr target="irt1952"/>, <citedRange>627</citedRange></bibl>, whence  
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT627.html">627</ref></citedRange></bibl>;
+               combined, with one further fragment, (e) <bibl><ptr target="tantillo2010"/>, <citedRange>59</citedRange></bibl>, whence
+               <bibl><ptr target="ae"/> <citedRange>2010.1781</citedRange></bibl>,  
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2205">2205</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059440">059440</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+           
+               <div n="A" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name nymRef="Amelius">Amelii</name></persName>
+              <lb n="1a"/><space quantity="1" unit="line"/> 
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>nt</orig><gap reason="lost" quantity="2" unit="character"/><orig>nte</orig><gap reason="lost" quantity="1" unit="character"/><orig>us</orig>
+ <gap reason="lost" quantity="4" unit="character"/><orig>atispri</orig><gap reason="lost" quantity="2" unit="character"/><orig>ipi</orig><gap reason="lost" quantity="1" unit="character"/><orig>IPI</orig><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+            
+<div n="B" type="textpart">
+<ab>
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><orig>l</orig><gap reason="lost" quantity="2" unit="character"/><w lemma="aetas"><supplied reason="lost">a</supplied>etate</w> <gap reason="lost" quantity="19" unit="character"/>
+<lb break="no" n="2"/><w part="F">nito</w> <w lemma="patria">patriae</w><gap reason="lost" quantity="15" unit="character"/> <w lemma="innocentia"><supplied reason="lost">in</supplied>
+<lb break="no" n="3"/>nocentiae</w> <w lemma="co-" part="I">co</w><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><persName type="attested" key="plre:1-geminus3"><name nymRef="Marcus"><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan></supplied></name> <name nymRef="Vibius">Uibio</name> <name nymRef="Annianus">Annia<supplied reason="lost">no</supplied></name> <name nymRef="Geminus">G<unclear>emin</unclear><supplied reason="lost">o</supplied></name></persName> 
+   <supplied reason="lost"><w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w></supplied>
+               <lb n="5"/><w lemma="flamen"><expan><abbr>fl</abbr><ex>amini</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> <w lemma="praefectus"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="omnis">o<supplied reason="lost">m</supplied>nium</w> 
+   <w lemma="sacer"><expan><abbr>s<supplied reason="lost">acr</supplied></abbr><ex>orum</ex></expan></w>
+               <lb n="6"/><w lemma="sacerdotalis">sacerdotal<unclear>i</unclear></w>  <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><supplied reason="lost"><w lemma="prouincia"><expan><abbr>prou</abbr><ex>incia</ex></expan></w></supplied> 
+              <expan><abbr><supplied reason="lost">Tr</supplied><unclear>i</unclear>pol</abbr><ex>itanae</ex></expan></placeName> <w lemma="bis">bi<supplied reason="lost">s</supplied></w> <supplied reason="lost"><w lemma="duouir"><expan><abbr>IIuir</abbr><ex>o</ex></expan></w></supplied>
+               <lb n="7"/><w lemma="ob">ob</w> <w lemma="meritum">meritum</w> <w lemma="opus">o<supplied reason="lost">peris</supplied></w> <w lemma="uoluntas">uolun<supplied reason="lost">tate</supplied></w>
+               <lb n="8"/><w lemma="idem">eiusdem</w> <w lemma="praeses">praesi<supplied reason="lost">dis</supplied></w> <supplied reason="lost" cert="low"><w lemma="dispono">dispositi</w></supplied>
+               <lb n="9"/><w lemma="ex">ex</w> <g ref="symbols.xml#stop"/> <w lemma="populus">populi</w> <g ref="symbols.xml#stop"/> <w lemma="suffragium"><expan><abbr>sufr</abbr><ex>agio</ex></expan></w> <g ref="symbols.xml#stop"/> <supplied reason="lost"><w lemma="et">et</w></supplied>
+   <w lemma="decretus"><expan><abbr>decr</abbr><ex>eto</ex></expan></w> <g ref="symbols.xml#stop"/> <g ref="symbols.xml#stop"/> <w lemma="splendidus"><expan><abbr>s</abbr><ex>plendidissimi</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w>
+               
+            </ab></div>
+            </div>
+         
+         <div type="apparatus">
+            <listApp>
+               <app loc="A.2"><rdg resp="#irt1952">[·· ? ··]OỊNT[·]INTERVSỊẸR[·]ATISPRINCIPIO[·· ? ··] </rdg></app>
+               <app loc="B.1"><rdg resp="#irt1952">[·· ? ··]nito patri re[·· ? ··]/ </rdg></app>
+               <app loc="B.3"><rdg resp="#irt1952">[·· ? ··] Vibio Annia[no ·· ? ··]/</rdg></app>
+               <app loc="B.5"><rdg resp="#irt1952">fl(amini) p(er)p(etuo) pont[ifici]/</rdg></app>
+               <app loc="B.6"><rdg resp="#irt1952">sacerdotal[i ·· ? ··] /</rdg></app>
+               <app loc="B.7"><rdg resp="#irt1952">ob meritum o[ptimi(?)] /</rdg></app>
+               <app loc="B.8"><rdg resp="#irt1952">eiusdem praesi[dis] /</rdg></app>
+               <app loc="B.9"><rdg resp="#irt1952">ex populi sufr[agiis] and [·· ? ··] decr(eto) s(plendidissimi) o(rdinis) [·· ? ··] </rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a: <supplied reason="lost">To </supplied><gap reason="lost" extent="unknown" unit="character"/>, perpetual flamen <note>priest</note>, pontifex<note>priest</note>, ?ex-priest, 
+               <supplied reason="lost" cert="low">of the province of Tripolitania</supplied> on account of the deserts of the same <supplied reason="lost">best</supplied> governor;
+               in accordance with the votes of the people <gap reason="lost" extent="unknown" unit="character"/> </p>
+            <p> c: <gap reason="lost" extent="unknown" unit="character"/> by decree of the most splendid city council <gap reason="lost" extent="unknown" unit="character"/></p></div>
+        
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Amelius! . . . per et . . . della patria . . . di innocenza . . . a Marcus Vibius Annianus Geminus, uomo perfettissimo, flamine
+               perpetuo, pontefice, prefetto di tutte le cose sacre, due volte (?) sacerdotale della Prouincia di Tripolitania, duoviro, per
+               il merito dell’opera ordinata (?) dal sopracitato governatore, per suffragio del popolo e per decreto dello splendidissimo ordine.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>Statue of Amelius. . . . at age. . . of the fatherland. . . of innocence. . . . To Marcus Vibius Annianus, of perfectissimus rank, perpetual flamen, 
+               pontifex, prefect of all sacred things, high priest of the province of Tripolitania twice, duovir. On account of his merits for the work set up (?) 
+               by the will of the same governor (<foreign xml:lang="la">praeses</foreign>), by acclamation of the people and by decree of the most splendid council 
+               (<foreign xml:lang="la">ordo</foreign>) [this was set up].</p>
+         </div>
+         <div type="commentary">
+            <p>The various fragments all assembled by Tantillo and Bigi, loc. cit.</p>
+            <p>M. Vibius Annianus Geminus: <title>PLRE</title> I, Geminus 3</p>
+            <!-- <p>Discussion: <ref target="https://zenon.dainst.org/Record/000155249">Bassignano (1974)</ref> pp. 30.check</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

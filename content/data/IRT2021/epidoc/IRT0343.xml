@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0343" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication<certainty match=".." locus="value"/>
+               </rs> to ?Vespasian </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0343</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Now lying loose beside the West Gate.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Four <objectType>block</objectType>s of <material>brown limestone</material>, two complete and two fragmentary 
+               (<dimensions>
+                                 <height unit="metre">0.42</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions> with traces of <rs type="decoration">cornice-moulding</rs> above).
+               a) two blocks, together, length <width unit="metre">1.19</width>.
+               b) one block, length: <width unit="metre">0.71</width>; 
+               c, adjoining b:               <dimensions>
+                                 <width unit="metre">0.69</width>
+                                 <height unit="metre">0.42</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre" atLeast="0.12" atMost="0.13">0.12-0.13</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0069" notAfter="0079" cert="low" evidence="reign">CE 69-79 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                  Probably re-used in the <placeName type="monuList" ref="https://www.slsgazetteer.org/765">Fourth century wall</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Now lying loose beside the West Gate.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0435.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIII.4)</desc></graphic>
+                  <graphic url="wp0436.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIII.5)</desc></graphic>
+                  <graphic url="wp0437.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIII.7)</desc></graphic>
+      <graphic url="wp0625.jpg">
+         <desc>From left, <ref type="inscription" n="IRT0482">482</ref>, <ref type="inscription" n="IRT0482">343</ref>: Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIII.6)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Part of line 1: <bibl><ptr target="romanelli1925"/>, <citedRange>84</citedRange></bibl>;
+             all of line 1 <bibl><ptr target="irt1952"/>, <citedRange>343</citedRange></bibl>, whence 
+              <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT343.html">343</ref></citedRange></bibl>; 
+               lines 2-4: <bibl><ptr target="cil1916"/> <citedRange>22671b</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>351</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, 
+                  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT351.html">351</ref></citedRange></bibl>; 
+               line 4 (end): <bibl><ptr target="romanelli1925"/>, <citedRange>84</citedRange></bibl>, 
+               <bibl><ptr target="irt1952"/>, <citedRange>482.b</citedRange>b</bibl>, whence <bibl><ptr target="irt2009"/>, 
+                  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT482.html">482.b</ref></citedRange></bibl>;
+               combined, <bibl> <ptr target="silvestrini1985"/> <citedRange>283-287</citedRange></bibl>, whence <!-- check -->
+               <bibl><ptr target="ae"/> <citedRange>1987.990</citedRange></bibl>;
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012941">012941</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="section" n="a" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="emperor" ref="#vespasianus"><w lemma="imperator"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied></w> 
+                  <name type="cognomen" nymRef="Vespasianus">Uespasiani</name> <addName nymRef="Caesar">C<supplied reason="lost">aesaris</supplied></addName> 
+                     <addName nymRef="Augustus"><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied></addName></persName>
+                   <w lemma="pontifex"><supplied reason="lost"><expan><abbr>pont</abbr><ex>ificis</ex></expan></supplied></w> 
+                  <w lemma="maximus"><expan><abbr>max</abbr><ex>imi</ex></expan></w> <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> <w lemma="potestas"><expan><abbr>po<supplied reason="lost">t</supplied></abbr><supplied reason="lost"><ex>estate</ex></supplied></expan></w>
+                  <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="censor">censoris</w> 
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <w lemma="patronus">patronus</w>
+               <w lemma="dedico">dedicauit</w>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="facio">faciendi</w> <w lemma="ago">egerunt</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Aelius">Aelius</name>
+               <name type="cognomen" nymRef="Rufus">Rufus</name></persName>, <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name type="gentilicium" nymRef="Aelius">Aelius</name>
+               <name type="cognomen" nymRef="Ae-"><seg type="I">Ae</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/> <note>sic</note>
+               </ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a. <gap reason="lost" extent="unknown" unit="character"/> of <supplied reason="lost">emperor</supplied> Vespasian Caesar Augustus <gap reason="lost" extent="unknown" unit="character"/> </p>
+            <p>b. <gap reason="lost" extent="unknown" unit="character"/> chief priest, holding tribunician power <gap reason="lost" extent="unknown" unit="character"/></p>
+            <p><note>as 351</note>: Of [·· ? ··] censor [·· ? ··] consul, patron (all nominative) [·· ? ··] saw to the making [·· ? ··] </p>
+            <p><note>as 482.b.</note>: [·· ? ···· ? ··] dedicated (singular subject) [·· ? ··]lius Rufus, Lucius Aelius Ae[·· ? ··] </p></div>
+         <div type="commentary">
+            <p>The text was assembled by Silvestrini (art.cit.).</p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

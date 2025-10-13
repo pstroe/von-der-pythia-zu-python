@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0347" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Domitian</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0347</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Parapet of the orchestra in the Theatre.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Consisting of 65 <objectType>panel</objectType>s of <material>grey limestone</material>
+               (together, 3<dimensions>
+                                 <width unit="metre">5.70</width>
+                                 <height unit="metre">1.13</height>
+                                 <depth unit="metre">0.15</depth>
+                              </dimensions>), interrupted by three passages.  
+               The text is repeated in the surviving part of <ref type="inscription" n="IRT0318">318</ref>(a).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the surviving faces. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals l .1, <height unit="metre">0.22</height>;
+               line 2, <height unit="metre">0.16</height>; 
+               line 3, <height unit="metre">0.14</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate when="0092" evidence="titulature">CE 92: <ref target="https://godot.date/id/YDdtk5MbdZeDgN2NnbAKsU">GODOT</ref> and <ref target="https://godot.date/id/9U6aS9WJp6RRatiCXn8JQA">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:  <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName> - the parapet of the orchestra. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot: found in fragments and since recomposed in position.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-17" who="CB">Added Punic text and translation</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-11-04" who="GB">Fixed image refs</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0444_2.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 937 Leica)</desc></graphic>
+                  <graphic url="wp0445_2.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 938 Leica)</desc></graphic>
+                  <graphic url="wp0446.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 939-940 Leica)</desc></graphic>
+                  <graphic url="wp0446_3.jpg">
+                  <desc>Ward-Perkins Archive, BSR (composite)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl> <ptr target="degrassi1945"/>, <citedRange>13</citedRange>ff</bibl>; 
+               <bibl><ptr target="caputo1941"/> <!-- check -->
+                  <citedRange>717-8</citedRange></bibl>; 
+               <bibl><ptr target="caputo1949a"/>, <citedRange>86</citedRange>ff., pl. I</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1949.161</citedRange></bibl>, with
+               <bibl><ptr target="caputo1950a"/> <citedRange>176</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1951.87</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>347</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT347.html">347</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027747">027747</ref></citedRange></bibl>.
+               <bibl><ptr target="dellavida1949"/> <citedRange unit="page">404-406</citedRange></bibl>;
+               <bibl><ptr target="dellavida1987"/> <citedRange>27</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2005"/> <citedRange unit="page">21-22</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="1" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="emperor" ref="#domitianus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <addName nymRef="Caesar">Caesare</addName> <persName type="emperor" ref="#vespasianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Vespasianus">Uespasiani</name></persName> 
+                  <del rend="erasure"><w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w><name type="cognomen" nymRef="Domitianus"> Domitiano</name> <addName nymRef="Augustus">Augusto</addName>
+                     <addName nymRef="Germanicus">Germanico</addName></del></persName> <del rend="erasure"> <w lemma="pontifex"><expan><abbr>pontif</abbr><ex>ice</ex></expan></w>
+                      <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                     <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> 
+                     <num value="11">XI</num> <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratore</ex></expan></w> 
+                     <num value="21">XXI</num> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> 
+                     <num value="16">XVI</num> <w lemma="censor">censore</w> <w lemma="perpetuus">pe<supplied reason="lost">rpetu</supplied>o</w> <w lemma="pater">patre</w> <w lemma="patria">patriae</w>
+                  </del>   
+               </ab></div><div subtype="fragment" n="2" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="attested"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name type="gentilicium" nymRef="Claudius">Claudius</name> 
+                     <name type="tribe" nymRef="Quirina"> <w lemma="Quirina"><expan><abbr>Quir</abbr><ex>ina</ex> </expan><expan><ex>tribu</ex></expan></w></name> <name type="cognomen" nymRef="Sestius">Sestius</name>
+                  <persName type="attested"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name type="gentilicium" nymRef="Claudius">Claudi</name> <name type="cognomen" nymRef="Sestius">Sesti</name></persName>
+                     <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></persName>  <w lemma="praefectus">praefectus</w> <w lemma="sacer">sacrorum</w> <w lemma="flamen">flamen</w> 
+               <persName type="emperor" ref="#vespasianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Vespasianus">Uespasiani</name></persName> <w lemma="sufes">sufes</w> 
+                  <w lemma="flamen">flamen</w> <w lemma="perpetuus">perpetuus</w> <w lemma="amator">amator</w> <w lemma="patria">patriae</w> <w lemma="amator">amator</w> <w lemma="ciuis">ciuium</w>
+                  <w lemma="ornator">ornator</w> <w lemma="patria">patriae</w> <w lemma="amator">amator</w> <w lemma="concordia">concordiae</w> <w lemma="qui">cui</w> <w lemma="primus">primo</w> <w lemma="ordo">ordo</w> 
+                  <w lemma="et">et</w> <w lemma="populus">populus</w> <w lemma="ob">ob</w> <w lemma="meritum">merita</w> <w lemma="maior">maiorum</w> 
+                  <w lemma="is">eius</w> <w lemma="et">et</w> <w lemma="ipse">ipsius</w> <w lemma="fero">lato</w> <w lemma="clauus">clauo</w> <w lemma="semper">semper</w> <w lemma="utor">uti</w> <w lemma="concedo">conce<supplied reason="lost">ssit</supplied></w>
+               </ab></div>
+         </div>
+           
+            <div subtype="fragment" n="3" type="textpart"><ab>
+                  <lb n="1"/>
+                  <w lemma="podium"><expan><abbr>podi</abbr><ex>um</ex></expan></w> <w lemma="et">et</w> <w lemma="ara">aram</w>        
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+                  <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>acienda</ex></expan></w> 
+                  <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan></w>   
+               </ab></div>
+       
+                  <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>1.</note>When emperor Caesar Domitian Augustus Germanicus, son of deified Vespasian, chief priest, held tribunician power for the eleventh time, had been acclaimed victor twenty-one times, been consul sixteen times, was perpetual censor <supplied reason="subaudible">and</supplied> father of the country <note>all erased</note>. <note>2.</note> Tiberius Claudius Sestius, of the Roman voting tribe Quirina, son of Tiberius Claudius Sestius, prefect in charge of sacred things, flamen <note>priest</note> of deified Vespasian, sufete, perpetual flamen <note>priest</note>, lover of his country, lover of its citizens, adorner of his country, lover of concord, who was the first <note>citizen</note> to whom the city council and the people gave permission to wear a broad purple band at all times, on account of the merits of his ancestors as well as his own. <note>3.</note> He saw to the making of the base and the altar at his own expense.</p></div>
+         
+         <div type="commentary">
+            <p>The Latin text of IRT 347 is nearly equivalent to IRT 318 which is bilingual Latin Neo-Punic.</p>
+            
+            <!-- <p>2)  Ti. Claudius Sestius.  Also in  <ref type="inscription" n="IRT0318">318</ref> (a).</p>
+            <p> 3)  podium et ara. See  <ref type="inscription" n="IRT0318">318</ref>  (a)  line9 and n. 2.</p>
+            <p>Discussion: AE 1951, p. 29 s. n. 83. AE 1998.1513;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 255; </p>-->
+           
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0871" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary text</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0871</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <objectType>block</objectType>s of <material>limestone</material> (<dimensions>
+                                 <width unit="metre">0.70</width>
+                              </dimensions> and <dimensions>
+                                 <width unit="metre">0.96</width>
+                                 <height unit="metre">0.60</height>
+                                 <depth unit="metre">0.33</depth>
+                              </dimensions> 
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a <rs type="decoration">tabella ansata</rs>(die, <dimensions>
+                              <width unit="metre">0.90</width>
+                              <height unit="metre">0.40</height>
+                           </dimensions>, width incomplete)
+               of which the right-hand end, on a third block, is missing. The inscribed surface is badly damaged.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rough capitals: <height unit="metre" atLeast="0.035" atMost="0.04">0.035-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400">First-fourth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2258">Jabal Tarhuna</placeName>: 
+                  beside the ruins of a small ditched gasr at <placeName type="monuList" ref="https://www.slsgazetteer.org/684">Sidi Sames</placeName>
+                              (map ref. L 660010), 8 km. North East of Ain Wif, close to the Garian-Tarhuna track. Seen and transcribed in 
+                              <date type="found">1948</date> by Goodchild and Ward Perkins; re-examined by Reynolds</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p><placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2211468/jami%60-sidi-as-samis.html">Jāmi` Sīdī as Sāmis</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Goodchikd and Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1084.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XII.28)</desc></graphic>
+                  <graphic url="wp1085.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XII.29)</desc></graphic>
+                  <graphic url="wp1086.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XII.30)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>871</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT871.html">871</ref></citedRange></bibl>; 
+               revised and improved, <bibl><ptr target="rgg-jmr1976"/> <citedRange>111-113</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1996.1697</citedRange></bibl>, <!-- check, add -->
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD050463">050463</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+   <lb n="1"/><w lemma="in">In</w> <w lemma="hic">his</w> <w lemma="praedium"><supplied reason="lost">p</supplied>rediis</w> <persName type="attested"><name nymRef="Licinius"><supplied reason="lost" cert="low">Li</supplied><unclear>cin</unclear><supplied reason="lost">i</supplied></name> 
+      <name nymRef="Urbens"><supplied reason="lost">U</supplied>rbent<unclear>i</unclear></name> <name nymRef="Uictor"><supplied reason="lost">Uic</supplied><unclear>t</unclear>oris</name></persName> <w lemma="exstructor"><unclear>e</unclear>x<supplied reason="lost">st</supplied>
+<lb break="no" n="2"/><unclear>ruct</unclear><supplied reason="lost">or</supplied><unclear>is</unclear></w> <w lemma="to-" part="I"><unclear>to</unclear></w><gap reason="lost" quantity="8" unit="character"/><orig>ni</orig>
+               <gap reason="lost" quantity="7" unit="character"/><w lemma="incursio">incursi<supplied reason="lost">o</supplied>
+   <lb break="no" n="3"/>ni</w> <w lemma="barbarus"><unclear>ba</unclear>rbarorum</w> <w lemma="seu">seu</w> <w lemma="gentilis">gentili<unclear>um</unclear></w> <gap reason="lost" quantity="2" unit="character"/><orig>n</orig><gap reason="lost" quantity="4" unit="character"/>
+               <w part="F"><unclear>enti</unclear></w> <w lemma="suus"><unclear>s</unclear><supplied reason="lost">uis</supplied></w>
+   <lb n="4"/><w lemma="impensa">inpensis</w> <w lemma="cons-" part="I"><unclear>cons</unclear></w><gap reason="lost" quantity="1" unit="character"/><orig><unclear>n</unclear>te</orig>
+               <gap reason="lost" extent="unknown" unit="character"/><w lemma="decem"><unclear>decem</unclear></w> <w lemma="et"><unclear>et</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="5"/><w lemma="quadraginta">quadragin<supplied reason="lost">ta</supplied></w> <orig><unclear>IDIAIIE</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+   <lb n="6"/><gap reason="lost" quantity="7" unit="character"/><orig><unclear>o</unclear>n</orig><gap reason="lost" extent="unknown" unit="character"/><orig>n<unclear>e</unclear></orig><gap reason="lost" unit="character" quantity="6"/>
+   <lb n="7"/><gap reason="lost" quantity="6" unit="character"/><orig>on<unclear>o</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig>te</orig><gap reason="lost" unit="character" quantity="6"/>
+   <lb n="8"/><w lemma="instituo"><unclear>inst</unclear>itu<unclear>i</unclear>t</w> <persName type="attested"><name nymRef="Mel-">Mel<gap reason="lost" quantity="2" unit="character"/>rius</name></persName> <w lemma="seruus"><expan><abbr><unclear>se</unclear><supplied reason="lost" cert="low">r</supplied></abbr><ex>uus</ex></expan></w> 
+               <orig><unclear>P</unclear></orig><gap reason="lost" quantity="10" unit="character"/> <supplied reason="lost"><w lemma="et">et</w></supplied> <w lemma="aedifico">aedefica<supplied reason="lost" cert="low">uit</supplied></w>
+</ab>
+</div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="8"><rdg resp="#rgg-jmr1976"><unclear>L RN</unclear>I<unclear>C</unclear>IV<unclear>I</unclear>TMEL</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>On these prperties of ?Licinius ?Urbens Victor, builder .  . .  invasion by barbarians or foreigners . . . at his own cost ?ten <note>or a numbers in the teens</note> 
+               and forty . . . Mel-, servant? established . . . and built?</p></div>
+         <div type="commentary">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

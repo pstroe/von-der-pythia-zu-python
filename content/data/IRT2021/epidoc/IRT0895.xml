@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0895" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Severus Alexander</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0895</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>panel</objectType> (<dimensions>
+                                 <width unit="metre">1.04</width>
+                                 <height unit="metre">0.57</height>
+                                 <depth unit="metre">0.19</depth>
+                              </dimensions>) of <material>grey-brown limestone</material>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded border (die, <dimensions>
+                              <width unit="metre">0.90</width>
+                              <height unit="metre">0.44</height>
+                           </dimensions>).   </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: line 1-3 (lapidary), <height unit="metre">0.055</height>; line 4-9 (simple capitals), <height unit="metre">0.035</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notAfter="0235" notBefore="0222" evidence="reign">222-235 CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/899">Wadi Zemzem</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/782">Gheriat el-Garbia</placeName> </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1126.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 679 Leica)</desc></graphic>
+                  <graphic url="wp1127.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.II.23)</desc></graphic>
+                  <graphic url="wp1128.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.II.24)</desc></graphic>
+      
+         <graphic url="wp1129.jpg">
+            <desc>Drawing (March 1914): From left: <ref type="inscription" n="IRT0896">896</ref>, <ref type="inscription" n="IRT0897">897</ref>, <ref type="inscription" n="IRT0895">895</ref>: 
+               Ward-Perkins Archive, BSR (Sopr. A. 617)</desc></graphic></facsimile>
+      
+   
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <citedRange>3</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>895</citedRange></bibl>, whence 
+               <bibl><ptr target="mattingly1985"/> <citedRange>67-70</citedRange></bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT895.html">895</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059739">059739</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#seuerusalexander"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+               <name type="gentilicium" nymRef="Aurelius"><expan><abbr>Aurel</abbr><ex>io</ex></expan></name>
+               <lb n="2"/><name type="cognomen" nymRef="Seuerus">Seue<supplied reason="lost">r</supplied>o</name> 
+               <del rend="erasure"><name type="cognomen" nymRef="Alexander"><supplied reason="lost">Alexandr</supplied>o</name></del> 
+               <lb n="3"/><addName nymRef="Pius">Pi<unclear>o</unclear></addName> 
+               <addName nymRef="Felix"><unclear>F</unclear>e<supplied reason="lost">l</supplied><unclear>i</unclear>c<supplied reason="lost">i</supplied></addName> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> 
+               <del rend="erasure"><supplied reason="lost"><w lemma="et">et</w></supplied> 
+                  <persName type="emperor" ref="#juliamamaea"><supplied reason="lost"><name type="gentilicium" nymRef="Iulia">Iuliae</name></supplied>
+               <lb n="4"/>
+               <supplied reason="lost"><name type="cognomen" nymRef="Mamaea">Mamaeae</name> <addName nymRef="Augustus">Augustae</addName></supplied></persName>
+                  <supplied reason="lost"><w lemma="mater">matri</w> <persName type="emperor" ref="#seuerusalexander"><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName></persName></supplied></del>
+                <w lemma="et">et</w> <w lemma="castrum">cas<lb n="5" break="no"/><unclear>tror</unclear>um</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="A-"><seg part="I">A</seg></name></persName><gap reason="lost" quantity="20" unit="character" precision="low"/>
+               <lb n="6"/>
+               <del rend="erasure"><w lemma="centurio"><expan><abbr>c</abbr><ex>enturio</ex></expan></w> </del>
+                  <orgName type="military" ref="#legio3august"><del rend="erasure"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+                  <num value="3">III</num>
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName> 
+                  <addName nymRef="Pius"><expan><abbr>P</abbr><ex>iae</ex></expan></addName> 
+                  <addName nymRef="Uindex"><expan><abbr>U</abbr><ex>indicis</ex></expan></addName></del>
+               <addName nymRef="Seuerianus"><del rend="erasure"><unclear>S</unclear><supplied reason="lost">e</supplied>u</del>eriane </addName></orgName>
+              <w lemma="praepositus"><expan><abbr><unclear>p</unclear>r</abbr><ex>a</ex><abbr>epo<lb n="7" break="no"/>situs</abbr></expan></w>
+                <w lemma="uexillatio">uex<supplied reason="lost">ill</supplied>ationis</w> <w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+               <w lemma="idem">eius<lb n="8" break="no"/>dem</w> <w lemma="burgus">burgum</w> <supplied reason="lost"><w lemma="ab">a</w></supplied> <w lemma="solum">solo</w> 
+               <w lemma="per">per</w> <w lemma="idem">eandem</w>
+               <lb n="9"/><w lemma="uexillatio">uexillationem</w> <w lemma="instituo">instituit</w> </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To emperor Caesar Marcus Aurelius Severus <supplied reason="lost">Alexander</supplied> <note>erased</note> Pius Felix Augustus <supplied reason="lost">and 
+               Julia Mamaea Augusta, mother of Augustus</supplied> <note>erased</note> and of the camps. Marcus A<gap reason="lost" extent="unknown" unit="character"/> 
+               <supplied reason="lost">centurion of Legion III Augusta Pia Vindex <note>erased</note> Sev</supplied>eriana, placed in command of the detachment of the same legion, 
+               built the fort from its foundations, using the same detachment.</p></div>
+         <div type="commentary">
+            <p>Lines 1, 3-4: Erased after Alexander's <foreign xml:lang="la">damnatio</foreign> in 235.</p>
+            <p>Line 6: It is not certain whether the erasure of the name of the legion is deliberate and is to be attributed to its damnatio in 238.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

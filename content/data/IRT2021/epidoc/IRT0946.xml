@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0946" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile LXXXV. Maximinus.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0946</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment of a rectangular <objectType>stele</objectType> milestone of <material>limestone</material>: 
+                              <dimensions>
+                                 <dim unit="metre" type="width">0.34</dim>
+                                 <dim unit="metre" type="depth">0.22</dim>
+                                 <height unit="metre">0.45</height>
+                              </dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Very irregular: <height>0.025-0.03</height>5</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate cert="low" when="0237" evidence="reign">Probably CE 237.</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/645">Central Road to the Fezzan</placeName>, Oea-Mizda area: 
+                              2 km. south of <placeName ref="https://www.slsgazetteer.org/891">Wadi Gani</placeName>, on the West 
+                              verge of the modern road, with <ref type="inscription" n="IRT0945">945</ref> and <ref type="inscription" n="IRT0945">947</ref>. 
+                              No bases are visible, and the modern road probably passes over the actual site of the mile-station. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/ . . ."> </placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1172.jpg">
+                  <desc>Ward-Perkins Archive, BSR</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="goodchild1948"/>, <citedRange>19</citedRange>, page 17</bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059784">059784</ref></citedRange></bibl>; 
+            <bibl><ptr target="irt1952"/>, <citedRange>946</citedRange>.without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT946.html">946</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><!-- add from EDH -->
+            <ab>
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1a"/><w lemma="iniuria"><supplied reason="lost">iniur</supplied>
+<lb break="no" n="1"/>ia</w> <w lemma="corruptus">coru<supplied reason="lost">ptum</supplied></w> <w lemma="restituo"><supplied reason="lost">re</supplied>
+<lb break="no" n="2"/>stituerun<supplied reason="lost">t</supplied></w> <w lemma="et"><supplied reason="lost">et</supplied></w>
+<lb n="3"/><w lemma="pro">pro</w> <w lemma="suus">sua</w> <w lemma="infatigabilis">in<supplied reason="lost">fat</supplied>
+<lb break="no" n="4"/>igabili</w> <w lemma="prouidentia">proui
+<lb break="no" n="5"/>dentia</w> <w lemma="peruius">peruiu
+<lb break="no" n="6"/>m</w> <w lemma="commeo">co<supplied reason="lost">mme</supplied>anti
+<lb break="no" n="7"/>bus</w> <w lemma="reddo">redideru
+<lb break="no" n="8"/>nt</w> <w lemma="milliarium"><expan><abbr>mil</abbr><ex>iarium</ex></expan></w> <w lemma="numerus"><expan><abbr>n</abbr><ex>umero</ex></expan></w> <num value="85">LXXXV</num>
+</ab></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>. . . road ] disrupted by long-standing damage, and rebuilt a way along it for travellers, by their untiring providence. Milestone 85.</p>
+         </div>
+         <div type="commentary">
+         </div>
+      </body>
+   </text>
+</TEI>

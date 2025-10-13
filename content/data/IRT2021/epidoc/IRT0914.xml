@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0914" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> <rs type="textType">dedication</rs> for Septimius Severus, Caracalla and Geta</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0914</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Panel</objectType> (<dimensions>
+                                 <width unit="metre">1.57</width>
+                                 <height unit="metre">0.57</height>
+                                 <depth unit="metre">0.15</depth>
+                              </dimensions>)
+               of <material>grey limestone</material>, much weathered.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a <rs type="decoration">tabella ansata</rs>
+               (die, <height unit="metre">1.30</height>
+                           <height unit="metre">0.47</height>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rough lapidary capitals with many ligatures: 
+               <height unit="metre" atLeast="0.065" atMost="0.075">0.065-0.075</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0201" evidence="titulature">CE 201: <ref target="https://godot.date/id/B3MaxYmzDKtcgNgYtEp8Qk">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>; from the West gate (map ref. X 5206)</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2220431/abu-nujaym.html">Abū Nujaym</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1137.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. B. 1986)</desc></graphic>
+      <graphic url="wp1135.jpg">
+         <desc> Above, <ref target="IRT0913">913</ref>; below, <ref target="IRT0914">914</ref>: 
+            Ward-Perkins Archive, BSR (Sopr. B. 1985)</desc></graphic>
+                  <graphic url="wp1139.jpg">
+                     <desc>Above: <ref target="IRT0913">913</ref>; below, from left: <ref target="IRT0872">872</ref>, 
+                        <ref target="IRT0914">914</ref>, <ref target="IRT0654">654</ref>: Ward-Perkins Archive, BSR</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="cil1891"/>, <citedRange>10992</citedRange></bibl>;
+               <bibl><ptr target="bartoccini1928a"/>, <citedRange>50</citedRange>, with fig</bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>914</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT914.html">914</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059754">059754</ref></citedRange></bibl>; 
+               <bibl><ptr target="rebuffat1973"/> <citedRange>103</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#septimiusseuerus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Seuerus">Seuero</name>
+               <lb n="2"/><addName nymRef="Pius">Pio</addName> <addName nymRef="Pertinax"><expan><abbr>Pert</abbr><ex>inaci</ex></expan></addName> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> 
+               <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>p</abbr><ex>otestate</ex></expan></w> 
+               <num value="9">IX</num>  
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <space/> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+               <num value="2">II</num> 
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <w lemma="et">et</w>
+    <lb n="3"/>
+               <persName type="emperor" ref="#caracalla"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+               <name type="gentilicium" nymRef="Aurelius"><expan><abbr>Aurel</abbr><ex>io</ex></expan></name> <name type="gentilicium" nymRef="Antoninus">Antonino</name>
+               <lb n="4"/>
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> 
+               <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>p</abbr><ex>otestate</ex></expan></w> 
+             <num value="4">IIII</num> <w lemma="et">et</w> <persName type="emperor" ref="#geta"><name type="praenomen" nymRef="Lucius"><del rend="erasure"><expan><abbr>L</abbr><ex>ucio</ex></expan></del></name> 
+               <name type="gentilicium" nymRef="Septimius"><expan><abbr>Sept</abbr><ex>imio</ex></expan></name>
+               <name type="cognomen" nymRef="Geta"><del rend="erasure"><supplied reason="lost">Getae</supplied></del></name> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> 
+               <lb n="5"/>
+               <persName type="attested" key="pir-a-0595"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Anicius">Anicio</name> <name type="cognomen" nymRef="Faustus">Fausto</name></persName> <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> 
+               <persName type="emperor" ref="#seueri"><addName nymRef="Augustus"><expan><abbr>Augg</abbr><ex>ustorum</ex></expan></addName></persName> 
+               <w lemma="consularis"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan></w> 
+           <del rend="erasure"><orgName type="military" ref="#legio3august"> <w lemma="legio"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied></w>
+               <supplied reason="lost"><num value="3">III</num>
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan> </addName>
+                  <addName nymRef="Pius"><expan><abbr>P</abbr><ex>iae</ex></expan> </addName>
+                  <addName nymRef="Uindex"><expan><abbr>U</abbr><ex>indicis</ex></expan></addName></supplied></orgName></del>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <note>There is a space left blank for the number of imperial salutations.</note>
+               </app>
+               <app loc="5">
+                  <note>Titles erased after the damnatio of the legion in 238. </note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus,  holding tribunician power for the ninth time, acclaimed victor?  times, consul twice, father of the country, 
+               and to emperor Caesar Marcus Aurelius Antoninus Augustus, holding tribunician power for the fourth time, consul, and to Lucius <note>erased</note> Septimius Geta <note>erased</note> 
+               Caesar Augustus set up under Quintus Anicius Faustus, legate of the Augusti, consular commander  of legion III Augusta, Pia, Vindex <note>erased from legion</note>.</p></div>
+         <div type="commentary">
+           <p>Quintus Anicius Faustus: <title>PIR</title> A 0595, <ref target="https://pir.bbaw.de/id/1300">https://pir.bbaw.de/id/1300</ref></p>
+            <!-- <p>Line2:  tribunician power for the ninth time: 10 Dec. 200 - 9 Dec. 201.</p>
+            <p>Geta Augustus: see on <ref type="inscription" n="IRT0913">913</ref>.</p>  -->
+            <p>One of the four inscriptions over the gates of the camp: <ref type="inscription" n="IRT0914">914</ref>, <ref type="inscription" n="IRT0915">915</ref>, <ref type="inscription" n="IRT0916">916</ref>, 
+               <ref type="inscription" n="IRT1030">1030</ref></p>
+         </div>
+      </body>
+   </text>
+</TEI>

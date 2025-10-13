@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0425" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Caracalla</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0425</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Four fragments 
+               (<dimensions>
+                                 <width unit="metre">0.13</width>
+                                 <height unit="metre">0.21</height>
+                              </dimensions>, top edge; 
+               <dimensions>
+                                 <width unit="metre">0.10</width>
+                                 <height unit="metre">0.22</height>
+                              </dimensions>, no edges; 
+               <dimensions>
+                                 <width unit="metre">0.27</width>
+                                 <height unit="metre">0.27</height>
+                              </dimensions>, R edge; and 
+               <dimensions>
+                                 <width unit="metre">0.16</width>
+                                 <height unit="metre">0.89</height>
+                              </dimensions>, left edge) 
+               of a <objectType>panel</objectType> of white <material>marble</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the back of a fluted pilaster reversed and re-used.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Mannered Rustic capitals: <height unit="metre" atLeast="0.10" atMost="0.11">0.10-0.11</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0198" notAfter="0210" evidence="titulature">CE 198-210 </origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0547.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.X.28)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>425</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT425.html">425</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059332">059332</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#caracalla"><w lemma="imperator"><expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>eratori</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>C<supplied reason="lost">aes</supplied></abbr><supplied reason="lost"><ex>ari</ex></supplied></expan></addName> 
+               <supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w></supplied>
+                  <persName type="emperor" ref="#septimiusseuerus"><addName nymRef="Caesar"><supplied reason="lost"><expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied></addName> 
+                  <name type="praenomen" nymRef="Lucius"><supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan></supplied></name> 
+               <name type="gentilicium" nymRef="Septimius">Sep<supplied reason="lost">timi</supplied></name>
+               <lb n="2"/>
+                  <supplied reason="lost"><name type="cognomen" nymRef="Seuerus">Seueri</name> <addName nymRef="Pius">Pii</addName> <addName nymRef="Pertinax">Pertinacis</addName></supplied>
+                  <addName nymRef="Augustus"><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usti</ex></expan></addName>
+                  <addName nymRef="Arabicus"><expan><abbr>Arab<lb n="3" break="no"/><supplied reason="lost">ibic</supplied></abbr><supplied reason="lost"><ex>i</ex></supplied></expan></addName>
+                  <supplied reason="lost"><addName nymRef="Adiabenicus"><expan><abbr>Adiab</abbr><ex>enici</ex></expan></addName>
+                     <addName nymRef="Parthicus"><expan><abbr>Parth</abbr><ex>ici</ex></expan></addName></supplied> 
+               <w lemma="maximus"><supplied reason="lost">maxim</supplied>i</w></persName> <w lemma="filius">filio</w>
+               <lb n="4"/><supplied reason="lost"><persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> <name type="praenomen" nymRef="Marcus">Marci </name></persName>
+                  <w lemma="nepos"><expan><abbr>nep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Pius">Pii</name></persName> 
+                  <w lemma="pronepos"><expan><abbr>pronep</abbr><ex>oti</ex></expan></w></supplied>
+               <lb n="5"/><persName type="emperor" ref="#hadrianus"><w lemma="diuus">di<supplied reason="lost">ui</supplied></w> <supplied reason="lost"><name type="cognomen" nymRef="Hadrianus">Hadriani</name></supplied></persName>
+               <supplied reason="lost"><w lemma="abnepos"><expan><abbr>abnep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#traianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name></persName></supplied>
+               <lb n="6"/><w lemma="adnepos"><expan><abbr>ad<supplied reason="lost">nep</supplied></abbr><supplied reason="lost"><ex>oti</ex></supplied></expan></w> 
+               <supplied reason="lost"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Aurelius">Aurelio</name> 
+                     <name type="gentilicium" nymRef="Antoninus">Antonino</name>
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></supplied></persName>
+            <lb n="7"/>
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lep<supplied reason="lost">citani</supplied></placeName> <supplied reason="lost"><w lemma="publice">publice</w></supplied> 
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="lost">To em</supplied>peror C<supplied reason="lost">aesar</supplied> son <supplied reason="lost">of emperor Caesar Lucius</supplied> Sep<supplied reason="lost">timius Severus Pius Pertinax Au</supplied>gustus, victor in Ara<supplied reason="lost">bia, victor in Adiabene, greatest victor in Parthia, grandson of deified Marcus, great grandson of deified Pius, great great grandson of</supplied> de<supplied reason="lost">ified Hadrian,</supplied> great great great <supplied reason="lost">grandson of deified Trajan, Marcus Aurelius Antoninus Augustus</supplied>; the Lep<supplied reason="lost">citanians publicly</supplied></p></div>
+         <div type="commentary">
+            <p>Line 3. Parthicus maximus from <ref type="inscription" n="IRT0198">198</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

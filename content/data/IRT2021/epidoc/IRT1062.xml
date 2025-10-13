@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1062" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs>? by a commander</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD010006</idno>
+                <idno type="TM">199069</idno>
+                <idno type="filename">IRT1062</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Fragment of white <material>stone</material>
+                                    <dimensions>
+                                        <height unit="metre">-0.215</height>
+                                        <width unit="metre">0.278</width>
+                                        <depth unit="metre">-0.13</depth>
+                                    </dimensions>
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face; the first line has been erased and then re-inscribed.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.05-0.055</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0201" notAfter="0238" evidence="context, titulature">201-238 CE</origDate>
+                        </origin><provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/826">fort</placeName>, in the 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/2268">Principia</placeName>, 
+                            at the crossing of the south and east galleries.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2220431">Abū Nujaym</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2013-10-15" who="Gräf">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rebuffat1967"/> <citedRange>67-89</citedRange>, pp. 101-102</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1972.681</citedRange></bibl>, 
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD010006">010006</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/>
+                <lb n="1"/><orgName type="military" ref="#legio3august"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="3">III</num> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></orgName> 
+                <lb n="2"/><persName type="attested"><name nymRef="Uicrius">Uicrius</name> <name nymRef="Uerus">Ue
+                <lb break="no" n="3"/><supplied reason="lost">r</supplied>us</name></persName> <w lemma="centurio"><g ref="symbols.xml#centurio"/></w> 
+                <orgName type="military" ref="#legio3august"><del><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="3">III</num> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName></del></orgName> <w lemma="praepositus"><expan><abbr>p</abbr><ex>rae</ex><abbr>p</abbr><ex>ositus</ex></expan></w> 
+                <lb n="4"/><w lemma="uexillatio"><expan><abbr>uex</abbr><ex cert="low">illationis</ex></expan></w> <gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            
+            
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p> . . . ] of the Third Legion Augusta, Vicrius Verus centurion of the Third Legion Augusta <note>erased</note>, in charge of ? a company . . .</p>
+            </div>
+            <div type="commentary">
+             <p>Line 1 erased and then re-inscribed </p> 
+            </div>
+        </body>
+    </text>
+</TEI>

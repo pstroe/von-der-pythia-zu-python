@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0577" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for  C. Valerius Vibianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0577</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <material>marble</material> 
+                              <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.65</width>
+                                 <height unit="metre">1.20</height>
+                                 <depth unit="metre">0.65</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.36</width>
+                              <height unit="metre">0.71</height>
+                           </dimensions>), from which a previous inscription has been erased; the first word is cut above the die, between <rs type="decoration">formal sprays</rs>; a similar spray follows the main text. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: <height unit="metre" atLeast="0.02" atMost="0.04">0.02-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/2276">East Portico</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p><placeName ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName></p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0760.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 755)</desc></graphic>
+      <graphic url="tantillo0250.jpg">
+         <desc>View: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0251.jpg">
+         <desc>Upper moulding, front: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0252.jpg">
+         <desc>Right side: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0253.jpg">
+         <desc>Left side: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0254.jpg">
+         <desc>Upper moulding, left side: Tantillo (n.d.)</desc></graphic>
+      <graphic url="tantillo0255.jpg">
+         <desc>Top: Tantillo (n.d.)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="bartoccini1928"/>, <citedRange>48</citedRange>
+               </bibl>, whence <bibl><ptr target="ae"/> 1929.4</bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>577</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT577.html">577</ref></citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>32</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2178">2178</ref></citedRange> (Tantillo and Bigi)</bibl>,  
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024256">024256</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+            
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><space extent="unknown" unit="character"/> <g ref="symbols.xml#palm"/> <persName type="attested"><name type="signum" nymRef="Obsequius">Obsequii</name></persName> <g ref="symbols.xml#palm"/> <space extent="unknown" unit="character"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><persName type="attested" key="plre:1-vibianus3"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name type="gentilicium" nymRef="Ualerius">Ualerio</name> <name type="cognomen" nymRef="Vibianus"> Vibiano</name></persName> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> 
+               <lb n="3"/><w lemma="praeses">praesidi</w> <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia">prouinciae</w>
+               <lb n="4"/><w lemma="Tripolitanus">Tripolitanae</w></placeName> 
+               <w lemma="singularis">singula<lb n="5" break="no"/>ris</w> <w lemma="aequitas">aequitatis</w> <w lemma="et">et</w> 
+               <w lemma="beneuolus">benibo<lb n="6" break="no"/>li</w> <w lemma="uigor">uicoris</w> <note>sic</note> <surplus><orig>m</orig></surplus> <w lemma="omnis">omnium</w> 
+               <w lemma="uirtus">uir<lb n="7" break="no"/>tutum</w> <w lemma="uir">uiro</w> <w lemma="ob">ob</w> <w lemma="tunc">tunc</w> 
+               <w lemma="incipio">incipi<lb n="8" break="no"/>entem</w> <w lemma="deinceps">deinceps</w> <w lemma="iugis">iugem</w> 
+               <w lemma="erga">er<lb n="9" break="no"/>ga</w> <w lemma="se">se</w> <w lemma="is">eius</w> <w lemma="dignatio">dignationem</w>
+               <lb n="10"/><w lemma="ordo">ordo</w> <w lemma="splendidus">splendidissimus</w> 
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis">Lepci<lb n="11" break="no"/>magnensium</placeName> <w lemma="et">et</w> <w lemma="populus">populus</w>
+               <lb n="12"/><w lemma="patronus">patrono</w> <w lemma="ex">ex</w> 
+               <w lemma="decerno"><expan><abbr>de</abbr><ex>creto</ex></expan></w> 
+               <w lemma="splendidus"><expan><abbr>s</abbr><ex>plendidissimi</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> 
+               <w lemma="pono"><expan><abbr>p</abbr><ex>osuerent</ex></expan></w> 
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+                 <app loc="6"><lem>M</lem><rdg resp="#irt1952"><note>A badly cut character; probably V for v(iro), cut and then erased. </note></rdg>
+                  
+                  
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Obsequius. To Caius Valerius Vibianus, excellent man <note>of equestrian status</note>, 
+               governor of the province of Tripolitania, a man of singular equity and benevolent vigour, of every virtue, on account of his regard for them, 
+               at first beginning and subsequently continuous; the most splendid city council of the Lepcimagnensians and the people set this up to their patron, 
+               in accordance with a decree of the most spelndid city council.</p></div>
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Obsequius! A C. Valerius Vibianus, uomo perfettissimo, governatore
+               della Prouincia di Tripolitania, di singolare equità e
+               di benevolo vigore, uomo di ogni virtù, per l’allora nascente
+               e in seguito costante considerazione da lui mostrata nei propri
+               confronti, l’ordine splendidissimo di Leptis Magna e il popolo,
+               al patrono, per decreto dello splendidissimo ordine, posero.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>(Statue of) Obsequius. To Caius Valerius Vibianus, of perfectissimus rank, governor (<foreign xml:lang="la">praeses</foreign>) of the province of Tripolitania, 
+            a man of unique fairness, of well-minded vigour, of all virtues. On account of his then incipient and thereafter perpetual consideration towards them, 
+            the most splendid council (<foreign xml:lang="la">ordo</foreign>) of the Lepcimagnenses, and the people have set this up to (their) patron by decree of the most splendid council.'.</p></div>
+         <div type="commentary">
+         <p>Line 2. C. Valerius Vibianus, signo Obsequius: <title>PLRE</title> I, Vibianus 3</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0939" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile XXXVIIII.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0939</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> <material>Limestone</material> <objectType>column</objectType>ar milestone in two pieces: <dimensions><height>1.25</height> <dim>0.35-0.40</dim></dimensions> </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on a flattened area on the shaft.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height>0.05-0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/651">Eastern Jabal Road</placeName></origPlace>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering, context">No date surviving. Third century CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/688">Al Khadra</placeName>, Breviglieri, in the Lepcis Magna-Tarhuna area; 
+                           found in <date type="found">1940</date> with <ref type="inscription" n="IRT0938">938</ref>, and two uninscribed rectangular milestones.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>In the <placeName ref="https://www.slsgazetteer.org/2277">Concessione Catarella</placeName></p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219918/al-kha%E1%B8%91ra.html">Al Khaḑrā'</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1157.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 361 Leica)</desc></graphic>
+      <graphic url="wp1158.jpg">
+         <desc>View of group, with <ref type="inscription" n="IRT0938">938</ref> and <ref type="inscription" n="IRT0938">939</ref>: Ward-Perkins Archive, BSR</desc></graphic>
+      <graphic url="wp1159.jpg">
+         <desc>View of <ref type="inscription" n="IRT0938">938</ref> and <ref type="inscription" n="IRT0938">939</ref>: Ward-Perkins Archive, BSR</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="caputo1942"/>, <citedRange>154</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>939</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT939.html">939</ref></citedRange></bibl>; 
+              <bibl><ptr target="goodchild1948"/>, <citedRange>13</citedRange>, p. 13</bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059775">059775</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.; 
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"> 
+            <ab>
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><w lemma="pontifex">pontifex</w>
+<lb n="2"/><w lemma="maximus">maximus</w>
+<lb n="3"/><w lemma="tribunicius"><supplied reason="lost">tri</supplied>buni
+<lb break="no" n="4"/>ciae</w> <w lemma="potestas">potes
+<lb break="no" n="5"/>tatis</w> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <w lemma="pater"><expan><abbr>p</abbr><ex>ater</ex></expan></w> <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+<lb n="6a"/><space quantity="1" unit="line"/>
+               <lb n="6b"/><space quantity="1" unit="line"/>
+               <lb n="7"/><space extent="unknown" unit="character"/> <w lemma="milliarium"><expan><abbr>m</abbr><ex>iliarius</ex></expan></w> <space extent="unknown" unit="character"/>
+               <lb n="8"/><space extent="unknown" unit="character"/> <num value="39">XXXVIIII</num> <space extent="unknown" unit="character"/>
+</ab></div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

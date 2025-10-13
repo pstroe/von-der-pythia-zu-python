@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1053" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to emperors Philip I and II </title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD007026</idno>
+                <idno type="TM">198961</idno>
+                <idno type="filename">IRT1053</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>  <material>Limestone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">panel</objectType>
+                                   in six fragments
+                                    <dimensions>
+                                        <height unit="metre"/>
+                                        <width unit="metre">0.61</width>
+                                        <depth unit="metre">0.11</depth>
+                                    </dimensions>
+                                   
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs>, with traces of red paint in the letters.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height unit="metre">0.04-0.045</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate when="0248" evidence="internal-date">248 CE: <ref target="https://godot.date/id/xhbnLbUmWXgqqX5t9CfmBa">GODOT</ref></origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/2268">Principia</placeName>
+                            in the Chapel of Standards; found in 1967 and 1970</p></provenance>
+                        <provenance type="observed"><p><placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName> (part)<!-- check Part at Bu Njem --></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2220431">Abū Nujaym</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2013-10-31" who="Gräf">überprüft an Foto</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p> 
+                    <bibl><ptr target="rebuffat1985"/> <citedRange>127-141</citedRange></bibl>, whence <!-- check: 1s 1060 a frament? -->
+                     <bibl><ptr target="ae"/> <citedRange>1985.849</citedRange></bibl>;
+                    <bibl><ptr target="rebuffat1979"/> <citedRange>125-138</citedRange>, pl. 41 u. 42.</bibl>,
+                    <bibl><ptr target="lebohec1991"/> <citedRange>307-309</citedRange></bibl>, whence
+                    <bibl> <ptr target="ae"/> <citedRange>1992.1758</citedRange></bibl>, 
+                    <bibl> <ptr target="ae"/> <citedRange>1993.1709</citedRange></bibl>;
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007026">007026</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <del rend="erasure"><persName type="emperor" ref="#philippi"><w lemma="imperator"><expan><abbr><supplied reason="lost">Im</supplied>pp</abbr><ex>eratoribus</ex></expan></w> <w lemma="dominus"><expan><abbr>dd</abbr><ex>ominis</ex></expan></w> 
+                    <w lemma="noster"><expan><abbr>nn</abbr><ex>ostris</ex></expan></w> <name nymRef="Philippus">Philipp<supplied reason="lost">is</supplied></name> 
+                <lb n="2"/><addName nymRef="Augustus"><expan><abbr><supplied reason="lost">Aug</supplied>g</abbr><ex>ustis</ex></expan></addName></persName></del> <g ref="symbols.xml#leaf"/> <persName type="attested"><name nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+                 <name nymRef="Aurelius"><expan><abbr>Aurel</abbr><ex>io</ex></expan></name> <name nymRef="Cominius">Cominio</name> 
+                <lb n="3"/><name nymRef="Cassianus">Cassiano</name></persName> <g ref="symbols.xml#stop"/> <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> <g ref="symbols.xml#stop"/> <persName type="emperor"> <addName nymRef="Augustus"><expan><abbr>Augg</abbr><ex>ustorum</ex></expan></addName></persName> 
+                <w lemma="pro"><expan><abbr>pr</abbr><ex>o</ex></expan></w> 
+                <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+                <lb n="4"/><w lemma="et">et</w> <persName type="attested"><name nymRef="Lucretius">Lucretio</name> <name nymRef="Marcellus">Marcello</name></persName> <g ref="symbols.xml#stop"/> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="egregius"><expan><abbr>e</abbr><ex>gregio</ex></expan></w>  <g ref="symbols.xml#leaf"/> 
+                <lb n="5"/><w lemma="procurator"><expan><abbr>proc</abbr><ex>uratore</ex></expan></w> <del rend="erasure"><persName type="emperor"> <addName nymRef="Augustus"><expan><abbr>Augg</abbr><ex>ustorum</ex></expan></addName> 
+                    <w lemma="noster"><expan><abbr>nn</abbr><ex>ostrorum</ex></expan></w></persName></del> <w lemma="praepositus">praeposito</w>  <g ref="symbols.xml#stop"/> 
+                <lb n="6"/><placeName ref="#limtrip" nymRef="#limes Tripolitanae"><w lemma="limes">limitis</w> <w lemma="Tripolitanus">Tripolitanae</w></placeName>  <g ref="symbols.xml#leaf"/> 
+                <lb n="7"/><persName type="attested" key="pir-c-1265"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius">Iulius</name> <name nymRef="Donatus">Do<supplied reason="lost">n</supplied>atus</name></persName> <w lemma="decurio"><expan><abbr>dec</abbr><ex>urio</ex></expan></w> 
+                <lb n="8"/><orgName type="military" ref="#alaflauia"><w lemma="ala">alae</w> <g ref="symbols.xml#stop"/> <addName nymRef="Flauia">Flaui<supplied reason="lost">a</supplied>e</addName>  <g ref="symbols.xml#leaf"/>  <addName nymRef="Philippiana"><del rend="erasure">Philip</del>
+                <lb break="no" n="9"/>pianae</addName></orgName>  <g ref="symbols.xml#leaf"/>  <w lemma="praefectus">pr<supplied reason="lost">ae</supplied>fectus</w>  
+                <lb n="10"/><del rend="erasure"><persName type="emperor" ref="#philippi"><w lemma="ab">a</w> <w lemma="dominus"><expan><abbr>dd</abbr><ex>ominis</ex></expan></w> <w lemma="noster"><expan><abbr>nn</abbr><ex>ostris</ex></expan></w> 
+                     <addName nymRef="Augustus"><expan><abbr>Au<supplied reason="lost">gg</supplied></abbr><ex>ustis</ex></expan></addName></persName></del> <w lemma="praesum">prae
+                <lb break="no" n="11"/>fuit</w> <g ref="symbols.xml#stop"/> <orgName type="military" ref="#uexgol"><w lemma="uexillatio">uex<supplied reason="lost">illationi</supplied></w> 
+                <lb n="12"/><placeName ref="#golaia" type="ethnic" nymRef="#Golensis">Golensi</placeName></orgName> <w lemma="et">et</w> <g ref="symbols.xml#stop"/> <gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="13"/><persName type="emperor"><del rend="erasure"><w lemma="imperator"><expan><abbr>Impp</abbr><ex>eratoribus</ex></expan></w> <persName type="emperor"><name nymRef="Philippus">Philippo</name> <g ref="symbols.xml#stop"/> <num value="3">III</num> <g ref="symbols.xml#stop"/> <w lemma="et">et</w> <name nymRef="Philippus">Phi
+                <lb break="no" n="14"/>lippo</name> <g ref="symbols.xml#stop"/> <num value="2">II</num> <g ref="symbols.xml#stop"/></persName></del>
+                    <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w></persName>  <g ref="symbols.xml#leaf"/> 
+            </ab></div>
+            
+            <div type="translation" source="#lebohec1991" xml:lang="fr"><!-- check or Rebuffatc? -->
+                <p>Sous les deux empereurs Philippe, nos seigneurs, le clarissime Marcus Aurelius Cominius Cassianus étant légat impérial propréteur et le distingué Lucretius Marcellus, procurateur impérial, 
+                    étant commandant du limes de Tripolitaine, Caius Julius Donatus, promu decurión de l'aile Flavienne Philippienne par nos augustes seigneurs, a été mis à la tête de la uexillatio 
+                    de Bu Njem et de..., sous le consulat des empereurs Philippe, pour la troisième fois, et Philippe, pour la deuxième fois. </p>
+            </div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Under the Emperors, our lords Philip <note>I and II</note>, the Augusti <note>erased</note>, and Marcus Aurelius Cominius Cassianus legate of the Augusti with propraetorian powers, most spendid man and Lucius Marcellus, 
+                    of egregius rank, procurator of our Augusti <note>erased</note>, in charge of the Tripolitanian frontier: Caius Julius Donatus, put in command as decurion of the Flavian detachment by our 
+                    Augusti <note>erased</note>, commanded the 
+                    Golaian compoany and [ . . . ]; the consuls were emperor Philip for the third time and emperor Philip for the second time <note>erased</note>.
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Line 12: Le Bohec suggests supplying n(umero) c(ollato)</p>
+                <p>M. Aurelius Cominius Cassianus: <title>PIR</title> C 1265, <ref target="https://pir.bbaw.de/id/2496">2496</ref></p>
+                <!--   <p><bibl> B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 187, Nr. 66p.</bibl>
+                -->
+            </div>
+        </body>
+    </text>
+</TEI>

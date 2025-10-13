@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0443" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Geta</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0443</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.51</width>
+                                 <height unit="metre">1.08</height>
+                                 <depth unit="metre">0.52</depth>
+                              </dimensions>) of <material>pitted grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel 
+               (die, <dimensions>
+                              <width unit="metre">0.28</width>
+                              <height unit="metre">0.72</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre" atLeast="0.045" atMost="0.04">0.045-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0209" notAfter="0212" evidence="reign">CE 209-212. </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                              <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/1697">Temple of Hercules</placeName> (see <ref type="inscription" n="IRT0433">433</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0569.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 834)</desc></graphic>
+      <graphic url="tantillo0097.jpg">
+         <desc>Face: Tantillo (2005)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>443</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT443.html">443</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059346">059346</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><del rend="erasure"><persName type="emperor" ref="#geta"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimio</name>
+               <lb n="2"/><name type="cognomen" nymRef="Geta">Getae</name> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character" cert="low"/>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="character" cert="low"/></del>
+               <lb n="5"/><persName type="attested" key="pir-c-1332"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Cornelius">Cornelius</name>
+               <lb n="6"/><name type="cognomen" nymRef="Bassus">Bassus</name> <name type="cognomen" nymRef="Seruianus">Seruia<lb n="7" break="no"/>nus</name></persName> 
+               <w lemma="egregius"><expan><abbr>e</abbr><ex>gregiae</ex></expan></w> 
+               <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> <w lemma="fio">fieri</w>
+               <lb n="8"/><space extent="unknown" unit="character"/> <w lemma="iubeo">iussit</w> <space extent="unknown" unit="character"/>
+               <lb n="9"/><persName type="attested" key="pir-c-1500"><name type="gentilicium" nymRef="Cornelia">Cornelia</name> 
+                  <name type="cognomen" nymRef="Seruianilla">Seruian<supplied reason="lost">il</supplied><lb n="10" break="no"/>la</name></persName>
+               <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissima</ex></expan></w> 
+               <w lemma="femina"><expan><abbr>f</abbr><ex>emina</ex></expan></w> <w lemma="filia">filia</w> <w lemma="et">et</w>
+               <lb n="11"/><w lemma="heres">heres</w> <w lemma="pono">posuit</w>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p> To Publius Septimius Geta Augustus <gap reason="lost" extent="unknown" unit="character"/><note>all erased</note> ; Marcus Cornelius Bassus Servianus, excellent man <supplied reason="explanation">of equestrian status</supplied>, deceased, ordered erection <supplied reason="subaudible">of the monument</supplied>; Cornelia Servianilla, splendid woman, <supplied reason="explanation">of senatorial status</supplied>, his daughter and heir, set it up.</p></div>
+         <div type="commentary">
+          <!--   <p>Line 2. Augustus. From 209; but see <ref type="inscription" n="IRT0913">913</ref>, n. 3. Erased after damnatio in 212.</p> -->
+            <p>M. Cornelius Bassus Seruianus: <title>PIR</title> C 1332, <ref target="https://pir.bbaw.de/id/4842">https://pir.bbaw.de/id/4842</ref>.</p>
+            <p>Cornelia Seruianilla: <title>PIR</title> C 1500, <ref target="https://pir.bbaw.de/id/4815">https://pir.bbaw.de/id/4815</ref>.</p>
+       <!--     <p>Discussion: Tantillo (2010), 287, 298-9</p> --> 
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0058" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Valens</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0058</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width>0.63</width>
+                                 <height>1.15</height>
+                                 <depth unit="metre">0.56</depth>
+                              </dimensions>) 
+               of <material>grey limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a recessed panel 
+               (die, <dimensions>
+                              <width>0.52</width>
+                              <height>1.00</height>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century capitals: <height unit="metre">0.06</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0364" notAfter="0367" evidence="reign">CE 364-367</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/843">Forum</placeName>, in situ within the north west angle of the Curia. 
+                  Uniform with <ref type="inscription" n="IRT0057">57</ref> and closely related to <ref type="inscription" n="IRT0472">472</ref>, <ref type="inscription" n="IRT0473">473</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0087.jpg">
+                     <desc>Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.V.23)</desc></graphic>
+                  <graphic url="wp0088.jpg">
+                     <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.IV.28)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="bartoccini1950"/>, <citedRange>32, 2</citedRange>
+            </bibl>, whence <bibl><ptr target="ae"/> <citedRange>1950.148b</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>58</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT058.html">58</ref></citedRange></bibl>; from these 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021892">021892</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="iustitia">Iustitia</w> <w lemma="pariter">pariter</w> <w lemma="atque">ac</w> <w lemma="pietas">pieta<lb n="2" break="no"/>te</w> 
+               <w lemma="caelestis">caelesti</w> <w lemma="atque"><expan><abbr>adq</abbr><ex>ue</ex></expan></w> <placeName type="ethnic" nymRef="#Romanus" ref="#roma">Roman<unclear>a</unclear><supplied reason="lost">e</supplied></placeName>
+               <lb n="3"/><w lemma="felicitas">felicitatis</w> <w lemma="perpetuus">perpetuo</w>
+               <lb n="4"/><w lemma="fundator">fundatori</w> <w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w>
+               <lb n="5"/><persName type="emperor" ref="#valens"><name type="cognomen" nymRef="Valens">Ualenti</name>
+               <w lemma="uictoriosus">uictori<lb n="6" break="no"/>osissimo</w> <w lemma="atque">ac</w> <w lemma="totus">totius</w> <w lemma="orbis">or<lb n="7" break="no"/>bis</w> <addName nymRef="Augustus">Augusto</addName></persName>
+               <lb n="8"/><persName type="attested" key="plre:1-dracontius3"><name type="gentilicium" nymRef="Antonius">Antonius</name> <name type="cognomen" nymRef="Dracontius">Dracon<lb n="9" break="no"/>tius</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimus</ex></expan></w> <w lemma="ago">agens</w> <w lemma="uicis">uicem</w>
+               <lb n="10"/><w lemma="praefectus">praefectorum</w> <w lemma="praetorius">prae<lb n="11" break="no"/>torio</w> <w lemma="per">per</w> <placeName nymRef="#Prouinciae Africanae" ref="#africa"><w lemma="Africanus">Africanas</w>
+               <lb n="12"/><w lemma="prouincia">prouincias</w></placeName> <w lemma="numen">numini</w> <w lemma="et">e<supplied reason="lost">t</supplied></w>
+               <lb n="13"/><w lemma="maiestas">maiestati</w> <w lemma="is">eius</w> <w lemma="semper">semper</w> <w lemma="dico">di<unclear>c</unclear><supplied reason="lost">a</supplied><lb n="14" break="no"/>tissimus</w>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To one who is in justice and sense of duty alike heavenly, and perpetual founder of Roman good fortune, our lord Valens, most victorious, and Augustus of the whole world; Antonius Dracontius, outstanding man <note>i.e. member of the Roman Senate</note>, deputy for the praetorian prefects throughout the African provinces, always most devoted to his divine power and majesty.</p></div>
+         <div type="commentary">
+           <!--  <p>Valens: 364-367, see on  <ref type="inscription" n="IRT0057">57</ref>, n. 1.</p> -->
+            <p> Dracontius: <title>PLRE</title> I, Dracontius 3.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

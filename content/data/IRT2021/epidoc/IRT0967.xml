@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0967" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Maximinus.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0967</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Upper part of a 
+                              <objectType>column</objectType>ar milestone: <dimensions><height>0.75</height> <dim>0.28</dim></dimensions> </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the shaft</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height>0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/665">Upper Sofeggin Road</placeName></origPlace>
+                     <origDate when="0237" evidence="titulature">CE 237: <ref target="https://godot.date/id/Uyb9PmD4osRrW5SMv9txK9">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: area of Zintan to Mizda:
+                  Recorded in the <placeName type="monuList" ref="https://www.slsgazetteer.org/877">Sceghega</placeName> area with <ref type="inscription" n="IRT0966">966</ref> and subsequently moved to the Residency at Garian, where it was seen by Goodchild and erroneously attributed to the Central Road.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p><placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName></p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212014/bi-r-ash-shuqayqah.html">Bi'r ash Shuqayqah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Goodchild.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="goodchild1948"/>, <citedRange>15</citedRange>, page 15</bibl>, whence <bibl>
+                  <ptr target="bartoccini1948"/>, <citedRange>151</citedRange></bibl>, <!-- check -->
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059805">059805</ref></citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>967</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT967.html">967</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+<lb n="1"/><persName type="emperor" ref="#maximinusthrax"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w></supplied> <addName><expan><abbr>Caes</abbr><ex>ar</ex></expan></addName> <name nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name>
+<supplied reason="lost"><name nymRef="Iulius"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name></supplied>
+<lb n="2"/>
+<name nymRef="Uerus"><supplied reason="lost">Uer</supplied>us</name> <name nymRef="Maximinus">Maxi<supplied reason="lost">minus</supplied></name>
+<lb n="3"/><addName>Pius</addName> <addName>Felix</addName> <addName><expan><abbr>Au<supplied reason="lost">g</supplied></abbr><ex>ustus</ex></expan></addName> <addName><supplied reason="lost">Ger</supplied>
+<lb break="no" n="4"/>manicus</addName> <w lemma="maximus">ma<supplied reason="lost">ximus</supplied></w>
+<lb n="5"/><addName>Sarmaticus</addName> <w lemma="maximus"><expan><abbr>m<supplied reason="lost">ax</supplied></abbr><ex>imus</ex></expan></w> <addName><supplied reason="lost">Da</supplied>
+<lb break="no" n="6"/>cicus</addName> <w lemma="maximus"><expan><abbr>max</abbr><ex>imus</ex></expan></w> <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w>
+<lb n="7"/><w lemma="maximus"><expan><abbr>max</abbr><ex>imus</ex></expan></w> <w lemma="tribunicius">tribunia<supplied reason="lost">e</supplied></w> <w lemma="potestas"><supplied reason="lost">potes</supplied>
+<lb break="no" n="8"/>tatis</w> <num value="3">III</num> <w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> <num>V</num></persName> <w lemma="et">et</w>
+<lb n="9"/><persName type="emperor" ref="#maximusiunior"><supplied reason="lost"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name></supplied> <name nymRef="Iulius">Iulius</name> <name nymRef="Uerus">Uerus</name> <name nymRef="Maximus"><supplied reason="lost">Maxi</supplied>
+<lb break="no" n="10"/><supplied reason="lost">mus</supplied></name> <w lemma="nobilis">nobilissimus</w> <supplied reason="lost"><addName><expan><abbr>Caes</abbr><ex>ar</ex></expan></addName></supplied>
+<lb n="11"/><w lemma="princeps">princeps</w> <w lemma="iuuentus">iuuen<supplied reason="lost">tutis</supplied></w>
+<lb n="12"/><addName nymRef="Germanicus">Germanicus</addName> <w lemma="maximus">ma<supplied reason="lost">ximus</supplied></w>
+<lb n="13"/><addName>Sarmaticus</addName> <w lemma="maximus"><expan><abbr>max</abbr><ex>imus</ex></expan></w> <addName>D<supplied reason="lost">a</supplied>
+<lb break="no" n="14"/><supplied reason="lost">cicus</supplied></addName> <w lemma="maximus"><expan><abbr>max</abbr><ex>imus</ex></expan></w></persName> <w lemma="pons">pont<supplied reason="lost">es</supplied></w> <w lemma="uetustas">ue<supplied reason="lost">tus</supplied>
+<lb break="no" n="15"/><supplied reason="lost">tate</supplied></w>
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>Emperor Caesar Caius Julius Verus Maximinus, Pius, Felix, Augustus, greatest victor in Germany, 
+               greatest victor in Sarmatia, greatest victor in Dacia, holding tribunician power for the third time, acclaimed victor five times, 
+               chief priest, and Caius Julius Verus Maximus, most noble Caesar, chief of the Youth, greatest victor in Germany, greatest victor in Sarmatia, 
+               greatest victor in Dacia, [restored] the bridges, [which had collapsed because of] their age, [ . . . </p></div>
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0435" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Geta</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0435</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.49</width>
+                                 <height unit="metre">1.06</height>
+                                 <depth unit="metre">0.48</depth>
+                              </dimensions>) 
+               of hard but badly pitted <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel 
+               (die, <dimensions>
+                              <width unit="metre">0.25</width>
+                              <height unit="metre">0.73</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: av. <height unit="metre">0.04</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0198" notAfter="0209" evidence="titulature">CE 198-209. </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/1697">Temple of Hercules</placeName> (see <ref type="inscription" n="IRT0433">433</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0559.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 842)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>435</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT435.html">435</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059339">059339</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+            
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><del rend="erasure"><persName type="emperor" ref="#geta"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name>
+                  <name type="gentilicium" nymRef="Septimius">Septimio</name>
+               <lb n="2"/><name type="cognomen" nymRef="Geta">Getae</name>
+                  <addName nymRef="Caesar"><expan><abbr><supplied reason="lost">Cae</supplied>s</abbr><ex>ari</ex></expan></addName></persName></del>
+               <lb n="3"/><persName type="emperor" ref="#septimiusseuerus">
+               <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></addName> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name>
+               <lb n="4"/><name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Se<lb n="5" break="no"/>ueri</name> 
+               <addName nymRef="Pius">Pii</addName> <addName nymRef="Pertinax">Per<lb n="6" break="no"/>tinacis</addName> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName>
+               <lb n="7"/><addName nymRef="Arabicus">Arabici</addName> <addName nymRef="Adiabenicus">Adi<lb n="8" break="no"/>abenici</addName> 
+               <addName nymRef="Parthicus">Par<lb n="9" break="no"/>thici</addName> 
+               <w lemma="maximus"><expan><abbr>max</abbr><ex>imi</ex></expan></w></persName>
+               <lb n="10"/><w lemma="felix">felicissimi</w> <w lemma="pater"><expan><abbr>p</abbr><ex>atris</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+               <lb n="11"/><space extent="unknown" unit="character"/> <w lemma="filius"><expan><abbr>fil</abbr><ex>io</ex></expan></w> <space extent="unknown" unit="character"/>
+               <lb n="12"/><placeName type="ethnic" nymRef="#Lepcitanus Septimianus" ref="#lepcis"><w lemma="Lepcitanus"><expan><abbr>Lep</abbr><ex>citani</ex></expan></w> 
+               <addName nymRef="Septimianus"><expan><abbr>S<supplied reason="lost">e</supplied>pt</abbr><ex>imiani</ex></expan></addName></placeName> 
+               <w lemma="publice"><expan><abbr>publ</abbr><ex>ice</ex></expan></w> <w lemma="ex">ex</w> <w lemma="uotum">uo<lb n="13" break="no"/>to</w> 
+               <w lemma="pono">posuerunt</w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1-2">
+                  
+                  <note>From 198; erased after damnatio in 212.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p> To Publius Septimius Geta Caesar <note>all erased</note> son of emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiabene, greatest victor in Parthia, most fortunate, father of the country; the Septimian Lepcitanians set this up publicly in accordance with a vow.</p></div>
+         <div type="commentary">
+            <p>Line 8-9. line Septimius Severus was Parthicus maximus from 198. </p>
+            <p>Discussion: Tantillo (2010), 287, 298-9</p>
+         </div>
+      </body>
+   </text>
+</TEI>

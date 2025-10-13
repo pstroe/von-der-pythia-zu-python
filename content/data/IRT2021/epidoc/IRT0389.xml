@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0389" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Septimius Severus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0389</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre">1.46</height>
+                                 <depth unit="metre">0.66</depth>
+                              </dimensions>) of grey <material>marble</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.34</width>
+                              <height unit="metre">0.64</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: <height unit="metre">0.03-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0199" evidence="internal-date">CE 199: <ref target="https://godot.date/id/9tvFpKiCnauKQ8vPUiq2gd">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, in the 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/1696">Temple of Liber Pater</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0497.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1471 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>389</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT389.html">389</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059312">059312</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#septimiusseuerus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+                  <persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> <name type="praenomen" nymRef="Marcus">Marci</name> <name type="gentilicium" nymRef="Antoninus">Antonini</name>
+               <lb n="2"/><addName nymRef="Pius">Pii</addName> 
+               <addName nymRef="Germanicus"><expan><abbr>Germ</abbr><ex>anici</ex></expan></addName> 
+               <addName nymRef="Sarmaticus"><expan><abbr>Sarm</abbr><ex>atici</ex></expan></addName> </persName>
+               <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <persName type="emperor" ref="#commodus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Commodus">Commodi</name></persName>
+               <lb n="3"/><w lemma="frater">fratri</w> <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Pius">Pii</name></persName>
+               <lb n="4"/>
+               <w lemma="nepos"><expan><abbr>nep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#hadrianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> 
+               <w lemma="pronepos"><expan><abbr>pro<lb n="5" break="no"/>nep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#traianus"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name> 
+               <addName nymRef="Parthicus">Parthi<lb n="6" break="no"/>ci</addName></persName> <w lemma="abnepos"><expan><abbr>abnep</abbr><ex>oti</ex></expan></w> 
+                  <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Neruae</name></persName>
+               <lb n="7"/><w lemma="adnepos"><expan><abbr>adnep</abbr><ex>oti</ex></expan></w>
+               <lb n="8"/><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Seuerus">Seuero</name>
+               <lb n="9"/><addName nymRef="Pius">Pio</addName> <addName nymRef="Pertinax">Pertinaci</addName> <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName>
+               <lb n="10"/><addName nymRef="Arabicus">Arabico</addName> <addName nymRef="Adiabenicus">Adiabeni<lb n="11" break="no"/>co</addName> <addName nymRef="Parthicus">Parthico</addName> 
+               <w lemma="maximus">ma<lb n="12" break="no"/>ximo</w></persName> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> 
+               <lb n="13"/>
+               <num value="7">VII</num>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="11">XI</num>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="2">II</num>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+               <lb n="14"/>
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lepcitani</placeName> <w lemma="publice">publice</w></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To emperor Caesar, son of deified Marcus Antoninus Pius, victor in Germany, victor in Sarmatia, brother of deified Commodus, grandson of deified Antoninus Pius, great grandson of deified Hadrian, great great grandson of deified Trajan, victor in Parthia, great great great grandson of deified Nerva, Lucius Septimius Severus Pius Pertinax, Augustus, victor in Arabia, victor in Adiabene, greatest victor in Parthia, holding tribunician power for the seventh time, acclaimed victor eleven times, consul twice, father of the country, proconsul; the Lepcitanians publicly.</p></div>
+         <div type="commentary">
+           
+         </div>
+      </body>
+   </text>
+</TEI>

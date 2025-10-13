@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1119" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Libyan</rs>?  inscription</title>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="filename">IRT1119</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1105">Ghadames Museum</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Left side fragment of <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">panel</objectType>, broken away to the right 
+                                      chipped at the edges: <dimensions>
+                                        <height unit="metre">0.455</height>
+                                        <depth unit="metre">0.17</depth></dimensions>.
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> within a sunk panel on the face, 
+                                    which is extremely worn 
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.02-0.025</height>; non-standard forms.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate notBefore="0001" notAfter="0300" evidence="content">First-third centuries CE</origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/827">Ghadames</placeName>: 
+                        findspot unknown. Found by C.J. Barron in <date type="found">1955</date></p></provenance>
+                        <provenance type="observed"><p><placeName key="https://www.slsgazetteer.org/1105">Ghadames Museum</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                  <term><placeName type="modernFindspot" key="http://www.geonames.org/2217440">Ghadamès</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>IRT2021</creation></profileDesc>
+        <revisionDesc>
+         <change when="2021-05-01" who="CMR">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="jmr1958_3.jpg"><desc>Face (Barron, 1955)</desc></graphic></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="reynolds1958"/> <citedRange>3</citedRange>, p.136</bibl>, whence
+                    <bibl><ptr target="elmayer1997"/>, <citedRange>67</citedRange></bibl>,  
+                    <bibl><ptr target="kerr2010"/>, <citedRange unit="page">199</citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="xpu-Latn" xml:space="preserve"><ab>
+                <lb n="0"/> <gap reason="lost" quantity="7" unit="line"/>
+                <lb n="1"/> <orig><unclear>r</unclear>a</orig> <gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="2"/> <orig><unclear>te</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="3"/> <orig>bue</orig> <gap reason="lost" quantity="13" unit="character"/><orig>b</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="4"/> <orig><unclear>l</unclear>a<unclear>n</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig>e</orig><gap reason="lost" quantity="1" unit="character"/><orig>c</orig><gap reason="lost" quantity="9" unit="character"/><orig>an</orig> <space quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="5"/> <orig>lu</orig><gap reason="lost" quantity="2" unit="character"/><orig><unclear>b</unclear>un u</orig><gap reason="lost" quantity="8" unit="character"/><orig>m<unclear>m</unclear>se</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="6"/> <gap reason="lost" quantity="4" unit="character"/><orig><unclear>r</unclear>emaei cibes me<unclear>i</unclear>s<unclear>h</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="6"/> <gap reason="lost" quantity="4" unit="character"/><orig><unclear>m</unclear>uses</orig> <w lemma="ducenti">ducen<unclear>t</unclear>os</w> <orig>ꞩ</orig> <orig>erio</orig><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="6"/> <gap reason="lost" quantity="4" unit="character"/><orig><unclear>r</unclear>isas<unclear>t</unclear>e fe<unclear>θ</unclear>a<unclear>θ</unclear>ar<unclear>e iti</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="translation" source="#kerr2010" xml:lang="en">
+                <p>This text does not seem Punic: ducentos ꞩ is possibly two hundred sestertii.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

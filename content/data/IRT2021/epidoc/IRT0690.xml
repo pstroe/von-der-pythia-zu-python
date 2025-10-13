@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0690" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> 
+               <rs type="textType">Funerary</rs> <rs type="textType">verse</rs></title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+            <editor xml:id="cdl">Catherine Dobias-Lalou</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0690</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Elaborate <objectType>base</objectType> of <material>brown limestone</material> (<dimensions>
+                                 <width unit="metre" atLeast="0.45" atMost="0.60">0.45-0.60</width>
+                                 <height unit="metre">1.75</height>
+                                 <depth unit="metre">0.57</depth>
+                              </dimensions>)
+               with <rs type="decoration">moulded foot</rs> and <rs type="decoration">Ionic volutes</rs> above.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded
+               panel (die, <dimensions>
+                              <width unit="metre">0.24</width>
+                              <height unit="metre">0.72</height>
+                           </dimensions>). The last three lines are cut on the moulding below the die.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.028" atMost="0.013">0.028-0.013</height>; last 3 lines, <height unit="metre" atLeast="0.04" atMost="0.018">0.04-0.018</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0500" evidence="style">First to fifth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/726">Al Khums</placeName>: 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/708">Catholic cemetery</placeName>, beside Wadi er-Saf.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="tantillo0338.jpg">
+      <desc>View: Tantillo (2006)</desc></graphic>
+                  <graphic url="wp0881.jpg">
+                  <desc>Face:Ward-Perkins Archive, BSR (Sopr. DLM 1592 Leica)</desc></graphic>
+      <graphic url="tantillo0339.jpg">
+         <desc>Face: Tantillo (2006)</desc></graphic> 
+      <graphic url="wp0878.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIV.15)</desc></graphic>
+                  <graphic url="wp0879.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XI.34)</desc></graphic>
+                  <graphic url="wp0880.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XIV.14)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="relscav"/>, <citedRange>24.10.27</citedRange></bibl>;
+               <bibl><ptr target="guarducci1948"/> <citedRange/></bibl>, whence 
+               <bibl><ptr target="robertBE"/> <citedRange>1951.247</citedRange>, <citedRange>1953.257 (p.202)</citedRange></bibl>, <!-- check -->
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189518">189518</ref></citedRange>, 
+               <citedRange><ref target="https://epigraphy.packhum.org/text/189519">189519</ref></citedRange>, 
+               <citedRange><ref target="https://epigraphy.packhum.org/text/189520">189520</ref></citedRange>, 
+               <citedRange><ref target="https://epigraphy.packhum.org/text/189521">189521</ref></citedRange>, 
+                  <citedRange><ref target="https://epigraphy.packhum.org/text/189522">189522</ref></citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>690</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT690.html">690</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189517">189517</ref></citedRange></bibl>
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059541">059541</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.; this edition by Catherine Dobias-Lalou
+                   </p>
+         </div>
+         
+         <!-- check -->
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+               
+               <div type="textpart" n="a"><ab><lb n="1"/><lg><l><w lemma="ἐνθάδε">ἐνθά<unclear>δ</unclear>ε</w> <w lemma="δή"><unclear>δ</unclear>ὴ</w>
+            <lb n="2"/><persName type="attested"><name type="cognomen" nymRef="Λάρκις">Λάρκιϲ</name></persName> <w lemma="κεῖμαι">κῖμε</w>
+            <lb n="3"/><w lemma="ζωή">ζωὴν</w> <w lemma="ἀποτίνω">ἀπο
+               <lb n="4" break="no"/>τίϲαϲ</w></l> <l><w lemma="οὐδείς">ὀυ
+                  <lb n="5" break="no"/>δὲ<unclear>ν</unclear></w> <w lemma="φῶς"><unclear>φ</unclear>ῶϲ</w> <w lemma="ὁρόω">ὁ<unclear>ρ</unclear>ό
+                     <lb n="6" break="no"/>ω</w> <w lemma="γλυκύς">γλυκὶ</w> <w lemma="εἰμί">ὄν</w>
+            <lb n="7"/><w lemma="μᾶλλον">μᾶλλον</w> <w lemma="θάνατος">θα<surplus>υ</surplus>
+               <lb n="8" break="no"/>νά<surplus>να</surplus>τοιο</w> <g ref="symbols.xml#stop"/></l> <l><w lemma="ἀλλά">ἀλ
+                  <lb n="9" break="no"/>λὰ</w> <w lemma="δόμος"><unclear>δ</unclear>όμον</w> 
+            <lb n="10"/><persName type="divine" ref="#pluto"><name nymRef="Πλούτων">Πλουτῆοϲ</name></persName> <w lemma="ἔχω">ἔχω</w>
+            <lb n="11"/><w lemma="καί">κὲ</w> <w lemma="χάλκεος">χάλκεον</w>
+            <lb n="12"/><w lemma="ὕπνος">ὕπνον</w> <g ref="symbols.xml#stop"/></l> <l><w lemma="ὁ">τὸν</w> <w lemma="πᾶς"><unclear>π</unclear>άν
+               <lb n="13" break="no"/>τεϲ</w> <w lemma="φιλέω">φιλέεϲκον</w>
+            <lb n="14"/><persName type="attested"><name nymRef="Ἀλεξανδρίς">Ἀλε<unclear>ξ</unclear>αν<unclear>δ</unclear>ρίϲ</name></persName> <w lemma="τε">τ</w>’<w lemma="τίκτω">ἔ
+            <lb n="15" break="no"/>τεκε</w></l> <l><w lemma="ἀφροπώδης">ἀφροπώ
+                 <lb n="16" break="no"/><unclear>δ</unclear>ει</w> <w lemma="ἐνί">ἐνὶ</w> <placeName ref="#crete" nymRef="#Κρήτη">Κρήτᾳ</placeName></l>
+             <l><lb n="17"/><w lemma="σωφροσύνη">ϲωφροϲύνηϲ</w> 
+             <lb n="18"/> <w lemma="ἔνεκεν">ἔνεκεν</w> <w lemma="καί">κὲ</w> <w lemma="πίστις">πί
+                  <lb n="19" break="no"/>ϲτ<unclear>ε</unclear>ιοϲ</w> <g ref="symbols.xml#stop"/></l></lg></ab></div> 
+            <div type="textpart" n="b"><ab><l><w lemma="ζάω"><unclear>ζ</unclear>ῆϲα</w>
+            <lb n="20"/><w lemma="δέ">δὲ</w> <w lemma="αὐτός">αὐτὸϲ</w> <date type="life-span" dur="P75Y"><w lemma="ἔτος">ἔτη</w>
+            <lb n="21"/><num value="70"><unclear>ο</unclear></num> <w lemma="καί">κὲ</w> <num value="5">ε</num></date> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς"><unclear>π</unclear>άϲῃ</w>
+            <lb n="22"/><w lemma="σοφία">ϲοφίῃ</w> <w lemma="καί">κὲ</w> <w lemma="παιδεία">πεδί
+               <lb n="23" break="no"/>ῃ</w> <w lemma="βίοτος">βιότοι<supplied reason="omitted">ο</supplied></w> <w lemma="καί">κὲ</w> <w lemma="χρησιμότης">χρη
+                  <lb n="24" break="no"/>ϲιμότητι</w> <g ref="symbols.xml#stop"/></l> <w lemma="οὗτος">ταῦτα</w> 
+            <lb n="25"/><w lemma="δέ">δὲ</w> <w lemma="πᾶς"><unclear>π</unclear>άντα</w> <w lemma="ποιέω">ἐποι
+               <lb n="26" break="no"/>ήϲαν<unclear>τ</unclear><supplied reason="omitted">ο</supplied></w> <w lemma="ὁ">οἱ</w> <w lemma="ἴδιος">ἴ<unclear>δ</unclear>ιοι</w> 
+            <lb n="27"/><w lemma="θρεπτός">θρεπτοὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἐγώ">με</w>
+            <lb n="28"/><w lemma="καλῶς">καλῶϲ</w> <w lemma="ποιέω">ποιῖν</w> <w lemma="ὅς">οἵ</w>
+            <lb n="29"/><w lemma="ἐγώ">μου</w> <w lemma="τάφος">τάφον</w> <w lemma="ἐγείρω">ἔγιραν</w>
+               <lb n="30"/><w lemma="ὅπως">ὅπωϲ</w> <w lemma="πᾶς">πᾶϲι</w> <w lemma="φίλος">φί
+                  <lb n="31" break="no"/>λοιϲ</w> <w lemma="γνωστός">γνωϲ<unclear>τ</unclear>ὸ<supplied reason="lost">ϲ</supplied></w> <w lemma="ὅς"><unclear>ὧ</unclear></w>
+               <lb n="32"/><w lemma="καί">κὲ</w> <w lemma="θάνατος">θα<supplied reason="omitted">νά</supplied>τῳ</w> <w lemma="καλύπτω">κεκαλυμ<supplied reason="omitted">μ</supplied>έ
+                  <lb n="33" break="no"/>νοϲ</w> <w lemma="ἐν">ἐν</w> <w lemma="ζάω">ζῶϲι</w> <w lemma="λαλέω">λαλῶμe</w></ab></div>
+               <div type="textpart" n="c"><ab><lb n="34"/><w lemma="εὐψυχέω"><supplied reason="lost">Ε</supplied><unclear>ὐ</unclear>ψυχί</w> <orig>ι χ</orig> 
+               <w lemma="φίλος">φίλοι</w>, 
+               <w lemma="οὐδείς"><unclear>ο</unclear>ὐδὶϲ</w>
+               <w lemma="ἀθάνατος">ἀθάνατο<supplied reason="lost">ϲ</supplied></w></ab></div>
+            </div>
+         
+         <div type="apparatus">
+            <listApp>
+               <app loc="1-2">
+                  <rdg>ΕΝΘΑΛΕΛΗ/ΛΑΡΚΙΣΚΙΜΕ</rdg>
+                  <rdg resp="#irt1952">ἐνθάδε Δηλάρκης κῖμε</rdg></app>
+               <app loc="5">
+                  <rdg>ΔΕΙΙΦΩϹΟΥΟ</rdg>
+                  </app>
+               <app loc="8">
+                  <rdg>ΝΑΝΑΙΟΙΟΑΛ</rdg>
+               </app>
+               <app loc="9">
+                  <rdg>ΛΑΛΟΜΟΝ</rdg>
+               </app>
+               <app loc="12">
+                  <rdg>ΤΟΝΙΙΑΝ</rdg>
+               </app>
+               
+               <app loc="14-16">
+                  <rdg>ΑΛΕΓ̣ΑΝΛΡΙϹΤΕ/ΤΕΚΕΑΦΡΟΠΩ/ΛΕΙΕΝΙΚΡΗΤΑ</rdg>
+                  <rdg resp="#guarducci1948">Ἀλεξανδρὶς τ'ἔτεκε Ἀφροπωλεῖ ἐνὶ Κρήτᾳ</rdg>
+                  <rdg resp="#irt1952">Ἀλεξανδρεῖς τε καὶ Ἄφροι ΤΩΔΕΙ ἐνὶ Κρήτᾳ</rdg>
+               </app>
+               <app loc="19">
+                  <rdg resp="#irt1952">ϹΤΡΙΟϹ+ΗϹ</rdg>
+               </app>
+               <app loc="21">
+                  <rdg>Θ[.]ΚΕΕΕΝΙΙΑϹΗ</rdg>
+                  <rdg resp="#irt1952">θ´ καὶ ε´ ἐν πάϲῃ</rdg>
+               </app>
+               
+               <app loc="22-23">
+                  <rdg>ΚΕΠΕΛΙ/ΗΒΙΟΙΟΙΚΕΧΡΗ</rdg>
+                  <rdg resp="#guarducci1948">κὲ φελί/ῃ βίοτοιο καὶ χρη-</rdg>
+                  <rdg resp="#irt1952">καὶ παιδεί/ῃ βίοτοιο καὶ χρη- </rdg>
+               </app>
+               <app loc="25">
+                  <rdg>ΛΕΙΙΑΝΤΑΕΠΟΙ</rdg>
+               </app>
+               <app loc="26">
+                  <rdg>ΗϹΑΝΙΘΙΙΛΙΟΙ </rdg>
+               </app>
+               
+               <app loc="28">
+                  <rdg resp="#irt1952">ποιεῖν</rdg>
+               </app>
+               <app loc="28">
+                  <rdg resp="#irt1952">ἔγειραν</rdg>
+               </app>
+               <app loc="31-32">
+                  <rdg>ΝΩϹΙΟ Ο/ΚΕΘΑΤΩ</rdg>
+                  <rdg resp="#guarducci1948">(Κ)νώσιος (λη)θαίῳ</rdg>
+               </app>
+            
+               <app loc="34">
+                  <rdg>[.]ΓΥΧΙΙ ΧΦΙΛΟΘΥ[.]ϹΑΘΑΝΑΤΟ[.]</rdg>
+                  <rdg resp="#irt1952">[.]ΓΥΧΙΙ Χ φίλοι ΘΥ[.]Ϲ ἀθάνατο[ϲ]</rdg>
+                  <rdg resp="#guarducci1948"><note>Χ: perhaps an abbreviation for Χαίρετε</note></rdg>
+                  <rdg resp="#guarducci1948">οὐδίς ἀθάνατος</rdg>
+                  </app>
+            
+               
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Here I lie, Delarkes, having paid the debt of life; light, which is much sweeter than death, I do not see, but I inhabit the house of Pluto 
+                              and I sleep a bronze-like sleep. . . .  I lived for ?sixty-five  <note>? the printed figures make no sense</note> years, in all wisdom, 
+                              in teaching of the world, and in usefulness. All this <supplied reason="subaudible">that you see</supplied> my pupils did, 
+                              who built my tomb in order to advantage me, so that I may be known to all my friends, and, although buried in death, 
+                              I may be talked of among the living <gap reason="lost" extent="unknown" unit="character"/> friends; ? no one is immortal. </p></div>
+         <div type="translation" resp="#cdl" xml:lang="fr">
+            <p><note>Hexameters</note>: Ici, moi Larkis (Larcius), je repose, m’étant acquitté de ma vie, 
+               Et je ne vois nulle lumière, qui serait douce, plutôt que la mort ;
+               Au contraire, j’habite les demeures de Pluton et mon sommeil est d’airain,
+               Moi que tous aimaient – Alexandris m’enfanta dans la Crète écumeuse ( ?) –
+               Pour ma sagesse et ma bonne foi.</p>
+               
+               <p><note>Prose, with dactylic rythms</note>: Pour ma part, j’ai vécu 75 ( ?) ans dans une totale sagesse, une éducation pour la vie et une bonne serviabilité.
+               Tout ceci a été fait par mes propres esclaves familiers, qui pour m’honorer ont érigé mon tombeau, afin que tous mes amis puissent me reconnaître et que, quoiqu’enseveli dans la mort, 
+               je sois l’objet des conversations des vivants.</p>
+               
+                  <p>Haut les cœurs, amis ! Nul n’est immortel.   
+            </p></div>
+         <div type="commentary">
+            <p>The stone-cutter was following, with partial success only, a model which he did not understand.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

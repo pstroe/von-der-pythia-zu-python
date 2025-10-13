@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0526" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Decimius Hilarianus Hesperius</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0526</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> of <material>marble</material>  
+               (<dimensions>
+                                 <width unit="metre">0.69</width>
+                                 <height unit="metre">1.45</height>
+                                 <depth unit="metre">0.69</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> line 1 on the upper moulding, 2 ff. within a moulded panle
+                           (<dimensions><width unit="metre">0.41</width>
+                              <height unit="metre">0.65</height>
+                           </dimensions>) from which a previous inscription has been erased. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: line 1, <height unit="metre">0.06</height>, lines 2 ff., <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0376" notAfter="0390" precision="low" evidence="prosopography">After 376 CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>, East end.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0668.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 376)</desc></graphic>
+                  <graphic url="wp0669.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 18)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>526</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT526.html">526</ref></citedRange></bibl>;
+               <bibl><ptr target="guey1953"/> <citedRange unit="page">345</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1954.201f</citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>23</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2169">2169</ref></citedRange> (Tantillo and Bigi)</bibl>,
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018200">018200</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" key="plre:1-hesperius2"><name type="signum" nymRef="Esperius">Esperii</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimi</ex></expan></w> 
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><persName type="attested" key="plre:1-hesperius2"><name type="gentilicium" nymRef="Decimus">Decimio</name> <name type="cognomen" nymRef="Esperius">Esperio</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> <w lemma="ex">ex</w> 
+               <w lemma="proconsul">procon<lb n="3" break="no"/>sule</w> <placeName ref="#africaprocons" nymRef="#Prouincia Africa"><w lemma="prouincia"><expan><abbr>prouin</abbr><ex>ciae</ex></expan></w> 
+               <w lemma="">Africae</w></placeName> <w lemma="iudex">iudici</w>
+               <lb n="4"/><w lemma="sacer">sacrarum</w> <w lemma="cognitio">cognitionum</w>
+               <lb n="5"/><w lemma="prosapia">prosapiae</w> <w lemma="dignitas">dignitatum</w> <w lemma="et">et </w> <w lemma="cresco">crescenti</w> <note>sic</note>
+               <lb n="6"/><w lemma="per">per</w>  <w lemma="gradus">gradus</w> <w lemma="et">et</w> <w lemma="meritum">merita</w> <w lemma="gloria">gloriar<supplied reason="omitted">um</supplied></w>
+               <lb n="7"/><w lemma="ob">ob</w> <w lemma="honos">honorim</w> <w lemma="iustitia">iustitiae</w> <w lemma="qui">quam</w> <note>sic</note>
+               <lb n="8"/><w lemma="causa">causae</w> <placeName type="ethnic" ref="#tripolitana" nymRef="#Tripolitanus">Tripolitanorum</placeName>
+               <lb n="9"/><w lemma="delego">deligatae</w> <w lemma="sacer">sacro</w> <w lemma="iudex">iudici<supplied reason="omitted">o</supplied></w> <note>sic</note>
+               <lb n="10"/><w lemma="exhibeo">exhibuit</w> <w lemma="praesto">praestanti</w>
+               <lb n="11"/><w lemma="patronus">patro<supplied reason="omitted">no</supplied></w> <space quantity="4" unit="character"/>
+               <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis"><w lemma="Lepcimagnensis">Lepcimagnen<lb n="12" break="no"/>sis</w></placeName> <w lemma="cliens">cliens</w> <w lemma="semper">semper</w> <w lemma="ordo">ordo</w>
+               <lb n="13"/><w lemma="cum">cum</w> <w lemma="populus">populo</w> <w lemma="conloco">conlocauit</w>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="5">
+                  <rdg resp="#tantillo2010"><note><foreign xml:lang="la">dignitatum</foreign> for <foreign xml:lang="la">dignitatem</foreign></note></rdg></app>
+               <app loc="5">
+                  <rdg resp="#tantillo2010"><note><foreign xml:lang="la">et</foreign> for <foreign xml:lang="la">ac</foreign></note></rdg></app>
+               <app loc="7">
+                  <rdg resp="#irt1952">optionorim</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Esperius, splendid man <supplied reason="explanation">of senatorial status</supplied>. 
+               To Decimius Esperius, splendid man <supplied reason="explanation">of senatorial status</supplied>, former proconsul of the province of Africa, 
+               a juryman in the imperial court, of an office-holding family, moreover a man increasing <note>in dignity</note> stage by stage and through the fame won 
+               ?on account of the justice which he displayed in the case of the Tripolitanians which was referred to the emperor as judge. 
+               To an outstanding patron, the city council of Lepcis Magna, always his client, together with the people, erected <supplied reason="subaudible">this</supplied>.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Hesperius, uomo chiarissimo! A Decimus Hesperius, uomo chiarissimo, ex proconsole della Prouincia d’Africa, giudice
+               dei sacri appelli, che accresce la dignità  della sua schiatta attraverso i gradini (della sua carriera) e la gloria dei suoi meriti,
+               per l’onore (?) della giustizia che rese alla causa dei Tripolitani, affidatagli per sacro giudizio, all’eccellente patrono, l’ordine
+               di Leptis Magna, per sempre suo cliente, insieme al popolo collocò.</p> </div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>[Statue of] Hesperius, of clarissimus rank. To Decimius Hesperius, of clarissimus rank, former governor (proconsul) 
+            of the province of Africa, judge in the imperial court of appeal, who enhances the dignity of his family through high offices and merits of glory; 
+            for the honour of the justice which he showed to the case of the Tripolitanians, that was assigned [to him] by sacred decision [of the emperor], 
+            to the outstanding patron, the council of Lepcis Magna, forever his client, together with the people, set this up.</p></div>
+         <div type="commentary">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

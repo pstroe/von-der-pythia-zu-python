@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0096" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Avitius Rufus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0096</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <objectType>panel</objectType> 
+               (<dimensions>
+                                 <width>2.41</width>
+                                 <height unit="metre">0.71</height>
+                              </dimensions>, 
+               both ends missing).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>nscribed within a moulded border. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century lapidary capitals: lines 1-2, <height unit="metre">0.07</height>; lines 3-5, <height unit="metre">0.06</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="lettering">Second century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/832">Capitolium</placeName>, found in the vaults; see note on <ref type="inscription" n="IRT0001">1</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-01-14" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0125.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 218)</desc></graphic>
+                  <graphic url="wp0208.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 218)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>96</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT096.html">96</ref></citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059085">059085</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key="bbaw:2796"><name type="gentilicium" nymRef="Auitius"><supplied reason="lost">A</supplied>uitio</name> <name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> 
+               <w lemma="filius"><expan><abbr>fil</abbr><ex>io</ex></expan></w> <name type="tribe" nymRef="Quirina"><expan><abbr>Quir</abbr><ex>ina</ex></expan> <supplied reason="subaudible">tribu</supplied></name> 
+               <name type="cognomen" nymRef="Rufus">Rufo</name></persName> 
+                  <w lemma="tribunus"><expan><abbr>trib</abbr><ex>uno</ex></expan></w> 
+               <w lemma="miles"><expan><abbr>mil</abbr><ex>itum</ex></expan></w> 
+               <orgName type="military" ref="#legio7gemin"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="7">VII</num>
+               <addName nymRef="Gemina"><expan><abbr>Gem</abbr><ex>inae</ex></expan></addName> 
+               <addName nymRef="Felix"><expan><abbr><unclear>F</unclear></abbr><supplied reason="lost"><abbr>el</abbr><ex>icis</ex></supplied></expan></addName></orgName>
+               <lb n="2"/><w lemma="praefectus"><supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied></w> 
+               <orgName type="military" key="cohorsIthrac"><w lemma="cohors"><expan><abbr><supplied reason="lost">c</supplied>oh</abbr><ex>ortis</ex></expan></w> <num value="1">I</num> <addName nymRef="Augusta"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></addName> 
+               <addName nymRef="Thrax"><expan><abbr>Thrac</abbr><ex>um</ex></expan></addName></orgName> <w lemma="proximus">proximo</w> <w lemma="tertius">tertiae</w> <w lemma="militia">militiae</w> <w lemma="duouir">IIu<supplied reason="lost">iro</supplied></w> 
+               <lb n="3"/><w lemma="decerno"><expan><supplied reason="lost"><abbr>decre</abbr></supplied><abbr>t</abbr><ex>o</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>ordin</abbr><ex>is</ex></expan></w> <w lemma="ob">ob</w> <w lemma="meritum"><expan><abbr>merit</abbr><ex>a</ex></expan></w> <w lemma="is">eius</w> 
+               <w lemma="erga">erga</w> <w lemma="res">rem</w> <w lemma="publicus">publicam</w> <w lemma="eximius"><unclear>e</unclear>x<supplied reason="lost">imia</supplied></w> 
+               <lb n="4"/><persName type="attested"><name type="praenomen" nymRef="Quintus"><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan></supplied></name> <name type="gentilicium" nymRef="Auitius"><supplied reason="lost">Aui</supplied>tius</name> <name type="cognomen" nymRef="Lucanus">Lucanus</name></persName> <w lemma="pater">pater</w> <w lemma="titulus">titulo</w> <w lemma="et">et</w> <w lemma="honor">honore</w> <w lemma="contentus"><supplied reason="lost">contentus</supplied></w> 
+               <lb n="5"/> <w lemma="suus"><supplied reason="lost">s</supplied>ua</w> <w lemma="pecunia">pecunia</w> <w lemma="pono">posuit</w> 
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1"><rdg source="#irt1952">
+                  <note> Or <unclear>P</unclear>(iae) [F(elicis)].</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>to <gap reason="lost" extent="unknown" unit="character"/> Avitius Rufus, son of Quintus, of the Roman voting tribe Quirina, military tribune in Legion VII Gemina Felix, 
+               <supplied reason="lost">prefect</supplied> of cohort I Augusta of Thracians, approaching his third military appointment, duovir; honoured by decree of the city council, 
+               on account of his outstanding merits in public affairs; <supplied reason="lost">Quintus</supplied> Auitius Lucanus, his father, was satisfied with the decree and the honour and set 
+               <supplied reason="subaudible">this</supplied> up at his own expense. </p></div>
+         <div type="commentary">
+            <p>Avitius Rufus: <ref target="https://pir.bbaw.de/id/2796">https://pir.bbaw.de/id/2796</ref></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1120" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Boundary</rs> marker</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD008548</idno>
+                <idno type="TM">199035</idno>
+                <idno type="filename">IRT1120</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p><material ref="http://www.eagle-network.eu/voc/material/lod/138">Limestone</material> 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">panel</objectType>
+                                    <dimensions><!-- check -->
+                                        <height unit="metre">0.32-0.37</height>
+                                        <width unit="metre">0.18-0.55</width>
+                                        <depth unit="metre">?</depth>
+                                    </dimensions>
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Line 2, <height>0.038</height>; lines 3-8, <height>0.02-0.025</height>; triangular stop</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0074" notAfter="0074" evidence="internal-date">74 CE: <ref target="https://godot.date/id/8F4HCMSs2P5z5kDfSQEPfB">GODOT</ref></origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/22588">Jabal Tarhunah</placeName>: 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/2262">Ras el-Halga</placeName></p></provenance>
+                        <!-- check, find -->
+                        <provenance type="observed"><p><placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName></p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="1997-06-30" who="Scheithauer">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard1979"/> <citedRange>4</citedRange>, pp.78-81</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1979.649</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008548">008548</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="1"/>
+                <w lemma="ex"><unclear>Ex</unclear></w> <w lemma="auctoritas"><supplied reason="lost">auctoritate</supplied> </w>
+                <lb n="2"/><persName type="emperor" ref="#vespasianus"><w lemma="imperator"><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratoris</ex></expan></w> <g ref="symbols.xml#stop"/> <name nymRef="Vespasianus">Ue<unclear>s</unclear><supplied reason="lost">pasiani</supplied></name> <addName nymRef="Caesar"><supplied reason="lost">Cae</supplied>
+                <lb break="no" n="3"/>saris</addName> <g ref="symbols.xml#stop"/>  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName> <g ref="symbols.xml#stop"/> <w lemma="pater"><expan><abbr>p</abbr><ex>atris</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="pontifex"><expan><abbr>p<unclear>o</unclear><supplied reason="lost">nt</supplied></abbr><ex>ificis</ex></expan></w> <supplied reason="lost"><w lemma="maximus"><expan><abbr>max</abbr><ex>imi</ex></expan></w> <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w></supplied> 
+                <lb n="4"/><w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <g ref="symbols.xml#stop"/> <num value="5">V</num> <g ref="symbols.xml#stop"/> <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> <g ref="symbols.xml#stop"/> <num value="13">XIII</num> <g ref="symbols.xml#stop"/> <w lemma="consul"><expan><abbr><unclear>c</unclear><supplied reason="lost">o</supplied></abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w> <num value="5">V</num> <supplied reason="lost"><w lemma="designatus"><expan><abbr>desig</abbr><ex>nati</ex></expan></w> <num value="6">VI</num></supplied></persName> 
+                <lb n="5"/><persName type="attested" key="pir-r-0248"><name nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="symbols.xml#stop"/> <name nymRef="Iulius">Iulius</name> <g ref="symbols.xml#stop"/> <name nymRef="Cordinus">Cordinus</name> <g ref="symbols.xml#stop"/> <supplied reason="lost"><name nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Rutilius">Rutilius</name></supplied> <name nymRef="Gallicus"><supplied reason="lost">Galli</supplied>
+                <lb break="no" n="6"/>cus</name></persName> <g ref="symbols.xml#stop"/> <w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></w> <g ref="symbols.xml#stop"/> <w lemma="pro">pro</w> <supplied reason="lost"><w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w></supplied> 
+                <lb n="7"/><w lemma="limes">limitem</w> <g ref="symbols.xml#stop"/> <w lemma="inter">inter</w> <g ref="symbols.xml#stop"/> <placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Le<supplied reason="lost">pcitanos</supplied></placeName> <supplied reason="lost"><w lemma="et">et</w></supplied> <placeName type="ethnic" ref="#oea" nymRef="#Oeensis"><supplied reason="lost">Oeen</supplied>
+                     <lb n="8" break="no"/><unclear>ses</unclear></placeName> <g ref="symbols.xml#stop"/> <w lemma="dirigo">derexit</w> <note>sic</note>
+                 <lb n="9"/><placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus">Lepcit<unclear>an</unclear><supplied reason="lost" cert="low">i</supplied></placeName> <supplied reason="lost" cert="low"> <w lemma="publice"><expan><abbr>pub</abbr><ex>lice</ex></expan></w> <w lemma="pono"><expan><abbr>pos</abbr><ex>uerunt</ex></expan></w></supplied>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>On the [authority] of Emperor Vespasian Caesar, Augustus, father of the country, high priest, holding tribunician power for the 5th time, acclaimed victor for the 13th time, 
+                    consul for the 5th time, ]designated for the 6th time]: Quintus Julius Cordinus [Caius Rutilius Galli]cus propraetorian legate of Augustus, [consul, priest], determined the boundary 
+                    between the people of Lepcis [and the people of Oea]. The people of Lepcis [placed this at public expense?]</p>
+            </div>
+            <div type="commentary">
+                <p>Compare <ref type="inscription" n="IRT1107">1107</ref>.</p>
+                <p>Q Iulius Cordinus C. Rutilius Gallicus: <title>PIR</title> R 0248, <ref target="https://pir.bbaw.de/id/7447">https://pir.bbaw.de/id/7447</ref></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0654" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary<certainty match=".." locus="value"/>
+               </rs> inscription of Boncar Clodius </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0654</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <objectType>block</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.78</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.12</depth>
+                              </dimensions>) of 
+               <material>grey limestone</material>, much worn.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a  <rs type="decoration">tabella ansata</rs> 
+               (die, <dimensions>
+                              <width unit="metre">0.40</width>
+                              <height unit="metre">0.26</height>
+                           </dimensions>); 
+               one line of Neo-Punic (Neo-Punic 5);. follows the Greek and Latin texts. 
+               The Neo-Punic text is a translation of the Latin and Greek. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals: av. 
+               <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="nomenclature">First to third century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: "east part of the ruins", found in <date type="found">1846</date> 
+                              together with <ref type="inscription" n="IRT0655">655</ref> and uniform with it.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-17" who="CB">Added Punic text and translation</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0849.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 677 Leica)</desc></graphic>
+      <graphic url="wp1139.jpg">
+         <desc>Above: <ref target="IRT0913">913</ref>; below, from left: <ref target="IRT0872">872</ref>, 
+            <ref target="IRT0914">914</ref>, <ref target="IRT0654">654</ref>: Ward-Perkins Archive, BSR</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="cil"/>, <citedRange>15</citedRange>
+               </bibl>, whence <bibl><ptr target="igrr"/>, <citedRange>I:937</citedRange></bibl>; 
+               <bibl><ptr target="bartoccini1923"/> <citedRange>98</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>654</citedRange></bibl>; 
+               with the Neo-Punic text <bibl><ptr target="dellavida1987"/> <citedRange>13</citedRange></bibl>, whence
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/189515">189515</ref></citedRange></bibl>
+               and <bibl><ptr target="jongeling2005"/> <citedRange unit="page">17-18</citedRange></bibl> and
+               <bibl><ptr target="jongeling2008"/> <citedRange>Labdah N5</citedRange></bibl>;
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT654.html">654</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059507">059507</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:space="preserve"><div type="textpart" n="i"> 
+            <ab xml:lang="la">
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Boncar">Bonca<unclear>r</unclear></name> <name type="cognomen" nymRef="Mecrasi"><unclear>Me</unclear>crasi</name> 
+               <name type="cognomen" nymRef="Clodius">Clodi<lb n="2" break="no"/>us</name></persName> <w lemma="medicus">medicus</w></ab>
+            <ab xml:lang="grc"><lb n="3"/><persName type="attested"><name type="cognomen" nymRef="Βώνχαρ">Βώ<supplied reason="lost" evidence="previouseditor">νχαρ</supplied></name>
+               <name type="cognomen" nymRef="Μεχράσι"><supplied reason="lost" evidence="previouseditor">Μεχράσι</supplied></name>
+               <name type="cognomen" nymRef="Κλώδιος"><supplied reason="lost" evidence="previouseditor">Κλώδι</supplied><lb n="4" break="no"/><supplied reason="lost" evidence="previouseditor">ος</supplied></name></persName>
+               <w lemma="ἰατρός"><supplied reason="lost" evidence="previouseditor">ἰατρός</supplied></w>
+               
+            </ab></div>
+         <div type="textpart" xml:lang="xpu" n="ii">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Bodelqart">bdᶜlqrt</name></persName> 
+               <w lemma="h-">h</w><w lemma="mqrty">mqrty</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Clodius">qlᶜᵓy</name></persName> <w lemma="h-">h</w><w lemma="rbᵓ">rbᵓ</w>
+            </ab>
+         </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3-4">
+                  <note>Underlined letters were read in 1846 (CIL VIII, 15) but are no longer visible.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i. Boncar Clodius son of Mecrasus, doctor <note>in Latin</note> </p><p>Boncar Clodius son of Mecrasus, doctor <note>in Greek</note> </p></div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>ii. Bodelqart, the surgeon, Clodius, the doctor</p>
+         </div>
+         
+         <div type="commentary">
+            <p>Line 1-2. Boncar Mercrasi Clodius. Also in <ref type="inscription" n="IRT0655">655</ref>, line 1-2.</p>
+            <p>Discussion of Neo-Punic text:
+               Jongeling, K. 1983, ‘Neo-punische-latijnse inscripties uit Lepcis Magna (Libye)’ in 
+               <ref target="https://zenon.dainst.org/Record/000821926">13</ref>, 414;
+               <ref target="https://zenon.dainst.org/Record/000261239">Giardina (1988)</ref>, 67-87;
+               <ref target="https://zenon.dainst.org/Record/000225656">Adams (2003)</ref>, 216;
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N5;
+              <ref target="https://zenon.dainst.org/Record/001362679">Wilson (2012)</ref>, 302-303.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

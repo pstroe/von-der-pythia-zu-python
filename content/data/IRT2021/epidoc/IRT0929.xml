@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0929" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile VII. Caracalla.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0929</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment of a 
+                              <objectType>column</objectType>ar milestone. <dimensions><dim>0.41</dim> <height>1.02</height></dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on the face</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Line 1, <height>0.075-0.085</height>, I <height>0.11</height>, lines 2 following variable, <height>0.042-0.055</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/648">Coast Road: Oea-Lepcis Magna</placeName></origPlace>
+                     <origDate cert="low" when="0216" evidence="context">CE 216: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1525">Coastal Belt</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/648">Coast Road: Oea-Lepcis Magna</placeName>: 
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/648">Coast Road: Oea-Lepcis Magna</placeName>: 
+                  Found near the <placeName type="monuList" ref="https://www.slsgazetteer.org/674">Zavia of Sidi Mohammed ben-Brahim</placeName>, 
+                              on the main road approximately 10 km. East of Lepcis</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna
+                  </placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Previous publications (Roueché)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="aurigemma1925a"/>, <citedRange>5</citedRange>, pp. 19-21 and figs. 2-3</bibl>;
+               listed <bibl><ptr target="goodchild1948"/>, <citedRange>5</citedRange>, p.10</bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>929</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT929.html">929</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059766">059766</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#caracalla">
+               <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName>
+               <lb n="2"/><persName type="emperor" ref="#septimiusseuerus">
+                <w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> 
+               <lb n="3"/>   <addName nymRef="Pius">Pii</addName> <addName nymRef="Arabicus">Arabici</addName> <name type="cognomen" nymRef="Adiabenicus">Adiabenici</name> 
+                <lb n="4"/><addName nymRef="Parthicus">Parthici</addName> <w lemma="maximus">maximi</w> 
+                   <lb n="5"/><addName nymRef="Britannicus">Brittanici</addName> <w lemma="maximus">maximi</w>
+                <lb n="6"/></persName> <w lemma="filius">filio</w> <persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> <name nymRef="Marcus">Marci</name> <name type="gentilicium" nymRef="Antoninus">Anto
+                   <lb n="7" break="no"/>nini</name> <addName nymRef="Pius">Pii</addName> <addName nymRef="Germanicus">Germanici</addName> 
+               <lb n="8"/><addName nymRef="Sarmaticus">Sarmatici</addName></persName> <w lemma="nepos">nepoti</w> <persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> 
+                <lb n="9"/><name type="gentilicium" nymRef="Antoninus">Antonini</name> <addName nymRef="Pius">Pii</addName></persName> <w lemma="pronepos">pronepoti</w> 
+               <lb n="10"/><w lemma="diuus">diui</w> <persName type="emperor" ref="#hadrianus"><name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> <w lemma="abnepos">ab
+               <lb n="11" break="no"/>nepoti</w> <w lemma="diuus">diui</w> <persName type="emperor" ref="#traianus"><name type="cognomen" nymRef="Traianus">Traiani</name> 
+                 <lb n="12"/><addName nymRef="Parthicus">Parthici</addName></persName> <w lemma="et">et</w> <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Nerue</name></persName> 
+               <lb n="13"/><w lemma="adnepos">ad<lb n="16" break="no"/>nepoti</w> <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurelius">Aurellio</name> 
+                  <lb n="14"/><name type="gentilicium" nymRef="Antoninus">Antonino</name> <addName nymRef="Pius">Pio</addName> <addName nymRef="Felix">Felici</addName> 
+                  <lb n="15"/><addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <addName nymRef="Parthicus">Parthi<lb n="19" break="no"/>co</addName> <w lemma="maximus">maximo</w> </persName>
+                  <lb n="15a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>To emperor Caesar, son of deified Septimius Severus, Pius, victor in Arabia, victor in Adiabene, 
+               greatest victor in Parthia, greatest victor in Britannia, grandson of deified Antoninus Pius, victor in Germany, victor in Sarmatia, 
+               great grandson of deified Antoninus Pius, great great grandson of deified Hadrian, great great great grandson of deified Trajan, victor in Parthia and of deified Nerva, 
+               Marcus Aurellius Antoninus Pius Felix Augustus, greatest victor in Parthia [ . . .</p></div>
+         
+         <div type="commentary">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

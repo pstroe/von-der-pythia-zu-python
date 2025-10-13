@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0508" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication<certainty match=".." locus="value"/>
+               </rs> by the Lepcitani</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0508</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Seven fragments, two adjoining, of a <material>marble</material> 
+                              <objectType>panel</objectType>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face in at least two lines</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late form of Rustic capitals: line 1 <height unit="metre">0.15</height>, line 2 <height unit="metre">0.135</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Late third or early fourth century CE </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>,
+                  found in the Portico behind the <placeName type="monuList" ref="https://www.slsgazetteer.org/756">Theatre</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><graphic url="bigi023.jpg">
+      <desc>Fragments assembled, drawing: Bigi (2009)</desc></graphic>
+                  <graphic url="wp0646.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XVI.11)</desc></graphic>
+      <graphic url="tantillo0021.jpg">
+         <desc>Assembled: Tantillo (2005: DSCN1634)</desc></graphic>
+      <graphic url="tantillo0022.jpg">
+         <desc>Assembled: Tantillo (2005: DSCN1635)</desc></graphic>
+      <graphic url="tantillo0023.jpg">
+         <desc>Fragments: Tantillo (2005: DSCN1636)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>Four fragments <bibl><ptr target="irt1952"/>, <citedRange>508</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT508.html">508</ref></citedRange></bibl>;
+               assembled, with a further three fragments <bibl><ptr target="tantillo2010"/>, <citedRange>69</citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059401">059401</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" n="Restorations">
+               <div type="textpart" n="1"> <!-- check, revise -->
+               <ab>
+<lb n="1"/><supplied reason="lost"><space extent="unknown" unit="character"/></supplied> <persName type="divine" ref="#augusti"><supplied reason="lost"><w lemma="deus">Dis</w></supplied> <addName nymRef="Augustus"><supplied reason="lost">A</supplied>ugus<supplied reason="lost">t</supplied>is</addName></persName> <g ref="symbols.xml#palm"/>
+<lb n="2"/><placeName type="ethnic" nymRef="#Lepcitanus" ref="#lepcis">L<supplied reason="lost" cert="low">epcitani</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>t</unclear>itu</orig>
+<gap reason="lost" extent="unknown" unit="character"/><w lemma="pecunia"><supplied reason="lost">pe</supplied><unclear>c</unclear>unia</w> <g ref="symbols.xml#stop"/> <w lemma="publicus">publica</w> <gap reason="lost" extent="unknown" unit="character"/>
+</ab></div>
+            <div type="textpart" n="2">
+               <ab>
+<lb n="1"/><supplied reason="lost"><space extent="unknown" unit="character"/></supplied> <persName type="divine" ref="#augusti"><w lemma="deus"><supplied reason="lost">D</supplied> is</w> <g ref="symbols.xml#palm"/> <addName nymRef="Augustus"><supplied reason="lost">A</supplied>ugus<supplied reason="lost">tis</supplied></addName></persName> 
+<lb n="2"/><placeName type="ethnic" nymRef="#Lepcitanus" ref="#lepcis">L<supplied reason="lost" cert="low">epcitani</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+<gap reason="lost" extent="unknown" unit="character"/><w lemma="pecunia"><supplied reason="lost">pe</supplied><unclear>c</unclear>unia</w> <g ref="symbols.xml#stop"/> <w lemma="publicus">publica</w> 
+                   <w lemma="restituo"><supplied reason="lost">res</supplied><unclear>t</unclear>itu<supplied reason="lost">erunt</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+</ab></div></div>
+            </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a and c not usefully translatable.</note> b. <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">to</supplied><gap reason="lost" extent="unknown" unit="character"/> Augustus <note>case unknown.</note><gap reason="lost" extent="unknown" unit="character"/> restorer <supplied reason="lost" cert="low">of the world</supplied><gap reason="lost" extent="unknown" unit="character"/>d.<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">the Lepcitanians</supplied> publicly <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>For the Divine Augusti. The Lepcitanians (?)[ . . . ] from public money [ . . . <note>or</note> restored from public money [ . . .</p></div>
+         
+         
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

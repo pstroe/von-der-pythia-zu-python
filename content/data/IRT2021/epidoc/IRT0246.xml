@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0246" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> by Aurellius son of Epagrus </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0246</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment from the upper right-hand corner of a rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">0.47</height> 
+                                 <depth unit="metre" precision="low">0.50</depth>
+                              </dimensions>) of <material>limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face, within a moulded panel, in Latin and Neo-Punic
+               (Neo-Punic 7. The text is fragmentary, and reads: 
+               <foreign xml:lang="xpu">Abdmel[qart ...]</foreign>). 
+               Uniform with <ref type="inscription" n="IRT0229">229</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="lettering">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/657">Oea</placeName>: 
+                              The <placeName type="monuList" ref="https://www.slsgazetteer.org/807">Lighthouse Fort</placeName>,; found during the demolition of the fort (<date type="found">1915</date>).</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-17" who="CB">Added Punic text and translation</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0296.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 675 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="romanelli1916"/>, <citedRange>39l</citedRange> ff., fig 8</bibl>;
+               <bibl><ptr target="cagnatmerlin1923"/>, <citedRange>4</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>246</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT246.html">246</ref></citedRange></bibl>, 
+               whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059216">059216</ref></citedRange></bibl>.
+               With the Neo-Punic text 
+               <bibl><ptr target="dellavida1927"/> <citedRange unit="page">97</citedRange></bibl>;
+               <bibl><ptr target="dellavida1987"/> <citedRange>5a</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2008"/> <citedRange>Tripoli N1</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve" n="i">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <persName type="attested"><name type="gentilicium" nymRef="Aurellius"><supplied reason="lost">Aurellius</supplied></name> 
+                  <persName type="attested"><name type="cognomen" nymRef="Epagrus">Epagri</name></persName></persName>
+               <lb n="2"/>
+               <supplied reason="lost"><w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> 
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w></supplied>
+               <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+               <w lemma="do"><expan><abbr>d</abbr><ex>edit</ex></expan></w>
+            </ab>
+         <div type="textpart" xml:lang="xpu" n="ii">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Adbmelqart">ᶜbdml<supplied reason="lost">qrt</supplied></name></persName>
+            </ab>
+         </div>
+         </div>
+         
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i. <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Aurellius, son</supplied> of Epagrus, gave 
+               <supplied reason="subaudible">this</supplied> <supplied reason="lost">from his own</supplied> finances.</p>
+         </div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>ii. Abdmel[qart ...])</p>
+         </div>
+         <div type="commentary">
+            <p>The dedicator also in <ref type="inscription" n="IRT0229">229</ref></p>
+            <p>Discussion of Neo-Punic text: <ref target="https://zenon.dainst.org/Record/000225656">Adams (2003)</ref>, 215-216;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 261.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1005" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> for a monument</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD017794</idno>
+                <idno type="TM">199531</idno>
+                <idno type="filename">IRT1005</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>No description
+                                    <dimensions>
+                                        <height unit="metre"/>
+                                        <width unit="metre"/>
+                                        <depth unit="metre"/>
+                                    </dimensions>
+                                     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Presumably
+                                    <rs type="execution" ref="scalpro">inscribed</rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>No description</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate when="0024" evidence="prosopography">24 CE</origDate>
+                        </origin>
+                        <provenance type="found"><p>
+                            <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>: 
+                            <placeName ref="https://www.slsgazetteer.org/657">Oea</placeName>,  
+                            near the <placeName type="monuList" ref="https://www.slsgazetteer.org/805">Arch of Marcus Aurelius</placeName>; 
+                            described to Girard in <date type="found">1670</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>Findspot (<date type="observed">1654</date>)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2010-01-28" who="Gräf">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="girard1685"/> <citedRange><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10720760b/f33.item">f.22</ref></citedRange></bibl>, whence 
+                    <bibl><ptr target="bartoccini1958"/> <citedRange/></bibl>,
+                    <bibl><ptr target="ae"/> <citedRange>1961.108</citedRange></bibl>, 
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017794">017794</ref></citedRange></bibl>
+                    
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab>
+                <lb n="1"/><gap reason="lost" quantity="7" unit="character"/>
+                <persName type="attested" key="pir-c-1348"><name nymRef="Dolabella">Dolabella</name></persName> <placeName type="ethnic" ref="#roma" nymRef="#Romanus"><expan><abbr>Rom</abbr><ex>anorum</ex></expan></placeName> <w lemma="proconsul"><expan><abbr>proco</abbr><ex>nsul</ex></expan></w> 
+                <lb n="2"/><persName type="attested" key="pir-t-1348"><name nymRef="Tacfarinas"><expan><abbr>Tacfa</abbr><ex>rinate</ex></expan></name></persName> <w lemma="debello"><expan><abbr>debel</abbr><ex>lato</ex></expan></w> <w lemma="ciuitas">ciuitas</w><!-- check -->  <placeName ref="#oea" nymRef="#Oea">Oeam</placeName> <w lemma="restituo"><expan><abbr>rest</abbr><ex>ituit</ex></expan></w> 
+                <lb n="3"/><w lemma="pax"><expan><abbr>pac</abbr><ex>e</ex></expan></w> <w lemma="conseruo"><expan><abbr>conseru</abbr><ex>ata</ex></expan></w> <orig>pop</orig> <orig>Aphr</orig> <orig>prot</orig> 
+                <lb n="4"/><gap reason="lost" quantity="12" unit="character"/> <w lemma="et">et</w> <w lemma="consecro"><expan><abbr>consec</abbr><ex>rauit</ex></expan></w>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p>Dolabella, proconsul of the Romans,  Tacfarinas having been defeated, restored ?the city of Oea, peace being preserved . . . and consecrated</p>
+            </div>
+            <div type="commentary">
+               <p> The authenticity of this text, copied in the 17th century, was doubted by Cumont (1925); but the discovery of 
+                   <ref type="inscription" n="IRT1021">IRT 1021</ref> appears to confirm the reality of this report, although the terminology and the readings remain uncertain.</p>
+                <p>P. Cornelius Dolabella: <title>PIR</title> C 1348, <ref target="https://pir.bbaw.de/id/4860">https://pir.bbaw.de/id/4860</ref></p>
+                <p>Tacfarinas: <title>PIR</title> T 0003, <ref target="https://pir.bbaw.de/id/12869">https://pir.bbaw.de/id/12869</ref></p>
+            </div>
+        </body>
+    </text>
+</TEI>

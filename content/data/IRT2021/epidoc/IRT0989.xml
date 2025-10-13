@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0989" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Q. Porcius Iovinus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0989</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Block</objectType> of <material>limestone</material> (<dimensions>
+                                 <width unit="metre">1.10</width>
+                                 <height unit="metre">0.55</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) 
+              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded <rs type="decoration">tabella ansata</rs>  (<dimensions>
+                              <width unit="metre">0.59</width>
+                              <height unit="metre">0.37</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Graceful capitals with Rustic forms, probably third century:
+               lines 1-4, <height unit="metre" atLeast="0.07" atMost="0.08">0.07-0.08</height>;
+               line 5, <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" cert="low" precision="low" evidence="lettering">Probably third century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>: 
+                              To the south of a ruined gasr, 16 km. south-east of Cussabat <!-- check -->
+                  and 4 km. north-east of Gasr Umm er-Raml; found by Mr. David Oates. <!-- find -->
+                              (map ref. M 409, 224).1</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219746/al-qasabat.html">Al-Qasabat</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="reynolds1955"/>, <citedRange>S.17</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT989.html">989</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059827">059827</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="divine" ref="#manes"><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w></persName> <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name type="gentilicium" nymRef="Porcius">Porci</name> <name type="cognomen" nymRef="Iouinus">Iouini</name></persName>
+               <lb n="2"/><w lemma="uiuo">uixit</w> <date type="life-span" dur="P10Y"><w lemma="annus">annis</w> <num value="10">X</num></date><gap reason="lost" quantity="5" unit="character" precision="low"/>
+               <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium" nymRef="Porcius">Porcius</name> <name type="cognomen" nymRef="Reginus">Reginus</name></persName> <w lemma="pater">pa<lb n="4" break="no"/>ter</w> <w lemma="pius">p<unclear>i</unclear><supplied reason="omitted">i</supplied>ssimus</w> <w lemma="filius">filio</w>
+               <lb n="5"/><w lemma="quiesco">quieto</w> <w lemma="facio">fecit</w>
+               
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To the gods below of Quintus Portius Iovinus; he lived for 10 <note>plus ?</note> years. Quintus Portius Reginus, 
+               his most dutiful father, had this made for a peaceable son.</p></div>
+         <div type="commentary">
+        <!--     <p>The gasr is constructed for the most part of undressed stones and is clearly later in date than the inscription.
+               It is probable that a mausoleum was demolished and robbed to provide material for the gasr,
+               and this mausoleum might be associated with the olive farms of which a number of traces survive in the area. </p>
+            <p>For the formula <foreign xml:lang="la">filio quieto</foreign> see also <ref type="inscription" n="IRT0692">692</ref> at Lepcis.</p>--> 
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0568" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for T. Flavius Vibianus</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0568</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> <material>Marble</material> 
+                              <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.92</width>
+                                 <height unit="metre">1.52</height>
+                                 <depth unit="metre">0.95</depth>
+                              </dimensions>), with moulded panels originally  on all four sides, when <ref type="inscription" n="IRT0630">630</ref> was inscribed what is now the right face; the 
+                              face to the right of that was cut away when <ref type="inscription" n="IRT0568">568</ref> was inscribed on the left face, which became the front. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>, line 1 on the upper moulding, lines 2-11 within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.36</width>
+                              <height unit="metre">0.58</height>
+                           </dimensions>), lines 12-13 on the lower moulding; line 11 runs onto the moulding.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: line 1, <height unit="metre">0.055</height>; remainder, <height unit="metre" atLeast="0.04" atMost="0.055">0.04-0.055</height>.
+
+</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0303" notAfter="0350" precision="low" evidence="prosopography">Earlier fourth century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/729">Punic Market</placeName>, in the entrance from the Main Street. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0746.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XVII.35)</desc></graphic>
+                  <graphic url="wp0747.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 322)</desc></graphic>
+      <graphic url="tantillo0224.jpg">
+         <desc>View: Tantillo 2005)</desc></graphic>
+      <graphic url="tantillo0225.jpg">
+         <desc>Face: Tantillo (2005)</desc></graphic>
+      <graphic url="tantillo0229.jpg">
+         <desc><ref type="inscription" n="IRT0568">568</ref> and <ref type="inscription" n="IRT0630">630</ref>: Tantillo, 2008 (P1050921)</desc></graphic>
+      <graphic url="tantillo0227.jpg">
+         <desc>Right side and back: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0228.jpg">
+            <desc>Top: Tantillo, 2008 (P1050916)</desc></graphic>
+      
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>568</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT568.html">568</ref></citedRange></bibl>, 
+               <bibl><ptr target="ccca"/> <citedRange>5.50</citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>57</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2203">2203</ref></citedRange> (Tantillo and Bigi)</bibl>,  
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059483">059483</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="symbols.xml#palm"/> <persName type="attested"><name type="signum" nymRef="Heraclius">Heraclii</name></persName> <g ref="symbols.xml#palm"/>
+               <lb n="1a"/><space quantity="1" unit="line"/>
+               <lb n="2"/><w lemma="ob">Ob</w> <w lemma="augmentum">augmenta</w> 
+               <w lemma="multa">mul<lb n="3" break="no"/>torum</w> <w lemma="meritum">meritorum</w>
+               <lb n="4"/><w lemma="atque">adque</w> <w lemma="eximius">eximi</w> <w lemma="amor">amoris</w>
+               <lb n="5"/><w lemma="erga">erga</w> <w lemma="patria">patriam</w> 
+               <w lemma="atque">ad<lb n="6" break="no"/>que</w> <w lemma="ciuis">ciues</w> <w lemma="suus">suos</w> <g ref="symbols.xml#stop"/>
+               <lb n="7"/><persName type="attested" key="plre:1-vibianus1"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Flauius">Flauio</name> <name type="cognomen" nymRef="Vibianus">Uibiano</name></persName>
+               <lb n="8"/><g ref="symbols.xml#stop"/> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="perfectissimus"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="flamen"><expan><abbr>fl</abbr><ex>amini</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="sacerdos"><expan><abbr>sac</abbr><ex>erdoti</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <lb n="9"/><orgName type="civil" ref="#laurent" nymRef="#Laurentes Lauinates"><addName nymRef="Laurentes"><expan><abbr>Laurent</abbr><ex>i</ex><abbr>um</abbr></expan></addName> 
+               <addName nymRef="Lauinates"><expan><abbr>Lab</abbr><ex>i</ex><abbr>n</abbr><ex>a</ex><abbr>t</abbr><ex>ium</ex></expan></addName></orgName> <g ref="symbols.xml#stop"/>
+               <lb n="10"/><w lemma="sacerdos"><expan><abbr>sac</abbr><ex>erdoti</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <persName type="divine" ref="#magnamater"><name nymRef="Mater"><expan><abbr>M</abbr><ex>atris</ex></expan></name> <g ref="symbols.xml#stop"/>
+               <w lemma="deus"><expan><abbr>D</abbr><ex>eum</ex></expan></w></persName> <g ref="symbols.xml#stop"/>
+               <w lemma="praefectus"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="omnis">omni<lb n="11" break="no"/>um</w> <g ref="symbols.xml#stop"/> 
+               <w lemma="sacer"><expan><abbr>sacr</abbr><ex>orum</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="duouir"><expan><abbr>duouir</abbr><ex>o</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <w lemma="sacerdos"><expan><abbr>sac</abbr><ex>erdoti</ex></expan></w> <g ref="symbols.xml#stop"/>
+               <placeName ref="#tripolitanaprov" nymRef="#Prouincia Tripolitana"><w lemma="prouincia"><expan><abbr>prou</abbr><ex>inciae</ex></expan></w> 
+               <w lemma="Tripolitanus"><expan><abbr>Tr</abbr><ex>ipolitanae</ex></expan></w></placeName>
+                <lb n="11a"/><space quantity="1" unit="line"/>
+               <lb n="12"/><w lemma="etiam">etiam</w> <w lemma="hic">hic</w> <w lemma="ex">ex</w> <w lemma="suffragium">sufragio</w> <w lemma="populus">populi</w>
+               <lb n="13"/><w lemma="et">et</w> <g ref="symbols.xml#stop"/> <w lemma="decerno">decreto</w> 
+               <w lemma="splendidus"><expan><abbr>spl</abbr><ex>endidissimi</ex></expan></w> <g ref="symbols.xml#stop"/> 
+               <w lemma="ordo"><expan><abbr>ordin</abbr><ex>is</ex></expan></w> <g ref="symbols.xml#stop"/>
+            </ab></div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Heraclius. On account of the increasing value of the many public services and of the outstanding love he feels 
+               for his country and his fellow-citizens, to Titus Flavius Vibianus, excellent man <note>of equestrian status</note>, pontifex <note>priest</note>, perpetual flamen <note>priest</note>, 
+               priest of the Laurentes of Lavinas, priest of the Mother of the Gods, prefect of all sacred matters, duovir, priest of the province of Tripolitania, <supplied reason="subaudible">this was set up</supplied> here too in accordance with a vote of the people and a decree of the most splendid city council.</p></div>
+         
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>Heraclius! Per quanto fatto al fine di aumentare i proprinumerosi meriti e lo straordinario amore verso la patria e i
+               propri concittadini, a Titus Flavius Vibianus, uomo perfettissimo, pontefice, flamine perpetuo, sacerdote Laurentium
+               Lavinatium, sacerdote della Madre degli Dei, prefetto di tutte le cose sacre, duoviro, sacerdote della Prouincia di Tripolitania;
+               anche qui (fu posta una statua), per suffragio del popolo e per decreto dello splendidissimo ordine.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en">
+            <p>(Statue of) Heraclius. On account of the increase of his many merits and his outstanding love for the fatherland and his fellow citizens; 
+               to Titus Flavius Vibianus, of perfectissimus rank, priest (<foreign xml:lang="la">pontifex</foreign>), perpetual flamen, priest of Laurentes Lavinates, priest of the Mother of the gods, 
+               prefect of all sacred things, duovir, priest of the province of Tripolitania. Here too [this was set up] by acclamation of the people and by decree of the most splendid council (<foreign xml:lang="la">ordo</foreign>).</p>
+         </div>
+         <div type="commentary">
+            <p>T. Flauius Vibianus, signo Heraclius: PLRE I, Vibianus 1; <ref target="https://pir.bbaw.de/id/6274">https://pir.bbaw.de/id/6274</ref></p>
+          <!--      <p>Discussion: <ref target="https://zenon.dainst.org/Record/000155249">Bassignano (1974)</ref> pp. 29, 44. </p>
+          <p>For other members of the same family see <ref type="inscription" n="IRT0564">564</ref>, <ref type="inscription" n="IRT0595">595</ref>.  </p>
+        --> </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1203" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> text (En-Ngila cemetery)</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1203</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Tomb</objectType> of rubble, with a <material>plaster</material> surface, <dimensions><width>1.90</width> <depth>1.85</depth> <height>1.18</height></dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on one face; there is a series of four-petalled flowers incised above the text.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Large clear uncial letters</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="1017" notAfter="1017" evidence="internal-date" cert="low">1017 CE?: 6525 a.m.?</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                  Christian cemetery among the sand-dunes at <placeName ref="https://www.slsgazetteer.org/821">en-Ngila</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219597/tripoli.html">an Najīlah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-04" who="CMR">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="paribeni1927"/>, <citedRange>III</citedRange></bibl>; 
+               mentioned and indexed <bibl><ptr target="irt1952"/>, <citedRange>262</citedRange></bibl>, whence mentioned 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT262.html">262</ref></citedRange></bibl>;
+               <bibl><ptr target="bartoccini1977"/> <citedRange>VII</citedRange></bibl></p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+            <lb n="1"/><w lemma="in">in</w> <persName type="divine" ref="#iesus"><name nymRef="Christus"><g ref="symbols.xml#christi"/></name></persName> 
+               <w lemma="nomen">nomine</w> <w lemma="in">in</w> <w lemma="hic">hoc</w> 
+              <w lemma="tumulus">tumu<supplied reason="lost">lo</supplied></w> <supplied reason="lost"><w lemma="iaceo">iacet</w></supplied> <w lemma="corpus"><supplied reason="lost">cor</supplied>
+             <lb n="2" break="no"/>pus</w> <w lemma="bonus">bone</w> <w lemma="memoria">memorie</w> <persName type="attested"><name nymRef="Petrus">Petrus</name></persName> <w lemma="clarissimus">kl<supplied reason="lost" cert="low">arissimus</supplied></w>
+                <lb n="3"/><w lemma="iudex">iudex</w>. <w lemma="uiuo">Bixit</w> <w lemma="in">in</w> <w lemma="hic">hoc</w> <w lemma="saeculum"><expan><abbr>s</abbr><ex>e</ex><abbr>c</abbr><ex>u</ex><abbr>lo</abbr></expan></w> 
+               <date type="life-span" dur="P60Y" cert="low"> <w lemma="annus">annos</w> <w lemma="sexaginta">se<supplied reason="lost">xa</supplied>
+               <lb n="4" break="no"/>ginta</w> <w lemma="plus">plus</w> <w lemma="minus">minus</w></date>: <w lemma="in">in</w> <w lemma="annus">anno</w> <num>VI</num> <w lemma="millesimus"><expan><abbr>mill</abbr><ex>esim</ex><abbr>o</abbr></expan></w><gap reason="lost" quantity="3" unit="character" cert="low"/>
+            <lb n="5"/> <w lemma="indictio"><expan><abbr>ind</abbr><ex>i</ex><abbr>ct</abbr><ex>i</ex><abbr>o</abbr></expan></w> <w lemma="quintadecima">quintadecima</w> <w lemma="in">in</w> <w lemma="primus">prima</w> <w lemma="dies">d<supplied reason="lost">ie</supplied></w> 
+              <lb n="6"/> <w lemma="mensis">mense</w> <w lemma="Martius">Martiu</w> <w lemma="migro">migrabit</w> <w lemma="de">de</w> <w lemma="hic">hoc</w> <w lemma="saeculum"><expan><abbr>s</abbr><ex>e</ex><abbr>c</abbr><ex>u</ex><abbr>lo</abbr></expan></w>. 
+             <lb n="7"/>  <w lemma="requies">Requiem</w> <w lemma="aeternus">eternam</w> <w lemma="habeo">abeat</w> <w lemma="et">et</w> <w lemma="uita">bitam</w>
+                <lb n="8"/><w lemma="aeternus">eternam</w> <w lemma="possideo">possideat</w>, <w lemma="cum">cum</w> <w lemma="sanctus"><expan><abbr>s</abbr><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>is</abbr></expan></w> <w lemma="et">et</w> <w lemma="eligo">el
+                <lb n="9" break="no"/>ectis</w> <w lemma="omnis">omnibus</w> <w lemma="Amen"><expan><abbr>Am</abbr><ex>en</ex></expan></w>, <w lemma="Amen"><expan><abbr>Am</abbr><ex>en</ex></expan></w>, <w lemma="Amen"><expan><abbr>Am</abbr><ex>en</ex></expan></w>. 
+               <w lemma="in">In</w> <w lemma="tu">te</w> <persName type="divine" ref="#kyrios"><w lemma="dominus"><expan><abbr>D</abbr><ex>omi</ex><abbr>ne</abbr></expan></w></persName>
+               <lb n="10"/><w lemma="spero">sperabi</w> <w lemma="non">non</w> <w lemma="confundo">confundar</w> <w lemma="in">in</w> <w lemma="aeternus">eternum</w>.
+         </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="4"><rdg resp="#paribeni1927">UIMILLO[...] </rdg></app>
+               <app loc="6"><rdg resp="#paribeni1927">hoc se[culo]  </rdg></app>
+               <app loc="10"><rdg resp="#paribeni1927">skerabi </rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>In the name of Christ. In this tomb lies the body, Peter, [very dear] judge. He lived in this world 
+               more or less ?sixty years. In the year 6 thousand [ . . . ] fifteenth indiction, on the first day of the month March he passed from this world. May he have rest eternal, and may he possess life eternal, 
+               wth all the saints. Amen, Amen, Amen. I will hope in you Lord that I may not be confounded for eternity.</p>
+         </div>
+         <div type="commentary">
+            <p>The date is suggested by the indiction number</p>
+            <p>The age might be sixty, or se[ptuaginta, seventy</p>
+         </div>
+      </body>
+   </text>
+</TEI>

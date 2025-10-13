@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0363" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Hadrian </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0363</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>opposite the Chalcidicum.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Four <objectType>block</objectType>s (lengths, a) and b) together 
+               <height unit="metre">2.00</height>; c) 
+               <height unit="metre">1.07</height>; d) 
+               <height unit="metre">0.62</height>; each × 
+               <dimensions>
+                                 <width quantity="3.69"/>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.54</depth>
+                              </dimensions>) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre">0.09</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0128" notAfter="0138" evidence="titulature reign">CE 128-138</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                  <placeName ref="https://www.slsgazetteer.org/742">Regio IV</placeName>, insula  1. From a monumental inscription in the building on the West corner</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>opposite the Chalcidicum.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="wp0466.jpg">
+         <desc>Blocks a and b: Ward-Perkins Archive, BSR (Sopr. DLM 1670 Leica)</desc></graphic><!-- check numbering/CIL -->
+                  <graphic url="wp0464.jpg">
+                  <desc>Blocks b, c and d: Ward-Perkins Archive, BSR (Sopr. DLM 1619 Leica)</desc></graphic>
+                  
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> Blocks c and d: <bibl><ptr target="cil1916"/> <citedRange>22670</citedRange></bibl>;
+               <bibl><ptr target="degrassi1954"/>, <citedRange/></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>363</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT363.html">363</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059288">059288</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#hadrianus"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                  <addName nymRef="Caesar">Caesari</addName></supplied> <persName type="emperor" ref="#traianus"><supplied reason="lost"><w lemma="diuus">diui</w></supplied> 
+               <name type="cognomen" nymRef="Traianus"><supplied reason="lost">Trai</supplied>ani</name> <addName nymRef="Parthicus">Parthici</addName> </persName>
+               <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <persName type="emperor" ref="#nerua"><w lemma="diuus">diui</w> 
+               <name type="cognomen" nymRef="Nerua">Ner<unclear>u</unclear><supplied reason="lost">ae</supplied></name></persName> 
+               <supplied reason="lost"><w lemma="nepos"><expan><abbr>nep</abbr><ex>oti</ex></expan></w></supplied>
+               <name type="cognomen" nymRef="Traianus"><supplied reason="lost">Traia</supplied>no</name> 
+               <name type="cognomen" nymRef="Hadrianus"><supplied reason="lost">Hadria</supplied>no</name>
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName> 
+               <supplied reason="lost"><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w></supplied> 
+               <lb n="2"/>
+               <supplied reason="lost"><w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w>
+                  <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w></supplied>
+               <num><gap reason="lost" atLeast="1" atMost="2" unit="character"/>II</num>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+               <num value="3">III</num>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w>
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Aemilia">A<unclear>em</unclear>ilia</name>
+                  <name type="cognomen" nymRef="Iouina">Iou<supplied reason="lost">ina</supplied></name></persName>
+               <supplied reason="lost" cert="low"><w lemma="in">in</w></supplied> 
+               <w lemma="suus">suo</w> <w lemma="et">et</w> <w lemma="pecunia"><unclear>p</unclear><supplied reason="lost" cert="low">ecunia</supplied></w> <supplied reason="lost" cert="low"><w lemma="suus">sua</w></supplied>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               
+               <app loc="2">
+                  <rdg resp="#degrassi1954">Aemilia Iou[ina nomine] suo et p[atris . . . or P[ . . .</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="lost">To emperor Caesar Traj</supplied>an son of <supplied reason="lost">deified Traj</supplied>an victor in Parthia, <supplied reason="lost">grandson</supplied> 
+               of deified Nerva, <supplied reason="lost">holding tribunician power</supplied> for the <gap reason="lost" extent="unknown" unit="character"/> time, consul three times, 
+               father of the country; Aemilia Iou<supplied reason="lost">ina</supplied> <supplied reason="lost" cert="low">on</supplied> her own <supplied reason="subaudible" cert="low">land</supplied> and <supplied reason="lost">with her own money</supplied><gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>Line 2. pater patriae. From 128.</p>
+            <p>For the restoration see <ref type="inscription" n="IRT0314">314</ref>, lines 1- 2.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

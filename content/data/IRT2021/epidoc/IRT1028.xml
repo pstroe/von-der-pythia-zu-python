@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1028" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Serapis</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD045234</idno>
+                <idno type="TM">201123</idno>
+                <idno type="filename">IRT1028</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Small 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType> of white 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">marble</material>
+                                    <dimensions>
+                                        <height unit="metre">0.17</height>
+                                        <width unit="metre">0.10-0.12</width>
+                                        <depth unit="metre"/>
+                                    </dimensions>
+                               <!--   -->     
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> 
+                                    on two adjacent faces, b to the right of a; b is more corroded
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>a: <height unit="metre">0.017-0.024</height>; b: <height unit="metre">0.017-0.022</height>
+                       </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="0101" notAfter="0300" evidence="lettering">101 CE – 300 CE
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                                <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>, in the <placeName type="monuList" ref="https://www.slsgazetteer.org/1698">Serapeion</placeName>.</p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/2219905">Al Khums</placeName></term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term><!--move info inside <title> in <titleStmt>-->
+                </keywords>
+            </textClass>
+        <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2014-05-23" who="Bigi">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="vitaevrard2003"/> <citedRange>18</citedRange>, 285-6</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>2003.1921</citedRange></bibl>,
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045234">045234</ref></citedRange></bibl>
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <div n="a" type="textpart" subtype="face"><ab><lb n="1"/>
+               <persName type="attested"> <name nymRef="Claudius"><expan><abbr>Cl</abbr><ex>audius</ex></expan></name> 
+                   <name nymRef="Syrapiacus">Sy<unclear>r</unclear>
+                       <lb break="no" n="2"/>apiacu
+                       <lb break="no" n="3"/>s</name></persName> <w lemma="uotum"><expan><abbr>uo</abbr><ex>tum</ex></expan></w> <w lemma="soluo"><expan><abbr>so<unclear>l</unclear></abbr><ex>uit</ex></expan></w> </ab></div>
+                <div n="b" type="textpart" subtype="face"><ab>
+                    <lb n="1"/> <persName type="attested"><name nymRef="Claudius"><expan><abbr><supplied reason="lost">C</supplied>l</abbr><ex>audius</ex></expan></name> <name nymRef="Syrapiacus">Syra
+                        <lb break="no" n="2"/><unclear>p</unclear>iacus</name></persName> 
+                    <lb n="3"/><w lemma="uotum"><expan><abbr><unclear>u</unclear>o</abbr><ex>tum</ex></expan></w> <w lemma="soluo"><expan><abbr>so</abbr><ex>luit</ex></expan></w> <g ref="symbols.xml#leaf"/>
+            </ab></div></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p><note>a</note>: Claudius Syrapiacus paid his vow. <note>b</note>: Claudius Syrapiacus paid his vow.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

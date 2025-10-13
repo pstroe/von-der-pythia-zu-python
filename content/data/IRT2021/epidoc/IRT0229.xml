@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0229" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Apollo</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0229</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db660">Sabratha Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <objectType>base</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.53</width>
+                                 <height unit="metre">1.08</height>
+                                 <depth unit="metre">0.48</depth>
+                              </dimensions>) of compact <material>grey limestone</material> with 
+               moulded panels on front and sides; left, <rs type="decoration">a raven on a tripod</rs>, right, a <rs type="decoration">lyre</rs> 
+               and <rs type="decoration">plectrum</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  panel on front heavily and apparently deliberately damaged, but still legible (die, 
+               <dimensions>
+                              <width unit="metre">0.33</width>
+                              <height unit="metre">0.50</height>
+                           </dimensions>). Three lines of Neo-Punic, in part erased
+               and no longer legible, follow the Latin text. Uniform with <ref type="inscription" n="IRT0246">246</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="lettering">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                              <placeName ref="https://www.slsgazetteer.org/657">Oea</placeName>: 
+                  Found walled into the Chapel of Sidi Chlifa el-Bulaghi, beside the <placeName type="monuList" ref="https://www.slsgazetteer.org/807">Lighthouse Fort</placeName>, Tripoli</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Now in front of <placeName ref="https://www.slsgazetteer.org/660">Sabratha Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-07-17" who="CB">Added Punic text and translation</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0277.jpg">
+                  <desc>Left panel: Ward-Perkins Archive, BSR (Sopr. A 134)</desc></graphic>
+                  <graphic url="wp0278.jpg">
+                     <desc>Right panel: Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.III.14)</desc></graphic>
+                  <graphic url="wp0279.jpg">
+                  <desc>Front view:Ward-Perkins Archive, BSR (Sopr. D. 853)</desc></graphic>
+                  <graphic url="wp0280.jpg">
+                     <desc>Front face: Ward-Perkins, 1946 (Ward-Perkins Archive, BSR 46.VIII.8)</desc></graphic>
+                  <graphic url="wp0281.jpg">
+                     <desc>Front face: Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.III.15)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="aurigemma1916"/>,  <citedRange>383 ff</citedRange>, figs. 2- 4</bibl>;
+               <bibl>, whence <ptr target="ae"/>, <citedRange>1919.97</citedRange></bibl>; 
+              <bibl><ptr target="irt1952"/>, <citedRange>229</citedRange></bibl>, whence <bibl><ptr target="irt2009"/>, 
+                 <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT229.html">229</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD026850">026850</ref></citedRange></bibl>.
+With the Neo=Punic text <bibl><ptr target="dellavida1927"/> <citedRange unit="page">97</citedRange></bibl>;
+<bibl><ptr target="dellavida1987"/> <citedRange>5b</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2008"/> <citedRange>Tripoli N2</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve" n="i">
+            <ab>
+               <lb n="1"/><del rend="erasure"><persName type="divine" ref="#apollo"><name nymRef="Apollo">Apollini</name></persName>
+               <lb n="2"/><w lemma="sacer">sacrum</w>
+               <lb n="3"/>
+                  <persName type="attested"><name type="gentilicium" nymRef="Aurellius">Aurellius</name> 
+                  <persName type="attested"><name type="cognomen" nymRef="Epagrus">Epa<lb n="4" break="no"/>gri</name></persName> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></persName>
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>uo</ex></expan></w> 
+                  <w lemma="do"><expan><abbr>d</abbr><ex>edit</ex></expan></w>
+               </del>
+            </ab>
+         <div type="textpart" xml:lang="xpu" n="ii">
+            <ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="ᶜB̊D̊MLQ̊RT"><unclear>ᶜbd</unclear>ml<unclear>q</unclear>rt</name></persName> <!-- ᶜbdmlqrt --> <w lemma="bn">bn</w> 
+               <persName type="attested" cert="unknown"><name nymRef="mt/n">mt/n<gap extent="unknown" reason="lost" unit="character"/>b</name></persName><gap extent="unknown" reason="lost" unit="character"/> 
+               <lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><w lemma="l">l</w><gap extent="unknown" reason="lost" unit="character"/><w>bᶜ</w><gap extent="unknown" reason="lost" unit="character"/> 
+             <lb n="3"/><gap extent="unknown" reason="lost" unit="character"/><persName type="attested"><name nymRef="ᶜmyᵓn/t">ᶜmyᵓn/t</name></persName><gap extent="unknown" reason="lost" unit="character"/>
+
+             <!-- when xml:lang=xpu then output 'unclear' with &#x30A;  (=combining ring above), 
+              and not the underdot employed in all other languages as above -->
+            </ab>
+         </div>
+         
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>i. Sacred to Apollo. Aurellius son of Epagrus gave this at his own expense.</p></div>
+         <div type="translation" resp="#cb" xml:lang="en">
+            <p>ii. Abdmelqart, the son of Muthunbal.</p>
+         </div>
+         <div type="commentary">
+            <p>Line 3-4: <foreign xml:lang="la">Aurellius Epagri filius</foreign>. See also in <ref type="inscription" n="IRT0246">246</ref>.</p>
+            <p>Discussion of Neo-Punic text: <ref target="https://zenon.dainst.org/Record/000225656">Adams (2003)</ref>, 215-216; 
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Tripoli N2;
+               <ref target="https://zenon.dainst.org/Record/001362679">Wilson (2012)</ref>, 301-302.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0888" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building<certainty match=".." locus="value"/>
+               </rs> inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0888</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>b) is now at Beni Ulid.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Parts of two <objectType>balustrade</objectType> blocks (<dimensions>
+                                 <height unit="metre">0.24</height>
+                              </dimensions>) </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late second to early third century CE capitals: <height unit="metre">0.055</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0168" notAfter="0233" precision="low" evidence="lettering">Late second to early third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: 
+                        <placeName ref="https://www.slsgazetteer.org/655">Middle Lower Sofeggin Basin</placeName>: 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/778">Gasr Tininai</placeName> (map ref. Q 8500),  Both presumably from the temple, a) seems now to be lost</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p> b) is now at Beni Ulid.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2213505/qasr-tininay.html">Qaşr Tinīnāy</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>a: previous publications; b: transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1112.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.IV.30)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl> <ptr target="mehier1904"/> <citedRange>21</citedRange></bibl>, whence 
+               <bibl><ptr target="cil1916"/>, <citedRange>22666</citedRange></bibl>;
+               <bibl><ptr target="petrignani1928"/> illustration opposite p. <citedRange unit="page">17</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>888</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT888.html">888</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059733">059733</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="block" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">x</w> <w lemma="templum"><expan><abbr>temp</abbr><ex>lum</ex></expan></w> 
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+                  <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> 
+                  <persName type="attested"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>itus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auius</ex></expan></name> 
+                  <name type="tribe" nymRef="Quirina"><w lemma="Quirina"><expan><abbr>Q</abbr><ex>uirina tribu</ex></expan></w></name> <name type="cognomen" nymRef="Capito">Capito</name> 
+                  <name nymRef="Io-"><supplied reason="lost" evidence="previouseditor"><seg part="I">Io</seg></supplied></name>
+                  <gap reason="lost" extent="unknown" unit="character"/></persName>
+               </ab></div></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="b 1">
+                  <note> The letters IO, illustrated by Petrignani, are now lost.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>b followed by a</note>  Titus Flavius Capito Io[- . . . ] of the Roman voting tribe Quirina <supplied reason="lost">built</supplied> the temple at his own expense [ . . .</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

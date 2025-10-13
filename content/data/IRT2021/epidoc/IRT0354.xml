@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0354" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Trajan </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0354</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db654">Lepcis Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Four fragments, all probably from the same <objectType>panel</objectType> of white <material>marble</material>. 
+               a) and b) <dimensions>
+                                 <width unit="metre">0.20</width>
+                                 <height unit="metre">0.11</height>
+                              </dimensions> and <dimensions>
+                                 <width unit="metre">0.25</width>
+                                 <height unit="metre">0.20</height>
+                              </dimensions>, no edges surviving.
+               c) <dimensions>
+                                 <width unit="metre">0.12</width>
+                                 <height unit="metre">0.12</height>
+                              </dimensions>, no edges surviving.
+               d) <dimensions>
+                                 <width unit="metre">0.16</width>
+                                 <height unit="metre">0.22</height>
+                              </dimensions>, lower border.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded border</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) and b): line 1, lapidary capitals, <height unit="metre">0.05</height>; line 2, <date type="textDate" notBefore="0101" notAfter="0200" precision="low">Second century</date> capitals, <height unit="metre">0.035</height>; line 3, <height unit="metre">0.045</height>.</handNote>
+                     <handNote>c) <date type="textDate" notBefore="0101" notAfter="0200" precision="low">Second century</date> capitals, line 1, <height unit="metre">0.035</height>; line 2, <height unit="metre">0.045</height>.</handNote>
+                     <handNote>d) <date type="textDate" notBefore="0101" notAfter="0200" precision="low">Second century</date> capitals, line 1, <height unit="metre">0.045</height>; line 2, <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="0113" evidence="internal-date">CE 113: <ref target="https://godot.date/id/Je4rUcPZVCYhjkUxsSmgq4">GODOT</ref> </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/654">Lepcis Museum</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0454.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.X.34)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>354</citedRange></bibl>, whence  
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT354.html">354</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059281">059281</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="ab" type="textpart"><note>a) and b)</note><ab>
+                  <lb n="1"/>
+                  <persName type="emperor" ref="#traianus"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> 
+                     <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>are</ex></expan></addName> 
+                     <name type="cognomen" nymRef="Nerua">Nerua</name></supplied> <name type="cognomen" nymRef="Traianus"><supplied reason="lost">Tr</supplied><unclear>a</unclear>iano</name> 
+                  <addName nymRef="Augustus"><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usto</ex></expan></addName> 
+                  <addName nymRef="Germanicus"><expan><abbr>Ger</abbr><ex>manico</ex></expan></addName> 
+                     <addName nymRef="Dacicus"><unclear>D</unclear><supplied reason="lost">acico</supplied></addName></persName> 
+                  <lb n="2"/>
+                  <supplied reason="lost"><w lemma="pontifex"><expan><abbr>pontif</abbr><ex>ice</ex></expan></w> 
+                     <w lemma="maximus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                     <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w></supplied> 
+                  <w lemma="potestas"><expan><abbr>pot<supplied reason="lost">est</supplied></abbr><ex>ate</ex></expan></w>
+                  <num value="17">XVII</num>
+                  <w lemma="imperator"><expan><abbr>im<supplied reason="lost">p</supplied></abbr><ex>eratore</ex></expan></w>
+                  <supplied reason="lost"><num value="6">VI</num>  
+                     <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w>
+                     <num value="6">VI</num> 
+                     <w lemma="pater"><expan><abbr>p</abbr><ex>atre</ex></expan></w> 
+                     <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></supplied>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ueu</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">ni<unclear>o</unclear></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="M">ell</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="honoro"><supplied reason="lost">h</supplied>onora<gap reason="lost" extent="unknown" unit="character"/></w>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">rauit</w> <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a and b.</note> <supplied reason="lost">When the emperor Caesar Nerva</supplied> Trajan Augustus Germanicus Dacicus was <supplied reason="lost">chief priest, holding tribunician</supplied> power for the seventeenth time, acclaimed victor <supplied reason="lost">six times, consul six times, father of the country</supplied><gap reason="lost" extent="unknown" unit="character"/> </p><p>c.  Not usefully translatable.</p><p>d.<gap reason="lost" extent="unknown" unit="character"/> ? honoured <gap reason="lost" extent="unknown" unit="character"/><note>a singular subject</note><supplied reason="subaudible">took some action</supplied><gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>a and b)  line 2. trib. pot. XVII - 10 Dec. 112 - 9 Dec. 113. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

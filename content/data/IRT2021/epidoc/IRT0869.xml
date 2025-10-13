@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0869" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building</rs> inscription </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0869</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>?<!-- Unknown? --></repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Block</objectType> of <material>yellow limestone</material> (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre">0.31</height>
+                                 <depth unit="metre">0.14</depth>
+                              </dimensions>), the right-hand edge of which appears to have been incorporated in a later building. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals: <height unit="metre">0.025</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0400">First-fourth centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/650">Eastern Jabal</placeName>:  
+                  From <placeName type="monuList" ref="https://www.slsgazetteer.org/677">Ain Wif</placeName> (map ref. Q 643965 see 868), from  the ruins of a bath-house beside the spring.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p/>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208839/%60ayn-wif.html">`Ayn Wīf</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1080.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 402)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="goodchildwp1949"/>, <citedRange>86-8</citedRange>, pi. XI, 2</bibl>, whence 
+               <bibl><ptr target="ae"/>, <citedRange>1950.127</citedRange></bibl>;
+               <bibl><ptr target="irt1952"/>, <citedRange>869</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT869.html">869</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021841">021841</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Coelius">Coeli<supplied reason="lost">us</supplied></name>
+               <gap reason="lost" quantity="16" unit="character" precision="low"/><lb n="2" break="no"/><name type="cognomen"><seg part="F">ninus</seg></name></persName>  <gap reason="lost" quantity="12" unit="character" precision="low"/>
+               <lb n="3"/><w lemma="balnea">balneum</w> 
+               <w lemma="uetustas">u<supplied reason="lost">etustate</supplied></w> 
+               <w lemma="corrumpo"><supplied reason="lost">corrup</supplied><lb n="4" break="no"/>tum</w> 
+               <w lemma="restituo">restituendum</w> <supplied reason="lost"><w lemma="curo">curauit</w></supplied>
+               <lb n="5"/><w lemma="idem">eidem</w> <w lemma="assus">assam</w> <w lemma="cella">cellam</w> <w lemma="ab">a</w> <w lemma="solum">so<supplied reason="lost">lo</supplied></w>
+               <lb n="6"/><w lemma="facio">fecit</w> <w lemma="et">et </w><w lemma="cylisterium">cylisterium</w> <w lemma="instituo">institu<lb n="7" break="no"/>it</w> 
+               <w lemma="curo">curante</w> <persName type="attested"><name type="gentilicium" nymRef="Iunius">Iunio</name> <name type="cognomen" nymRef="Sucessus">Sucesso</name></persName> <note>sic</note>
+               <lb n="8"/>
+               <w lemma="centurio"><expan><abbr>c</abbr><ex>enturione</ex></expan></w> <w lemma="princeps">principe</w></ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <lem>-ninus</lem>
+                  <note>Or <foreign xml:lang="la">Ninus</foreign>; but the <rs type="decoration">ivy leaf</rs> at the beginning of the line is probably decorative rather than a stop.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Marcus Coelius <gap reason="lost" extent="unknown" unit="character"/>ninus<note> or Ninus</note> <gap reason="lost" extent="unknown" unit="character"/> 
+               saw to the restoration of the bath, which was in bad condition as a result of its age. He also built the 
+               sweating-chamber from its foundations and instituted an exercise-room. 
+               Junius Successus, centurion of the principes, was in charge <supplied reason="subaudible">of the work</supplied>.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

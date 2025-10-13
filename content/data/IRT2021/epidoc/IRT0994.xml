@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0994" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0994</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Upper part of a <material>limestone</material> 
+                              <objectType>column</objectType> 
+               (<dimensions>
+                                 <dim unit="metre" type="diameter">0.34</dim>
+                                 <height unit="metre">1.96</height>
+                              </dimensions>) tapering slightly towards the top and terminating in an outward-curving flange;
+               reassembled from two pieces, each damaged above and below.
+              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a panel (<height unit="metre">0.30</height>
+                           <height unit="metre" precision="low">1.82</height>)
+               defined by <rs type="decoration">two lightly incised lines</rs>, having an <rs type="decoration">ansa</rs>, similarly defined, at the top.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late capitals, carefully cut; ave. <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0351" notAfter="0500" precision="low" evidence="context">Mid fourth - fifth century.</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/899">Wadi Zemzem</placeName>: 
+                 <placeName ref="https://www.slsgazetteer.org/783">Ghirza</placeName>; One of the two pieces was found in <date type="found">1953</date> on the slope in front of Mausoleum A in the group nearest the habitations.
+                              The second was found in <date type="found">1955</date> inside the underground burial chamber of the same mausoleum. he primary inscription of this mausoleum 
+                              (<ref type="inscription" n="IRT0899">899</ref>) is still in situ above its door.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="reynolds1955"/>, <citedRange>S.22</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1957.243</citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017462">017462</ref></citedRange></bibl>
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT994.html">994</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017462">017462</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="sequens">Seque<supplied reason="lost" cert="low">ns</supplied></w><gap reason="lost" quantity="3" unit="character"/><orig><unclear>o</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig><unclear>e</unclear></orig><gap reason="lost" quantity="1" unit="character"/>
+               <lb n="2"/><w part="F"><unclear>ci</unclear>s</w> <w lemma="memorator">memorator</w> <persName type="attested"><name nymRef="M-"><seg part="I"/><unclear>M</unclear></name>
+               <lb n="3" break="no"/><gap reason="lost" quantity="2" unit="character"/><name nymRef="-neus"><seg part="F"/>neorum</name> <w lemma="sum">est</w> <persName type="attested"><name nymRef="Mon-"><seg part="I"/>M<unclear>on</unclear></name>
+               <lb n="4" break="no"/><gap reason="lost" quantity="1" unit="character"/><name nymRef="-san"><seg part="F">san</seg></name></persName> <w lemma="filius">filius</w> <name nymRef="Uoc-"><seg part="I">Uoc</seg></name></persName>
+               <lb n="5" break="no"/><orig><unclear>ii</unclear>s</orig> <w lemma="omnis">omnibus</w> <w lemma="parens">par<lb n="6" break="no"/>rentibus</w> <w lemma="pono">pos<supplied reason="lost">uit</supplied></w>   <note>sic</note>
+               <lb n="7"/><w lemma="quis">quis</w> <w lemma="et">et</w> <persName type="attested"><name nymRef="U-"><seg part="I">U</seg></name></persName><gap reason="lost" quantity="7" unit="character" precision="low"/>
+               <lb n="8"/><w lemma="dies">diem</w><gap reason="lost" quantity="10" unit="character" precision="low"/>
+               <lb n="9"/><w lemma="uictoria">uic<supplied reason="lost">tori</supplied>arum</w> <w lemma="suus"><supplied reason="lost">s</supplied><unclear>u</unclear><lb n="10" break="no"/>arum</w> <w lemma="exhibeo">exhibuit</w>
+               <lb n="11"/><w lemma="sacrificium">sacrificia</w> <w lemma="parentalia"><supplied reason="lost" cert="low">p</supplied><unclear>a</unclear>re<lb n="12" break="no"/>ntaliorum</w><w lemma="taurus"> ta<lb n="13" break="no"/>uros</w> <w lemma="numerus"><expan><abbr>n</abbr><ex>umero</ex></expan></w> <num value="51">L<unclear>I</unclear></num> <w lemma="quinquaginta">qu<lb n="14" break="no"/>inquaginta</w> <w lemma="et"><unclear>e</unclear><supplied reason="lost">t</supplied></w>
+               <lb n="15"/><w lemma="unus"><supplied reason="lost" cert="low">unum</supplied></w> <w lemma="caper">capros</w> <w lemma="numerus"><supplied reason="lost"><expan><abbr>n</abbr><ex>umero</ex></expan></supplied></w>
+               <lb n="16"/><num><supplied reason="lost" cert="low">XX</supplied>XVIII</num> <w lemma="triginta"><unclear>tri</unclear><supplied reason="lost">gi</supplied><lb n="17" break="no"/><supplied reason="lost">nta</supplied></w> <w lemma="octo"><supplied reason="lost">o</supplied><unclear>c</unclear>t<supplied reason="lost">o</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+            
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>The following <gap reason="lost" extent="unknown" unit="character"/> commemorator of the M<gap reason="lost" quantity="2" unit="character"/>nei is Mon<gap reason="lost" quantity="1" unit="character"/>san, son of 
+               Voc<gap reason="lost" quantity="1" unit="character"/>is; he set up for all his ?family ?for whom <gap reason="lost" extent="unknown" unit="character"/> 
+               the day <note>accusative case</note> of his victories he presented the sacrificial animals of the ?parentalia, bulls to the number of fifty-one, goats to the number of thirty-eight 
+               <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+        <!--     <p>T.  The new text, if it is to be associated with this, must be considered as secondary; but it is quite possible that it belonged to a mausoleum now destroyed.</p>
+            <p>.ll 2-4. Presumably the name of the family concerned.  All the names in this text, in so far as they can be read, are otherwise unknown.</p>
+            <p>.line 12: The lower serif of a letter, probably an upright, is visible to the left of A.  There is just room here for a P, giving <foreign xml:lang="la">parentaliorum</foreign> (for this form of the genitive of <foreign xml:lang="la">parentalia</foreign> see ILS 8370);
+               the sense seems to require a noun descriptive of the type of victims, but I cannot find an instance of <foreign xml:lang="la">parentalia</foreign> used in this way.</p>
+            <p>Line 12-17. The unusually large number of victims is noteworthy, and demonstrates the great wealth of the settlement at Ghirza (see also <ref type="inscription" n="IRT0995">995</ref>).
+               Since the inscription is unlikely to be earlier than the middle of the fourth century it also demonstrates the vigour of the pagan tradition there.</p>
+        -->  </div>
+      </body>
+   </text>
+</TEI>

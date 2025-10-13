@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0966" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile XLIII? Caracalla.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0966</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Milestone</objectType>.</p> 
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>No description.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot: <placeName ref="https://www.slsgazetteer.org/665">Upper Sofeggin Road</placeName></origPlace>
+                     <origDate when="0216" evidence="internal-date">CE 216: <ref target="https://godot.date/id/3XUX8Lddn5LBs9ebwQdJyX">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/880">Wādī Sawfajjīn</placeName>: 
+                  area of Zintan to Mizda:  Said to be near <placeName type="monuList" ref="https://www.slsgazetteer.org/877">Sceghega</placeName>. 
+                  Known only from a copy made by an Arab student in 1928 and published by Bartoccini.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212014/bi-r-ash-shuqayqah.html">Bi'r ash Shuqayqah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Previous publications and transcription, by Bartoccini.<!-- check --></creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>966</citedRange>, without transcription</bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT966.html">966</ref></citedRange></bibl>;
+               <bibl><ptr target="bartoccini1948"/> <citedRange>15</citedRange> p.151-2</bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059804">059804</ref></citedRange></bibl>
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#caracalla">
+               <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <space extent="unknown" unit="character"/>
+               
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> <persName type="emperor" key="septimiusseuerus"><w lemma="diuus">diui</w> 
+                  <name type="gentilicium" nymRef="Septimius">Septi
+                  <lb n="2" break="no"/>mi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> <addName nymRef="Pius">Pii</addName> 
+                  <addName nymRef="Arabicus">A<lb n="3" break="no"/>rabici</addName> <addName nymRef="Adiabenicus">Adiab<supplied reason="lost">e</supplied>
+                      <lb n="4" break="no"/>nici</addName> <addName nymRef="Parthicus">Parthi<supplied reason="lost">ci</supplied></addName> 
+                  <lb n="5"/><w lemma="maximus">maximi</w> <addName nymRef="Britannicus">Brit
+                           <lb n="6" break="no"/>tan<supplied reason="lost">i</supplied>ci</addName> <w lemma="maximus">maxi
+                        <lb n="7" break="no"/>mi</w></persName> <w lemma="filius"><expan><abbr>fil</abbr><ex>io</ex></expan></w>, <persName type="emperor" ref="#marcusaurelius"><w lemma="diuus">diui</w> 
+                      <lb n="8"/><name type="gentilicium" nymRef="Antoninus">Antonini</name> <addName nymRef="Pius">Pii</addName> 
+                     <lb n="9"/>       <addName nymRef="Germanicus">Germanici</addName> <addName nymRef="Sarmaticus">Sa<supplied reason="lost">r</supplied>
+                         <lb n="10" break="no"/>matici</addName></persName> <w lemma="nepos">nepoti</w> 
+                <lb n="11"/><persName type="emperor" ref="#antoninuspius"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name> 
+                    <lb n="12"/><addName nymRef="Pius"><supplied reason="lost">Pii</supplied></addName></persName> <w lemma="pronepos">pronepoti</w> 
+                <lb n="13"/><w lemma="diuus">diui</w> <persName type="emperor" ref="#hadrianus"><name type="cognomen" nymRef="Hadrianus">Hadria
+                    <lb n="14"/>ni</name></persName> <w lemma="abnepos">abnepoti</w> 
+                <lb n="15"/><w lemma="diuus">diui</w> <persName type="emperor" ref="#traianus"><name type="cognomen" nymRef="Traianus">Tra<supplied reason="lost">iani</supplied></name> 
+                    <lb n="16"/><addName nymRef="Parthicus">Parthici</addName></persName> <w lemma="et">et</w> <persName type="emperor" ref="#nerua"><w lemma="diuus">di
+                 <lb n="17" break="no"/>ui</w> <name type="cognomen" nymRef="Nerua">Nerue</name></persName> <w lemma="adnepos">adne<supplied reason="lost">po</supplied>
+                   <lb n="18" break="no"/> ti</w> <supplied reason="lost"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name></supplied> 
+                      <name type="gentilicium" nymRef="Aurelius">Aurelio</name> <name type="gentilicium" nymRef="Antoninus"><supplied reason="lost">A</supplied>n
+                    <lb n="19" break="no"/>tonino</name> <addName nymRef="Pius">Pio</addName> <addName nymRef="Felix">Fe<supplied reason="lost">li</supplied>
+                   <lb n="20" break="no"/>ci</addName> 
+                <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName> <addName nymRef="Parthicus">Parthi
+               <lb n="21" break="no"/>co</addName> <w lemma="maximus">maximo</w> <addName nymRef="Britannicus">Brit
+                 <lb n="22" break="no"/>tanic<supplied reason="omitted">o</supplied></addName> <w lemma="maximus">maximo</w>
+                <lb n="23"/> <addName nymRef="Germanicus">Germanico</addName> <w lemma="maximus">ma
+                   <lb n="24" break="no"/>ximo</w></persName> <w lemma="pontifex">pontifici</w> 
+                <lb n="25"/><w lemma="maximus">maximo</w> 
+              <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w>
+               <lb n="26"/><num value="19">XIX</num>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> 
+              <num value="3">III</num> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <num value="4">IIII</num>  
+               <lb n="27"/><w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+                <w lemma="proconsul">pro<expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+               <lb n="28"/><w lemma="miliarium"><expan><abbr>mil</abbr><ex>iarium</ex></expan></w> <gap reason="lost" quantity="1" unit="character"/><num>XL</num><gap reason="lost" quantity="2" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="28"><rdg source="#bartoccini1948">[CXL]III <note>or</note> [C]XL</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>To emperor Caesar, son of deified Septimius Severus, Pius, victor in Arabia, victor in Adiabene, greatest victor in Parthia, greatest victor in Britannia, 
+               grandson of deified Antoninus Pius , victor in Germany, victor in Sarmatia, great grandson of deified Antoninus Pius, great great grandson of deified Hadrian, 
+               great great great grandson of deified Trajan, victor in Parthia and of deified Nerva, Marcus Aurellius Antoninus Pius Felix Augustus, greatest victor in Parthia, 
+               greatest victor in Britannia, greatest victor in Germany, chief priest, holding tribunician power for the nineteenth time, acclaimed victor three times, consul four times, 
+               father of the country, proconsul. Milestone [ . . ]40[ . . .</p>
+         </div>
+         <div type="commentary">
+            <p> The mileage number is recorded as [C]XL or [C]XLIII, but the geographical relation of the findspot to other known mile-stations
+               on the Upper Sofeggin Road makes the initial C improbable.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

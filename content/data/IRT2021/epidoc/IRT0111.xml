@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0111" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for L. Aemilius Quintus.</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0111</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <material>marble</material> 
+                              <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.75</width>
+                                 <height unit="metre">1.40</height>
+                                 <depth unit="metre">0.70</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on one face, from which a previous inscription has been erased. The first line is cut above the die</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century CE capitals: line 1, <height unit="metre">0.07</height>; <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height>. Height not complete.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/840">Curia</placeName>, in situ in front of the entrance. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0148.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CLM 309)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl><ptr target="bartoccini1950"/>, <citedRange>36</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1950.149</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>111</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT111.html">111</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021895">021895</ref></citedRange></bibl>, 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2880">2880</ref></citedRange> (U. Gehn)</bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..
+            </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/> 
+               <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Aemilius">Aemili</name> <name type="cognomen" nymRef="Quintus">Quinti</name></persName> 
+               <w lemma="flamen"><expan><abbr>fl</abbr><ex>aminis</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr><unclear>p</unclear></abbr><ex>er</ex><abbr><unclear>p</unclear></abbr><ex>etui</ex></expan></w>
+               <lb n="2"/><w lemma="qui">quod</w> <w lemma="labor">laborem</w> <w lemma="continuus">continu<supplied reason="omitted">u</supplied>m</w>
+               <lb n="3"/><w lemma="pro">pro</w> <w lemma="prouincia">prouinciae</w> <w lemma="suus">suae</w>
+               <lb n="4"/><w lemma="necessitas">necessitate</w> <w lemma="sustineo">sustinuit</w>
+               <lb n="5"/><w lemma="et">et</w> <w lemma="qui">quod</w> <w lemma="miseria">miserias</w> 
+               <w lemma="communis">com<lb n="6" break="no"/>munes</w> <w lemma="sacer">sacris</w> <w lemma="auris"><expan><abbr>aurib</abbr><ex>us</ex></expan></w>
+               <lb n="7"/><w lemma="intimo">intimabit</w> <w lemma="et">et</w> <w lemma="remedium">remedium</w>
+               <lb n="8"/><w lemma="mereo">meruit</w> <w lemma="ordo">ordo</w> <w lemma="et">et</w> <w lemma="populus"><expan><abbr>popul</abbr><ex>us</ex></expan></w>
+               <lb n="9"/><w lemma="splendidus">splendidae</w> <w lemma="colonia"><expan><abbr>col</abbr><ex>oniae</ex></expan></w> 
+               <placeName nymRef="#Colonia Sabrathensis" ref="#sabratha"><expan><abbr>Sabrat</abbr><ex>hensis</ex></expan></placeName>
+               <lb n="10"/><w lemma="secundus">secundum</w> <w lemma="decerno">decreta</w> <w lemma="totus">totius</w>
+               <lb n="11"/>
+               <w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iae</ex></expan></w> 
+               <w lemma="dedico"><expan><abbr>dedic</abbr><ex>auerunt</ex></expan></w> 
+               <w lemma="curo"><expan><abbr>cur</abbr><ex>ante</ex></expan></w> 
+               <lb n="12"/><persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="cognomen" nymRef="Venantius">Uenantio</name></persName></ab></div>
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><supplied reason="subaudible">In honour</supplied> of Lucius Aemilius Quintus, perpetual flamen <note>priest</note>, because he made continual effort to meet the needs of his province and because he brought  its shared misfortunes to the sacred <note>i.e. imperial</note> ears and obtained a remedy; the city council and the people of the splendid colony of Sabratha, in accordance with the decrees of the whole province, dedicated <supplied reason="subaudible">this</supplied>; Flavius Venantius took charge <supplied reason="subaudible">of the work</supplied>.</p></div>
+         <div type="commentary">
+         <!--    <p>Line 1:   Lucius Aemilius Quintus. 
+               Also in CIL VIII 27, line 1, 6-10, at Gigthis, dated between 383 and 388; and in <ref type="inscription" n="IRT0588">588</ref>, line 1- 6.</p> -->
+            
+         </div>
+      </body>
+   </text>
+</TEI>

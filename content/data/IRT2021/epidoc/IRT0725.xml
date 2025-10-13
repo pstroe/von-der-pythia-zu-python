@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0725" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0725</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <objectType>base</objectType>(<dimensions>
+                                 <width unit="metre">0.60</width>
+                                 <height unit="metre">1.50</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face within a moulded <objectType>panel</objectType>, 
+               (die, <dimensions>
+                              <width unit="metre">0.31</width>
+                              <height unit="metre">0.59</height>
+                           </dimensions>); 
+               the surface badly damaged. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals, third or fourth  century CE:
+               <height unit="metre" atLeast="0.03" atMost="0.035">0.03-0.035</height>;
+               last line: <height unit="metre">0.05</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0400" precision="low" evidence="lettering">Third or fourth century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/740">Regio II</placeName>,  
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/725">Hadrianic Baths</placeName>, in the palestra in front of the main entrance. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0915.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XVI.6)</desc></graphic>
+                  <graphic url="wp0916.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XVI.5)</desc></graphic>
+      <graphic url="tantillo0346.jpg">
+         <desc>Front view: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0347.jpg">
+         <desc>Right face: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0348.jpg">
+         <desc>Back and left faces: Tantillo (2008)</desc></graphic>
+      <graphic url="tantillo0349.jpg">
+         <desc>Top: Tantillo (2008)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>725</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT725.html">725</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059574">059574</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w lemma="uita" part="M">uita</w><gap reason="lost" quantity="3" unit="character"/> 
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/><persName type="attested"> 
+               <name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Marcius">Marci<lb n="3" break="no"/><supplied reason="lost">o</supplied></name><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+               
+               <name type="cognomen" nymRef="Asper">Asper<unclear>o</unclear></name></persName> 
+               <lb n="4"/><w lemma="po-" part="I">po</w><gap reason="lost" quantity="4" unit="character"/><orig><unclear>r</unclear>on</orig><gap reason="lost" quantity="1" unit="character"/> 
+               <lb n="5"/><w lemma="pater">pa<supplied reason="lost">tri</supplied></w> <w lemma="pius"><supplied reason="lost">pi</supplied>issim<supplied reason="lost">o</supplied></w>
+               <lb n="6"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>d</orig><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+               
+               <lb n="7"/>
+               <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><orig>m</orig><gap reason="lost" quantity="1" unit="character"/><orig>n</orig>
+               <lb n="8"/>
+               <gap reason="lost" quantity="1" unit="character"/><orig>o</orig><gap reason="lost" quantity="3" unit="character"/><orig>s</orig> <w lemma="suus">sua</w> 
+               <lb n="9"/><w lemma="pecunia">p<unclear>e</unclear>cunia</w> <w lemma="pono">po<lb n="10" break="no"/>suerunt</w></ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> to Quintus Marcius <gap reason="lost" extent="unknown" unit="character"/> Asper <gap reason="lost" extent="unknown" unit="character"/> to a most dutiful fa<supplied reason="lost">ther</supplied><gap reason="lost" extent="unknown" unit="character"/> erected <note>subject plural</note> at their own expense.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

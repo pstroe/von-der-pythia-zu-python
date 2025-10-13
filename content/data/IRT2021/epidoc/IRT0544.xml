@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0544" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for L. Volusius Bassus Cerealis</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0544</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> (<dimensions>
+                                 <width unit="metre">0.68</width>
+                                 <height unit="metre">1.22</height>
+                                 <depth unit="metre">0.55</depth>
+                              </dimensions>) of cream <material>marble</material>, with <rs type="decoration">trophies</rs> carved in relief on the two side faces. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on the front within a moulded panel (die, 
+               <dimensions>
+                              <width unit="metre">0.34</width>
+                              <height unit="metre">0.56</height>
+                           </dimensions>)
+               from which a previous inscription has been erased. There is an <rs type="decoration">ivy leaf</rs> at the end of line 6.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Late third to fourth centuries lettering: <height unit="metre" atLeast="0.03" atMost="0.045">0.03-0.045</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0290" notAfter="0294" precision="low" evidence="titulature">290-294 CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: 
+                              <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>: 
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/704">Severan Basilica</placeName>, in the East passage. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins, Tantillo)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0710.jpg">
+                  <desc>Ward-Perkins Archive, BSR (sopr. DLM 1526 Leica)</desc></graphic>
+      <graphic url="tantillo0189.jpg">
+         <desc>View: Tantillo, 2006 (DSCN2724)</desc></graphic>
+      <graphic url="tantillo0190.jpg">
+         <desc>Face: Tantillo, 2005 </desc></graphic>
+      <graphic url="tantillo0191.jpg">
+         <desc>Face: Tantillo, 2006 (DSCN2723)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="irt1952"/>, <citedRange>544</citedRange></bibl>, whence 
+               <bibl><ptr target="degrassi1954"/> <citedRange>116</citedRange></bibl>, whence 
+               <bibl><ptr target="reynolds1955"/> <citedRange>144</citedRange></bibl>
+               <bibl><ptr target="thomasson1996"/> <citedRange>78</citedRange></bibl>,  <!-- check -->
+              
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT544.html">544</ref></citedRange></bibl>;  
+               <bibl><ptr target="lepelley1981a"/> <citedRange>4</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1982.925</citedRange></bibl>;
+               <bibl><ptr target="tantillo2010"/>, <citedRange>24</citedRange></bibl>, whence 
+               <bibl><ptr target="lsa"/>, <citedRange><ref target="http://laststatues.classics.ox.ac.uk/database/detail-base.php?record=LSA-2170">2170</ref></citedRange> (Tantillo and Bigi)</bibl>, 
+               <bibl><ptr target="EDH"/> (Bigi, 2014) <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031039">031039 </ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>..</p>
+            
+              
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" key="bbaw:14665"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Uolusius">Uolusio</name> <name type="cognomen" nymRef="Bassus">Basso</name> <name type="cognomen" nymRef="Cerealis">Cereali</name></persName>
+               <lb n="2"/><w lemma="clarissimus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <w lemma="legatus">legato</w> <w lemma="totus">totius</w>
+               <lb n="3"/><w lemma="innocentia">innocentiae</w> <w lemma="et">et</w>
+               <lb n="4"/><w lemma="aequitas">aequitatis</w> <w lemma="et">et</w> 
+               <w lemma="consimilis">consi<lb n="5" break="no"/>milis</w> 
+               <w lemma="moderatio">moderatio<lb n="6" break="no"/>nis </w><w lemma="uir">uiro</w> <g ref="symbols.xml#leaf"/>
+               <lb n="7"/><placeName type="ethnic" ref="#lepcis" nymRef="#Lepcimagnensis">Lepcimagnenses</placeName> <w lemma="ex">ex</w> 
+               <w lemma="decerno">de<lb n="8" break="no"/>creto </w><w lemma="ordo">ordinis</w> 
+               <w lemma="municeps">mu<lb n="9" break="no"/>nicipi</w> <w lemma="et">et</w> <w lemma="patronus">patrono</w> <w lemma="perpetuus">perpetuo</w> 
+            </ab></div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="8">
+                  <rdg resp="#irt1952">municipi(i) et patrono</rdg>
+                  <rdg resp="#lepelley1981a">municipi patrono</rdg>
+                  <rdg resp="#degrassi1954"><note>i and e in ligature</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Lucius Volusius Bassus Carealis, splendid man  <note>of senatorial status</note>, legate, a man of complete innocence and equity and equally of moderation; 
+               the people of Lepcis Magna, in accordance with a decree of the council of the municipality, <supplied reason="subaudible">set this up</supplied> and to 
+               <supplied reason="subaudible">their</supplied> permanent patron .</p></div>
+         <div type="translation" source="#lepelley1981a" xml:lang="fr">
+            <p><note>Lines 7-9</note> Les Lepcignensiens, à la suite d'un décret de l'ordo, à leur concitoyen patron perpétuel</p></div>
+         <div type="translation" source="#tantillo2010" xml:lang="it">
+            <p>A Lucius Volusius Bassus Cerealis, uomo chiarissimo, legato, uomo di completa innocenza e equità, nonché di pari moderazione, 
+               gli abitanti di Leptis Magna, per decreto dell’ordine, al proprio concittadino e patrono perpetuo.</p></div>
+         <div type="translation" source="#lsa" xml:lang="en"><p>To Lucius Volusius Bassus Ceralis, of clarissimus rank, legate, a man of complete integrity and fairness 
+            as well as comparable moderation. The people of Lepcis Magna (<foreign xml:lang="la">Lepcimagnenses</foreign>), by decree of the council (<foreign xml:lang="la">ordo</foreign>) 
+            [set this up], to their fellow citizen and perpetual patron.</p></div>
+         <div type="commentary">
+            <p>L. Volusius Bassus Caerealis: <ref target="https://pir.bbaw.de/id/14665">https://pir.bbaw.de/id/14665</ref> </p>
+         </div>
+      </body>
+   </text>
+</TEI>

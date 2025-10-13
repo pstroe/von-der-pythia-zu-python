@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1215" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> text (En-Ngila cemetery)</title>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT1215</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Tomb</objectType> of rubble, with a <material>plaster</material> surface; no measurements.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro"><!-- or litteris_scariphatis? -->Incised</rs> on the upper face</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Elegant uncials, <height>0.031-0.037</height></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="1025" notBefore="0975" evidence="context" cert="low"> Late 10th-early eleventh century CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                  Christian cemetery among the sand-dunes at <placeName ref="https://www.slsgazetteer.org/821">en-Ngila</placeName>; excavated in <date type="found">1973</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2219597/tripoli.html">an Najīlah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-08-17" who="CMR">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="rizzardi1973"/>, <citedRange>II</citedRange> pp.292-294</bibl> and figs. 10-12</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+           <ab>
+            <lb n="1"/><g ref="symbols.xml#crux"/> <w lemma="bonus">Bona</w> <w lemma="memoria">me
+<lb n="2" break="no"/>moria</w> <orig>aus</orig>
+               <lb n="3"/><persName type="attested"><name nymRef="Uictorinus">Bictorinus</name></persName>
+               <lb n="4"/><w lemma="uiuo">bixit</w> <date type="life-span" dur="P75Y"><w lemma="annus">anos</w>
+               <lb n="5"/><num>LXXV</num> <w lemma="plus">plus</w> <w lemma="minus">min<supplied reason="omitted">u</supplied>s</w></date>
+               <lb n="6"/><w lemma="et">ed</w> <w lemma="obdormio">obdormib
+               <lb n="7" break="no"/>it</w> <w lemma="in">in</w> <w lemma="pax">pace</w> <w lemma="sub">sub</w> <w lemma="dies">d<supplied reason="omitted">i</supplied>e</w>
+               <lb n="8"/><w lemma="duodecim">dodecim</w> <w lemma="mensis"><expan><abbr>m</abbr><ex>ensis</ex></expan></w> <w lemma="Martius">Ma
+               <lb n="9" break="no"/>rxiarum</w> <g ref="symbols.xml#palm"/>
+           </ab>   
+            
+         </div>
+         <div type="translation" resp="#cmr" xml:lang="en">
+            <p>Good memory. [ . . .] Victorinus lived more or less 75 years and fell asleep in peace on day 12 of the month of March.</p>
+         </div>
+         <div type="commentary">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

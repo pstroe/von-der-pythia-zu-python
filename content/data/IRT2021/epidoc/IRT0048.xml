@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0048" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Philip by Sabratha </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0048</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <objectType>panel</objectType> 
+               (<dimensions>
+                                 <width unit="metre">0.58</width>
+                                 <height unit="metre">0.74</height>
+                              </dimensions>).  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century capitals, mainly lapidary:  <height unit="metre" atLeast="0.05" atMost="0.065">0.05-0.065</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0247" notAfter="0249" evidence="reign">CE 247-249</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/659">Sabratha</placeName>: <placeName ref="https://www.slsgazetteer.org/855">Regio I</placeName>, <placeName type="monuList" ref="https://www.slsgazetteer.org/832">Capitolium</placeName>, found in the vaults; see note on <ref type="inscription" n="IRT0001">1</ref>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2212771/sabratah.html">Sabratah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="wp0067.jpg">
+         <desc>From left: Above: <ref type="inscription" n="IRT0048">48</ref>, <ref type="inscription" n="IRT0044">44</ref>, <ref type="inscription" n="IRT0075">75</ref>; 
+            Below:  <ref type="inscription" n="IRT0050">50</ref>: Ward-Perkins Archive, BSR (Sopr. CS 217)</desc></graphic>
+                  <graphic url="wp0070.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DS 781 Leica)</desc></graphic>
+                  <graphic url="wp0117.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. CS 217)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> <bibl><ptr target="irt1952"/>, <citedRange>48</citedRange></bibl>, whence 
+            <bibl><ptr target="irt2009"/>,  <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT048.html">48</ref></citedRange></bibl>, whence 
+            <bibl><ptr target="EDH"/>
+               <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059041">059041</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="emperor" ref="#philippus2"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Iulius">Iulio</name> <name type="cognomen" nymRef="Philippus">Philippo</name>
+               <lb n="2"/><w lemma="nobilis">nobilissimo</w> 
+               <addName nymRef="Caesar">Cae<lb n="3" break="no"/>sari</addName> <addName nymRef="Pius">Pio</addName> <addName nymRef="Felix"><expan><abbr>Fel</abbr><ex>ici</ex></expan></addName> 
+                  <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></addName></persName>
+               <lb n="4"/><w lemma="princeps">principi</w> <w lemma="iuuentus">iuuentutis</w> <w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w>
+               <lb n="5"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> 
+               <persName type="emperor" ref="#philippus1"><addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></addName> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name type="gentilicium" nymRef="Iulius">Iuli</name> 
+               <name type="cognomen" nymRef="Philippus">Philip<lb n="6" break="no"/>pi</name> <addName nymRef="Pius">Pii</addName> <addName nymRef="Felix"><expan><abbr>Fel</abbr><ex>icis</ex></expan></addName> 
+               <addName nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></addName></persName> 
+               <w lemma="dominus"><expan><abbr>d</abbr><ex>omini</ex></expan></w>
+               <w lemma="nos"><expan><abbr>n</abbr><ex>ostri</ex></expan></w> <w lemma="filius">filio</w>
+               <lb n="7"/><placeName type="ethnic" nymRef="#Sabrathensis" ref="#sabratha"><expan><abbr>Sabr</abbr><ex>athenses</ex></expan></placeName> 
+               <w lemma="publice"><expan><abbr>publ</abbr><ex>ice</ex></expan></w>
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Marcus Julius Philippus, most noble Caesar, Pius, Felix, Augustus, chief of the youth, our lord, 
+               son of Emperor Caesar Marcus Julius Philippus, Pius, Felix, Augustus, our lord; the people of Sabratha <supplied reason="subaudible">set this up</supplied> publicly.</p></div>
+         <div type="commentary">
+            <!-- <p>Line 3. Augustus 247-249.</p> -->
+         </div>
+      </body>
+   </text>
+</TEI>

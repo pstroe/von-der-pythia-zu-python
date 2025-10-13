@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0397" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Septimius Severus, Caracalla and Geta</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0397</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Semicircular <objectType>exedra</objectType> of soft <material>yellow limestone</material>. One block is missing from line 1 and 2, and those on the right-hand side of line 3 and 4 are badly weathered.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  around the inner face. Total length of inscription, <width unit="metre">4.80</width>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: line 1-2, <height unit="metre" atLeast="0.07" atMost="0.075">0.07-0.075</height>;
+               line 3, <height unit="metre">0.05</height>; 
+               line 4, <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0198" notAfter="0209" evidence="titulature">CE 198-209 </origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/720">Forum Vetus</placeName>, standing  in front of the Temple of Magna Mater.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0510.jpg">
+                  <desc>Ward-Perkins, 1948 (Ward-Perkins Archive, BSR 48.XVII.1)</desc></graphic>
+                  <graphic url="wp0511.jpg">
+                  <desc>Ward-Perkins Archive, BSR (BSR.XVII.2)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="romanelli1925"/>, <citedRange>128</citedRange> ff.</bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1926.158</citedRange></bibl>;
+               <bibl><ptr target="bartoccini1931"/>, <citedRange>24</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>397</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT397.html">397</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025525">025525</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="emperor" ref="#septimiusseuerus"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Seuerus">Seu<supplied reason="lost">ero</supplied></name> <name type="cognomen" nymRef="Pius"><supplied reason="lost">Pio</supplied></name> <name type="cognomen" nymRef="Pertinax"><supplied reason="lost">Pertinaci</supplied></name> 
+               <addName nymRef="Augustus"><supplied reason="lost">Aug</supplied>usto</addName> <addName nymRef="Arabicus">Arabico</addName> <addName nymRef="Adiabenicus">Adiabenico</addName> <addName nymRef="Parthicus">Parthico</addName> 
+               <w lemma="maximus">m<supplied reason="lost">axi</supplied>mo</w></persName> <w lemma="et">et</w>
+               <lb n="2"/>
+              <persName type="emperor" ref="#caracalla"> <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w>
+               <addName nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></addName> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurellius">Aurellio</name> 
+                 <name type="gentilicium" nymRef="Antoninus"><supplied reason="lost">Antonino</supplied></name> <addName nymRef="Augustus"><supplied reason="lost">August</supplied>o</addName></persName> <w lemma="et">et</w> 
+               <del rend="erasure">
+                  <persName type="emperor" ref="#geta"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> 
+                 <name type="gentilicium" nymRef="Septimius">S<supplied reason="lost">eptimio</supplied></name> <name type="cognomen" nymRef="Geta"><supplied reason="lost">Getae</supplied></name> 
+                  <w lemma="nobilis"><supplied reason="lost">nobilissim</supplied>o</w>
+                  <addName nymRef="Caesar"><expan><abbr><supplied reason="lost">Cae</supplied>s</abbr><ex>ari</ex></expan></addName></persName></del>
+               <w lemma="et">et </w> <persName type="emperor" ref="#juliamamaea"><name type="gentilicium" nymRef="Iulia">Iuliae</name> <addName nymRef="Augusta">Aug<supplied reason="lost">ustae</supplied></addName></persName> 
+                  <w lemma="mater"><supplied reason="lost">matri</supplied></w> <persName type="emperor" ref="#seueri"><addName nymRef="Augustus"><supplied reason="lost">Augustorum</supplied></addName></persName>
+               <lb n="3"/><w lemma="et">et</w> <w lemma="castrum">cas<supplied reason="lost">t</supplied>roru<supplied reason="lost">m</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> 
+               <gap reason="lost" quantity="12" unit="character" precision="low"/> 
+              <name type="cognomen" nymRef="Asper">A<unclear>s</unclear>per</name> <name type="cognomen" nymRef="Aurelianus">Aurelianus</name></persName> <w lemma="sacerdotalis">sacerdotalis</w>
+               <placeName ref="#africaprocons" nymRef="#Prouincia Africa"><w lemma="prouincia">prouinciae</w> <w lemma="Africus">Africae</w></placeName> <w lemma="numen">numini</w> <w lemma="maiestas"><supplied reason="lost">maiestatique</supplied></w> 
+               <w lemma="is"><supplied reason="lost">eorum</supplied></w> <w lemma="deuoueo"><supplied reason="lost">deuotus</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         
+         
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>To Emperor Caesar Lucius Septimus Se<supplied reason="lost">Uerus Pius Pertinax Aug</supplied>ustus, victor in Arabia, victor in Adiabene, greatest victor in 
+   Parthia, and to emperor Caesar Marcus Aurellius <supplied reason="lost">Antoninus Augustus</supplied> 
+   and to Publius S<supplied reason="lost">eptimius Geta most noble</supplied> Caesar<note>erased from Publius - Caesar</note>  
+   and to Julia Augusta <supplied reason="lost">mother of the Augusti</supplied> and of the camps <gap reason="lost" extent="unknown" unit="character"/>; Marcus <gap reason="lost" extent="unknown" unit="character"/>
+   Asper Aurelianus, former priest of the cult of the emperor for the province of Africa, <supplied reason="lost">devoted</supplied> 
+   to <supplied reason="lost">their</supplied> divine power and <supplied reason="lost">majesty</supplied> <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>Line 1. Geta was Caesar from 198, Augustus from 209; name erased from 212.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

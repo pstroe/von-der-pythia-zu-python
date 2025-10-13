@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0979" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0979</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Now in one of the tabernae of the East Portico of the Forum Severianum.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Three fragments of coarse-grained <material>brown limestone</material>, all probably from the same panel or <objectType>base</objectType>,
+               inscribed within a moulded <rs type="decoration">tabella ansata</rs>. a) <dimensions>
+                                 <width unit="metre">0.23</width>
+                                 <height unit="metre">0.17</height>
+                                 <depth unit="metre">0.09 </depth>
+                              </dimensions>. Moulding survives at the left-hand edge and apparently includes the angle of the lower juncture of the <foreign xml:lang="la">ansa</foreign> with the panel. b) <dimensions>
+                                 <width unit="metre">0.27</width>
+                                 <height unit="metre">0.20</height>
+                                 <depth unit="metre">0.055 </depth>
+                              </dimensions>. No edges. c) <dimensions>
+                                 <width unit="metre">0.18</width>
+                                 <height unit="metre">0.18</height>
+                                 <depth unit="metre">0.055 </depth>
+                              </dimensions>. Moulding survives below the lettering, at an acute angle to it; the fragment appears to be from the lower part of the right <foreign xml:lang="la">ansa</foreign>, into which the lettering has encroached.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within <rs type="decoration">tabella ansata</rs>. Inscribed surface:  a) <dimensions>
+                              <width unit="metre">0.23</width>
+                              <height unit="metre">0.17</height>
+                           </dimensions>; b) <dimensions>
+                              <width unit="metre">0.27</width>
+                              <height unit="metre">0.12</height>
+                           </dimensions>; c) <dimensions>
+                              <width unit="metre">0.18</width>
+                              <height unit="metre">0.18</height>
+                           </dimensions>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals, probably third century: <height unit="metre" atLeast="0.065" atMost="0.07">0.065-0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Probably third century</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>:
+                  <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName>. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>In one of the tabernae of the East Portico of the <placeName ref="https://www.slsgazetteer.org/719">Forum Severianum</placeName> (<date type="observed">1955</date>).</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile><surface/><!--No photographs.--></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="reynolds1955"/>, <citedRange>S.6</citedRange></bibl>, whence  
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT979.html">979</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059817">059817</ref></citedRange></bibl>
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div subtype="fragment" n="a" type="textpart"><ab>
+              <lb n="1"/><w lemma="spa-" part="I">s<unclear>pa</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="2"/><placeName type="ethnic" ref="#lepcis" nymRef="#Lepcitanus"><name nymRef="#Lepcitanus">L<unclear>epc</unclear><supplied reason="lost" cert="low">itan</supplied></name></placeName>
+           </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>VA</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>o</unclear>ri</w> <w lemma="patria">patriae</w> <w lemma="mi-" part="I">m<unclear>i</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="singularis" part="I">singulari</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p><note>a</note> <gap reason="lost" extent="unknown" unit="character"/> the people of Lepcis <note>case unknown</note> 
+               <gap reason="lost" extent="unknown" unit="character"/></p>
+            <p><note>b</note> <gap reason="lost" extent="unknown" unit="character"/>?lover of his/her country <gap reason="lost" extent="unknown" unit="character"/></p>
+            <p><note>c</note> <gap reason="lost" extent="unknown" unit="character"/>singular <note>?remarkable: case and number unknown</note> <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <p>b.2: Perhaps <foreign xml:lang="la">amat]ori</foreign> 
+               <foreign xml:lang="la">patriae</foreign>, see also <ref type="inscription" n="IRT0095">95</ref>, <ref type="inscription" n="IRT0275">275</ref>, 
+               <ref type="inscription" n="IRT0347">347</ref>, <ref type="inscription" n="IRT0567">567</ref>, <ref type="inscription" n="IRT0603">603</ref>, 
+               <ref type="inscription" n="IRT0318">318.c</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

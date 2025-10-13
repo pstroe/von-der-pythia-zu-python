@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0856" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription</title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0856</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Round-topped <objectType>stele</objectType> (<dimensions>
+                                 <width unit="metre">0.38</width>
+                                 <height unit="metre">0.35</height>
+                                 <depth unit="metre">0.05</depth>
+                              </dimensions>, height incomplete) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  within a narrow border.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second to third century CE capitals: line 1, <height unit="metre">0.055</height>;
+               line 2-6, <height unit="metre" atLeast="0.045" atMost="0.04">0.045-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="lettering">Second to third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/2241">Jabal Nafusah</placeName>: 
+                              <placeName type="monuList" ref="https://www.slsgazetteer.org/881">Ain el-Auenia</placeName> near Jefren (map ref. U 785720)</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>. </p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2209070/abyar-al-%60uwayniyah.html">Abyār al `Uwaynīyah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp1049.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. B. 250)</desc></graphic>
+                  <graphic url="wp1050.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 694 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p> 
+               <bibl><ptr target="cil"/>, <citedRange>5</citedRange> with <citedRange>10486</citedRange></bibl>, 
+               with <bibl><ptr target="cil1891"/> <citedRange>10993</citedRange></bibl>;
+               <bibl><ptr target="romanelli1922a"/>, <citedRange>111</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>856</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT856.html">856</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059706">059706</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="divine" ref="#manes"><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> 
+               <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w></persName> 
+               <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w>
+               <lb n="2"/>
+               <persName type="attested"><name type="gentilicium" nymRef="Iulia"><supplied reason="lost">Iu</supplied>lia</name> 
+               <name type="cognomen" nymRef="Faustina">Faus<lb n="3" break="no"/>tina</name></persName> <w lemma="uiuo">uixit</w>
+               <lb n="4"/><w lemma="pius">pia</w> <date type="life-span" dur="P28Y11M25D"><w lemma="annus"><expan><abbr>ann</abbr><ex>os</ex></expan></w> 
+               <num value="28">XXVIII</num>
+               <lb n="5"/>
+               <w lemma="mensis"><expan><abbr>m</abbr><ex>enses</ex></expan></w> 
+               <num value="11">XI</num>
+               <w lemma="dies"><expan><abbr>d</abbr><ex>ies</ex></expan></w> 
+               <num value="25">X<unclear>X</unclear>V</num></date>
+               <persName type="attested"><name type="gentilicium" nymRef="Iulius"><expan><abbr>Iu<unclear>l</unclear></abbr><ex>ius</ex></expan></name> 
+               <name type="cognomen" nymRef="Honoratus">Hon<lb n="6" break="no"/><supplied reason="lost">or</supplied>atus</name></persName> 
+               <w lemma="libertus"><expan><abbr>lib</abbr><ex>ertus</ex></expan></w> 
+               <w lemma="cura"><expan><abbr>c</abbr><ex>uram</ex></expan></w> 
+               <w lemma="ago"><expan><abbr><unclear>e</unclear></abbr><ex>git</ex></expan></w> 
+            </ab></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>Sacred to the gods below. Julia Faustina lived dutifully for twenty-eight years, eleven months and twenty-five days; Julius Honoratus, her freedman, undertook the charge<note> i.e. of tomb construction</note>.</p></div>
+         <div type="commentary">
+            <p>No comment.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0319" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Augustus, and 
+               <rs type="textType">building</rs> inscription for the Market </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor>
+         <editor xml:id="cb">Caroline Barron</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0319</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot.</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Thirty-one <objectType>block</objectType>s of <material>sandstone</material> 
+               (width varying <dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">0.52</height>
+                              </dimensions>), originally <rs type="decoration">stuccoed</rs>.
+               The blocks were in most cases found plastered over.
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs> on one face with a monumental inscription.
+               a) Single line over the original Augustan south doorway:
+               b) line 1, in continuation of a)
+               c) line 2, underneath b)</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: av. <height unit="metre">0.15</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate when="-0008" evidence="internal-date">8 BCE: <ref target="https://godot.date/id/8GLmsderJ4CvtVU2DF5TP3">GODOT</ref> and 
+                        <ref target="https://godot.date/id/LV4Xug8DvE5hdzfmR38WcB">GODOT</ref></origDate>
+                  </origin>
+                  <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/653">Lepcis Magna</placeName>: <placeName ref="https://www.slsgazetteer.org/744">Regio V</placeName>,
+                  <placeName type="monuList" ref="https://www.slsgazetteer.org/729">Punic Market</placeName>. 
+                              It had fallen from the South West precinct wall of the market but has since been replaced.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-18" who="CB">Added Neo Punic texts and translations</change>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0386.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 299 Lastre)</desc></graphic>
+                  <graphic url="wp0387.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 298 Lastre)</desc></graphic>
+                  <graphic url="wp0388.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XI.24)</desc></graphic>
+                  <graphic url="wp0389.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1515)</desc></graphic>
+                  <graphic url="wp0390.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DLM 1516)</desc></graphic>
+                  <graphic url="wp0391.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.X.34)</desc></graphic>
+                  <graphic url="wp0392.jpg">
+                  <desc>Ward-Perkins, 1947 (Ward-Perkins Archive, BSR 47.XI.23)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p><bibl><ptr target="dellavida1935"/> <citedRange>3-15</citedRange></bibl>
+               <bibl><ptr target="goodchild1950"/> <citedRange>XVIII:72-77</citedRange></bibl>, whence 
+               <bibl><ptr target="ae"/> <citedRange>1951.205</citedRange></bibl>;
+            <bibl><ptr target="irt1952"/>, <citedRange>319</citedRange></bibl>, whence 
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT319.html">319</ref></citedRange></bibl>, whence 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021415">021415</ref></citedRange></bibl>
+               <bibl><ptr target="szynycer1963"/> <citedRange>45-50</citedRange></bibl>
+               <bibl><ptr target="dellavida1987"/> <citedRange>48-53</citedRange></bibl>, whence
+               <bibl><ptr target="jongeling2008"/> <citedRange>Labdah N13</citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.
+               
+                   </p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <div n="a" type="textpart"><ab>
+                  <lb n="1"/><persName type="emperor" ref="#augustus"><w lemma="imperator"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan></supplied></w> 
+                  <name type="cognomen" nymRef="Caesar"><supplied reason="lost">Caesar</supplied></name> 
+                     <persName type="emperor" ref="#juliuscaesar"><w lemma="diuus"><supplied reason="lost">Diui</supplied></w></persName>
+                  <w lemma="filius"><supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied></w> 
+                     <name type="cognomen" nymRef="Augustus"><supplied reason="lost">Augustus</supplied></name></persName>
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <num value="11">XI</num> 
+                  <w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> <num value="14">XIIII</num> 
+                  <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+                  <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="15">XV</num> 
+                  <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w> <w lemma="maximus">m<supplied reason="lost">axi</supplied>mus</w>
+               </ab></div>
+            <div n="b" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested" key="pir-l-0189"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licinio</name> <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arci</ex></expan></name> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <name type="cognomen" nymRef="Crassus">Crasso</name> <name type="cognomen" nymRef="Frugi">Frugi</name></persName> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <w lemma="augur">augure</w> 
+                  <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <w lemma="patronus">patrono</w> 
+                  <w lemma="flamen"><expan><abbr>flaminib</abbr><ex>us</ex></expan></w> 
+                  <persName type="emperor" ref="#augustus"><name type="cognomen" nymRef="Augustus"><expan><abbr>August</abbr><ex>i</ex></expan></name> 
+                     <name type="cognomen" nymRef="Caesar">Caesaris</name></persName> <persName type="attested"><name type="cognomen" nymRef="Iddibal">Iddib<supplied reason="lost">a</supplied>le</name> <name type="cognomen" nymRef="Aris">Arinis</name> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w></persName>
+                  <gap reason="lost" atLeast="3" atMost="4" unit="character"/><w part="F">one</w> 
+                  <w lemma="et"><supplied reason="lost">et</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="attested"><name type="cognomen" nymRef="Annobal"><supplied reason="lost">A</supplied>nnobalis</name> 
+                  <w lemma="filius"><supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied></w></persName>
+                  <gap reason="lost" atLeast="3" atMost="4" unit="character"/><w part="M">on</w><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+                  <w lemma="sufes"><expan><abbr><supplied reason="lost">su</supplied>fetib</abbr><ex>us</ex></expan></w> 
+                  <persName type="attested"><name type="cognomen" nymRef="Muttun">M<supplied reason="lost">uttun</supplied></name> <persName type="attested"><name type="cognomen" nymRef="Anno"><supplied reason="lost">Annonis</supplied></name></persName> <w lemma="filius"><supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied></w></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div n="c" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Annobal">Annobal</name> <persName type="attested"><name type="cognomen" nymRef="Himilcho"><subst><del rend="erasure">Imilchonis</del><add place="overstrike">Himilcho</add></subst></name></persName> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> <name type="cognomen" nymRef="Tapapius">Tapapius</name> <name type="cognomen" nymRef="Rufus">Rufus</name></persName> <w lemma="sufes">sufes</w> <w lemma="flamen">flamen</w> <w lemma="praefectus">praefectus</w> <w lemma="sacer">sacrorum</w> 
+                  <w lemma="de">de</w> <w lemma="suus">sua</w> <w lemma="pecunia">pequ<supplied reason="lost">nia</supplied></w> 
+                  <w lemma="facio">faciun<supplied reason="lost">dum</supplied></w> <w lemma="curo"><supplied reason="lost">coe</supplied>rauit</w> <w lemma="idem">idem<supplied reason="lost">que</supplied></w> 
+                  <w lemma="dedico">de<supplied reason="lost">d</supplied>icauit</w>
+               </ab>
+               </div>
+       
+    </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="b 1">
+                  <rdg resp="#irt1952"><note> The initial M, after sufetib(us), is all that survives of the name of the first sufes. Muttun son of Hanno, recorded in the Neo-Punic text. The name of the second sufes is lost in both texts </note>
+               </rdg></app>
+            
+               <app loc="c 1">
+                  <rdg resp="#irt1952"><note> The letters HIMILCHO are cut over the first eight letters of IMILCHONIS. The remaining letters were presumably plastered over at the time of this correction. </note>
+               </rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            <p>a. Emperor Caesar Augustus, son of deified <supplied reason="subaudible">Caesar</supplied>, consul for the eleventh time, 
+               acclaimed victor fourteen times, holding tribunician power for the fifteenth time, chief priest.  </p>
+            <p>b. When Marcus Licinius Crassus  Frugi, son of Marcus, consul, augur, was proconsul and patron and the flamines of 
+               Augustus Caesar were Iddibal <gap reason="lost" extent="unknown" unit="character"/>on son of Arin and <gap reason="lost" extent="unknown" unit="character"/> 
+               son of Annobal <gap reason="lost" extent="unknown" unit="character"/>, and the sufetes were Muttur son of 
+               Anno<supplied reason="lost">and</supplied><gap reason="lost" extent="unknown" unit="character"/> </p><p>
+            <note>c. </note> Annobal Tapapius Rufus son of Imilcho <note>corrected to Himilcho</note>, sufete, flamen <note>local priest</note>, 
+                  prefect in charge of  sacred things, saw to its construction and also dedicated it. </p></div>
+         
+         <div type="commentary">
+           <p>The text is clearly the Latin version of <title>NeoPunic</title> 27,  found within the Market building. The Neo-Punic inscription follows the Latin word for word, with particular Latin formulae such as Imperator, diui filius
+               and consul translated into Punic.</p>
+            <!-- The Latin follows the Neo-Punic word for word, omitting only the phrase &lt;&lt; son of Arim &gt;&gt; after praefectus sacrorum in line 2. 
+               The name of the proconsul is lost in the Neo-Punic text. -->
+            <p>Discussion of the Neo-Punic text: 
+               <ref target="https://zenon.dainst.org/Record/000299186">Levi della Vida (1971)</ref>, 457-469;
+              Jongeling, K. 1983, ‘Neo-punische-latijnse inscripties uit Lepcis Magna (Libye)’ in 
+               <ref target="https://zenon.dainst.org/Record/000821926">13</ref>, 414;
+               Amadasi Guzzo, M.G. 1986. 'L'onomastica nelle iscrizioni puniche tripolitane' 
+               in <ref target="https://zenon.dainst.org/Record/000598581"> 14</ref>, 21-51;
+               <ref target="https://zenon.dainst.org/Record/001026471">Fontana (2001)</ref>, 165;
+               <ref target="https://zenon.dainst.org/Record/000225656">Adams (2003)</ref>, 222-223;
+               <ref target="https://zenon.dainst.org/Record/000743752">Jongeling (2008)</ref>, Labdah N13;
+               <ref target="https://zenon.dainst.org/Record/001339217">Cooley (2012)</ref>, 256-258; 
+               Kerr, R. 2017, 'Præsenti tibi maturos largimur honores.Zum punischen Prinzip des kaiserlichen Opferkultes zuLepcis Magna'
+               in R.G. Lehmann, K. Park and A.E. Zernecke (eds.) 
+               Proceedings of the Twelfth Mainz International Colloquium on Ancient Hebrew (MICAH) and Cognate Languages, Johannes Gutenberg Universityof Mainz, 2015, 53-74.
+            </p>
+           
+            <p>a: M. Licinius Crassus Frugi: <title>PIR</title> L 189, <ref target="https://pir.bbaw.de/id/8319">https://pir.bbaw.de/id/8319</ref></p>
+            
+            <p>b, line 1: The name of the second flamen, lost in the Latin text, appears as Abdmelqart in the Neo-Punic. </p>
+            <p>c, line 1: For Annobal Tapapius Rufus. s. of Himilcho Tapapius, see also  <ref type="inscription" n="IRT0321">321</ref>, 
+               <ref type="inscription" n="IRT0322">322</ref> and <ref type="inscription" n="IRT0323">323</ref>. 
+               <!-- Other recorded members of this wealthy local family (Tabahpi, latinized as Tapapii or Tapafli) are:
+               a) Bodmelqart ben Bodmelqart Tabahpi Griq.1 (Graeculus ?), <title>Neo-Punic</title> 28 from the door(s) of the Tiberian Temple of Rome and Augustus in the Forum Vetus.
+               b) Iddibal Magonis f. Tapapius, <ref type="inscription" n="IRT0273">273</ref> (CE 42- 3),
+               c) Ithymbal Arinis f. Sabinus Tapapius. <ref type="inscription" n="IRT0341">341</ref> (CE 61- 2); also in <title>Neo-Puni</title>c 29 (not dated), 
+               and probably in <title>Neo-Punic</title> 33 (not dated).
+               d) Abdemelqart Tabahpi, <title>Neo-Punic</title> 12, 1. (not dated). 
+               [e) ...] Arinis f. Tapafius Diodorus Nizaz. <ref type="inscription" n="IRT0745">745</ref> (not dated). --> </p>
+            <!-- <p>Discussion: AE 1998.1513</p> -->
+         
+         </div>
+      </body>
+   </text>
+</TEI>

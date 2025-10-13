@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT0231" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Liber Pater </title>
+            <editor xml:id="jmr">J. M. Reynolds</editor>
+            <editor xml:id="jbwp">J. B. Ward-Perkins</editor>
+         <editor xml:id="cmr">Charlotte Roueché</editor></titleStmt>
+         <publicationStmt>
+            <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+            <idno type="filename">IRT0231</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1098">Tripoli Castle</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <objectType>base</objectType> carved in one block with an Attic base 
+               (<dimensions>
+                                 <width unit="metre">0.44</width>
+                                 <height unit="metre">0.72</height>
+                                 <depth unit="metre">0.44</depth>
+                              </dimensions>) of 
+               <material>coarse grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="scalpro">Inscribed</rs>  on one face
+               (die, <dimensions>
+                              <width unit="metre">0.32</width>
+                              <height unit="metre">0.36</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: <height unit="metre" atLeast="0.025" atMost="0.04">0.025-0.04</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="lettering, content">First-third centuries CE</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/819">Tripoli</placeName>:
+                              <placeName ref="https://www.slsgazetteer.org/657">Oea</placeName>:
+                  Reused in an Arab house in the <placeName type="monuList" ref="https://www.slsgazetteer.org/819">Tripoli Oasis</placeName>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1098">Tripoli Castle</placeName>.</p>
+                        </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="xpu">Punic</language>
+            <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Animals</rs>
+               </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds, Ward-Perkins)</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+                  <graphic url="wp0286.jpg">
+                  <desc>Ward-Perkins Archive, BSR (Sopr. DTV 676 Leica)</desc></graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p>
+               <bibl>
+                  <ptr target="cil"/> <citedRange>10488</citedRange></bibl>, 
+               <bibl><ptr target="cil1891"/> <citedRange>11001</citedRange></bibl>;
+               <bibl><ptr target="romanelli1920"/>, <citedRange>376</citedRange> ff.</bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1922.110</citedRange></bibl>, 
+               <bibl><ptr target="aurigemma1940a"/>, <citedRange>VII:80</citedRange> ff., fig. 16</bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1942-43.3</citedRange></bibl>. 
+               <bibl> <ptr target="guey1952"/> <citedRange>32</citedRange></bibl>, whence <!-- check -->
+               <bibl><ptr target="ae"/>, <citedRange>1952.164</citedRange></bibl>; 
+               <bibl><ptr target="irt1952"/>, <citedRange>230</citedRange></bibl>,
+              <bibl><ptr target="degrassi1954"/>, <citedRange/></bibl>;
+               <bibl><ptr target="reynolds1955"/>, <citedRange>142</citedRange></bibl>, whence <bibl><ptr target="ae"/>, <citedRange>1957.244</citedRange></bibl>,
+               <bibl><ptr target="irt2009"/>, <citedRange><ref target="http://inslib.kcl.ac.uk/irt2009/IRT231.html">231</ref></citedRange></bibl>, 
+               <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018671">018671</ref></citedRange></bibl>;
+                 for BSR images see <ref target="http://www.search-libnet.org/cgi-bin/koha/opac-detail.pl?biblionumber=83555">BSR Digital Collections</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/>
+               <persName type="divine" ref="#liber"><name nymRef="Liber">Liber</name> 
+                  <addName nymRef="Pater">Pater</addName></persName> 
+               <w lemma="sancio">s<supplied reason="lost">a</supplied>nctissime</w>
+               <lb n="2"/>
+               <w lemma="arx">arcem</w> 
+               <w lemma="hic"><supplied reason="lost">hanc</supplied></w> 
+               <w lemma="qui"><supplied reason="lost">q</supplied>u<unclear>i</unclear></w> 
+               <w lemma="possideo"><unclear>p</unclear>ossides</w>
+               <lb n="3"/>
+               <w lemma="et"><supplied reason="lost">e</supplied>t</w> 
+               <w lemma="ad">ad</w> 
+               <w lemma="sacer">s<supplied reason="lost">acram</supplied></w>
+               <w lemma="ara"><supplied reason="lost">a</supplied>ram</w>
+               <lb n="4"/>
+               <w lemma="urbs">u<supplied reason="lost">r</supplied>bis</w> 
+               <gap reason="lost" quantity="8" unit="character" precision="low"/><w part="F">ugis</w>
+               <lb n="5"/>
+               <w lemma="et">et</w> 
+               <w lemma="hic">hi<supplied reason="lost">c</supplied></w>
+               <gap reason="lost" quantity="4" unit="character" precision="low"/> 
+               <w lemma="uotum">uotum</w> <w lemma="dico">dico</w>
+               <lb n="6"/>
+               <w lemma="dens">dentes</w> 
+               <w lemma="duo">duos</w> 
+               <placeName type="ethnic" ref="#lucania" nymRef="#Luca">Lucae</placeName>
+               <w lemma="bos">bouis</w>
+            </ab></div>
+         <div type="apparatus">
+            <app><rdg resp="#guey1952"><lb n="1"/>Liber pa<supplied reason="lost">t</supplied>er <supplied reason="lost">sa</supplied>nctissime
+               <lb n="2"/>arcem <supplied reason="lost">meam qui p</supplied>ossides
+               <lb n="3"/>et ad s<supplied reason="lost">acellum uoue</supplied>ram
+               <lb n="4"/>u<supplied reason="lost">r</supplied>bis <supplied reason="lost">tuum et coni</supplied>ugis
+               <lb n="5"/>et hi<supplied reason="lost">c tibi</supplied> uotum dico
+                  <lb n="6"/>dentes duos Lucas bouis</rdg></app></div>
+         <div type="translation" resp="#jmr" xml:lang="en">
+            
+            <p>Most holy Father Liber, who are the master of my citadel, I had vowed at your shrine ?in the city 
+               <supplied reason="lost" cert="low">also for my wife</supplied>  and here  I dedicate to you what I promised, two elephant tusks.</p></div>
+         <div type="commentary">
+            <p>Line 6 <foreign xml:lang="la">Lucae bouis</foreign> is an elephant; also in <ref type="inscription" n="IRT0295">295</ref>, line 11.</p>
+            <p>Jean Guey regards the text as a verse in Iambic dimeters and 
+               restores as above. The restorations proposed in line 2 and 4 are acceptable on epigraphic grounds and surviving traces of letters are compatible.
+               They are more difficult in line 3 where there seems to be insufficient space for <foreign xml:lang="la">s<supplied reason="lost">acellum</supplied>
+               </foreign>, 
+               and line 5 where there appear to be traces of S after <foreign xml:lang="la">HI<supplied reason="lost">C</supplied>
+               </foreign>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

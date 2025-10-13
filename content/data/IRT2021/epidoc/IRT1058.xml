@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purlineoclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT1058" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Building</rs> inscription?</title>
+                <editor xml:id="xxx">xxx - EDH</editor>
+                <editor xml:id="cmr">Charlotte Roueché</editor>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher>Society for Libyan Studies</publisher>
+            <distributor>King’s College London</distributor>
+                <idno type="EDH">HD008746</idno>
+                <idno type="TM">199047</idno>
+                <idno type="filename">IRT1058</idno>
+                <availability>
+                <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+                </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>...</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                  <p>Broken 
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">paving</objectType>-stone of
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">limestone</material>
+                                    <dimensions>
+                                        <height unit="metre">0.315</height>
+                                        <width unit="metre">0.61</width>
+                                        <depth unit="metre">0.10</depth>
+                                    </dimensions>
+                                    
+                                  </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="scalpro">Inscribed</rs> on the face
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height unit="metre">0.045</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate when="0248" evidence="internal-date">248 CE <ref target="https://godot.date/id/xhbnLbUmWXgqqX5t9CfmBa">GODOT</ref>
+                            </origDate>
+                        </origin>
+                        <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/658">Bu Njem</placeName>:  
+                            <placeName ref="https://www.slsgazetteer.org/826">Fort</placeName>, in the floor at the entrance to the 
+                            <placeName type="monuList" ref="https://www.slsgazetteer.org/2269">Chapel</placeName></p></provenance>
+                        <provenance type="observed"><p>Findspot</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="xpu">Punic</language>
+                <language ident="xpu-Latn">Neo-Punic language in Latin script</language>
+            </langUsage>
+            <textClass>
+              <keywords scheme="IRCyr">
+                    <term><geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName></term>
+                    <term><geogName type="modernCountry" key="LY">Libya</geogName></term>
+                    <term><placeName type="modernFindspot" key="http://www.geonames.org/...">...</placeName></term>
+              </keywords>
+            </textClass>
+            <creation>Epigraphische Datenbank Heidelberg</creation></profileDesc>
+        <revisionDesc>
+         <change when="2022-01-04" who="IV">inserted Greek and Latin lemmata (and normalized unicode)</change>
+         <change when="2021-04-18" who="IV">adapted</change>
+         <change when="2013-10-15" who="Gräf">provisorisch bearbeitet</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><surface/></facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <p><bibl><ptr target="rebuffat1967"/> <citedRange>67-68</citedRange>, p.100</bibl>, whence 
+                    <bibl><ptr target="ae"/> <citedRange>1972.679</citedRange></bibl>, 
+                    <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008746">008746</ref></citedRange></bibl>
+                   
+                </p>
+            </div>
+            <div type="edition" xml:lang="la" xml:space="preserve"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> 
+                <lb n="1"/><orig>fu<unclear>n</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="2"/><placeName ref="#golaia" type="ethnic" nymRef="#Golensis"><expan><abbr>Golens</abbr><ex/></expan></placeName> <w lemma="fe-" part="I">fe</w><gap reason="lost" extent="unknown" unit="character"/> 
+                <lb n="3"/><persName type="emperor"><del rend="erasure"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Impp</abbr><ex>eratoribus</ex></expan></w> </supplied>
+                    <persName type="emperor" ref="#philippus1"><supplied reason="lost"><name nymRef="Philippus">Philippo</name></supplied></persName> <num value="3"><unclear>III</unclear></num> 
+                    <supplied reason="lost"><w lemma="et">et</w></supplied> <persName type="emperor" ref="#philippus2"><name nymRef="Philippus"><supplied reason="lost">Phi</supplied>
+                <lb break="no" n="4"/>lippo</name></persName> <num value="2">II</num></del> 
+                <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w></persName> <g ref="symbols.xml#leaf"/> <space extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="translation" resp="#cmr" xml:lang="en">
+                <p> . . . ] of  Gholaia [ . . . ] the consuls were emperor Philip for the third time and [emperor Philip for the second time] <note>erased</note>.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
