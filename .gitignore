@@ -67,6 +67,7 @@ coverage.xml
 
 # Scrapy stuff:
 .scrapy
+*.pptx
 
 # Sphinx documentation
 docs/_build/
