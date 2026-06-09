@@ -1,0 +1,201 @@
+id,provinz,stadt,kaiser,jahr,material,zustand,strassentyp,distanz_meilen,hoehe_cm,inschrift_vorhanden,textzeilen
+MIL-0001,Britannia,Londinium,Diocletianus,292,Sandstein,fragmentarisch,Via publica,95,106,True,11
+MIL-0002,Britannia,Aquae Sulis,Augustus,-26,Kalkstein,fragmentarisch,Via publica,65,234,True,6
+MIL-0003,Germania Superior,Vindonissa,Nero,61,Basalt,stark beschädigt,Via publica,98,120,True,8
+MIL-0004,Italia,Ostia,Nero,66,Marmor,vollständig,Via publica,49,104,True,8
+MIL-0005,Dalmatia,Epidaurum,Constantinus,308,Granit,vollständig,Via militaris,11,221,True,12
+MIL-0006,Pannonia,Carnuntum,Diocletianus,286,Kalkstein,fragmentarisch,Via militaris,11,139,False,0
+MIL-0007,Syria,Palmyra,Antoninus Pius,158,Marmor,fragmentarisch,Via militaris,46,133,True,4
+MIL-0008,Dalmatia,Narona,Marcus Aurelius,168,Sandstein,gut erhalten,Via militaris,35,243,True,6
+MIL-0009,Pannonia,Aquincum,Nero,67,Kalkstein,stark beschädigt,Via militaris,35,96,True,12
+MIL-0010,Pannonia,Carnuntum,Caracalla,214,Granit,gut erhalten,Via publica,34,115,True,11
+MIL-0011,Germania Superior,Argentoratum,Diocletianus,302,Granit,gut erhalten,Via militaris,29,115,True,4
+MIL-0012,Africa Proconsularis,Carthago,Claudius,51,Sandstein,gut erhalten,Via vicinalis,9,178,True,10
+MIL-0013,Germania Superior,Argentoratum,Marcus Aurelius,161,Kalkstein,stark beschädigt,Via vicinalis,44,108,True,5
+MIL-0014,Aegyptus,Alexandria,Diocletianus,292,Basalt,fragmentarisch,Via vicinalis,117,107,False,0
+MIL-0015,Italia,Ostia,Claudius,46,Sandstein,vollständig,Via vicinalis,42,205,True,8
+MIL-0016,Italia,Ostia,Augustus,-12,Basalt,vollständig,Via publica,94,204,True,11
+MIL-0017,Gallia Narbonensis,Nemausus,Caracalla,214,Basalt,fragmentarisch,Via militaris,68,235,True,6
+MIL-0018,Germania Superior,Augusta Raurica,Diocletianus,293,Granit,stark beschädigt,Via militaris,116,212,True,6
+MIL-0019,Hispania Tarraconensis,Tarraco,Traianus,98,Basalt,fragmentarisch,Via vicinalis,29,81,True,3
+MIL-0020,Hispania Tarraconensis,Tarraco,Augustus,-6,Kalkstein,fragmentarisch,Via militaris,86,204,True,5
+MIL-0021,Dalmatia,Iader,Nero,66,Granit,gut erhalten,Via publica,13,104,True,8
+MIL-0022,Syria,Berytus,Antoninus Pius,161,Kalkstein,vollständig,Via publica,52,166,True,4
+MIL-0023,Hispania Tarraconensis,Caesaraugusta,Nero,62,Granit,fragmentarisch,Via militaris,24,151,True,4
+MIL-0024,Aegyptus,Alexandria,Augustus,14,Basalt,vollständig,Via publica,119,140,True,10
+MIL-0025,Aegyptus,Memphis,Hadrianus,118,Sandstein,gut erhalten,Via publica,50,147,False,0
+MIL-0026,Aegyptus,Thebes,Hadrianus,134,Granit,fragmentarisch,Via publica,38,135,False,0
+MIL-0027,Dalmatia,Salona,Diocletianus,294,Kalkstein,vollständig,Via vicinalis,62,208,False,0
+MIL-0028,Germania Superior,Augusta Raurica,Augustus,5,Kalkstein,fragmentarisch,Via publica,77,97,True,6
+MIL-0029,Syria,Antiochia,Septimius Severus,200,Basalt,vollständig,Via vicinalis,11,187,True,12
+MIL-0030,Germania Superior,Argentoratum,Vespasianus,72,Marmor,fragmentarisch,Via militaris,51,113,True,7
+MIL-0031,Aegyptus,Thebes,Constantinus,310,Kalkstein,gut erhalten,Via vicinalis,73,105,True,6
+MIL-0032,Germania Superior,Argentoratum,Claudius,46,Kalkstein,fragmentarisch,Via militaris,37,120,True,11
+MIL-0033,Italia,Roma,Caracalla,217,Basalt,stark beschädigt,Via vicinalis,14,114,True,4
+MIL-0034,Germania Superior,Augusta Raurica,Vespasianus,73,Basalt,fragmentarisch,Via vicinalis,44,132,True,7
+MIL-0035,Germania Superior,Vindonissa,Vespasianus,69,Kalkstein,gut erhalten,Via militaris,6,80,True,5
+MIL-0036,Italia,Ostia,Diocletianus,298,Basalt,gut erhalten,Via vicinalis,2,108,True,5
+MIL-0037,Germania Superior,Mogontiacum,Traianus,116,Basalt,fragmentarisch,Via militaris,17,90,True,3
+MIL-0038,Pannonia,Carnuntum,Caracalla,212,Kalkstein,stark beschädigt,Via vicinalis,114,184,False,0
+MIL-0039,Gallia Narbonensis,Nemausus,Claudius,53,Sandstein,gut erhalten,Via publica,23,165,True,9
+MIL-0040,Hispania Tarraconensis,Carthago Nova,Claudius,53,Kalkstein,gut erhalten,Via publica,110,200,True,10
+MIL-0041,Pannonia,Savaria,Constantinus,320,Sandstein,vollständig,Via vicinalis,25,182,True,4
+MIL-0042,Italia,Capua,Caracalla,215,Granit,stark beschädigt,Via publica,15,146,True,7
+MIL-0043,Africa Proconsularis,Carthago,Septimius Severus,206,Marmor,stark beschädigt,Via militaris,78,210,True,12
+MIL-0044,Hispania Tarraconensis,Carthago Nova,Augustus,0,Kalkstein,fragmentarisch,Via militaris,56,97,False,0
+MIL-0045,Pannonia,Savaria,Caracalla,217,Kalkstein,stark beschädigt,Via vicinalis,40,250,True,9
+MIL-0046,Italia,Ostia,Nero,60,Granit,fragmentarisch,Via vicinalis,73,157,True,3
+MIL-0047,Italia,Capua,Nero,60,Basalt,stark beschädigt,Via militaris,57,193,True,11
+MIL-0048,Aegyptus,Memphis,Caracalla,211,Marmor,stark beschädigt,Via publica,105,140,True,6
+MIL-0049,Hispania Tarraconensis,Caesaraugusta,Augustus,-25,Sandstein,gut erhalten,Via vicinalis,109,98,True,12
+MIL-0050,Hispania Tarraconensis,Barcino,Antoninus Pius,150,Sandstein,fragmentarisch,Via vicinalis,89,81,False,0
+MIL-0051,Britannia,Aquae Sulis,Nero,56,Basalt,gut erhalten,Via publica,72,143,False,0
+MIL-0052,Britannia,Aquae Sulis,Claudius,53,Granit,stark beschädigt,Via militaris,79,209,True,11
+MIL-0053,Aegyptus,Memphis,Diocletianus,299,Granit,stark beschädigt,Via publica,108,243,True,11
+MIL-0054,Aegyptus,Memphis,Vespasianus,76,Kalkstein,stark beschädigt,Via publica,35,165,True,11
+MIL-0055,Britannia,Eburacum,Claudius,44,Granit,fragmentarisch,Via vicinalis,28,96,True,8
+MIL-0056,Germania Superior,Vindonissa,Hadrianus,118,Sandstein,gut erhalten,Via militaris,116,229,False,0
+MIL-0057,Africa Proconsularis,Sabratha,Antoninus Pius,138,Marmor,stark beschädigt,Via militaris,110,187,True,11
+MIL-0058,Dalmatia,Narona,Antoninus Pius,145,Marmor,gut erhalten,Via militaris,4,179,True,9
+MIL-0059,Gallia Narbonensis,Vienna,Claudius,50,Basalt,vollständig,Via militaris,76,224,True,4
+MIL-0060,Syria,Damascus,Antoninus Pius,143,Kalkstein,stark beschädigt,Via militaris,42,134,True,8
+MIL-0061,Syria,Palmyra,Constantinus,332,Marmor,vollständig,Via militaris,3,218,True,8
+MIL-0062,Hispania Tarraconensis,Tarraco,Constantinus,308,Kalkstein,fragmentarisch,Via publica,108,85,True,6
+MIL-0063,Gallia Narbonensis,Vienna,Caracalla,211,Basalt,fragmentarisch,Via militaris,90,145,True,5
+MIL-0064,Dalmatia,Salona,Constantinus,316,Marmor,vollständig,Via vicinalis,4,159,True,9
+MIL-0065,Syria,Damascus,Tiberius,32,Sandstein,vollständig,Via vicinalis,99,157,False,0
+MIL-0066,Dalmatia,Salona,Constantinus,308,Marmor,gut erhalten,Via vicinalis,48,97,True,8
+MIL-0067,Africa Proconsularis,Sabratha,Antoninus Pius,141,Granit,stark beschädigt,Via vicinalis,115,197,True,9
+MIL-0068,Gallia Narbonensis,Arelate,Septimius Severus,210,Granit,gut erhalten,Via militaris,106,231,True,6
+MIL-0069,Britannia,Camulodunum,Antoninus Pius,145,Granit,gut erhalten,Via militaris,4,206,False,0
+MIL-0070,Gallia Narbonensis,Vienna,Nero,59,Marmor,stark beschädigt,Via militaris,113,232,True,7
+MIL-0071,Germania Superior,Mogontiacum,Marcus Aurelius,167,Kalkstein,fragmentarisch,Via vicinalis,53,205,True,6
+MIL-0072,Aegyptus,Oxyrhynchus,Antoninus Pius,138,Kalkstein,stark beschädigt,Via publica,52,142,True,12
+MIL-0073,Pannonia,Poetovio,Marcus Aurelius,177,Marmor,gut erhalten,Via vicinalis,71,164,True,10
+MIL-0074,Italia,Capua,Vespasianus,72,Kalkstein,fragmentarisch,Via militaris,16,217,False,0
+MIL-0075,Gallia Narbonensis,Nemausus,Nero,65,Granit,stark beschädigt,Via vicinalis,76,214,True,4
+MIL-0076,Hispania Tarraconensis,Carthago Nova,Nero,59,Sandstein,stark beschädigt,Via publica,91,216,True,3
+MIL-0077,Africa Proconsularis,Leptis Magna,Diocletianus,288,Granit,vollständig,Via publica,74,152,True,10
+MIL-0078,Pannonia,Carnuntum,Augustus,-11,Granit,vollständig,Via publica,52,205,True,3
+MIL-0079,Gallia Narbonensis,Nemausus,Constantinus,325,Kalkstein,fragmentarisch,Via publica,72,186,True,12
+MIL-0080,Hispania Tarraconensis,Barcino,Antoninus Pius,152,Marmor,gut erhalten,Via militaris,73,238,True,4
+MIL-0081,Hispania Tarraconensis,Caesaraugusta,Vespasianus,79,Kalkstein,fragmentarisch,Via publica,23,221,True,3
+MIL-0082,Syria,Berytus,Diocletianus,303,Granit,stark beschädigt,Via publica,30,153,True,10
+MIL-0083,Britannia,Eburacum,Vespasianus,79,Basalt,fragmentarisch,Via militaris,15,219,True,5
+MIL-0084,Italia,Ostia,Tiberius,15,Sandstein,stark beschädigt,Via vicinalis,96,225,False,0
+MIL-0085,Aegyptus,Alexandria,Antoninus Pius,160,Marmor,gut erhalten,Via militaris,65,218,True,4
+MIL-0086,Dalmatia,Salona,Hadrianus,127,Basalt,stark beschädigt,Via publica,12,138,False,0
+MIL-0087,Dalmatia,Salona,Constantinus,323,Basalt,vollständig,Via publica,61,212,True,7
+MIL-0088,Gallia Narbonensis,Vienna,Caracalla,217,Granit,vollständig,Via militaris,45,184,True,4
+MIL-0089,Gallia Narbonensis,Arelate,Hadrianus,132,Marmor,gut erhalten,Via vicinalis,5,196,True,7
+MIL-0090,Pannonia,Aquincum,Constantinus,331,Basalt,vollständig,Via vicinalis,112,218,True,3
+MIL-0091,Hispania Tarraconensis,Carthago Nova,Septimius Severus,208,Granit,vollständig,Via publica,35,220,True,7
+MIL-0092,Aegyptus,Oxyrhynchus,Tiberius,14,Basalt,fragmentarisch,Via vicinalis,21,159,True,11
+MIL-0093,Syria,Antiochia,Nero,67,Kalkstein,gut erhalten,Via publica,83,119,True,7
+MIL-0094,Germania Superior,Argentoratum,Hadrianus,132,Granit,fragmentarisch,Via militaris,71,117,True,12
+MIL-0095,Germania Superior,Augusta Raurica,Tiberius,22,Granit,stark beschädigt,Via vicinalis,35,80,True,7
+MIL-0096,Dalmatia,Iader,Claudius,48,Basalt,gut erhalten,Via militaris,43,221,True,9
+MIL-0097,Aegyptus,Thebes,Nero,65,Sandstein,gut erhalten,Via publica,110,185,True,10
+MIL-0098,Syria,Berytus,Caracalla,217,Sandstein,gut erhalten,Via publica,17,208,False,0
+MIL-0099,Pannonia,Aquincum,Antoninus Pius,141,Basalt,gut erhalten,Via publica,93,116,True,5
+MIL-0100,Britannia,Aquae Sulis,Constantinus,322,Marmor,gut erhalten,Via vicinalis,11,164,False,0
+MIL-0101,Germania Superior,Vindonissa,Traianus,113,Basalt,vollständig,Via vicinalis,9,140,True,7
+MIL-0102,Hispania Tarraconensis,Tarraco,Hadrianus,120,Kalkstein,gut erhalten,Via publica,89,156,False,0
+MIL-0103,Africa Proconsularis,Leptis Magna,Constantinus,309,Marmor,stark beschädigt,Via militaris,56,117,True,9
+MIL-0104,Dalmatia,Narona,Claudius,43,Kalkstein,gut erhalten,Via vicinalis,88,141,True,12
+MIL-0105,Gallia Narbonensis,Nemausus,Antoninus Pius,158,Marmor,gut erhalten,Via militaris,86,82,False,0
+MIL-0106,Aegyptus,Thebes,Caracalla,215,Sandstein,vollständig,Via militaris,45,230,True,9
+MIL-0107,Italia,Brundisium,Vespasianus,72,Granit,gut erhalten,Via publica,31,177,True,12
+MIL-0108,Italia,Capua,Augustus,-2,Marmor,vollständig,Via vicinalis,111,92,False,0
+MIL-0109,Aegyptus,Thebes,Constantinus,320,Basalt,stark beschädigt,Via publica,82,128,True,5
+MIL-0110,Britannia,Londinium,Vespasianus,76,Kalkstein,stark beschädigt,Via vicinalis,17,103,False,0
+MIL-0111,Pannonia,Poetovio,Claudius,44,Sandstein,stark beschädigt,Via vicinalis,65,149,True,7
+MIL-0112,Aegyptus,Thebes,Diocletianus,294,Kalkstein,gut erhalten,Via publica,19,137,False,0
+MIL-0113,Syria,Palmyra,Tiberius,26,Kalkstein,stark beschädigt,Via vicinalis,16,196,True,7
+MIL-0114,Dalmatia,Iader,Caracalla,213,Kalkstein,fragmentarisch,Via militaris,4,238,False,0
+MIL-0115,Germania Superior,Argentoratum,Septimius Severus,200,Kalkstein,gut erhalten,Via vicinalis,39,246,True,5
+MIL-0116,Africa Proconsularis,Carthago,Vespasianus,76,Kalkstein,vollständig,Via publica,114,217,True,10
+MIL-0117,Pannonia,Poetovio,Septimius Severus,197,Granit,vollständig,Via militaris,79,184,False,0
+MIL-0118,Italia,Roma,Diocletianus,295,Sandstein,gut erhalten,Via militaris,31,172,True,8
+MIL-0119,Germania Superior,Argentoratum,Augustus,-2,Marmor,fragmentarisch,Via publica,109,196,True,6
+MIL-0120,Dalmatia,Salona,Augustus,-6,Sandstein,fragmentarisch,Via vicinalis,27,97,True,11
+MIL-0121,Hispania Tarraconensis,Caesaraugusta,Nero,59,Sandstein,vollständig,Via militaris,110,117,False,0
+MIL-0122,Germania Superior,Argentoratum,Constantinus,317,Kalkstein,vollständig,Via publica,2,171,True,6
+MIL-0123,Dalmatia,Epidaurum,Augustus,-16,Marmor,vollständig,Via publica,95,187,True,4
+MIL-0124,Aegyptus,Oxyrhynchus,Constantinus,329,Basalt,vollständig,Via militaris,65,136,False,0
+MIL-0125,Africa Proconsularis,Leptis Magna,Antoninus Pius,158,Kalkstein,vollständig,Via militaris,109,182,True,4
+MIL-0126,Aegyptus,Oxyrhynchus,Tiberius,16,Marmor,fragmentarisch,Via publica,17,150,True,12
+MIL-0127,Germania Superior,Argentoratum,Hadrianus,136,Basalt,stark beschädigt,Via militaris,65,234,True,4
+MIL-0128,Germania Superior,Augusta Raurica,Hadrianus,131,Sandstein,gut erhalten,Via militaris,106,196,True,4
+MIL-0129,Pannonia,Poetovio,Traianus,106,Marmor,fragmentarisch,Via vicinalis,119,201,True,4
+MIL-0130,Britannia,Aquae Sulis,Tiberius,37,Marmor,fragmentarisch,Via vicinalis,8,230,False,0
+MIL-0131,Germania Superior,Argentoratum,Caracalla,211,Granit,stark beschädigt,Via vicinalis,97,188,False,0
+MIL-0132,Africa Proconsularis,Leptis Magna,Septimius Severus,202,Marmor,vollständig,Via vicinalis,65,134,True,10
+MIL-0133,Hispania Tarraconensis,Tarraco,Traianus,115,Marmor,vollständig,Via militaris,74,137,True,11
+MIL-0134,Dalmatia,Salona,Septimius Severus,201,Kalkstein,fragmentarisch,Via militaris,90,159,False,0
+MIL-0135,Pannonia,Aquincum,Claudius,54,Sandstein,gut erhalten,Via publica,19,242,False,0
+MIL-0136,Britannia,Eburacum,Hadrianus,130,Granit,stark beschädigt,Via publica,48,159,True,12
+MIL-0137,Dalmatia,Salona,Augustus,-18,Sandstein,vollständig,Via vicinalis,11,149,True,9
+MIL-0138,Aegyptus,Oxyrhynchus,Hadrianus,125,Sandstein,vollständig,Via militaris,56,108,True,12
+MIL-0139,Aegyptus,Thebes,Augustus,-13,Granit,vollständig,Via publica,27,157,False,0
+MIL-0140,Gallia Narbonensis,Arelate,Vespasianus,74,Kalkstein,vollständig,Via militaris,96,190,True,9
+MIL-0141,Germania Superior,Augusta Raurica,Marcus Aurelius,178,Marmor,vollständig,Via militaris,111,90,True,10
+MIL-0142,Britannia,Camulodunum,Septimius Severus,206,Basalt,gut erhalten,Via vicinalis,82,186,True,9
+MIL-0143,Africa Proconsularis,Leptis Magna,Claudius,53,Basalt,gut erhalten,Via vicinalis,118,172,True,4
+MIL-0144,Hispania Tarraconensis,Barcino,Septimius Severus,205,Basalt,vollständig,Via militaris,112,159,True,6
+MIL-0145,Pannonia,Carnuntum,Tiberius,30,Kalkstein,fragmentarisch,Via militaris,45,245,True,6
+MIL-0146,Britannia,Eburacum,Vespasianus,72,Sandstein,fragmentarisch,Via vicinalis,10,125,False,0
+MIL-0147,Aegyptus,Oxyrhynchus,Constantinus,334,Basalt,stark beschädigt,Via vicinalis,41,118,True,10
+MIL-0148,Aegyptus,Thebes,Constantinus,323,Basalt,vollständig,Via militaris,65,98,True,10
+MIL-0149,Africa Proconsularis,Carthago,Traianus,107,Kalkstein,vollständig,Via vicinalis,77,209,True,12
+MIL-0150,Germania Superior,Mogontiacum,Antoninus Pius,156,Sandstein,stark beschädigt,Via vicinalis,61,208,True,3
+MIL-0151,Aegyptus,Alexandria,Constantinus,327,Kalkstein,fragmentarisch,Via publica,32,192,False,0
+MIL-0152,Germania Superior,Augusta Raurica,Traianus,109,Marmor,gut erhalten,Via militaris,100,166,True,3
+MIL-0153,Pannonia,Aquincum,Traianus,101,Basalt,gut erhalten,Via militaris,33,248,False,0
+MIL-0154,Dalmatia,Narona,Traianus,100,Basalt,fragmentarisch,Via militaris,40,247,True,9
+MIL-0155,Gallia Narbonensis,Narbo,Vespasianus,77,Granit,stark beschädigt,Via publica,86,214,True,9
+MIL-0156,Germania Superior,Argentoratum,Augustus,-4,Marmor,fragmentarisch,Via publica,44,204,True,5
+MIL-0157,Gallia Narbonensis,Narbo,Vespasianus,70,Basalt,vollständig,Via vicinalis,44,238,True,9
+MIL-0158,Gallia Narbonensis,Nemausus,Claudius,54,Basalt,fragmentarisch,Via vicinalis,57,91,True,6
+MIL-0159,Aegyptus,Thebes,Constantinus,334,Sandstein,fragmentarisch,Via militaris,104,200,False,0
+MIL-0160,Hispania Tarraconensis,Carthago Nova,Caracalla,215,Granit,gut erhalten,Via militaris,100,177,True,9
+MIL-0161,Gallia Narbonensis,Nemausus,Constantinus,314,Marmor,vollständig,Via vicinalis,62,175,True,4
+MIL-0162,Germania Superior,Mogontiacum,Vespasianus,70,Sandstein,stark beschädigt,Via militaris,116,211,True,9
+MIL-0163,Britannia,Eburacum,Antoninus Pius,149,Kalkstein,gut erhalten,Via publica,51,208,True,9
+MIL-0164,Britannia,Camulodunum,Nero,54,Marmor,vollständig,Via vicinalis,84,165,True,5
+MIL-0165,Africa Proconsularis,Leptis Magna,Antoninus Pius,160,Sandstein,gut erhalten,Via militaris,79,81,False,0
+MIL-0166,Africa Proconsularis,Leptis Magna,Nero,67,Sandstein,gut erhalten,Via publica,100,153,True,4
+MIL-0167,Africa Proconsularis,Thugga,Hadrianus,137,Basalt,gut erhalten,Via publica,15,207,True,3
+MIL-0168,Germania Superior,Augusta Raurica,Diocletianus,288,Marmor,gut erhalten,Via publica,79,170,True,9
+MIL-0169,Gallia Narbonensis,Narbo,Marcus Aurelius,172,Kalkstein,vollständig,Via militaris,112,200,True,9
+MIL-0170,Pannonia,Savaria,Diocletianus,284,Marmor,vollständig,Via militaris,31,248,True,12
+MIL-0171,Pannonia,Carnuntum,Augustus,-5,Basalt,stark beschädigt,Via vicinalis,23,198,False,0
+MIL-0172,Aegyptus,Memphis,Constantinus,314,Kalkstein,gut erhalten,Via publica,38,131,True,6
+MIL-0173,Africa Proconsularis,Leptis Magna,Vespasianus,77,Granit,gut erhalten,Via militaris,5,245,True,8
+MIL-0174,Africa Proconsularis,Leptis Magna,Vespasianus,70,Marmor,gut erhalten,Via militaris,96,192,False,0
+MIL-0175,Syria,Palmyra,Claudius,48,Granit,stark beschädigt,Via vicinalis,35,101,True,4
+MIL-0176,Syria,Damascus,Marcus Aurelius,170,Marmor,vollständig,Via publica,42,249,True,10
+MIL-0177,Dalmatia,Iader,Claudius,52,Granit,stark beschädigt,Via militaris,6,170,True,9
+MIL-0178,Italia,Roma,Tiberius,35,Granit,stark beschädigt,Via vicinalis,103,120,False,0
+MIL-0179,Gallia Narbonensis,Vienna,Augustus,-19,Kalkstein,fragmentarisch,Via vicinalis,47,172,True,12
+MIL-0180,Africa Proconsularis,Thugga,Caracalla,214,Marmor,stark beschädigt,Via militaris,98,99,True,11
+MIL-0181,Pannonia,Poetovio,Traianus,106,Sandstein,vollständig,Via publica,95,127,True,9
+MIL-0182,Germania Superior,Mogontiacum,Vespasianus,73,Granit,fragmentarisch,Via vicinalis,37,205,True,5
+MIL-0183,Britannia,Aquae Sulis,Claudius,52,Granit,vollständig,Via vicinalis,109,161,True,4
+MIL-0184,Germania Superior,Argentoratum,Vespasianus,71,Sandstein,stark beschädigt,Via vicinalis,29,111,False,0
+MIL-0185,Gallia Narbonensis,Nemausus,Constantinus,337,Kalkstein,stark beschädigt,Via vicinalis,74,174,True,11
+MIL-0186,Gallia Narbonensis,Narbo,Tiberius,23,Granit,gut erhalten,Via vicinalis,53,184,True,4
+MIL-0187,Gallia Narbonensis,Arelate,Caracalla,211,Granit,gut erhalten,Via vicinalis,67,168,True,11
+MIL-0188,Dalmatia,Narona,Constantinus,314,Granit,vollständig,Via publica,67,119,True,5
+MIL-0189,Pannonia,Carnuntum,Traianus,114,Marmor,vollständig,Via militaris,26,242,False,0
+MIL-0190,Italia,Ostia,Caracalla,213,Basalt,vollständig,Via vicinalis,83,123,True,12
+MIL-0191,Gallia Narbonensis,Nemausus,Caracalla,215,Basalt,stark beschädigt,Via vicinalis,6,87,True,12
+MIL-0192,Italia,Ostia,Constantinus,332,Basalt,vollständig,Via militaris,114,240,True,7
+MIL-0193,Aegyptus,Memphis,Constantinus,331,Marmor,gut erhalten,Via publica,89,95,True,9
+MIL-0194,Aegyptus,Oxyrhynchus,Nero,59,Basalt,fragmentarisch,Via militaris,111,161,True,8
+MIL-0195,Syria,Damascus,Constantinus,329,Basalt,vollständig,Via militaris,31,199,True,10
+MIL-0196,Hispania Tarraconensis,Caesaraugusta,Tiberius,15,Marmor,gut erhalten,Via vicinalis,54,143,False,0
+MIL-0197,Gallia Narbonensis,Arelate,Septimius Severus,203,Sandstein,fragmentarisch,Via militaris,66,199,True,7
+MIL-0198,Aegyptus,Alexandria,Tiberius,26,Basalt,gut erhalten,Via publica,28,229,True,3
+MIL-0199,Italia,Brundisium,Septimius Severus,208,Marmor,vollständig,Via publica,56,114,False,0
+MIL-0200,Pannonia,Poetovio,Traianus,99,Granit,vollständig,Via vicinalis,72,129,True,7
